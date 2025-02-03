@@ -2,30 +2,30 @@
 sidebar_position: 5
 ---
 
-# Deploy your site
+# 部署网站
 
-Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
+Docusaurus 是一个**静态站点生成器** (也被称作 **[JAMstack](https://jamstack.org/)**).
 
-It builds your site as simple **static HTML, JavaScript and CSS files**.
+它通过一些简单的**静态 HTML、JavaScript 和 CSS 文件**来搭建你的站点。
 
-## Build your site
+## 构建你的站点
 
-Build your site **for production**:
+构建一个适用于**生产环境**（也就是可以正式访问使用）的站点：
 
 ```bash
 npm run build
 ```
 
-The static files are generated in the `build` folder.
+所有需要的静态文件现在已经被生成并存放在了 `build` 文件夹里。
 
-## Deploy your site
+## 部署你的站点
 
-Test your production build locally:
+首先在本地测试你的生产环境构建：
 
 ```bash
 npm run serve
 ```
 
-The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).
+现在整个 `build` 文件夹可以通过 [http://localhost:3000/](http://localhost:3000/) 来访问。
 
-You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).
+现在你可以将 `build` 文件夹轻松地放到**几乎任何的云服务厂商**，它们有的**免费**，有的需要一些小收费（查阅这篇[**部署指南**](https://docusaurus.io/docs/deployment)来了解更多细节）。

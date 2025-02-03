@@ -2,26 +2,26 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 教程介绍
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**适合小白的5分钟 Docusaurus 速览。**
 
-## Getting Started
+## 开始上手
 
-Get started by **creating a new site**.
+通过**创建一个全新网站**来上手。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+或通过 **[docusaurus.new](https://docusaurus.new)** **立刻尝试 Docusaurus**。
 
-### What you'll need
+### 你需要准备什么
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- 版本号不低于 18.0 的 [Node.js](https://nodejs.org/en/download/)：
+  - 在安装 Node.js 时，推荐勾选所有相关依赖。
 
-## Generate a new site
+## 生成一个新站点
 
-Generate a new Docusaurus site using the **classic template**.
+使用 **classic template**（经典模板）来生成一个全新的 Docusaurus 站点。
 
-The classic template will automatically be added to your project after you run the command:
+运行以下这行命令后，经典模板的所有内容会被自动添加到项目文件夹里：
 
 ```bash
 npm init docusaurus@latest my-website classic
@@ -31,7 +31,7 @@ You can type this command into Command Prompt, Powershell, Terminal, or any othe
 
 The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
+## 启动你的站点
 
 Run the development server:
 
