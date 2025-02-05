@@ -6,7 +6,7 @@ sidebar_position: 3
 
 Docusaurus 可以**为每一篇博文创建一个页面**，同时支持**博客目录页面、标签系统、RSS 源**等功能。
 
-## 创建你的第一篇博文Create your first Post
+## 创建你的第一篇博文
 
 在 `blog` 文件夹里创建一个文件并命名为 `2021-02-28-greetings.md`：
 
