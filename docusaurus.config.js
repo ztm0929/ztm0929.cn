@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '天明的数字小屋',
-  tagline: 'Dinosaurs are cool',
+  title: '天明的数字笔记',
+  tagline: '记录与分享一些信息技术、编程学习笔记',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -34,6 +34,14 @@ const config = {
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans', 'en'],
+    localeConfigs: {
+      'en': {
+        label: 'English',
+      },
+      'zh-Hans': {
+        label: '中文',
+      },
+    }
   },
 
   presets: [
@@ -92,7 +100,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ztm0929',
             label: 'GitHub',
             position: 'right',
           },
@@ -100,48 +108,8 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        links: [],
+        copyright: `Copyright © ${new Date().getFullYear()} ztm0929`,
       },
       prism: {
         theme: prismThemes.github,
