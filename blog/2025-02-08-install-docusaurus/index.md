@@ -131,7 +131,7 @@ tcb hosting deploy ./build
 - [Docusaurus 官方文档](https://docusaurus.io/zh-CN/docs)
 - [TCB CLI 托管静态网站的官方文档](https://docs.cloudbase.net/cli-v1/hosting)
 
-欢迎将本文分享给对网站搭建感兴趣的朋友们，如有任何问题随时可以通过微信或邮件联系天明~
+欢迎将本文分享给对网站搭建感兴趣的朋友们，本文内容非常简陋，如有任何感兴趣的问题随时可以通过微信或邮件联系天明~
 
 - 微信：ztm00929
 - 邮件：[ztm0929@icloud.com](mailto:ztm0929@icloud.com)
