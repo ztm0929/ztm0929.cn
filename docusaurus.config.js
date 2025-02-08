@@ -1,9 +1,10 @@
-// @ts-check
+// @ts-nocheck
 // `@type` JSDoc annotations allow editor autocompletion and type checking
 // (when paired with `@ts-check`).
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
+// @ts-ignore
 import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -82,7 +83,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '天明的数字笔记',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -99,6 +100,10 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://wiki.ztm0929.cn', 
+            label: '天明的百科全书', 
+            position: 'right'},
           {
             href: 'https://github.com/ztm0929',
             label: 'GitHub',
