@@ -1,12 +1,8 @@
 ---
 slug: install-docusaurus
 title: 部署文档站点时会用到的一些命令
-authors:
-  name: 天明
-  title: 编程小白
-  url: https://github.com/ztm0929.cn
-  email: ztm0929@icloud.com
-tags: [Docusaurus]
+authors: ztm0929  
+tags: [docusaurus]
 ---
 
 [**Docusaurus**](https://docusaurus.io/zh-CN/)（暂时没有中文名，我习惯叫作『小恐龙』😜）是 Facebook 团队开源的建站工具，这里记录一些我们在部署自己的文档站点时会用到的一些命令与解释。
