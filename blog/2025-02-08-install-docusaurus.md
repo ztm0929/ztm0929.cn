@@ -1,7 +1,11 @@
 ---
 slug: install-docusaurus
 title: 部署文档站点时会用到的一些命令
-authors: ztm0929
+authors:
+  name: 天明
+  title: 编程小白
+  url: https://github.com/ztm0929.cn
+  email: ztm0929@icloud.com
 tags: [Docusaurus]
 ---
 
