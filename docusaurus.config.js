@@ -116,7 +116,8 @@ const config = {
         links: [],
         copyright: `Copyright © ${new Date().getFullYear()} ztm0929 All rights reserved.<br/>
                     <a href="https://beian.miit.gov.cn/" target="_blank" style="font-size: 0.8em; color: #888;">粤ICP备2024199605号-2</a>
-                    <a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank" style="font-size: 0.8em; color: #888;">粤公网安备44030002005195号</a>`
+                    <a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank" style="font-size: 0.8em; color: #888;">粤公网安备44030002005195号</a>
+                    `,  
       },
       prism: {
         theme: prismThemes.github,
