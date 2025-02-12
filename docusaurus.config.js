@@ -89,10 +89,10 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -106,7 +106,8 @@ const config = {
             position: 'right'},
           {
             href: 'https://github.com/ztm0929',
-            label: 'GitHub',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
             position: 'right',
           },
         ],
