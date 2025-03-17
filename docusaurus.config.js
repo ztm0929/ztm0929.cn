@@ -13,7 +13,27 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: '天明的数字笔记',
   tagline: '记录与分享一些信息技术、编程学习笔记',
-  favicon: 'img/favicon.ico',
+  // favicon: 'img/favicon.ico',
+
+  // 通过媒体查询实现深浅 favicon 的切换
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'icon',
+        href: '/img/favicon-light.ico',
+        media: '(prefers-color-scheme: light)',
+      }
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'icon',
+        href: '/img/favicon-dark.ico',
+        media: '(prefers-color-scheme: dark)',
+      }
+    }
+  ],
 
   // Set the production url of your site here
   url: 'https://ztm0929.github.io',
@@ -80,19 +100,21 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: '天明的数字笔记',
         logo: {
-          alt: 'My Site Logo',
+          alt: "ztm0929's logo",
           src: 'img/logo.svg',
+          srcDark: 'img/logo-dark.png',
         },
         items: [
-          // {
-          //   type: 'localeDropdown',
-          //   position: 'right',
-          // },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -100,6 +122,10 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {
             href: 'https://wiki.ztm0929.cn', 
             label: '天明的百科全书', 
@@ -111,11 +137,12 @@ const config = {
             position: 'right',
           },
         ],
+        hideOnScroll: true,
       },
       footer: {
         style: 'dark',
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} ztm0929 All rights reserved.<br/>
+        copyright: `Copyright © ${new Date().getFullYear()} ztm0929. Built with <a href="https://docusaurus.io/zh-CN" target="_blank">Docusaurus</a>.<br/>
                     <a href="https://beian.miit.gov.cn/" target="_blank" style="font-size: 0.8em; color: #888;">粤ICP备2024199605号-2</a>
                     <a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank" style="font-size: 0.8em; color: #888;">粤公网安备44030002005195号</a>
                     `,  
