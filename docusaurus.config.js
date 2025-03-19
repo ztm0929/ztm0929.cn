@@ -60,7 +60,7 @@ const config = {
         label: 'English',
       },
       'zh-Hans': {
-        label: '中文',
+        label: '简体中文',
       },
     }
   },
@@ -115,13 +115,19 @@ const config = {
           srcDark: 'img/logo-dark.png',
         },
         items: [
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'docSidebar',
+          //   position: 'left',
+          //   label: '文档',
+          // },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '教程',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',
