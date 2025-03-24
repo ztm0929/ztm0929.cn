@@ -70,11 +70,12 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          // breadcrumbs: false,
-          sidebarPath: './sidebars.js',
-          showLastUpdateTime: true,
-        },
+        docs: false,
+        // {
+        //   // breadcrumbs: false,
+        //   sidebarPath: './sidebars.js',
+        //   showLastUpdateTime: true,
+        // },
         blog: {
           showReadingTime: false,
           feedOptions: {
@@ -115,17 +116,19 @@ const config = {
           srcDark: 'img/logo-dark.png',
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'docSidebar',
-          //   position: 'left',
-          //   label: '文档',
-          // },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type: 'doc',
             position: 'left',
+            docId: 'intro',
+            docsPluginId: 'tutorials',
             label: '教程',
+          },
+          {
+            type: 'doc',
+            position: 'left',
+            docId: 'intro',
+            docsPluginId: 'docs',
+            label: '文档',
           },
           {to: '/blog', label: '博客', position: 'left'},
           {
@@ -164,6 +167,26 @@ const config = {
         }
       }
     }),
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'tutorials',
+        path: 'tutorials',
+        routeBasePath: 'tutorials',
+        sidebarPath: './sidebars.js',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs',
+        path: 'docs',
+        routeBasePath: 'docs',
+        sidebarPath: './sidebars.js',
+      }
+    ]
+  ],
 };
 
 export default config;
