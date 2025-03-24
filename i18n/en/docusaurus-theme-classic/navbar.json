@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Kevin's digital notebook",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "ztm0929's logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.教程": {
+    "message": "Tutorial",
+    "description": "Navbar item with label 教程"
+  },
+  "item.label.文档": {
+    "message": "Doc",
+    "description": "Navbar item with label 文档"
+  },
+  "item.label.博客": {
+    "message": "Blog",
+    "description": "Navbar item with label 博客"
+  },
+  "item.label.天明的百科全书": {
+    "message": "Kevin's Wiki",
+    "description": "Navbar item with label 天明的百科全书"
+  }
+}
