@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "Kevin's Digital Notes",
+    "description": "The title in the navbar"
+  },
+  "tagline": {
+    "message": "Recording and sharing some IT and programming learning notes",
+    "description": "The tagline displayed in the header"
+  }
+}
