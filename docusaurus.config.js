@@ -56,11 +56,12 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans', 'en'],
     localeConfigs: {
-      'en': {
-        label: 'English',
-      },
       'zh-Hans': {
         label: '简体中文',
+      },
+      'en': {
+        label: 'English',
+        htmlLang: 'en',
       },
     }
   },
@@ -151,7 +152,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} ztm0929. Built with <a href="https://docusaurus.io/zh-CN" target="_blank">Docusaurus</a>.<br/>
+        copyright: `Copyright © ${new Date().getFullYear()} ztm0929 保留所有权利。本站使用 <a href="https://docusaurus.io/zh-CN" target="_blank">Docusaurus</a> 构建。<br/>
                     <a href="https://beian.miit.gov.cn/" target="_blank" style="font-size: 0.8em; color: #888;">粤ICP备2024199605号-2</a>
                     <a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank" style="font-size: 0.8em; color: #888;">粤公网安备44030002005195号</a>
                     `,  
