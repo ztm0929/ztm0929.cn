@@ -186,7 +186,18 @@ const config = {
         routeBasePath: 'docs',
         sidebarPath: './sidebars.js',
       }
-    ]
+    ],
+    [
+      "@orama/plugin-docusaurus-v3",
+      {
+        searchbox: {
+          placeholder: "搜索···"
+        },
+        searchbutton: {
+          text: "点击进行搜索···"
+        }
+      },
+    ],
   ],
 };
 
