@@ -1,9 +1,0 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus 是一款开源静态建站工具，由 Facebook 开发。
