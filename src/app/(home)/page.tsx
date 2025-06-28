@@ -7,12 +7,12 @@ export default function HomePage() {
       <p className="text-fd-muted-foreground">
         You can open{' '}
         <Link
-          href="/docs"
+          href="/notes"
           className="text-fd-foreground font-semibold underline"
         >
-          /docs
+          /notes
         </Link>{' '}
-        and see the documentation.
+        and see some notes.
       </p>
       <p className="text-fd-muted-foreground">
 		本站使用{' '}
