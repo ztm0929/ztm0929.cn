@@ -23,6 +23,7 @@ export const baseOptions: BaseLayoutProps = {
       </>
     ),
   },
+  githubUrl: 'https://github.com/ztm0929',
   // see https://fumadocs.dev/docs/ui/navigation/links
   links: [],
 };
