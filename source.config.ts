@@ -11,6 +11,7 @@ export const docs = defineDocs({
   docs: {
     schema: frontmatterSchema,
   },
+  dir: './content/notes',
   meta: {
     schema: metaSchema,
   },
