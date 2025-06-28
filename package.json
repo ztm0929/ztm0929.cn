@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
-  "version": "0.0.0",
+  "name": "ztm0929.cn",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "build": "next build",
@@ -27,5 +27,11 @@
     "postcss": "^8.5.6",
     "eslint": "^8",
     "eslint-config-next": "15.3.4"
+  },
+  "homepage": "https://ztm0929.cn",
+  "license": "MIT",
+  "author": {
+	"name": "ztm0929",
+	"email": "ztm0929@icloud.com"
   }
 }
