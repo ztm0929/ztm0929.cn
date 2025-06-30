@@ -1,0 +1,187 @@
+---
+title: 使用 Fumadocs 搭建博客
+description: Making a Blog with Fumadocs 的译文
+---
+
+<Callout type="success">
+  本文是天明个人翻译的小指南，原文链接：https://fumadocs.dev/blog/make-a-blog
+</Callout>
+
+
+
+Fumadocs 是一个文档框架，它基于 Next.js 构建了一个强大的内容管理系统。您可以使用 Fumadocs 在单个 Next.js
+应用程序上构建博客站点和文档。
+
+## 概述
+
+本指南可帮助您使用 Fumadocs 和 Fumadocs MDX 构建博客站点。
+
+我们将使用 Fumadocs MDX 来管理内容，并使用 Tailwind CSS 和 Fumadocs UI 实现我们自己的 UI。
+
+## 配置内容
+
+定义一个 `blogPosts` （博客帖子）集合。
+
+```ts
+import { defineCollections, frontmatterSchema } from 'fumadocs-mdx/config';
+
+export const blogPosts = defineCollections({
+  type: 'doc',
+  dir: 'content/blog',
+  // 添加需要的前置属性
+  schema: frontmatterSchema.extend({
+    author: z.string(),
+    date: z.string().date().or(z.date()),
+  }),
+});
+```
+
+在 `source.ts` 中解析并输出集合：
+
+```ts
+import { createMDXSource } from 'fumadocs-mdx';
+import { loader } from 'fumadocs-core/source';
+import { blogPosts } from '@/.source';
+
+export const blog = loader({
+  baseUrl: '/blog',
+  source: createMDXSource(blogPosts),
+});
+```
+
+您现在可以从 `blog` 中访问博客内容。
+
+## 构建 UI 布局
+
+### 创建博客索引页面
+
+默认情况下，应该有一个 `(home)` 路由组，里面有 `<HomeLayout />`
+组件。让我们把博客页面放在它下面，这样我们就可以在我们的博客网站上获得漂亮的导航栏。
+
+```tsx
+import Link from 'next/link';
+import { blog } from '@/lib/source';
+
+export default function Home() {
+  const posts = blog.getPages();
+
+  return (
+    <main className="grow container mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold mb-8">Latest Blog Posts</h1>
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {posts.map((post) => (
+          <Link
+            key={post.url}
+            href={post.url}
+            className="block bg-fd-secondary rounded-lg shadow-md overflow-hidden p-6"
+          >
+            <h2 className="text-xl font-semibold mb-2">{post.data.title}</h2>
+            <p className="mb-4">{post.data.description}</p>
+          </Link>
+        ))}
+      </div>
+    </main>
+  );
+}
+```
+
+<Callout title="小提示">
+像 `text-fd-muted-foreground` 这样的颜色来自 Fumadocs UI 的设计系统，你也可以使用自己的颜色，或者使用
+Shadcn UI。
+</Callout>
+
+### 创建博客正文页面
+
+请注意，博客文章不会有像 `/slug1/slug2` 这样的嵌套路径段。我们不需要为博客文章提供包罗万象的路由。
+
+```tsx
+import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import { InlineTOC } from 'fumadocs-ui/components/inline-toc';
+import defaultMdxComponents from 'fumadocs-ui/mdx';
+import { blog } from '@/lib/source';
+
+export default async function Page(props: {
+  params: Promise<{ slug: string }>;
+}) {
+  const params = await props.params;
+  const page = blog.getPage([params.slug]);
+
+  if (!page) notFound();
+  const Mdx = page.data.body;
+
+  return (
+    <>
+      <div className="container rounded-xl border py-12 md:px-8">
+        <h1 className="mb-2 text-3xl font-bold">{page.data.title}</h1>
+        <p className="mb-4 text-fd-muted-foreground">{page.data.description}</p>
+        <Link href="/blog">Back</Link>
+      </div>
+      <article className="container flex flex-col px-4 py-8">
+        <div className="prose min-w-0">
+          <InlineTOC items={page.data.toc} />
+          <Mdx components={defaultMdxComponents} />
+        </div>
+        <div className="flex flex-col gap-4 text-sm">
+          <div>
+            <p className="mb-1 text-fd-muted-foreground">Written by</p>
+            <p className="font-medium">{page.data.author}</p>
+          </div>
+          <div>
+            <p className="mb-1 text-sm text-fd-muted-foreground">At</p>
+            <p className="font-medium">
+              {new Date(page.data.date).toDateString()}
+            </p>
+          </div>
+        </div>
+      </article>
+    </>
+  );
+}
+
+export function generateStaticParams(): { slug: string }[] {
+  return blog.getPages().map((page) => ({
+    slug: page.slugs[0],
+  }));
+}
+```
+
+### 配置元数据
+
+```tsx
+import { notFound } from 'next/navigation';
+import { blog } from '@/lib/source';
+
+export async function generateMetadata(props: {
+  params: Promise<{ slug: string }>;
+}) {
+  const params = await props.params;
+  const page = blog.getPage([params.slug]);
+
+  if (!page) notFound();
+
+  return {
+    title: page.data.title,
+    description: page.data.description,
+  };
+}
+```
+
+## 撰写帖子 [#write-posts]
+
+UI 现在已经完成了，您可以在 `content/blog` 目录下写一些博文，比如：
+
+```mdx
+---
+title: Hello World
+author: Fuma Nama
+date: 2024-12-15
+---
+
+## Hello World
+
+This is an example!
+```
+
+使用 `next dev` 启动开发服务器后，您应该会在 `/blog` 路由下看到博客文章。
+
