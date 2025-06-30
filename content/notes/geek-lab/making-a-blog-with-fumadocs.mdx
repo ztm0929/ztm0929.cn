@@ -9,12 +9,12 @@ description: Making a Blog with Fumadocs 的译文
 
 
 
-Fumadocs 是一个文档框架，它基于 Next.js 构建了一个强大的内容管理系统。您可以使用 Fumadocs 在单个 Next.js
+Fumadocs 是一个文档框架，它基于 Next.js 构建了一个强大的内容管理系统。我们可以使用 Fumadocs 在单个 Next.js
 应用程序上构建博客站点和文档。
 
 ## 概述
 
-本指南可帮助您使用 Fumadocs 和 Fumadocs MDX 构建博客站点。
+本指南可帮助我们使用 Fumadocs 和 Fumadocs MDX 构建博客站点。
 
 我们将使用 Fumadocs MDX 来管理内容，并使用 Tailwind CSS 和 Fumadocs UI 实现我们自己的 UI。
 
@@ -51,7 +51,7 @@ export const blog = loader({
 });
 ```
 
-您现在可以从 `blog` 中访问博客内容。
+我们现在可以从 `blog` 中访问博客内容。
 
 ## 构建 UI 布局
 
@@ -88,7 +88,7 @@ export default function Home() {
 ```
 
 <Callout title="小提示">
-像 `text-fd-muted-foreground` 这样的颜色来自 Fumadocs UI 的设计系统，你也可以使用自己的颜色，或者使用
+像 `text-fd-muted-foreground` 这样的颜色来自 Fumadocs UI 的设计系统，我们也可以使用自己的颜色，或者使用
 Shadcn UI。
 </Callout>
 
@@ -173,7 +173,7 @@ export async function generateMetadata(props: {
 
 ## 撰写帖子 [#write-posts]
 
-UI 现在已经完成了，您可以在 `content/blog` 目录下写一些博文，比如：
+UI 现在已经完成了，我们可以在 `content/blog` 目录下写一些博文，比如：
 
 ```mdx
 ---
@@ -187,5 +187,5 @@ date: 2024-12-15
 This is an example!
 ```
 
-使用 `next dev` 启动开发服务器后，您应该会在 `/blog` 路由下看到博客文章。
+使用 `next dev` 启动开发服务器后，我们应该会在 `/blog` 路由下看到博客文章。
 
