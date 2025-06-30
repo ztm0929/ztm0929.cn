@@ -16,7 +16,8 @@ export default function Layout({ children }: { children: ReactNode }) {
 			i18n={{ locale: 'cn', translations: {
 				lastUpdate: '最后更新于',
 				previousPage: '上一页',
-				nextPage: '下一页'
+				nextPage: '下一页',
+				toc: '目录',
 			} }}>
 			{children}
 		</RootProvider>
