@@ -24,7 +24,7 @@ Fumadocs 是一个文档框架，它基于 Next.js 构建了一个强大的内�
 
 [^1]: 示例代码疑似遗漏了 `import { z } from 'zod'`;
 
-```ts
+```ts title="source.config.ts"
 import { defineCollections, frontmatterSchema } from 'fumadocs-mdx/config';
 
 export const blogPosts = defineCollections({
@@ -40,7 +40,7 @@ export const blogPosts = defineCollections({
 
 在 `source.ts` 中解析并输出集合：
 
-```ts
+```ts title="lib/source.ts"
 import { createMDXSource } from 'fumadocs-mdx';
 import { loader } from 'fumadocs-core/source';
 import { blogPosts } from '@/.source';
@@ -60,7 +60,7 @@ export const blog = loader({
 默认情况下，应该有一个 `(home)` 路由组，里面有 `<HomeLayout />`
 组件。让我们把博客页面放在它下面，这样我们就可以在我们的博客网站上获得漂亮的导航栏。
 
-```tsx
+```tsx title="app/(home)/blog/page.tsx"
 import Link from 'next/link';
 import { blog } from '@/lib/source';
 
@@ -98,7 +98,7 @@ Shadcn UI。
 
 [^2]: 在 Next.js 中，`[slug]` 对应的是单层动态路由，`[[...slug]]` 可选捕获所有路由，这里我们用的是前者。
 
-```tsx
+```tsx title="app/(home)/blog/[slug]/page.tsx"
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { InlineTOC } from 'fumadocs-ui/components/inline-toc';
@@ -152,7 +152,7 @@ export function generateStaticParams(): { slug: string }[] {
 
 ### 配置元数据
 
-```tsx
+```tsx title="app/(home)/blog/[slug]/page.tsx"
 import { notFound } from 'next/navigation';
 import { blog } from '@/lib/source';
 
@@ -175,11 +175,11 @@ export async function generateMetadata(props: {
 
 UI 现在已经完成了，我们可以在 `content/blog` 目录下写一些博文，比如：
 
-```mdx
+```mdx title="content/blog/hello.mdx"
 ---
 title: Hello World
-author: Fuma Nama
-date: 2024-12-15
+author: ztm0929
+date: 2025-07-01
 ---
 
 ## Hello World
