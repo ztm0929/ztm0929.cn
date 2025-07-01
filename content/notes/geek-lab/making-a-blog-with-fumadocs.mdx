@@ -14,15 +14,17 @@ Fumadocs 是一个文档框架，它基于 Next.js 构建了一个强大的内�
 
 ## 概述
 
-本指南可帮助我们使用 Fumadocs 和 Fumadocs MDX 构建博客站点。
+本指南可帮助我们使用 Fumadocs 和 Fumadocs MDX 构建博客站点[^requirement]。
+
+[^requirement]: 理解需要一定的前置知识准备，包括 [Next.js](https://nextjs.org/) 和 [Fumadocs](https://fumadocs.dev/) 的基础知识。
 
 我们将使用 Fumadocs MDX 来管理内容，并使用 Tailwind CSS 和 Fumadocs UI 实现我们自己的 UI。
 
 ## 配置内容
 
-定义一个 `blogPosts` （博客帖子）集合。[^1]
+定义一个 `blogPosts` （博客帖子）集合[^1]。
 
-[^1]: 示例代码疑似遗漏了 `import { z } from 'zod'`;
+[^1]: 示例代码疑似遗漏了 `import { z } from 'zod';`。
 
 ```ts title="source.config.ts"
 import { defineCollections, frontmatterSchema } from 'fumadocs-mdx/config';
