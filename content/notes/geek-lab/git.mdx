@@ -1,0 +1,22 @@
+---
+title: Git 操作杂记
+---
+
+## 前提说明
+
+- 远端分支是 https://github.com/Ac-Wiki/Ac-Wiki/tree/docusaurus-site
+- 当前 commit（待撤销） 是 https://github.com/Ac-Wiki/Ac-Wiki/commit/d50c2ce57d948a005ad5d1be26646fe955e786a5
+- 上次 commit（也需要撤销） 是 https://github.com/Ac-Wiki/Ac-Wiki/commit/521989c0a4ee78c3a048e08ac826ae0aa13166d2
+- 最后一次理想的 commit 是 https://github.com/Ac-Wiki/Ac-Wiki/commit/306944b81cce7dc16e9c5fcdfccfa55581accb33
+- 具有远端仓库操作权限（revert）
+
+## 具体操作步骤
+
+clone 到本地
+```bash title="终端"
+git clone --branch docusaurus-site https://github.com/Ac-Wiki/Ac-Wiki.git
+cd Ac-Wiki
+git revert d50c2ce57d948a005ad5d1be26646fe955e786a5 -m "Revert accidental changes"
+git revert 521989c0a4ee78c3a048e08ac826ae0aa13166d2 -m "Revert previous commit"
+git push origin docusaurus-site
+```
