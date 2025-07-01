@@ -1,0 +1,67 @@
+---
+title: Git 撤销操作
+description: 记录一次 Git 撤销操作步骤
+---
+
+import { Step, Steps } from 'fumadocs-ui/components/steps';
+
+## 前提说明
+
+- 远端分支是 https://github.com/Ac-Wiki/Ac-Wiki/tree/docusaurus-site
+- 当前 commit（待撤销） 是 [d50c2ce](https://github.com/Ac-Wiki/Ac-Wiki/commit/d50c2ce57d948a005ad5d1be26646fe955e786a5)
+- 上次 commit（也需要撤销） 是 [521989c0](https://github.com/Ac-Wiki/Ac-Wiki/commit/521989c0a4ee78c3a048e08ac826ae0aa13166d2)
+- 最后一次理想的 commit 是 [306944b8](https://github.com/Ac-Wiki/Ac-Wiki/commit/306944b81cce7dc16e9c5fcdfccfa55581accb33)
+- 具有远端仓库操作权限（revert）
+
+## 具体操作步骤
+
+<Steps>
+
+<Step>
+
+### 克隆仓库
+
+```bash title="终端"
+git clone --branch docusaurus-site https://github.com/Ac-Wiki/Ac-Wiki.git
+```
+</Step>
+
+<Step>
+
+### 切换到仓库目录
+
+```bash title="终端"
+cd Ac-Wiki
+```
+</Step>
+
+<Step>
+
+### 撤销错误的提交
+
+```bash title="终端"
+git revert d50c2ce -m "撤销错误的提交"
+```
+</Step>
+
+<Step>
+
+### 撤销更早一次的提交
+
+```bash title="终端"
+git revert 521989c0 -m "撤销更早一次的提交"
+```
+</Step>
+
+<Step>
+
+### 推送更改到远端仓库
+
+```bash title="终端"
+git push origin docusaurus-site
+```
+</Step>
+
+</Steps>
+
+🎉 完成！
