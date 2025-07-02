@@ -8,7 +8,15 @@ export default function AboutPage() {
 
   return (
     <div className="flex flex-col items-center justify-center flex-1 text-center gap-4">
-      <h1 className="text-2xl font-bold">👋 Hi，我叫天明</h1>
+	  <Image
+		src="https://github.com/ztm0929.png"
+		alt="天明的头像"
+		width={150}
+		height={150}
+		className="rounded-full mb-4"
+		priority
+      />
+      <h1 className="text-2xl font-bold">👋 Hi，我叫『 天明 』</h1>
       <p>英文名是 Kevin，网名是 @ztm0929</p>
       <p>
         <Link
