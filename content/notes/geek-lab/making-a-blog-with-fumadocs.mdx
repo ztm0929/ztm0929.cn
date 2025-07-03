@@ -22,12 +22,11 @@ Fumadocs 是一个文档框架，它基于 Next.js 构建了一个强大的内�
 
 ## 配置内容
 
-定义一个 `blogPosts` （博客帖子）集合[^1]。
-
-[^1]: 示例代码疑似遗漏了 `import { z } from 'zod';`。
+定义一个 `blogPosts` （博客帖子）集合。
 
 ```ts title="source.config.ts"
 import { defineCollections, frontmatterSchema } from 'fumadocs-mdx/config';
+import { z } from 'zod';
 
 export const blogPosts = defineCollections({
   type: 'doc',
@@ -96,9 +95,9 @@ Shadcn UI。
 
 ### 创建博客正文页面
 
-请注意，博客文章不会有像 `/slug1/slug2` 这样的嵌套路径段[^2]，我们不需要为博客文章提供包罗万象的路由。
+请注意，博客文章不会有像 `/slug1/slug2` 这样的嵌套路径段[^route]，我们不需要为博客文章提供包罗万象的路由。
 
-[^2]: 在 Next.js 中，`[slug]` 对应的是单层动态路由，`[[...slug]]` 可选捕获所有路由，这里我们用的是前者。
+[^route]: 在 Next.js 中，`[slug]` 对应的是单层动态路由，`[[...slug]]` 可选捕获所有路由，这里我们用的是前者。
 
 ```tsx title="app/(home)/blog/[slug]/page.tsx"
 import { notFound } from 'next/navigation';
