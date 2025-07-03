@@ -1,6 +1,7 @@
 import './global.css';
 import { RootProvider } from 'fumadocs-ui/provider';
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import type { ReactNode } from 'react';
 
 const inter = Inter({
@@ -10,10 +11,15 @@ const inter = Inter({
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={inter.className} suppressHydrationWarning>
-	  <head>
-		<meta name="apple-mobile-web-app-title" content="ztm0929" />
-	  </head>
+      <head>
+        <meta name="apple-mobile-web-app-title" content="ztm0929" />
+      </head>
       <body className="flex flex-col min-h-screen">
+        <Script
+          src="https://cloud.umami.is/script.js"
+          data-website-id="0ac7bec1-f40f-40f0-9102-48e55206bd62"
+          strategy="afterInteractive"
+        />
         <RootProvider
 			search={{ options: { type: 'static'}}}
 			// i18n={{ locale: 'cn', translations: {
