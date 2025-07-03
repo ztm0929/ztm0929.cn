@@ -19,6 +19,16 @@ export const docs = defineDocs({
   },
 });
 
+export const tutorials = defineDocs({
+  docs: {
+	schema: frontmatterSchema
+  },
+  dir: './content/tutorials',
+  meta: {
+	schema: metaSchema
+  }
+});
+
 export const blogPosts = defineCollections({
 	type: 'doc',
 	dir: './content/blog',
