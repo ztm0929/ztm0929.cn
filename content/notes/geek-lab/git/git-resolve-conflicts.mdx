@@ -13,4 +13,23 @@ PR，然后进行了新的改动（例如合并别的 #2 PR ），刚好改动�
 
 ## 操作步骤
 
-待补充
+# 1. 克隆 PR 作者的 fork 仓库
+git clone https://github.com/anchoringpoint/Ac-Wiki.git
+cd Ac-Wiki
+
+# 2. 添加上游（upstream）为原始仓库
+git remote add upstream https://github.com/Ac-Wiki/Ac-Wiki.git
+
+# 3. 切换到 PR 的分支
+git checkout patch-2
+
+# 4. 拉取最新主分支（从 upstream）
+git fetch upstream
+git merge upstream/main
+
+# 5. 冲突解决后，添加和提交
+git add .
+git commit -m "Resolve conflicts with upstream/main"
+
+# 6. 推送更新到发起 PR 的分支
+git push origin patch-2
