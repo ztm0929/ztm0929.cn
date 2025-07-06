@@ -7,7 +7,8 @@
     "dev": "next dev --turbo",
     "start": "next start",
     "postinstall": "fumadocs-mdx",
-	"test:github-api": "tsx code/github-api/index.ts"
+	"test:github-api": "tsx code/github-api/index.ts",
+	"get:starred": "tsx code/github-api/index.ts starred"
   },
   "dependencies": {
     "fumadocs-core": "15.5.5",
