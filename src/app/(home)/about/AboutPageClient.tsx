@@ -42,6 +42,13 @@ export default function AboutPageClient() {
             className="text-fd-foreground underline"
           >
             ADHD
+          </Link>{" "}
+          &{" "}
+          <Link
+            href="https://zh.wikipedia.org/wiki/%E9%9B%99%E7%9B%B8%E9%9A%9C%E7%A4%99"
+            className="text-fd-foreground underline"
+          >
+            BD (maybe)
           </Link>
         </p>
       </FadeIn>
