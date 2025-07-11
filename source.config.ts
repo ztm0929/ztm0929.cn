@@ -11,7 +11,9 @@ import { z } from 'zod';
 // see https://fumadocs.vercel.app/docs/mdx/collections#define-docs
 export const docs = defineDocs({
   docs: {
-    schema: frontmatterSchema,
+    schema: frontmatterSchema.extend({
+      tags: z.array(z.string()).optional(),
+    }),
   },
   dir: './content/notes',
   meta: {
@@ -21,7 +23,9 @@ export const docs = defineDocs({
 
 export const tutorials = defineDocs({
   docs: {
-	schema: frontmatterSchema
+	schema: frontmatterSchema.extend({
+      tags: z.array(z.string()).optional(),
+    })
   },
   dir: './content/tutorials',
   meta: {
@@ -35,6 +39,7 @@ export const blogPosts = defineCollections({
 	schema: frontmatterSchema.extend({
 		author: z.string(),
 		date: z.string().date().or(z.date()),
+		tags: z.array(z.string()).optional(),
 	})
 })
 

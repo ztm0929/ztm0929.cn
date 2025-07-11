@@ -1,0 +1,28 @@
+---
+title: 混合标签示例
+author: 天明  
+date: 2025-07-11
+tags: ["React", "前端", "最佳实践", "JavaScript"]
+description: 展示如何处理英文和中文混合的标签系统
+---
+
+# 混合标签示例
+
+这篇文章展示了我们的标签系统如何处理：
+
+- **英文技术词汇**：如 React, JavaScript 保持原样
+- **中文术语**：如"前端"、"最佳实践"使用英文slug
+- **美观URL**：`/tags/frontend` 而不是 `/tags/%E5%89%8D%E7%AB%AF`
+
+## URL结构对比
+
+### 之前（编码后）
+- 前端: `/tags/%E5%89%8D%E7%AB%AF` ❌
+- 最佳实践: `/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5` ❌
+
+### 现在（友好URL）
+- 前端: `/tags/frontend` ✅  
+- 最佳实践: `/tags/best-practices` ✅
+- React: `/tags/react` ✅
+
+这样既保持了URL的美观性，又照顾到了中文用户的需求！
