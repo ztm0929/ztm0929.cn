@@ -1,3 +1,25 @@
 @import 'tailwindcss';
 @import 'fumadocs-ui/css/neutral.css';
 @import 'fumadocs-ui/css/preset.css';
+
+/* TOC 滚动监听修复 */
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  /* 确保标题有足够的滚动空间被 Intersection Observer 检测到 */
+  scroll-margin-top: 4rem;
+}
+
+/* 改善 TOC 高亮的过渡效果 */
+[data-toc-item] {
+  transition: all 0.2s ease;
+}
+
+/* 确保 TOC 容器有正确的定位 */
+[data-toc-container] {
+  position: sticky;
+  top: 2rem;
+}

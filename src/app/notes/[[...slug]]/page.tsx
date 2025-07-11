@@ -21,7 +21,17 @@ export default async function Page(props: {
   const MDXContent = page.data.body;
 
   return (
-    <DocsPage toc={page.data.toc} full={page.data.full} tableOfContent={{ style: 'clerk' }} lastUpdate={page.data.lastModified ? new Date(page.data.lastModified) : undefined}>
+    <DocsPage 
+      toc={page.data.toc} 
+      full={page.data.full} 
+      tableOfContent={{ 
+        // 使用 normal 样式，通常比 clerk 更稳定
+        style: 'clerk',
+        enabled: true,
+        single: false
+      }} 
+      lastUpdate={page.data.lastModified ? new Date(page.data.lastModified) : undefined}
+    >
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       
