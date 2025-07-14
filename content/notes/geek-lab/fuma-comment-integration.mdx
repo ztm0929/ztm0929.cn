@@ -1,0 +1,274 @@
+---
+title: 集成 Fuma Comment 的笔记
+---
+
+# 📚 Fuma Comment 集成到文档站点指南
+
+## 🎯 核心文件清单
+
+基于 `/apps/example-better-auth` 示例，你需要复制或参考以下关键文件：
+
+### 📦 1. 依赖包 (package.json)
+```json
+{
+  "dependencies": {
+    "@fuma-comment/react": "^1.3.0",
+    "@fuma-comment/server": "^1.3.0", 
+    "better-auth": "^1.2.10",
+    "drizzle-orm": "^0.44.2",
+    "pg": "^8.16.2"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.1"
+  }
+}
+```
+
+### 🔧 2. 数据库配置文件
+- `lib/database.ts` - 数据库连接
+- `lib/schema.ts` - 数据库表结构
+- `drizzle.config.ts` - Drizzle 配置
+
+### 🔐 3. 认证配置
+- `lib/auth.ts` - Better Auth 配置
+
+### 🌐 4. API 路由
+- `app/api/comments/[[...comment]]/route.ts` - 评论 API
+- `app/api/auth/[...all]/route.ts` - 认证 API (Better Auth)
+
+### 🎨 5. 前端组件
+- `app/page.client.tsx` - 客户端评论组件示例
+
+### ⚙️ 6. 环境变量
+- `.env.local` - 数据库和认证配置
+
+---
+
+## 🚀 集成步骤
+
+### 步骤 1: 安装依赖
+```bash
+npm install @fuma-comment/react @fuma-comment/server better-auth drizzle-orm pg
+npm install -D drizzle-kit @types/pg
+```
+
+### 步骤 2: 复制配置文件
+从 `example-better-auth` 复制这些文件到你的项目：
+
+1. **数据库配置** → `lib/`
+   - `database.ts`
+   - `schema.ts` 
+   - `auth.ts`
+
+2. **API 路由** → `app/api/`
+   - `comments/[[...comment]]/route.ts`
+   - `auth/[...all]/route.ts`
+
+3. **配置文件** → 项目根目录
+   - `drizzle.config.ts`
+
+### 步骤 3: 环境变量配置
+创建 `.env.local`:
+```env
+DATABASE_URL="your_neon_database_url"
+GITHUB_ID="your_github_client_id"
+GITHUB_SECRET="your_github_client_secret"
+BETTER_AUTH_SECRET="your_secret_key"
+BETTER_AUTH_URL="https://your-domain.com"
+```
+
+### 步骤 4: 数据库迁移
+```bash
+npx drizzle-kit push
+```
+
+### 步骤 5: 在文档页面中使用
+```tsx
+"use client";
+import { Comments } from "@fuma-comment/react";
+import { createAuthClient } from "better-auth/client";
+
+const authClient = createAuthClient();
+
+export function DocumentComments({ pageId }: { pageId: string }) {
+  const signIn = () => {
+    void authClient.signIn.social({
+      provider: "github",
+    });
+  };
+
+  return (
+    <Comments
+      page={pageId}
+      className="max-w-4xl mx-auto mt-8"
+      auth={{
+        type: "api",
+        signIn,
+      }}
+    />
+  );
+}
+```
+
+---
+
+## 📁 文件结构示例
+
+```
+your-docs-site/
+├── app/
+│   ├── api/
+│   │   ├── auth/[...all]/route.ts
+│   │   └── comments/[[...comment]]/route.ts
+│   ├── docs/
+│   │   └── [slug]/page.tsx  # 文档页面
+│   └── globals.css
+├── lib/
+│   ├── auth.ts
+│   ├── database.ts
+│   └── schema.ts
+├── components/
+│   └── DocumentComments.tsx
+├── .env.local
+├── drizzle.config.ts
+└── package.json
+```
+
+---
+
+## 🎨 样式集成
+
+### Tailwind CSS 集成
+如果你使用 Tailwind CSS，需要导入 Fuma Comment 的样式：
+
+```css
+/* globals.css */
+@import "@fuma-comment/react/style.css";
+```
+
+### 自定义主题
+```tsx
+<Comments
+  page={pageId}
+  className="max-w-4xl mx-auto mt-8"
+  auth={{ type: "api", signIn }}
+  // 自定义样式
+  style={{
+    "--fc-primary": "#your-brand-color",
+    "--fc-background": "#your-background-color",
+  }}
+/>
+```
+
+---
+
+## 🔄 不同文档框架集成
+
+### Next.js (App Router)
+- 完全兼容，参考 `example-better-auth`
+
+### Docusaurus
+```tsx
+// 在 MDX 文件中
+import { Comments } from "@fuma-comment/react";
+
+# 我的文档页面
+
+内容...
+
+<Comments page={frontMatter.slug} />
+```
+
+### VitePress
+```vue
+<template>
+  <div>
+    <!-- 文档内容 -->
+    <Comments :page="$page.relativePath" />
+  </div>
+</template>
+```
+
+### Nextra
+```tsx
+import { Comments } from "@fuma-comment/react";
+
+export default function Layout({ children }) {
+  return (
+    <>
+      {children}
+      <Comments page={router.asPath} />
+    </>
+  );
+}
+```
+
+---
+
+## 💡 最佳实践
+
+### 1. 页面 ID 策略
+```tsx
+// 推荐使用稳定的页面标识符
+<Comments page={`docs-${slug}`} />
+<Comments page={pathname} />
+<Comments page={`${version}-${slug}`} /> // 版本化文档
+```
+
+### 2. 权限控制
+```tsx
+// 在 schema.ts 中自定义角色
+export const roles = pgTable("roles", {
+  userId: varchar("userId", { length: 256 }).primaryKey(),
+  name: varchar("name", { length: 256 }).notNull(),
+  canDelete: boolean("canDelete").notNull(),
+  canModerate: boolean("canModerate").default(false),
+});
+```
+
+### 3. 评论区位置
+```tsx
+// 建议放在文档内容末尾
+export default function DocPage() {
+  return (
+    <article>
+      <h1>{title}</h1>
+      <div>{content}</div>
+      
+      {/* 评论区 */}
+      <section className="mt-12 pt-8 border-t">
+        <h2 className="text-xl font-semibold mb-4">讨论</h2>
+        <Comments page={pageId} />
+      </section>
+    </article>
+  );
+}
+```
+
+---
+
+## 🚀 部署注意事项
+
+### Vercel 部署
+1. 在 Vercel 环境变量中设置所有 `.env.local` 的值
+2. 确保 `BETTER_AUTH_URL` 设置为生产域名
+3. 更新 GitHub OAuth 应用的回调地址
+
+### 其他平台
+1. 确保环境变量正确设置
+2. 数据库连接字符串包含正确的 SSL 配置
+3. 构建时包含必要的依赖
+
+---
+
+## 🎉 总结
+
+`/apps/example-better-auth` 是你的完整参考模板！主要步骤：
+
+1. ✅ **复制核心文件** (lib/, api/, drizzle.config.ts)
+2. ✅ **安装依赖包**
+3. ✅ **配置环境变量**
+4. ✅ **推送数据库架构**
+5. ✅ **在页面中使用 `<Comments>` 组件**
+
+现在你就有了一个功能完整的评论系统！🎊
