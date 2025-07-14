@@ -1,0 +1,18 @@
+---
+title: 记录一次稀疏检出的操作
+---
+
+稀疏检出（sparse checkout）是 Git 的一个功能，允许用户只检出仓库中的部分文件或目录，而不是整个仓库。这在处理大型仓库时非常有用，可以节省存储空间和提高操作效率。
+
+# 克隆仓库但不检出文件
+git clone --no-checkout https://github.com/fuma-nama/fuma-comment.git
+cd fuma-comment
+
+# 启用稀疏检出
+git sparse-checkout init --cone
+
+# 设置要检出的目录
+git sparse-checkout set --no-cone apps/example-better-auth
+
+# 检出指定目录的文件
+git checkout
