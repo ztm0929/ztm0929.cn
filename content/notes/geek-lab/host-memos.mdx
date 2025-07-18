@@ -1,0 +1,57 @@
+---
+title: 使用 Docker 部署 Memos 服务
+description: Memos 是一个轻量级的开源笔记应用
+---
+
+```yml title="docker-compose.yml"
+services:
+  memos:
+    image: neosmemo/memos:stable # 从 Docker Hub 官方源拉取最新稳定版
+    container_name: memos		 # 命名容器
+    restart: unless-stopped		 # 容器异常退出时自动重启
+    expose: [5230/tcp]			 # 暴露端口 5230 给 Caddy，但不会映射到主机
+    volumes:
+      - ~/.memos:/var/opt/memos  # 将容器内的 /var/opt/memos 目录挂载到主机的 ~/.memos 目录，二者保持同步
+
+  caddy:
+    image: caddy:2.8.4			 # 使用 Caddy 作为反向代理服务器
+    container_name: caddy
+    restart: unless-stopped
+    ports:
+      - 0.0.0.0:80:80 		 		 # 将容器的 80 端口映射到主机的 80 端口
+      - 0.0.0.0:443:443 		 	 # 将容器的 443 端口映射到主机的 443 端口
+    configs:
+	- source: Caddyfile		 		 # Caddy 配置文件
+        target: /etc/caddy/Caddyfile # 挂载到容器内的指定路径
+    volumes:
+      - ~/.caddy/data:/data  		 # 持久化 Caddy 数据
+      - ~/.caddy/config:/config 	 # 持久化 Caddy 配置
+      - ~/.caddy/logs:/logs 		 # 持久化 Caddy 日志
+
+configs:
+  Caddyfile:
+    # Caddy 配置文件
+	# 所有访问 memos.ztm0929.cn 的请求都会被转发到 memos:5230
+	# 使用易读的控制台格式，日志写入到容器内的 /logs/memos.log
+	# 当日志文件超过 10MB 时自动滚动，最多保留 20 个历史日志文件，超过 7 天的日志文件会被删除
+	# 优先使用 zstd 压缩（更高效），备选 gzip 压缩（兼容性更好），只对大于 1KB 的内容进行压缩
+    content: |
+      memos.ztm0929.cn {
+        reverse_proxy memos:5230 
+        log {
+          format console
+          output file /logs/memos.log {
+            roll_size 10mb
+            roll_keep 20
+            roll_keep_for 7d
+          }
+        }
+        encode {
+          zstd
+          gzip
+          minimum_length 1024
+        }
+      }
+```
+
+来源：https://memos-doc.ztm0929.cn/docs/install/https/#docker-composeyml
