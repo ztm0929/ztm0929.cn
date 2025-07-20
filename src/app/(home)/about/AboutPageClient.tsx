@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import FadeIn from '@/app/components/FadeIn';
+import FadeIn from '@/components/FadeIn';
 
 export default function AboutPageClient() {
   const [showWechatQR, setShowWechatQR] = useState(false);
