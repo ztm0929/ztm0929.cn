@@ -4,6 +4,7 @@ import { InlineTOC } from 'fumadocs-ui/components/inline-toc';
 import defaultMdxComponents from 'fumadocs-ui/mdx';
 import { blog } from '@/lib/source';
 import { getTagSlug } from '@/lib/tags';
+import { BlogComments } from '@/components/Comments';
 
 export default async function Page(props: {
   params: Promise<{ slug: string }>;
@@ -70,6 +71,9 @@ export default async function Page(props: {
             </div>
           )}
         </div>
+        
+        {/* 评论区 */}
+        <BlogComments pageId={`blog-${params.slug}`} />
       </article>
     </>
   );
