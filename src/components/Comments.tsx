@@ -17,16 +17,22 @@ interface CommentsProps {
 
 export function BlogComments({ pageId }: CommentsProps) {
   return (
-    <div className="mt-8 pt-8 border-t">
-      <h3 className="text-lg font-semibold mb-4">评论</h3>
-      <Comments
-        page={pageId}
-        className="max-w-full w-full"
-        auth={{
-          type: "api",
-          signIn,
-        }}
-      />
+    <div className="mt-12 pt-8 border-t border-border">
+      <h3 className="text-xl font-semibold mb-6 text-foreground">评论</h3>
+      <div className="not-prose w-full fuma-comment-container">
+        <Comments
+          page={pageId}
+          className="w-full max-w-none fuma-comment"
+          style={{
+            width: '100%',
+            maxWidth: 'none'
+          }}
+          auth={{
+            type: "api",
+            signIn,
+          }}
+        />
+      </div>
     </div>
   );
 }

@@ -39,11 +39,11 @@ export default async function Page(props: {
         <Link href="/blog">Back</Link>
       </div>
       <article className="container flex flex-col px-4 py-8">
-        <div className="prose min-w-0">
+        <div className="prose min-w-0 max-w-none">
           <InlineTOC items={page.data.toc} />
           <Mdx components={defaultMdxComponents} />
         </div>
-        <div className="flex flex-col gap-4 text-sm">
+        <div className="flex flex-col gap-4 text-sm mt-8">
           <div>
             <p className="mb-1 text-fd-muted-foreground">Written by</p>
             <p className="font-medium">{page.data.author}</p>
@@ -71,10 +71,12 @@ export default async function Page(props: {
             </div>
           )}
         </div>
-        
-        {/* 评论区 */}
-        <BlogComments pageId={`blog-${params.slug}`} />
       </article>
+      
+      {/* 评论区 - 独立容器 */}
+      <div className="container px-4 pb-8">
+        <BlogComments pageId={`blog-${params.slug}`} />
+      </div>
     </>
   );
 }

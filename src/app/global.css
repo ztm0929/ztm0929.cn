@@ -1,3 +1,70 @@
 @import 'tailwindcss';
 @import 'fumadocs-ui/css/neutral.css';
 @import 'fumadocs-ui/css/preset.css';
+
+/* fuma-comment 样式优化 */
+.fuma-comment {
+  @apply max-w-none;
+}
+
+.fuma-comment * {
+  box-sizing: border-box;
+}
+
+/* 确保评论区在暗色模式下正常显示 */
+.fuma-comment .dark {
+  color-scheme: dark;
+}
+
+.fuma-comment .light {
+  color-scheme: light;
+}
+
+/* 强制修复评论者头像大小 */
+.fuma-comment-container img,
+.fuma-comment-container [role="img"],
+.fuma-comment-container picture img,
+.fuma-comment img,
+.fuma-comment [role="img"],
+.fuma-comment picture img {
+  max-width: 40px !important;
+  max-height: 40px !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
+
+/* 更具体的头像选择器 */
+div[class*="fuma-comment"] img,
+[data-fuma-comment] img,
+.fuma-comment-container > div img {
+  max-width: 40px !important;
+  max-height: 40px !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+}
+
+/* 评论结构优化 */
+.fuma-comment [data-comment],
+.fuma-comment-container [data-comment] {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+  margin-bottom: 16px !important;
+}
+
+/* 评论内容区域 */
+.fuma-comment [data-comment] > div:last-child,
+.fuma-comment-container [data-comment] > div:last-child {
+  flex: 1 !important;
+  min-width: 0 !important;
+}
+
+/* 通用图片大小限制 - 针对评论区域 */
+.fuma-comment-container * img,
+.fuma-comment * img {
+  max-width: 40px !important;
+  max-height: 40px !important;
+}
