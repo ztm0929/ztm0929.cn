@@ -1,0 +1,24 @@
+---
+title: Formbricks 配置 Caddy 反代
+---
+
+已经启动了 Formbricks 的 Docker 容器，可以通过公网访问 IP:3000
+
+但是我想实现 survey.ztm0929.cn 的域名访问。
+
+```
+# Formbricks - 映射到宿主机 3000 端口
+survey.ztm0929.cn {
+    reverse_proxy 10.1.12.17:3000  # 使用宿主机内网 IP
+
+    log {
+        output file /logs/formbricks.log {
+            roll_size 10mb
+            roll_keep 10
+            roll_keep_for 7d
+        }
+    }
+
+    encode gzip
+}
+```
