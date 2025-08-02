@@ -1,8 +1,8 @@
 "use client";
-import { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import FadeIn from '@/app/components/FadeIn';
+import { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import FadeIn from "@/app/components/FadeIn";
 
 export default function AboutPageClient() {
   const [showWechatQR, setShowWechatQR] = useState(false);
@@ -19,15 +19,15 @@ export default function AboutPageClient() {
           priority
         />
       </FadeIn>
-      
+
       <FadeIn delay={200}>
         <h1 className="text-2xl font-bold">👋 Hi，我叫『 天明 』</h1>
       </FadeIn>
-      
+
       <FadeIn delay={400}>
         <p>英文名是 Kevin，网名是 @ztm0929</p>
       </FadeIn>
-      
+
       <FadeIn delay={600}>
         <p>
           <Link
@@ -52,11 +52,24 @@ export default function AboutPageClient() {
           </Link>
         </p>
       </FadeIn>
-      
+
       <FadeIn delay={800}>
-        <p className="mb-4">网络新媒体学生， 人力资源（服务）学习者， 编程小白</p>
+        <p className="mb-4">
+          网络新媒体学生， 人力资源（服务）学习者， 编程小白
+        </p>
       </FadeIn>
-      
+
+      <FadeIn delay={800}>
+        {" "}
+        <Image
+          src="http://ghchart.rshah.org/ztm0929"
+          alt="ztm0929 Github chart"
+          width={800}
+          height={200}
+          className="mx-auto mb-8"
+        />
+      </FadeIn>
+
       <FadeIn delay={1000}>
         <div className="flex flex-col items-center gap-2">
           <h1 className="text-2xl font-bold">联系方式：</h1>
@@ -67,10 +80,12 @@ export default function AboutPageClient() {
             微信：ztm00929
           </button>
           <Link href="https://t.me/ztm0929">Telegram（TG）：ztm0929</Link>
-          <Link href="mailto:ztm0929@outlook.com">邮箱：ztm0929@outlook.com</Link>
+          <Link href="mailto:ztm0929@outlook.com">
+            邮箱：ztm0929@outlook.com
+          </Link>
         </div>
       </FadeIn>
-      
+
       {showWechatQR && (
         <div
           className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
