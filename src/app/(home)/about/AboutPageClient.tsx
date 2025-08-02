@@ -60,14 +60,15 @@ export default function AboutPageClient() {
       </FadeIn>
 
       <FadeIn delay={800}>
-        {" "}
-        <Image
-          src="http://ghchart.rshah.org/ztm0929"
-          alt="ztm0929 Github chart"
-          width={800}
-          height={200}
-          className="mx-auto mb-8"
-        />
+        <div className="w-full max-w-[320px] sm:max-w-[600px] lg:max-w-[800px] mx-auto mb-8 overflow-hidden">
+          <Image
+            src="http://ghchart.rshah.org/ztm0929"
+            alt="ztm0929 Github chart"
+            width={800}
+            height={200}
+            className="w-full h-auto"
+          />
+        </div>
       </FadeIn>
 
       <FadeIn delay={1000}>
