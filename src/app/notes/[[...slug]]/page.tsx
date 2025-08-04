@@ -1,15 +1,16 @@
-import { source } from '@/lib/source';
+import { source } from "@/lib/source";
 import {
   DocsPage,
   DocsBody,
   DocsDescription,
   DocsTitle,
-} from 'fumadocs-ui/page';
-import { notFound } from 'next/navigation';
-import { createRelativeLink } from 'fumadocs-ui/mdx';
-import { getMDXComponents } from '@/mdx-components';
-import { getTagSlug } from '@/lib/tags';
-import Link from 'next/link';
+} from "fumadocs-ui/page";
+import { notFound } from "next/navigation";
+import { createRelativeLink } from "fumadocs-ui/mdx";
+import { getMDXComponents } from "@/mdx-components";
+import { getTagSlug } from "@/lib/tags";
+import Link from "next/link";
+import { LLMCopyButton, ViewOptions } from "@/components/ai/page-actions";
 
 export default async function Page(props: {
   params: Promise<{ slug?: string[] }>;
@@ -21,10 +22,25 @@ export default async function Page(props: {
   const MDXContent = page.data.body;
 
   return (
-    <DocsPage toc={page.data.toc} full={page.data.full} tableOfContent={{ style: 'clerk' }} lastUpdate={page.data.lastModified ? new Date(page.data.lastModified) : undefined}>
+    <DocsPage
+      toc={page.data.toc}
+      full={page.data.full}
+      tableOfContent={{ style: "clerk" }}
+      lastUpdate={
+        page.data.lastModified ? new Date(page.data.lastModified) : undefined
+      }
+    >
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
-      
+
+      <div className="flex flex-row gap-2 items-center border-b pt-2 pb-6">
+        <LLMCopyButton markdownUrl={`${page.url}.mdx`} />
+        <ViewOptions
+          markdownUrl={`${page.url}.mdx`}
+          githubUrl={`https://github.com/ztm0929/ztm0929.cn/blob/main/content/notes/${page.path}`}
+        />
+      </div>
+
       {/* 显示tags */}
       {page.data.tags && page.data.tags.length > 0 && (
         <div className="flex flex-wrap gap-2 mb-6">
@@ -39,7 +55,7 @@ export default async function Page(props: {
           ))}
         </div>
       )}
-      
+
       <DocsBody>
         <MDXContent
           components={getMDXComponents({
