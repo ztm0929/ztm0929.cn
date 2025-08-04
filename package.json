@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@types/hast": "^3.0.4",
+    "class-variance-authority": "^0.7.1",
     "fumadocs-core": "15.6.7",
     "fumadocs-mdx": "11.7.3",
     "fumadocs-ui": "15.6.7",
@@ -21,6 +22,7 @@
     "octokit": "^5.0.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "tailwind-merge": "^3.3.1",
     "unist-util-visit": "^5.0.0",
     "zod": "^4.0.14"
   },
