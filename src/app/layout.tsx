@@ -3,10 +3,16 @@ import { RootProvider } from 'fumadocs-ui/provider';
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
 import type { ReactNode } from 'react';
+import { Metadata } from 'next';
 
 const inter = Inter({
   subsets: ['latin'],
 });
+
+export const metadata: Metadata = {
+	metadataBase: new URL('https://ztm0929.cn'),
+	title: 'ztm0929'
+};
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
