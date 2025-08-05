@@ -5,6 +5,7 @@ import {
   metaSchema,
   defineCollections,
 } from 'fumadocs-mdx/config';
+import { remarkNpm } from 'fumadocs-core/mdx-plugins';
 import { z } from 'zod';
 import { visit } from 'unist-util-visit';
 import type { Element, Root } from 'hast';
@@ -82,6 +83,7 @@ export default defineConfig({
   mdxOptions: {
     // 添加自定义脚注插件
     rehypePlugins: [customFootnotePlugin],
+	remarkPlugins: [remarkNpm],
   },
   lastModifiedTime: 'git',
 });
