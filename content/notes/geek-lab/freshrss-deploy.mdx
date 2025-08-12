@@ -1,0 +1,33 @@
+---
+title: 部署 FreshRSS
+description: FreshRSS 是一个自托管的 RSS 阅读器。
+---
+
+https://freshrss.org/
+
+# Docker 部署 FreshRSS
+
+https://github.com/FreshRSS/FreshRSS/tree/edge/Docker
+
+```bash title="Bash"
+docker run -d --restart unless-stopped --log-opt max-size=10m \
+  -p 8080:80 \
+  -e TZ=Asia/Shanghai \
+  -e 'CRON_MIN=1,31' \
+  -v freshrss_data:/var/www/FreshRSS/data \
+  -v freshrss_extensions:/var/www/FreshRSS/extensions \
+  --name freshrss \
+  freshrss/freshrss
+```
+
+```powershell title="PowerShell"
+docker run -d --restart unless-stopped --log-opt max-size=10m `
+  -p 8080:80 `
+  -e TZ=Asia/Shanghai `
+  -e 'CRON_MIN=1,31' `
+  -v freshrss_data:/var/www/FreshRSS/data `
+  -v freshrss_extensions:/var/www/FreshRSS/extensions `
+  --name freshrss `
+  freshrss/freshrss
+```
+
