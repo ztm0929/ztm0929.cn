@@ -43,12 +43,12 @@ export default async function Page(props: {
 
       {/* 显示tags */}
       {page.data.tags && page.data.tags.length > 0 && (
-        <div className="flex flex-wrap gap-2 mb-6">
+        <div className="flex flex-wrap gap-2">
           {page.data.tags.map((tag: string) => (
             <Link
               key={tag}
               href={`/tags/${getTagSlug(tag)}`}
-              className="text-xs px-2 py-1 bg-secondary hover:bg-secondary/80 rounded text-secondary-foreground transition-colors"
+              className="text-xs px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-500 hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-blue-700 dark:hover:text-blue-300 rounded transition-all duration-300 hover:scale-105"
             >
               #{tag}
             </Link>
