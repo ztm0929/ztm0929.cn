@@ -1,0 +1,22 @@
+---
+title: VPS 配置 SSH 连接
+description: 为 macOS 和 Windows 配置 SSH 连接到 VPS 的步骤
+---
+
+- 终端：iTerm2
+- Shell：zsh
+
+## 配置步骤
+
+1. 生成 SSH 密钥对（如果尚未生成）
+```bash
+ssh-keygen -t rsa -b 4096 -C "ztm0929@icloud.com"
+```
+2. 将公钥复制到 VPS
+```bash
+ssh-copy-id user@vps_ip
+```
+3. 通过 SSH 连接到 VPS
+```bash
+ssh user@vps_ip
+```
