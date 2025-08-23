@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import LastUpdated from '@/components/last-updated';
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
           </Link>{' '}
           并查看笔记库
         </p>
+		<LastUpdated className="text-fd-muted-foreground mt-2"/>
       </div>
       <footer className="mb-8 text-xs text-fd-muted-foreground flex flex-col items-center gap-2">
         <p className="text-fd-muted-foreground text-sm">
