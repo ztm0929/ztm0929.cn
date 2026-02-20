@@ -85,5 +85,4 @@ export default defineConfig({
     rehypePlugins: [customFootnotePlugin],
 	remarkPlugins: [remarkNpm],
   },
-  lastModifiedTime: 'git',
 });

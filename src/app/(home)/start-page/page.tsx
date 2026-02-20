@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { SimpleIcon } from 'simple-icons';
-import { siGithub, siBilibili, siYoutube, siV0, siV2ex, siX, siTailwindcss, siNextdotjs, siOpenai } from 'simple-icons';
+import { siGithub, siBilibili, siYoutube, siV0, siV2ex, siX, siTailwindcss, siNextdotjs } from 'simple-icons';
 
 type LinkItem = { name: string; href: string; icon?: SimpleIcon };
 
@@ -13,7 +13,6 @@ const LINKS: LinkItem[] = [
   { name: "Twitter", href: "https://twitter.com", icon: siX },
   { name: "tailwindcss", href: "https://tailwindcss.com", icon: siTailwindcss },
   { name: "Next.js", href: "https://nextjs.org", icon: siNextdotjs },
-  { name: "ChatGPT", href: "https://chatgpt.com", icon: siOpenai },
 ];
 	
 export default function Page() {

@@ -1,7 +1,7 @@
 import { docs } from '@/.source';
 import { tutorials } from '@/.source';
 import { blogPosts } from '@/.source';
-import { createMDXSource } from 'fumadocs-mdx';
+import { toFumadocsSource } from 'fumadocs-mdx/runtime/server';
 import { loader } from 'fumadocs-core/source';
 import { icons } from 'lucide-react';
 import { createElement } from 'react';
@@ -33,7 +33,7 @@ export const tutorialsSource = loader({
 
 export const blog = loader({
   baseUrl: '/blog',
-  source: createMDXSource(blogPosts),
+  source: toFumadocsSource(blogPosts, []),
 });
 
 // 获取所有tags的函数
