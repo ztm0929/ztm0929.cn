@@ -13,9 +13,9 @@
   "dependencies": {
     "@types/hast": "^3.0.4",
     "class-variance-authority": "^0.7.1",
-    "fumadocs-core": "16.6.4",
-    "fumadocs-mdx": "14.2.7",
-    "fumadocs-ui": "16.6.4",
+    "fumadocs-core": "^16.6.8",
+    "fumadocs-mdx": "^14.2.9",
+    "fumadocs-ui": "^16.6.8",
     "lucide-react": "^0.575.0",
     "motion": "^12.34.3",
     "next": "16.1.6",
@@ -25,21 +25,21 @@
     "remark": "^15.0.1",
     "remark-gfm": "^4.0.1",
     "remark-mdx": "^3.1.1",
-    "simple-icons": "^16.9.0",
+    "simple-icons": "^16.10.0",
     "tailwind-merge": "^3.5.0",
     "unist-util-visit": "^5.1.0",
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.2.0",
+    "@tailwindcss/postcss": "^4.2.1",
     "@types/mdx": "^2.0.13",
     "@types/node": "25.3.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "eslint": "^10.0.0",
+    "eslint": "^10.0.2",
     "eslint-config-next": "16.1.6",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.2.0",
+    "tailwindcss": "^4.2.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
@@ -48,5 +48,6 @@
   "author": {
     "name": "ztm0929",
     "email": "ztm0929@icloud.com"
-  }
+  },
+  "packageManager": "pnpm@10.23.0"
 }
