@@ -21,11 +21,6 @@ export default function Layout({ children }: { children: ReactNode }) {
         <meta name="apple-mobile-web-app-title" content="ztm0929" />
       </head>
       <body className="flex flex-col min-h-screen">
-        <Script
-          src="https://cloud.umami.is/script.js"
-          data-website-id="0ac7bec1-f40f-40f0-9102-48e55206bd62"
-          strategy="afterInteractive"
-        />
         <RootProvider
 			search={{ options: { type: 'static'}}}
 			// i18n={{ locale: 'cn', translations: {
