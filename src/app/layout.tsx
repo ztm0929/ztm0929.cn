@@ -23,12 +23,17 @@ export default function Layout({ children }: { children: ReactNode }) {
       <body className="flex flex-col min-h-screen">
         <RootProvider
 			search={{ options: { type: 'static'}}}
-			// i18n={{ locale: 'cn', translations: {
-			// 	lastUpdate: '最后更新于',
-			// 	previousPage: '上一页',
-			// 	nextPage: '下一页',
-			// 	toc: '目录',
-			// } }}
+			i18n={{ locale: 'cn', translations: {
+				search: '搜索',
+				searchNoResult: '没有找到相关结果',
+				chooseLanguage: '选择语言',
+				chooseTheme: '选择主题',
+				editOnGithub: '在 GitHub 上编辑',
+				lastUpdate: '最后更新于',
+				previousPage: '上一页',
+				nextPage: '下一页',
+				toc: '目录',
+			} }}
 		>
 			{children}
 		</RootProvider>
