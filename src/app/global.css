@@ -1,3 +1,11 @@
 @import 'tailwindcss';
-@import 'fumadocs-ui/css/neutral.css';
+/* @import 'fumadocs-ui/css/neutral.css'; */
+/* @import 'fumadocs-ui/css/dusk.css'; */
+/* @import 'fumadocs-ui/css/ocean.css'; */
+@import 'fumadocs-ui/css/vitepress.css';
 @import 'fumadocs-ui/css/preset.css';
+
+/* 禁止浏览器合成字形，中文字体通常没有斜体 */
+:root {
+  font-synthesis: none;
+}
