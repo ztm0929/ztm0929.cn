@@ -9,12 +9,12 @@ export default function HomePage() {
         <p className="text-fd-muted-foreground">
           访问{' '}
           <Link
-            href="/notes"
+            href="/docs"
             className="text-fd-foreground font-semibold underline"
           >
-            /notes
+            /docs
           </Link>{' '}
-          并查看笔记库
+          并查看教程库
         </p>
       </div>
       <footer className="mb-8 text-xs text-fd-muted-foreground flex flex-col items-center gap-2">
