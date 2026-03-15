@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[951506,["/_next/static/chunks/3a9aa4d4bb625f83.js","/_next/static/chunks/f2d2083dc1d5ada3.js","/_next/static/chunks/7f1876b2dc5199e9.js","/_next/static/chunks/c1858b89558d4df7.js","/_next/static/chunks/9dfb02ccc96f21ae.js"],""]
+3:I[95276,["/_next/static/chunks/1c8dd1e98f29bd04.js","/_next/static/chunks/a117d3c5a2bedc89.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"Mx4CrLUlX9OXF8P0-tvCP","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"flex flex-1 flex-col justify-between text-center","children":[["$","div",null,{"className":"flex flex-col justify-center flex-1","children":[["$","h1",null,{"className":"mb-4 text-2xl font-bold","children":"欢迎！"}],["$","p",null,{"className":"text-fd-muted-foreground","children":["访问"," ",["$","$L2",null,{"href":"/docs","className":"text-fd-foreground font-semibold underline","children":"/docs"}]," ","并查看教程库"]}]]}],["$","footer",null,{"className":"mb-8 text-xs text-fd-muted-foreground flex flex-col items-center gap-2","children":["$","$L2",null,{"href":"https://beian.miit.gov.cn/","target":"_blank","rel":"noopener noreferrer","children":"粤 ICP 备 2024199605 号 | ztm0929 © 2026"}]}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null
