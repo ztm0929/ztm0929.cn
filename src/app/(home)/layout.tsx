@@ -7,7 +7,7 @@ export default function Layout({ children }: { children: ReactNode }) {
     <HomeLayout
       {...baseOptions}
       links={[
-        { text: "小白教程库", url: "/tutorials", active: "nested-url" },
+        { text: "小白教程库", url: "/docs", active: "nested-url" },
         { text: "关于我", url: "/about", active: "nested-url" },
       ]}
     >

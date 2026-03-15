@@ -63,7 +63,7 @@ export const tutorials = defineDocs({
       tags: z.array(z.string()).optional(),
     })
   },
-  dir: './content/tutorials',
+  dir: './content/docs',
   meta: {
 	schema: metaSchema
   }

@@ -26,7 +26,7 @@ export const source = loader({
 });
 
 export const tutorialsSource = loader({
-  baseUrl: '/tutorials',
+  baseUrl: '/docs',
   source: tutorials.toFumadocsSource(),
   icon: iconRenderer,
 });

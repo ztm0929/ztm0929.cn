@@ -9,7 +9,7 @@ export default function Layout({ children }: { children: ReactNode }) {
     <DocsLayout
       sidebar={{
         tabs: [
-          { title: "小白教程库", url: "/tutorials", description: "Step-by-step guides to learn the application.", icon: <GraduationCap /> },
+          { title: "小白教程库", url: "/docs", description: "Step-by-step guides to learn the application.", icon: <GraduationCap /> },
           { title: "杂记", url: "/notes", description: "Random thoughts and notes.", icon: <Tags /> },
         ],
       }}
