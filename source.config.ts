@@ -49,6 +49,7 @@ export const docs = defineDocs({
   docs: {
     schema: frontmatterSchema.extend({
       tags: z.array(z.string()).optional(),
+      draft: z.boolean().default(false),
     }),
   },
   dir: './content/notes',
@@ -61,6 +62,7 @@ export const tutorials = defineDocs({
   docs: {
 	schema: frontmatterSchema.extend({
       tags: z.array(z.string()).optional(),
+      draft: z.boolean().default(false),
     })
   },
   dir: './content/docs',
@@ -76,6 +78,7 @@ export const blogPosts = defineCollections({
 		author: z.string(),
 		date: z.string().date().or(z.date()),
 		tags: z.array(z.string()).optional(),
+    draft: z.boolean().default(false),
 	})
 })
 

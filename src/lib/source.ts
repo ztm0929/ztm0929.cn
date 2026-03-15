@@ -2,7 +2,7 @@ import { docs } from '@/.source';
 import { tutorials } from '@/.source';
 import { blogPosts } from '@/.source';
 import { toFumadocsSource } from 'fumadocs-mdx/runtime/server';
-import { loader } from 'fumadocs-core/source';
+import { loader, type LoaderPlugin } from 'fumadocs-core/source';
 import { icons } from 'lucide-react';
 import { createElement } from 'react';
 import { getTagNameFromSlug } from './tags';
@@ -17,23 +17,48 @@ const iconRenderer = (icon: string | undefined) => {
   }
 };
 
+function excludeDraftInProductionPlugin(): LoaderPlugin {
+  return {
+    name: 'exclude-draft-in-production',
+    transformStorage({ storage }) {
+      if (process.env.NODE_ENV !== 'production') {
+        return;
+      }
+
+      for (const path of storage.getFiles()) {
+        const file = storage.read(path);
+        if (!file || file.format !== 'page') {
+          continue;
+        }
+
+        if ('draft' in file.data && file.data.draft === true) {
+          storage.delete(path);
+        }
+      }
+    },
+  };
+}
+
 // See https://fumadocs.vercel.app/docs/headless/source-api for more info
 export const source = loader({
   // it assigns a URL to your pages
   baseUrl: '/notes',
   source: docs.toFumadocsSource(),
+  plugins: [excludeDraftInProductionPlugin()],
   icon: iconRenderer,
 });
 
 export const tutorialsSource = loader({
   baseUrl: '/docs',
   source: tutorials.toFumadocsSource(),
+  plugins: [excludeDraftInProductionPlugin()],
   icon: iconRenderer,
 });
 
 export const blog = loader({
   baseUrl: '/blog',
   source: toFumadocsSource(blogPosts, []),
+  plugins: [excludeDraftInProductionPlugin()],
 });
 
 // 获取所有tags的函数
