@@ -11,6 +11,8 @@ import { getMDXComponents } from "@/mdx-components";
 import { getTagSlug } from "@/lib/tags";
 import Link from "next/link";
 import { LLMCopyButton, ViewOptions } from "@/components/ai/page-actions";
+import { readFileSync } from "fs";
+import { join } from "path";
 
 export default async function Page(props: {
   params: Promise<{ slug?: string[] }>;
@@ -20,6 +22,21 @@ export default async function Page(props: {
   if (!page) notFound();
 
   const MDXContent = page.data.body;
+  
+  // 读取原始MDX文件内容
+  let mdxContent = '';
+  try {
+    // page.path 对于 notes 来说应该是 'notes/...' 格式
+    let filePath: string;
+    if (page.path.startsWith('notes/')) {
+      filePath = join(process.cwd(), 'content', page.path);
+    } else {
+      filePath = join(process.cwd(), 'content', 'notes', page.path);
+    }
+    mdxContent = readFileSync(filePath, 'utf-8');
+  } catch (error) {
+    console.error('Failed to read MDX file:', error);
+  }
 
   return (
     <DocsPage
@@ -31,7 +48,7 @@ export default async function Page(props: {
       <DocsDescription className="mb-0">{page.data.description}</DocsDescription>
 
       <div className="flex flex-row gap-2 items-center border-b pt-2 pb-6">
-        <LLMCopyButton markdownUrl={`${page.url}.mdx`} />
+        <LLMCopyButton content={mdxContent} />
         <ViewOptions
           markdownUrl={`${page.url}.mdx`}
           githubUrl={`https://github.com/ztm0929/ztm0929.cn/blob/main/content/notes/${page.path}`}
@@ -66,7 +83,9 @@ export default async function Page(props: {
 }
 
 export async function generateStaticParams() {
-  return source.generateParams();
+  return source.getPages().map((page) => ({
+    slug: page.slugs,
+  }));
 }
 
 export async function generateMetadata({
