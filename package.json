@@ -11,6 +11,8 @@
     "get:starred": "tsx code/github-api/index.ts starred"
   },
   "dependencies": {
+    "@orama/orama": "^3.1.18",
+    "@orama/tokenizers": "^3.1.18",
     "@types/hast": "^3.0.4",
     "class-variance-authority": "^0.7.1",
     "fumadocs-core": "^16.6.16",
