@@ -10,6 +10,9 @@ import { createRelativeLink } from 'fumadocs-ui/mdx';
 import { getMDXComponents } from '@/mdx-components';
 import { getTagSlug } from '@/lib/tags';
 import Link from 'next/link';
+import { LLMCopyButton, ViewOptions } from '@/components/ai/page-actions';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 
 export default async function Page(props: {
   params: Promise<{ slug?: string[] }>;
@@ -20,10 +23,24 @@ export default async function Page(props: {
 
   const MDXContent = page.data.body;
 
+    let mdxContent = '';
+  try {
+    // page.path 对于 docs 来说应该是 'docs/...' 格式
+    let filePath: string;
+    if (page.path.startsWith('docs/')) {
+      filePath = join(process.cwd(), 'content', page.path);
+    } else {
+      filePath = join(process.cwd(), 'content', 'docs', page.path);
+    }
+    mdxContent = readFileSync(filePath, 'utf-8');
+  } catch (error) {
+    console.error('Failed to read MDX file:', error);
+  }
+
   return (
 	<DocsPage toc={page.data.toc} full={page.data.full} tableOfContent={{ style: 'clerk' }}>
 	  <DocsTitle>{page.data.title}</DocsTitle>
-	  <DocsDescription>{page.data.description}</DocsDescription>
+	  <DocsDescription className="mb-0">{page.data.description}</DocsDescription>
 	  
 	  {/* 显示tags */}
 	  {page.data.tags && page.data.tags.length > 0 && (
@@ -40,6 +57,14 @@ export default async function Page(props: {
 		</div>
 	  )}
 	  
+	  <div className="flex flex-row gap-2 items-center border-b pt-2 pb-6">
+        <LLMCopyButton content={mdxContent} />
+        <ViewOptions
+          markdownUrl={`${page.url}.mdx`}
+          githubUrl={`https://github.com/ztm0929/ztm0929.cn/blob/main/content/docs/${page.path}`}
+        />
+      </div>
+
 	  <DocsBody>
 		<MDXContent
 		  components={getMDXComponents({
