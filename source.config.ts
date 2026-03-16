@@ -5,10 +5,20 @@ import {
   metaSchema,
   defineCollections,
 } from 'fumadocs-mdx/config';
-import { remarkNpm } from 'fumadocs-core/mdx-plugins';
+import { remarkNpm, type RehypeCodeOptions } from 'fumadocs-core/mdx-plugins';
 import { z } from 'zod';
 import { visit } from 'unist-util-visit';
 import type { Element, Root } from 'hast';
+
+const rehypeCodeOptions: Partial<RehypeCodeOptions> = {
+  icon: {
+    shortcuts: {
+      powershell: 'shellscript',
+      pwsh: 'shellscript',
+      ps1: 'shellscript',
+    },
+  },
+};
 
 // 自定义脚注插件，用于修改脚注标题和锚点
 function customFootnotePlugin() {
@@ -84,6 +94,7 @@ export const blogPosts = defineCollections({
 
 export default defineConfig({
   mdxOptions: {
+    rehypeCodeOptions: rehypeCodeOptions as RehypeCodeOptions,
     // 添加自定义脚注插件
     rehypePlugins: [customFootnotePlugin],
 	remarkPlugins: [remarkNpm],
