@@ -14,7 +14,7 @@ export default function HomePage() {
           >
             /docs
           </Link>{' '}
-          并查看教程库
+          并浏览「小白教程库」
         </p>
       </div>
       <footer className="mb-8 text-xs text-fd-muted-foreground flex flex-col items-center gap-2">
