@@ -51,7 +51,7 @@ export function LLMCopyButton({
       onClick={onClick}
     >
       {checked ? <Check /> : <Copy />}
-      复制全文（Markdown）
+      复制全文
     </button>
   );
 }
