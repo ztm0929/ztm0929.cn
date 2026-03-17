@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { InlineTOC } from 'fumadocs-ui/components/inline-toc';
 import defaultMdxComponents from 'fumadocs-ui/mdx';
+import { PageLastUpdate } from 'fumadocs-ui/page';
 import { blog } from '@/lib/source';
 import { getTagSlug } from '@/lib/tags';
 
@@ -13,12 +14,14 @@ export default async function Page(props: {
 
   if (!page) notFound();
   const Mdx = page.data.body;
+  const lastModified = page.data.lastModified;
 
   return (
     <>
       <div className="container rounded-xl border py-12 md:px-8">
         <h1 className="mb-2 text-3xl font-bold">{page.data.title}</h1>
         <p className="mb-4 text-fd-muted-foreground">{page.data.description}</p>
+        {lastModified && <PageLastUpdate date={new Date(lastModified)} className="mb-4" />}
         
         {/* 显示tags */}
         {page.data.tags && page.data.tags.length > 0 && (

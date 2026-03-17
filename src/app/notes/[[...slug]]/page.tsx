@@ -22,17 +22,15 @@ export default async function Page(props: {
   if (!page) notFound();
 
   const MDXContent = page.data.body;
+  const contentPath = page.path.startsWith('notes/')
+    ? `content/${page.path}`
+    : `content/notes/${page.path}`;
+  const lastModified = page.data.lastModified;
   
   // 读取原始MDX文件内容
   let mdxContent = '';
   try {
-    // page.path 对于 notes 来说应该是 'notes/...' 格式
-    let filePath: string;
-    if (page.path.startsWith('notes/')) {
-      filePath = join(process.cwd(), 'content', page.path);
-    } else {
-      filePath = join(process.cwd(), 'content', 'notes', page.path);
-    }
+    const filePath = join(process.cwd(), contentPath);
     mdxContent = readFileSync(filePath, 'utf-8');
   } catch (error) {
     console.error('Failed to read MDX file:', error);
@@ -43,6 +41,7 @@ export default async function Page(props: {
       toc={page.data.toc}
       full={page.data.full}
       tableOfContent={{ style: "clerk" }}
+      lastUpdate={lastModified}
     >
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription className="mb-0">{page.data.description}</DocsDescription>
@@ -51,7 +50,7 @@ export default async function Page(props: {
         <LLMCopyButton content={mdxContent} />
         <ViewOptions
           markdownUrl={`${page.url}.mdx`}
-          githubUrl={`https://github.com/ztm0929/ztm0929.cn/blob/main/content/notes/${page.path}`}
+          githubUrl={`https://github.com/ztm0929/ztm0929.cn/blob/main/${contentPath}`}
         />
       </div>
 

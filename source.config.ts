@@ -5,6 +5,7 @@ import {
   metaSchema,
   defineCollections,
 } from 'fumadocs-mdx/config';
+import lastModified from 'fumadocs-mdx/plugins/last-modified';
 import { remarkNpm, type RehypeCodeOptions } from 'fumadocs-core/mdx-plugins';
 import { z } from 'zod';
 import { visit } from 'unist-util-visit';
@@ -93,6 +94,7 @@ export const blogPosts = defineCollections({
 })
 
 export default defineConfig({
+  plugins: [lastModified()],
   mdxOptions: {
     rehypeCodeOptions: rehypeCodeOptions as RehypeCodeOptions,
     // 添加自定义脚注插件
