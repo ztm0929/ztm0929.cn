@@ -1,11 +1,10 @@
-import { blog, source, tutorialsSource } from '@/lib/source';
+import { blog, tutorialsSource } from '@/lib/source';
 import { createI18nSearchAPI } from 'fumadocs-core/search/server';
 import { createTokenizer } from '@orama/tokenizers/mandarin';
 
 export const revalidate = false;
 
 const pages = [
-	...source.getPages(),
 	...tutorialsSource.getPages(),
 	...blog.getPages(),
 ];
