@@ -6,6 +6,16 @@ title: "终端代理"
 
 可以直观地通过数据感受：
 
+git clone
+
+pnpm install
+
+scoop install python
+
+pip install
+
+
+
 ```powershell tab="启用代理前"
 # 启用代理前
 $result = Measure-Command {
