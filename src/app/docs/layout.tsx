@@ -7,12 +7,6 @@ import { GraduationCap, Tags } from "lucide-react";
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <DocsLayout
-      sidebar={{
-        tabs: [
-          { title: "小白教程库", url: "/docs", description: "Step-by-step guides to learn the application." },
-          { title: "杂记", url: "/notes", description: "Random thoughts and notes." },
-        ],
-      }}
       tree={tutorialsSource.pageTree}
       {...baseOptions}
     >

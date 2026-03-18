@@ -1,4 +1,3 @@
-import { docs } from '@/.source';
 import { tutorials } from '@/.source';
 import { blogPosts } from '@/.source';
 import { toFumadocsSource } from 'fumadocs-mdx/runtime/server';
@@ -39,15 +38,6 @@ function excludeDraftInProductionPlugin(): LoaderPlugin {
   };
 }
 
-// See https://fumadocs.vercel.app/docs/headless/source-api for more info
-export const source = loader({
-  // it assigns a URL to your pages
-  baseUrl: '/notes',
-  source: docs.toFumadocsSource(),
-  plugins: [excludeDraftInProductionPlugin()],
-  icon: iconRenderer,
-});
-
 export const tutorialsSource = loader({
   baseUrl: '/docs',
   source: tutorials.toFumadocsSource(),
@@ -64,13 +54,6 @@ export const blog = loader({
 // 获取所有tags的函数
 export function getAllTags() {
   const allTags = new Set<string>();
-  
-  // 从notes中收集tags
-  for (const page of source.getPages()) {
-    if (page.data.tags) {
-      page.data.tags.forEach((tag: string) => allTags.add(tag));
-    }
-  }
   
   // 从tutorials中收集tags
   for (const page of tutorialsSource.getPages()) {
@@ -92,13 +75,6 @@ export function getAllTags() {
 // 根据tag获取相关页面（通过tag名称）
 export function getPagesByTag(tagName: string) {
   const pages = [];
-  
-  // 从notes中查找
-  for (const page of source.getPages()) {
-    if (page.data.tags?.includes(tagName)) {
-      pages.push({ ...page, type: 'notes' });
-    }
-  }
   
   // 从tutorials中查找
   for (const page of tutorialsSource.getPages()) {

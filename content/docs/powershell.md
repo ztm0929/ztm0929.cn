@@ -1,5 +1,6 @@
 ---
 title: "PowerShell"
+draft: true
 ---
 
 PowerShell 和 Windows PowerShell 是两个不同的东西，我们主要专注于前者。

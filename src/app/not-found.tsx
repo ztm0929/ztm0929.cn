@@ -23,10 +23,10 @@ export default function NotFound() {
           </Link>
           
           <Link
-            href="/notes"
+            href="/docs"
             className="inline-flex items-center justify-center rounded-md border border-fd-border px-6 py-3 text-sm font-medium hover:bg-fd-accent transition-colors"
           >
-            查看笔记
+            浏览「小白教程库」
           </Link>
         </div>
       </div>
