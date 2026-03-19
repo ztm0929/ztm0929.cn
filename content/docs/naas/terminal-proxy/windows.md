@@ -1,5 +1,5 @@
 ---
-title: "为 Windows 终端启用代理"
+title: "如何为 PowerShell 启用代理（Windows）"
 ---
 
 ```
@@ -12,6 +12,8 @@ notepad $PROFILE
 # 两种方式都能用记事本打开配置文件
 notepad $HOME\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 ```
+
+![alt text](./image.png)
 
 在打开的文件中添加以下内容：
 
