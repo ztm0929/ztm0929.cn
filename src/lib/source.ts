@@ -13,11 +13,13 @@ const simpleIcons: Record<string, SimpleIcon> = {
 };
 
 const simpleIconPrefix = 'si:';
+const sidebarIconKey = 'sidebar-icon';
 
 const renderSimpleIcon = (icon: SimpleIcon) =>
   createElement(
     'svg',
     {
+      key: sidebarIconKey,
       viewBox: '0 0 24 24',
       fill: 'none',
       'aria-hidden': true,
@@ -31,7 +33,7 @@ const iconRenderer = (icon: string | undefined) => {
   }
 
   if (icon in icons) {
-    return createElement(icons[icon as keyof typeof icons]);
+    return createElement(icons[icon as keyof typeof icons], { key: sidebarIconKey });
   }
 
   if (icon.startsWith(simpleIconPrefix)) {
