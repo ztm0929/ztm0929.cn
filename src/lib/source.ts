@@ -4,7 +4,26 @@ import { toFumadocsSource } from 'fumadocs-mdx/runtime/server';
 import { loader, type LoaderPlugin } from 'fumadocs-core/source';
 import { icons } from 'lucide-react';
 import { createElement } from 'react';
+import type { SimpleIcon } from 'simple-icons';
+import { siPython } from 'simple-icons';
 import { getTagNameFromSlug } from './tags';
+
+const simpleIcons: Record<string, SimpleIcon> = {
+  python: siPython,
+};
+
+const simpleIconPrefix = 'si:';
+
+const renderSimpleIcon = (icon: SimpleIcon) =>
+  createElement(
+    'svg',
+    {
+      viewBox: '0 0 24 24',
+      fill: 'none',
+      'aria-hidden': true,
+    },
+    createElement('path', { d: icon.path, fill: 'currentColor' }),
+  );
 
 const iconRenderer = (icon: string | undefined) => {
   if (!icon) {
@@ -13,6 +32,15 @@ const iconRenderer = (icon: string | undefined) => {
 
   if (icon in icons) {
     return createElement(icons[icon as keyof typeof icons]);
+  }
+
+  if (icon.startsWith(simpleIconPrefix)) {
+    const simpleIconName = icon.slice(simpleIconPrefix.length).trim().toLowerCase();
+    const simpleIcon = simpleIcons[simpleIconName];
+
+    if (simpleIcon) {
+      return renderSimpleIcon(simpleIcon);
+    }
   }
 };
 
