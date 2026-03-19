@@ -1,5 +1,5 @@
 ---
-title: "为 macOS 终端启用代理"
+title: "如何为 macOS 终端启用代理"
 ---
 
 ```

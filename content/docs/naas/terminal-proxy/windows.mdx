@@ -1,10 +1,58 @@
 ---
-title: "如何为 PowerShell 启用代理（Windows）"
+title: "如何为 Windows 终端启用代理"
 ---
+
+很多人打开了系统代理，却发现终端里的下载、安装、更新命令还是慢。原因通常不是网络本身，而是终端会话里没有持续生效的代理环境变量。本文会带你用最少步骤，把 Windows 下的终端代理配置成“开终端就可用”，让后续常见命令长期稳定加速。
+
+## 你将获得
+
+- 终端新窗口自动加载代理
+- git/pip 等命令运行速度提升
+
+## 开始之前
+
+- [x] 已安装 Windows Terminal（终端）
+
+## 动手操作
+
+<div className='fd-steps [&_h3]:fd-step'>
+
+### 确认当前的 Shell 版本
+
+这行命令在做三件事，查看当前 Shell 的名称、类型和版本：
+
+```powershell title="Windows Terminal（终端）"
+(Get-Process -Id $PID).ProcessName; $PSVersionTable.PSEdition; $PSVersionTable.PSVersion
+```
+
+```
+powershell
+Desktop
+
+Major  Minor  Build  Revision
+-----  -----  -----  --------
+5      1      26100  7920
+```
+
+![alt text](image-1.png)
+
+### 注入环境变量
 
 ```
 $env:HTTP_PROXY="http://127.0.0.1:7897"; $env:HTTPS_PROXY="http://127.0.0.1:7897"
 ```
+
+### 确认注入成功
+
+```powershell title="Windows Terminal（终端）"
+$env:HTTP_PROXY; $env:HTTPS_PROXY;
+```
+
+</div>
+
+## 常见问题
+
+## 下一步
 
 ```powershell title="Windows Terminal（终端）"
 notepad $PROFILE
