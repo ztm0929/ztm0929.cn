@@ -1,3 +1,17 @@
 {
-  "pages": ["index", "naas", "..."]
+  "pages": [
+	"index", 
+	"naas",
+	"---[Hammer]工具链---", 
+	"git",
+	"github",
+	"markdown",
+	"wsl",
+	"---[FileSpreadsheet]办公软件---",
+	"...office",
+	"---[FileCode]大前端---",
+	"...frontend",
+	"---[BotMessageSquare]人工智能（大模型）---",
+	"..."
+	]
 }
