@@ -4,7 +4,7 @@ title: "如何为 Windows 终端启用代理"
 
 很多小白打开了系统代理，却发现终端里的下载、安装、更新命令还是慢。原因通常不是网络本身，而是终端会话里没有持续生效的代理环境变量。本文会带你用最少步骤，把 Windows 下的终端代理配置成“开终端就可用”，让后续常见命令长期稳定加速。
 
-## 你将获得
+## 我们的目标
 
 **git/pip 等命令运行速度提升**
 
@@ -21,19 +21,67 @@ title: "如何为 Windows 终端启用代理"
 这行命令在做三件事，查看当前 Shell 的名称、类型和版本：
 
 ```powershell title="Windows Terminal（终端）"
-(Get-Process -Id $PID).ProcessName; $PSVersionTable.PSEdition; $PSVersionTable.PSVersion
+[PSCustomObject]@{
+    进程名        = (Get-Process -Id $PID).ProcessName
+    PowerShell版本 = $PSVersionTable.PSVersion
+    运行版本类型   = $PSVersionTable.PSEdition
+}
 ```
 
-```
-powershell
-Desktop
+Windows PowerShell 和 PowerShell 本质上是两款不同的程序，前者是 Windows 自带的，后者是微软开源的跨平台版本。两者的环境变量注入方式相同，但 PowerShell 7 及以上版本提供了更丰富的功能和更好的性能。
 
-Major  Minor  Build  Revision
------  -----  -----  --------
-5      1      26100  7920
+我们通过返回的内容来确定当前我们正在使用的 Shell 版本：
+
+<Tabs items={['Windows PowerShell', 'PowerShell']}>
+<Tab value="Windows PowerShell">
+```powershell title="Windows Terminal（终端）"
+进程名     PowerShell版本 运行版本类型
+------     -------------- ------------
+powershell 5.1.19041.6456 Desktop
+
 ```
 
 ![alt text](image-1.png)
+
+### 注入环境变量
+
+```
+$env:HTTP_PROXY="http://127.0.0.1:7897"; $env:HTTPS_PROXY="http://127.0.0.1:7897"
+```
+
+```powershell title="Windows Terminal（终端）"
+notepad $PROFILE
+
+# 两种方式都能用记事本打开配置文件
+notepad $HOME\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+```
+
+</Tab>
+<Tab value="PowerShell">
+```powershell
+进程名 PowerShell版本 运行版本类型
+------ -------------- ------------
+pwsh   7.5.4          Core
+```
+
+### 注入环境变量
+
+```
+$env:HTTP_PROXY="http://127.0.0.1:7897"; $env:HTTPS_PROXY="http://127.0.0.1:7897"
+```
+
+```powershell title="Windows Terminal（终端）"
+notepad $PROFILE
+
+# 两种方式都能用记事本打开配置文件
+notepad $HOME\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+```
+</Tab>
+</Tabs>
+
+
+
+
 
 ### 注入环境变量
 
@@ -118,8 +166,6 @@ pnpm install next
 
 ## 常见问题
 
-import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
-
 <Accordions>
 <Accordion title="为什么终端显示已有代理，但还是很慢甚至无法连接？">
 终端代理的前提是已启用系统代理，请检查 [小猫咪](../../system-proxy/clash-verge-rev) 是否正常运行。
@@ -129,7 +175,9 @@ import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
 </Accordion>
 </Accordions>
 
-## 下一步
+## 继续探索
+
+完成目标之后，休息一下。我们可以尝试这些：
 
 - 为注入设置“启停”
 - 为 git、pip 等程序单独配置代理
