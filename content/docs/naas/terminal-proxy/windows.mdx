@@ -16,6 +16,14 @@ title: "如何为 Windows 终端启用代理"
 
 <div className='fd-steps [&_h3]:fd-step'>
 
+```powershell title="Windows Terminal（终端）"
+[System.Environment]::SetEnvironmentVariable("http_proxy", "http://127.0.0.1:7897", "User")
+[System.Environment]::SetEnvironmentVariable("https_proxy", "http://127.0.0.1:7897", "User")
+
+[System.Environment]::SetEnvironmentVariable("HTTP_PROXY", "http://127.0.0.1:7897", "User")
+[System.Environment]::SetEnvironmentVariable("HTTPS_PROXY", "http://127.0.0.1:7897", "User")
+```
+
 ### 确认当前的 Shell 版本
 
 这行命令在做三件事，查看当前 Shell 的名称、类型和版本：
