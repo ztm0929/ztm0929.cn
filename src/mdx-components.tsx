@@ -1,5 +1,6 @@
 import defaultMdxComponents from 'fumadocs-ui/mdx';
 import * as TabsComponents from 'fumadocs-ui/components/tabs';
+import * as AccordionComponents from 'fumadocs-ui/components/accordion';
 import { ImageZoom } from 'fumadocs-ui/components/image-zoom';
 import { CodeBlock, Pre } from 'fumadocs-ui/components/codeblock';
 import type { StaticImageData } from 'next/image';
@@ -29,6 +30,7 @@ export function getMDXComponents(components?: MDXComponents): MDXComponents {
 
       return <ImageZoom {...props} src={src} />;
     },
+    ...AccordionComponents,
     ...TabsComponents,
     ...components,
   };
