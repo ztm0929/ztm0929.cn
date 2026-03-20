@@ -2,12 +2,11 @@
 title: "如何为 Windows 终端启用代理"
 ---
 
-很多人打开了系统代理，却发现终端里的下载、安装、更新命令还是慢。原因通常不是网络本身，而是终端会话里没有持续生效的代理环境变量。本文会带你用最少步骤，把 Windows 下的终端代理配置成“开终端就可用”，让后续常见命令长期稳定加速。
+很多小白打开了系统代理，却发现终端里的下载、安装、更新命令还是慢。原因通常不是网络本身，而是终端会话里没有持续生效的代理环境变量。本文会带你用最少步骤，把 Windows 下的终端代理配置成“开终端就可用”，让后续常见命令长期稳定加速。
 
 ## 你将获得
 
-- 终端新窗口自动加载代理
-- git/pip 等命令运行速度提升
+**git/pip 等命令运行速度提升**
 
 ## 开始之前
 
@@ -41,18 +40,6 @@ Major  Minor  Build  Revision
 ```
 $env:HTTP_PROXY="http://127.0.0.1:7897"; $env:HTTPS_PROXY="http://127.0.0.1:7897"
 ```
-
-### 确认注入成功
-
-```powershell title="Windows Terminal（终端）"
-$env:HTTP_PROXY; $env:HTTPS_PROXY;
-```
-
-</div>
-
-## 常见问题
-
-## 下一步
 
 ```powershell title="Windows Terminal（终端）"
 notepad $PROFILE
@@ -104,5 +91,46 @@ echo $env:HTTP_PROXY
 echo $env:HTTPS_PROXY
 ```
 
-> 注意：上面是为 PowerShell 启动时自动设置代理（仅对 PowerShell 会话生效）。
-> 如果你希望“系统级/所有程序”长期生效，请使用系统环境变量（例如 setx），并重新打开终端或重启相关程序。
+### 确认注入成功
+
+```powershell title="Windows Terminal（终端）"
+$env:HTTP_PROXY; $env:HTTPS_PROXY;
+```
+
+### 测试代理效果（可选）
+
+当终端返回 `http://127.0.0.1:7897` 的结果时，说明已成功注入，我们可以测试一下代理效果，这一步骤不是必需的。 
+
+curl 
+
+git clone https://github.com/ztm0929/ztm0929.cn.git
+
+pip install requests
+
+scoop install python
+
+pnpm install next
+
+
+
+
+</div>
+
+## 常见问题
+
+import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
+
+<Accordions>
+<Accordion title="为什么终端显示已有代理，但还是很慢甚至无法连接？">
+终端代理的前提是已启用系统代理，请检查 [小猫咪](../../system-proxy/clash-verge-rev) 是否正常运行。
+</Accordion>
+<Accordion title="为什么之前配置过并且生效了，有一天又不行了？">
+本文演示的是 Windows PowerShell/PowerShell 两款 Shell 注入环境变量的操作步骤，Git Bash、CMD 或其他的 Shell 需要额外注入。
+</Accordion>
+</Accordions>
+
+## 下一步
+
+- 为注入设置“启停”
+- 为 git、pip 等程序单独配置代理
+- 通过 `Get-ChildItem Env:` 命令，探索除了 HTTP(S)_PROXY 之外的 更多 Windows PowerShell 环境变量
