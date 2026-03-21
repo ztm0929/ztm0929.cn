@@ -10,11 +10,13 @@
 	"markdown",
 	"wsl",
 	"scoop",
-	"---[si:python]Python---",
-	"...python",
+	"python",
+	"docker",
 	"---[FileCode]大前端---",
 	"...frontend",
 	"---[BotMessageSquare]人工智能（大模型）---",
+	"huggingface",
+	"---[CircleEllipsis]其他---",
 	"..."
 	]
 }
