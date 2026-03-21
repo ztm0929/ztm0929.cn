@@ -30,7 +30,38 @@ $env:HTTP_PROXY; $env:HTTPS_PROXY;
 
 当终端返回 `http://127.0.0.1:7897` 的结果时，说明已成功注入，我们可以测试一下代理效果，这一步骤不是必需的。 
 
-curl 
+```powershell title="Windows Terminal（终端）"
+curl.exe ipinfo.io
+```
+
+```
+{
+  "ip": "xxx.xxx.xxx.xxx",
+  "hostname": "xxx",
+  "city": "Los Angeles",
+  "region": "California",
+  "country": "US",
+  "loc": "xxx,xxx",
+  "org": "AS25820 IT7 Networks Inc",
+  "postal": "90012",
+  "timezone": "America/Los_Angeles",
+  "readme": "https://ipinfo.io/missingauth"
+}
+```
+
+```
+{
+  "ip": "xxx.xxx.xxx.xxx",
+  "city": "Shenzhen",
+  "region": "Guangdong",
+  "country": "CN",
+  "loc": "xxx,xxx",
+  "org": "AS4134 CHINANET-BACKBONE",
+  "postal": "518000",
+  "timezone": "Asia/Shanghai",
+  "readme": "https://ipinfo.io/missingauth"
+}
+```
 
 git clone https://github.com/ztm0929/ztm0929.cn.git
 
