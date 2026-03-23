@@ -1,0 +1,35 @@
+---
+title: 如何安装 WSL
+---
+
+WSL 实际上已经内置在 Windows 系统中了，严格来说，我们是在启用它。
+
+## 开始之前
+
+- [ ] 良好的网络环境（小猫咪已运行）
+- [ ] Windows Terminal（终端）已安装
+
+## 动手操作
+
+```powershell title="Windows Terminal（终端）"
+wsl --install
+```
+
+安装完成后，系统会提示你重启电脑。重启后，WSL 就安装好了。
+
+```powershell title="Windows Terminal（终端）"
+wsl -v
+wsl --install Debian
+```
+
+安装过程中会提示你设置一个用户名和密码，用户名最好简短一些，可以由字母和数字组成（我这里的是 `ztm0929`），也可以纯英文。
+
+密码在输入过程中是不可见的，输入完成后按回车键即可。
+
+```
+Enter new UNIX username: ztm0929
+New password:
+Retype new password:
+passwd: password updated successfully
+usermod: no changes
+```
