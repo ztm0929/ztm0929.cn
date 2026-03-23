@@ -1,0 +1,24 @@
+---
+title: "如何为 WSL 启用代理"
+---
+
+## 开始之前
+
+- [ ] 已安装 WSL（如果没有安装，可以参考[如何安装 WSL](./install.mdx)）
+- [ ] 已安装 Windows Terminal（终端）
+- [ ] 良好的网络环境（小猫咪已运行）
+
+## 动手操作
+
+```powershell title="Windows Terminal（终端）"
+wsl -l -v
+wsl -d Debian
+```
+
+进入 WSL 之后，执行以下命令：
+
+```bash title="WSL 终端"
+export http_proxy=http://192.168.1.7:7897
+export https_proxy=http://192.168.1.7:7897
+```
+
