@@ -2,9 +2,7 @@
   "pages": [
 	"index", 
 	"naas",
-	"---[FileSpreadsheet]办公软件---",
-	"...office",
-	"---[Hammer]工具链---", 
+	"---[Hammer]必备工具链---", 
 	"git",
 	"github",
 	"markdown",
@@ -16,6 +14,8 @@
 	"...frontend",
 	"---[BotMessageSquare]人工智能（大模型）---",
 	"huggingface",
+	"--- ---",
+	"office",
 	"---[CircleEllipsis]其他---",
 	"..."
 	]
