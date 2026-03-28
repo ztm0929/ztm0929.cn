@@ -38,11 +38,46 @@ pip 25.3 from C:\Users\ztm0929\scoop\apps\python\current\Lib\site-packages\pip (
 ```
 
 
-### 2. 获取脚本代码
+### 2. 获取源码并初始化
 
 ```powershell title="Windows Terminal（终端）"
 git clone https://github.com/Matt-Dong123/tools4szu.git
 ```
+
+项目源码较粗糙，没有 requirements.txt 这样的依赖文件，我们需要手动安装一下所需依赖：requests、pandas 和 openpyxl。
+
+```powershell title="Windows Terminal（终端）"
+cd tools4szu/venue-helper
+python -m venv venv
+venv\Scripts\activate
+pip install requests pandas openpyxl
+```
+
+在正式开始前可以做个小检查，确认是否成功安装了依赖：
+
+```powershell title="Windows Terminal（终端）"
+pip list
+```
+
+```powershell
+Package            Version
+------------------ -----------
+certifi            2026.2.25
+charset-normalizer 3.4.6
+et_xmlfile         2.0.0
+idna               3.11
+numpy              2.4.3
+openpyxl           3.1.5
+pandas             3.0.1
+pip                25.3
+python-dateutil    2.9.0.post0
+requests           2.33.0
+six                1.17.0
+tzdata             2025.3
+urllib3            2.6.3
+```
+
+
 
 ### 3. 购票流程
 
