@@ -1,0 +1,136 @@
+1:"$Sreact.fragment"
+2:I[330108,["/_next/static/chunks/dc384aedc289e286.js","/_next/static/chunks/7366e96b3dc4ad18.js","/_next/static/chunks/e6a4c2e3910257b7.js","/_next/static/chunks/c5d29939a7cd398e.js","/_next/static/chunks/fb2c174a6950f9ea.js","/_next/static/chunks/f480f39602395336.js","/_next/static/chunks/e8a11d04e2cad51a.js","/_next/static/chunks/00fe6ce90f31527f.js","/_next/static/chunks/28b00127a2c5fa4b.js","/_next/static/chunks/a129e0062db46edc.js","/_next/static/chunks/6240248c32e5865d.js","/_next/static/chunks/23c2c62e491f768d.js"],"DocsPage"]
+3:I[330108,["/_next/static/chunks/dc384aedc289e286.js","/_next/static/chunks/7366e96b3dc4ad18.js","/_next/static/chunks/e6a4c2e3910257b7.js","/_next/static/chunks/c5d29939a7cd398e.js","/_next/static/chunks/fb2c174a6950f9ea.js","/_next/static/chunks/f480f39602395336.js","/_next/static/chunks/e8a11d04e2cad51a.js","/_next/static/chunks/00fe6ce90f31527f.js","/_next/static/chunks/28b00127a2c5fa4b.js","/_next/static/chunks/a129e0062db46edc.js","/_next/static/chunks/6240248c32e5865d.js","/_next/static/chunks/23c2c62e491f768d.js"],"DocsTitle"]
+4:I[330108,["/_next/static/chunks/dc384aedc289e286.js","/_next/static/chunks/7366e96b3dc4ad18.js","/_next/static/chunks/e6a4c2e3910257b7.js","/_next/static/chunks/c5d29939a7cd398e.js","/_next/static/chunks/fb2c174a6950f9ea.js","/_next/static/chunks/f480f39602395336.js","/_next/static/chunks/e8a11d04e2cad51a.js","/_next/static/chunks/00fe6ce90f31527f.js","/_next/static/chunks/28b00127a2c5fa4b.js","/_next/static/chunks/a129e0062db46edc.js","/_next/static/chunks/6240248c32e5865d.js","/_next/static/chunks/23c2c62e491f768d.js"],"DocsDescription"]
+5:I[302559,["/_next/static/chunks/dc384aedc289e286.js","/_next/static/chunks/7366e96b3dc4ad18.js","/_next/static/chunks/e6a4c2e3910257b7.js","/_next/static/chunks/c5d29939a7cd398e.js","/_next/static/chunks/fb2c174a6950f9ea.js","/_next/static/chunks/f480f39602395336.js","/_next/static/chunks/e8a11d04e2cad51a.js","/_next/static/chunks/00fe6ce90f31527f.js","/_next/static/chunks/28b00127a2c5fa4b.js","/_next/static/chunks/a129e0062db46edc.js","/_next/static/chunks/6240248c32e5865d.js","/_next/static/chunks/23c2c62e491f768d.js"],"LLMCopyButton"]
+7:I[302559,["/_next/static/chunks/dc384aedc289e286.js","/_next/static/chunks/7366e96b3dc4ad18.js","/_next/static/chunks/e6a4c2e3910257b7.js","/_next/static/chunks/c5d29939a7cd398e.js","/_next/static/chunks/fb2c174a6950f9ea.js","/_next/static/chunks/f480f39602395336.js","/_next/static/chunks/e8a11d04e2cad51a.js","/_next/static/chunks/00fe6ce90f31527f.js","/_next/static/chunks/28b00127a2c5fa4b.js","/_next/static/chunks/a129e0062db46edc.js","/_next/static/chunks/6240248c32e5865d.js","/_next/static/chunks/23c2c62e491f768d.js"],"ViewOptions"]
+8:I[330108,["/_next/static/chunks/dc384aedc289e286.js","/_next/static/chunks/7366e96b3dc4ad18.js","/_next/static/chunks/e6a4c2e3910257b7.js","/_next/static/chunks/c5d29939a7cd398e.js","/_next/static/chunks/fb2c174a6950f9ea.js","/_next/static/chunks/f480f39602395336.js","/_next/static/chunks/e8a11d04e2cad51a.js","/_next/static/chunks/00fe6ce90f31527f.js","/_next/static/chunks/28b00127a2c5fa4b.js","/_next/static/chunks/a129e0062db46edc.js","/_next/static/chunks/6240248c32e5865d.js","/_next/static/chunks/23c2c62e491f768d.js"],"DocsBody"]
+9:I[793739,["/_next/static/chunks/dc384aedc289e286.js","/_next/static/chunks/7366e96b3dc4ad18.js","/_next/static/chunks/e6a4c2e3910257b7.js","/_next/static/chunks/c5d29939a7cd398e.js","/_next/static/chunks/fb2c174a6950f9ea.js","/_next/static/chunks/f480f39602395336.js","/_next/static/chunks/e8a11d04e2cad51a.js","/_next/static/chunks/00fe6ce90f31527f.js","/_next/static/chunks/28b00127a2c5fa4b.js","/_next/static/chunks/a129e0062db46edc.js","/_next/static/chunks/6240248c32e5865d.js","/_next/static/chunks/23c2c62e491f768d.js"],"default"]
+16:I[614547,["/_next/static/chunks/dc384aedc289e286.js","/_next/static/chunks/7366e96b3dc4ad18.js","/_next/static/chunks/e6a4c2e3910257b7.js","/_next/static/chunks/c5d29939a7cd398e.js","/_next/static/chunks/fb2c174a6950f9ea.js","/_next/static/chunks/f480f39602395336.js","/_next/static/chunks/e8a11d04e2cad51a.js","/_next/static/chunks/00fe6ce90f31527f.js","/_next/static/chunks/28b00127a2c5fa4b.js","/_next/static/chunks/a129e0062db46edc.js","/_next/static/chunks/6240248c32e5865d.js","/_next/static/chunks/23c2c62e491f768d.js"],"CodeBlock"]
+17:I[614547,["/_next/static/chunks/dc384aedc289e286.js","/_next/static/chunks/7366e96b3dc4ad18.js","/_next/static/chunks/e6a4c2e3910257b7.js","/_next/static/chunks/c5d29939a7cd398e.js","/_next/static/chunks/fb2c174a6950f9ea.js","/_next/static/chunks/f480f39602395336.js","/_next/static/chunks/e8a11d04e2cad51a.js","/_next/static/chunks/00fe6ce90f31527f.js","/_next/static/chunks/28b00127a2c5fa4b.js","/_next/static/chunks/a129e0062db46edc.js","/_next/static/chunks/6240248c32e5865d.js","/_next/static/chunks/23c2c62e491f768d.js"],"Pre"]
+22:I[33394,["/_next/static/chunks/dc384aedc289e286.js","/_next/static/chunks/7366e96b3dc4ad18.js","/_next/static/chunks/e6a4c2e3910257b7.js","/_next/static/chunks/c5d29939a7cd398e.js","/_next/static/chunks/fb2c174a6950f9ea.js","/_next/static/chunks/f480f39602395336.js","/_next/static/chunks/e8a11d04e2cad51a.js","/_next/static/chunks/00fe6ce90f31527f.js","/_next/static/chunks/28b00127a2c5fa4b.js","/_next/static/chunks/a129e0062db46edc.js","/_next/static/chunks/6240248c32e5865d.js","/_next/static/chunks/23c2c62e491f768d.js"],"Accordions"]
+23:I[33394,["/_next/static/chunks/dc384aedc289e286.js","/_next/static/chunks/7366e96b3dc4ad18.js","/_next/static/chunks/e6a4c2e3910257b7.js","/_next/static/chunks/c5d29939a7cd398e.js","/_next/static/chunks/fb2c174a6950f9ea.js","/_next/static/chunks/f480f39602395336.js","/_next/static/chunks/e8a11d04e2cad51a.js","/_next/static/chunks/00fe6ce90f31527f.js","/_next/static/chunks/28b00127a2c5fa4b.js","/_next/static/chunks/a129e0062db46edc.js","/_next/static/chunks/6240248c32e5865d.js","/_next/static/chunks/23c2c62e491f768d.js"],"Accordion"]
+24:I[270709,["/_next/static/chunks/dc384aedc289e286.js","/_next/static/chunks/7366e96b3dc4ad18.js","/_next/static/chunks/e6a4c2e3910257b7.js","/_next/static/chunks/c5d29939a7cd398e.js","/_next/static/chunks/fb2c174a6950f9ea.js","/_next/static/chunks/f480f39602395336.js","/_next/static/chunks/e8a11d04e2cad51a.js","/_next/static/chunks/00fe6ce90f31527f.js","/_next/static/chunks/28b00127a2c5fa4b.js","/_next/static/chunks/a129e0062db46edc.js","/_next/static/chunks/6240248c32e5865d.js","/_next/static/chunks/23c2c62e491f768d.js"],"default"]
+25:I[217821,["/_next/static/chunks/f571786cb1256839.js","/_next/static/chunks/91d5378a361fbd2a.js"],"OutletBoundary"]
+26:"$Sreact.suspense"
+:HL["/_next/static/chunks/2f46520a7df96dce.css","style"]
+6:Ta49,---
+title: "如何为 Windows 终端启用代理"
+---
+
+很多小白打开了系统代理，却发现终端里的下载、安装、更新命令还是慢。原因通常不是网络本身，而是终端会话里没有持续生效的代理环境变量。本文会带你用最少步骤，把 Windows 下的终端代理配置成“开终端就可用”，让后续常见命令长期稳定加速。
+
+## 我们的目标
+
+**git/pip 等命令运行速度提升**
+
+## 开始之前
+
+- [x] 已安装 Windows Terminal（终端）
+
+## 动手操作
+
+<div className='fd-steps [&_h3]:fd-step'>
+
+```powershell title="Windows Terminal（终端）"
+"http_proxy","https_proxy","HTTP_PROXY","HTTPS_PROXY" | % { [System.Environment]::SetEnvironmentVariable($_,"http://127.0.0.1:7897","User") }
+```
+
+### 确认注入成功
+
+```powershell title="Windows Terminal（终端）"
+$env:HTTP_PROXY; $env:HTTPS_PROXY;
+```
+
+### 测试代理效果（可选）
+
+当终端返回 `http://127.0.0.1:7897` 的结果时，说明已成功注入，我们可以测试一下代理效果，这一步骤不是必需的。 
+
+```powershell title="Windows Terminal（终端）"
+curl.exe ipinfo.io
+```
+
+```
+{
+  "ip": "xxx.xxx.xxx.xxx",
+  "hostname": "xxx",
+  "city": "Los Angeles",
+  "region": "California",
+  "country": "US",
+  "loc": "xxx,xxx",
+  "org": "AS25820 IT7 Networks Inc",
+  "postal": "90012",
+  "timezone": "America/Los_Angeles",
+  "readme": "https://ipinfo.io/missingauth"
+}
+```
+
+```
+{
+  "ip": "xxx.xxx.xxx.xxx",
+  "city": "Shenzhen",
+  "region": "Guangdong",
+  "country": "CN",
+  "loc": "xxx,xxx",
+  "org": "AS4134 CHINANET-BACKBONE",
+  "postal": "518000",
+  "timezone": "Asia/Shanghai",
+  "readme": "https://ipinfo.io/missingauth"
+}
+```
+
+git clone https://github.com/ztm0929/ztm0929.cn.git
+
+pip install requests
+
+scoop install python
+
+pnpm install next
+
+
+
+
+</div>
+
+## 常见问题
+
+<Accordions>
+<Accordion title="为什么终端显示已有代理，但还是很慢甚至无法连接？">
+终端代理的前提是已启用系统代理，请检查 [小猫咪](../../system-proxy/clash-verge-rev) 是否正常运行。
+</Accordion>
+<Accordion title="为什么之前配置过并且生效了，有一天又不行了？">
+本文演示的是 Windows PowerShell/PowerShell 两款 Shell 注入环境变量的操作步骤，Git Bash、CMD 或其他的 Shell 需要额外注入。
+</Accordion>
+</Accordions>
+
+## 继续探索
+
+完成目标之后，休息一下。我们可以尝试这些：
+
+- 为注入设置“启停”
+- 为 git、pip 等程序单独配置代理
+- 通过 `Get-ChildItem Env:` 命令，探索除了 HTTP(S)_PROXY 之外的 更多 Windows PowerShell 环境变量
+0:{"buildId":"QRKIx6SnIZW3488b0M4nh","rsc":["$","$1","c",{"children":[["$","$L2",null,{"toc":[{"depth":2,"url":"#我们的目标","title":"我们的目标"},{"depth":2,"url":"#开始之前","title":"开始之前"},{"depth":2,"url":"#动手操作","title":"动手操作"},{"depth":3,"url":"#确认注入成功","title":"确认注入成功"},{"depth":3,"url":"#测试代理效果可选","title":"测试代理效果（可选）"},{"depth":2,"url":"#常见问题","title":"常见问题"},{"depth":2,"url":"#继续探索","title":"继续探索"}],"tableOfContent":{"style":"clerk"},"lastUpdate":"$D2026-03-21T11:22:03.000Z","children":[["$","$L3",null,{"children":"如何为 Windows 终端启用代理"}],["$","$L4",null,{"className":"mb-0"}],"$undefined",["$","div",null,{"className":"flex flex-row gap-2 items-center border-b pt-2 pb-6","children":[["$","$L5",null,{"content":"$6"}],["$","$L7",null,{"markdownUrl":"/docs/naas/terminal-proxy/windows.mdx","githubUrl":"https://github.com/ztm0929/ztm0929.cn/blob/main/content/docs/naas/terminal-proxy/windows.mdx"}]]}],["$","$L8",null,{"children":[["$","p",null,{"children":"很多小白打开了系统代理，却发现终端里的下载、安装、更新命令还是慢。原因通常不是网络本身，而是终端会话里没有持续生效的代理环境变量。本文会带你用最少步骤，把 Windows 下的终端代理配置成“开终端就可用”，让后续常见命令长期稳定加速。"}],"\n",["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"我们的目标","children":[["$","a",null,{"data-card":"","href":"#我们的目标","className":"peer","children":"我们的目标"}],["$","$L9",null,{"iconNode":[["path",{"d":"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71","key":"1cjeqo"}],["path",{"d":"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71","key":"19qd67"}]],"className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"git/pip 等命令运行速度提升"}]}],"\n",["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"开始之前","children":[["$","a",null,{"data-card":"","href":"#开始之前","className":"peer","children":"开始之前"}],["$","$L9",null,{"iconNode":[["path",{"d":"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71","key":"1cjeqo"}],["path",{"d":"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71","key":"19qd67"}]],"className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}],"\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11"]}]]}],["$L12","$L13","$L14"],"$L15"]}],"loading":null,"isPartial":false}
+a:["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","checked":true,"disabled":true}]," ","已安装 Windows Terminal（终端）"]}],"\n"]}]
+b:["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"动手操作","children":[["$","a",null,{"data-card":"","href":"#动手操作","className":"peer","children":"动手操作"}],["$","$L9",null,{"iconNode":[["path",{"d":"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71","key":"1cjeqo"}],["path",{"d":"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71","key":"19qd67"}]],"className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+c:["$","div",null,{"className":"fd-steps [&_h3]:fd-step","children":[["$","$L16",null,{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","title":"Windows Terminal（终端）","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"m 4,4 a 1,1 0 0 0 -0.7070312,0.2929687 1,1 0 0 0 0,1.4140625 L 8.5859375,11 3.2929688,16.292969 a 1,1 0 0 0 0,1.414062 1,1 0 0 0 1.4140624,0 l 5.9999998,-6 a 1.0001,1.0001 0 0 0 0,-1.414062 L 4.7070312,4.2929687 A 1,1 0 0 0 4,4 Z m 8,14 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 8 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z\" fill=\"currentColor\" /></svg>","children":["$","$L17",null,{"children":["$","code",null,{"children":["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"http_proxy\""}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":","}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"https_proxy\""}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":","}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"HTTP_PROXY\""}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":","}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"HTTPS_PROXY\""}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":" |"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":" %"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" { ["}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"System.Environment"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"]::SetEnvironmentVariable("}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"$$_"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":","}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"http://127.0.0.1:7897\""}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":","}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"\"User\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":") }"}]]}]}]}]}],["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"确认注入成功","children":[["$","a",null,{"data-card":"","href":"#确认注入成功","className":"peer","children":"确认注入成功"}],["$","$L9",null,{"iconNode":"$b:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}],["$","$L16",null,{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","title":"Windows Terminal（终端）","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"m 4,4 a 1,1 0 0 0 -0.7070312,0.2929687 1,1 0 0 0 0,1.4140625 L 8.5859375,11 3.2929688,16.292969 a 1,1 0 0 0 0,1.414062 1,1 0 0 0 1.4140624,0 l 5.9999998,-6 a 1.0001,1.0001 0 0 0 0,-1.414062 L 4.7070312,4.2929687 A 1,1 0 0 0 4,4 Z m 8,14 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 8 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z\" fill=\"currentColor\" /></svg>","children":["$","$L17",null,{"children":["$","code",null,{"children":["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"$$"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"env:"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"HTTP_PROXY; $"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"env:"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"HTTPS_PROXY;"}]]}]}]}]}],["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"测试代理效果可选","children":["$L18","$L19"]}],"$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21"]}]
+d:["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"常见问题","children":[["$","a",null,{"data-card":"","href":"#常见问题","className":"peer","children":"常见问题"}],["$","$L9",null,{"iconNode":"$b:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+e:["$","$L22",null,{"children":[["$","$L23",null,{"title":"为什么终端显示已有代理，但还是很慢甚至无法连接？","children":["$","p",null,{"children":["终端代理的前提是已启用系统代理，请检查 ",["$","$L24",null,{"href":"../../system-proxy/clash-verge-rev","children":"小猫咪"}]," 是否正常运行。"]}]}],["$","$L23",null,{"title":"为什么之前配置过并且生效了，有一天又不行了？","children":["$","p",null,{"children":"本文演示的是 Windows PowerShell/PowerShell 两款 Shell 注入环境变量的操作步骤，Git Bash、CMD 或其他的 Shell 需要额外注入。"}]}]]}]
+f:["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"继续探索","children":[["$","a",null,{"data-card":"","href":"#继续探索","className":"peer","children":"继续探索"}],["$","$L9",null,{"iconNode":"$b:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+10:["$","p",null,{"children":"完成目标之后，休息一下。我们可以尝试这些："}]
+11:["$","ul",null,{"children":["\n",["$","li",null,{"children":"为注入设置“启停”"}],"\n",["$","li",null,{"children":"为 git、pip 等程序单独配置代理"}],"\n",["$","li",null,{"children":["通过 ",["$","code",null,{"children":"Get-ChildItem Env:"}]," 命令，探索除了 HTTP(S)_PROXY 之外的 更多 Windows PowerShell 环境变量"]}],"\n"]}]
+12:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2f46520a7df96dce.css","precedence":"next"}]
+13:["$","script","script-0",{"src":"/_next/static/chunks/6240248c32e5865d.js","async":true}]
+14:["$","script","script-1",{"src":"/_next/static/chunks/23c2c62e491f768d.js","async":true}]
+15:["$","$L25",null,{"children":["$","$26",null,{"name":"Next.MetadataOutlet","children":"$@27"}]}]
+18:["$","a",null,{"data-card":"","href":"#测试代理效果可选","className":"peer","children":"测试代理效果（可选）"}]
+19:["$","$L9",null,{"iconNode":"$b:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]
+1a:["$","p",null,{"children":["当终端返回 ",["$","code",null,{"children":"http://127.0.0.1:7897"}]," 的结果时，说明已成功注入，我们可以测试一下代理效果，这一步骤不是必需的。"]}]
+1b:["$","$L16",null,{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","title":"Windows Terminal（终端）","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"m 4,4 a 1,1 0 0 0 -0.7070312,0.2929687 1,1 0 0 0 0,1.4140625 L 8.5859375,11 3.2929688,16.292969 a 1,1 0 0 0 0,1.414062 1,1 0 0 0 1.4140624,0 l 5.9999998,-6 a 1.0001,1.0001 0 0 0 0,-1.414062 L 4.7070312,4.2929687 A 1,1 0 0 0 4,4 Z m 8,14 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 8 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z\" fill=\"currentColor\" /></svg>","children":["$","$L17",null,{"children":["$","code",null,{"children":["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"curl.exe"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" ipinfo.io"}]]}]}]}]}]
+1c:["$","$L16",null,{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"M 6,1 C 4.354992,1 3,2.354992 3,4 v 16 c 0,1.645008 1.354992,3 3,3 h 12 c 1.645008,0 3,-1.354992 3,-3 V 8 7 A 1.0001,1.0001 0 0 0 20.707031,6.2929687 l -5,-5 A 1.0001,1.0001 0 0 0 15,1 h -1 z m 0,2 h 7 v 3 c 0,1.645008 1.354992,3 3,3 h 3 v 11 c 0,0.564129 -0.435871,1 -1,1 H 6 C 5.4358712,21 5,20.564129 5,20 V 4 C 5,3.4358712 5.4358712,3 6,3 Z M 15,3.4140625 18.585937,7 H 16 C 15.435871,7 15,6.5641288 15,6 Z\" fill=\"currentColor\" /></svg>","children":["$","$L17",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":["$","span",null,{"children":"{"}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"ip\": \"xxx.xxx.xxx.xxx\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"hostname\": \"xxx\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"city\": \"Los Angeles\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"region\": \"California\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"country\": \"US\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"loc\": \"xxx,xxx\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"org\": \"AS25820 IT7 Networks Inc\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"postal\": \"90012\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"timezone\": \"America/Los_Angeles\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"readme\": \"https://ipinfo.io/missingauth\""}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"}"}]}]]}]}]}]
+1d:["$","$L16",null,{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"M 6,1 C 4.354992,1 3,2.354992 3,4 v 16 c 0,1.645008 1.354992,3 3,3 h 12 c 1.645008,0 3,-1.354992 3,-3 V 8 7 A 1.0001,1.0001 0 0 0 20.707031,6.2929687 l -5,-5 A 1.0001,1.0001 0 0 0 15,1 h -1 z m 0,2 h 7 v 3 c 0,1.645008 1.354992,3 3,3 h 3 v 11 c 0,0.564129 -0.435871,1 -1,1 H 6 C 5.4358712,21 5,20.564129 5,20 V 4 C 5,3.4358712 5.4358712,3 6,3 Z M 15,3.4140625 18.585937,7 H 16 C 15.435871,7 15,6.5641288 15,6 Z\" fill=\"currentColor\" /></svg>","children":["$","$L17",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":["$","span",null,{"children":"{"}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"ip\": \"xxx.xxx.xxx.xxx\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"city\": \"Shenzhen\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"region\": \"Guangdong\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"country\": \"CN\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"loc\": \"xxx,xxx\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"org\": \"AS4134 CHINANET-BACKBONE\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"postal\": \"518000\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"timezone\": \"Asia/Shanghai\","}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"  \"readme\": \"https://ipinfo.io/missingauth\""}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"children":"}"}]}]]}]}]}]
+1e:["$","p",null,{"children":["git clone ",["$","$L24",null,{"href":"https://github.com/ztm0929/ztm0929.cn.git","children":"https://github.com/ztm0929/ztm0929.cn.git"}]]}]
+1f:["$","p",null,{"children":"pip install requests"}]
+20:["$","p",null,{"children":"scoop install python"}]
+21:["$","p",null,{"children":"pnpm install next"}]
+27:null
