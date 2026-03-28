@@ -7,6 +7,7 @@ import {
 } from 'fumadocs-mdx/config';
 import lastModified from 'fumadocs-mdx/plugins/last-modified';
 import { remarkNpm, type RehypeCodeOptions } from 'fumadocs-core/mdx-plugins';
+import { remarkSteps } from 'fumadocs-core/mdx-plugins/remark-steps';
 import { z } from 'zod';
 import { visit } from 'unist-util-visit';
 import type { Element, Root } from 'hast';
@@ -84,6 +85,6 @@ export default defineConfig({
     rehypeCodeOptions: rehypeCodeOptions as RehypeCodeOptions,
     // 添加自定义脚注插件
     rehypePlugins: [customFootnotePlugin],
-	remarkPlugins: [remarkNpm],
+	remarkPlugins: [remarkNpm, remarkSteps],
   },
 });
