@@ -1,0 +1,65 @@
+---
+title: "如何用脚本辅助购票（深大体育场馆）"
+---
+
+## 我们的目标
+
+在完成基础信息填写后，**成功让脚本自动完成购票流程**，全程只打开浏览器一次。
+
+## 开始之前
+
+- [ ] 良好的网络环境（已开启 [终端代理](../naas/terminal-proxy) ）
+- [ ] 已安装 [Git](../git) 和 [Python](../python/pip)
+
+## 动手操作
+
+### 1. 检查基本环境
+
+```powershell title="Windows Terminal（终端）"
+Write-Host "【代理环境变量】"; $env:http_proxy; $env:https_proxy; `
+Write-Host "`n【Git 版本】"; git --version; `
+Write-Host "`n【Python 版本】"; python --version; `
+Write-Host "`n【pip 版本】"; pip --version
+```
+
+```powershell
+【代理环境变量】
+http://127.0.0.1:7897
+http://127.0.0.1:7897
+
+【Git 版本】
+git version 2.53.0.windows.2
+
+【Python 版本】
+Python 3.14.3
+
+【pip 版本】
+pip 25.3 from C:\Users\ztm0929\scoop\apps\python\current\Lib\site-packages\pip (python 3.14)
+```
+
+
+### 2. 获取脚本代码
+
+```powershell title="Windows Terminal（终端）"
+git clone https://github.com/Matt-Dong123/tools4szu.git
+```
+
+### 3. 购票流程
+
+## 总结回顾
+
+## 常见问题
+
+<Accordions>
+<Accordion title="与浏览器自动化相比，脚本的特点是什么？">
+由于不需要处理界面，只需要向目标接口发起网络请求，因此速度更快，效率更高。但行为特征较明显，服务器更容易识别为自动化操作。
+</Accordion>
+<Accordion title="为什么预约失败？">
+Cookie 有效期较短（大约 3 到 4 小时），建议在抢票时间半小时前手动登录获取最新的 Cookie。
+</Accordion>
+</Accordions>
+
+## 继续探索
+
+- 用 [Playwright](https://playwright.dev/python/docs/intro) 自动打开浏览器并登录，用于获取 Cookie
+- 用「任务计划程序」定时运行脚本（图形化界面 或 [命令行界面](https://learn.microsoft.com/zh-cn/training/modules/create-manage-scheduled-jobs-use-windows-powershell/)）
