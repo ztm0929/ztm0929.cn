@@ -1,9 +1,29 @@
 {
-    "redirects": [
-      {
-        "source": "/telegram",
-        "destination": "https://t.me/s/ztm0929_digitalhub",
-        "statusCode": 301
-      }
-    ]
+  "headers": [
+    {
+      "source": "/_next/static/*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/telegram",
+      "destination": "https://t.me/s/ztm0929_digitalhub",
+      "statusCode": 301
+    }
+  ]
 }
