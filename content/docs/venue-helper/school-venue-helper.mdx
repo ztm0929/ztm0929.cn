@@ -44,7 +44,7 @@ pip 25.3 from C:\Users\ztm0929\scoop\apps\python\current\Lib\site-packages\pip (
 git clone https://github.com/Matt-Dong123/tools4szu.git
 ```
 
-项目源码较粗糙，没有 requirements.txt 这样的依赖文件，我们需要手动安装一下所需依赖：requests、pandas 和 openpyxl。
+由于项目没有自动依赖文件（`requirements.txt`），我们需要手动安装脚本运行所需的 `requests`、`pandas` 和 `openpyxl` 这三个库。
 
 ```powershell title="Windows Terminal（终端）"
 cd tools4szu/venue-helper
@@ -53,7 +53,7 @@ venv\Scripts\activate
 pip install requests pandas openpyxl
 ```
 
-在正式开始前可以做个小检查，确认是否成功安装了依赖：
+安装完成后，建议运行 `pip list` 检查依赖是否安装成功。你应该能看到如下列表，如果缺少某个库，请重新运行安装命令。
 
 ```powershell title="Windows Terminal（终端）"
 pip list
@@ -79,7 +79,7 @@ urllib3            2.6.3
 
 
 
-### 3. 购票流程
+### 3. 配置购票参数
 
 <Accordions>
 <Accordion title="具体列表">
@@ -133,9 +133,33 @@ urllib3            2.6.3
 </Accordion>
 </Accordions>
 
+### 4. 运行脚本
 
+```powershell title="Windows Terminal（终端）"
+python main.py
+```
+
+运行成功后，它将会返回类似下面的输出：
+
+```powershell
+2026-03-27 02:13:29,856 - INFO - 开始预约: {'CGDM': '009', 'XMDM': '004', 'CDWID': '89d7005a36f341a39d89354d659b639d', 'XQWID': '1', 'KYYSJD': '13:00-14:00', 'YYRQ': '2026-03-27', 'YYLX': '1.0'}
+2026-03-27 02:13:30,817 - INFO - 预约结果: {"code":"0","msg":"成功","data":{"DHID":"202603270213296381"}}
+2026-03-27 02:13:31,018 - INFO - 开始预约: {'CGDM': '009', 'XMDM': '004', 'CDWID': '2b375360778a4978922e48b34d772947', 'XQWID': '1', 'KYYSJD': '13:00-14:00', 'YYRQ': '2026-03-27', 'YYLX': '1.0'}
+2026-03-27 02:13:31,254 - INFO - 预约结果: {"logId":"19e190aa096b46e3a2df20ce2e63f60e","code":"#E111080000000","msg":" 您已预约该场地的相同时间段，请选择其他时段"}
+2026-03-27 02:13:31,457 - INFO - 开始预约: {'CGDM': '009', 'XMDM': '004', 'CDWID': '89d7005a36f341a39d89354d659b639d', 'XQWID': '1', 'KYYSJD': '12:00-13:00', 'YYRQ': '2026-03-27', 'YYLX': '1.0'}
+2026-03-27 02:13:31,703 - INFO - 预约结果: {"logId":"19de4424dfa84f0ca8afd938d5c7db5c","code":"#E111080000000","msg":" 抱歉，您来迟了。该时段的预约已满，请选择其他时段进行预约"}
+2026-03-27 02:13:31,906 - INFO - 开始预约: {'CGDM': '009', 'XMDM': '004', 'CDWID': '2b375360778a4978922e48b34d772947', 'XQWID': '1', 'KYYSJD': '12:00-13:00', 'YYRQ': '2026-03-27', 'YYLX': '1.0'}
+2026-03-27 02:13:32,142 - INFO - 预约结果: {"logId":"1a7337efffd7404b84da50e6f32a1ad7","code":"#E111080000000","msg":" 抱歉，您来迟了。该时段的预约已满，请选择其他时段进行预约"}
+```
 
 ## 总结回顾
+
+总结一下，我们要做的事情就是：
+
+1. **检查环境**：确保网络代理和必要的软件（Git、Python）已正确安装和配置。
+2. **获取源码并安装依赖**：从 GitHub 克隆项目，创建虚拟环境，并安装所需的 Python 库。
+3. **配置购票参数**：根据目标场馆和项目，修改脚本中的参数以匹配你想预约的时间和场地。
+4. **运行脚本**：执行 Python 脚本，让它自动完成购票流程。
 
 ## 常见问题
 
@@ -144,7 +168,7 @@ urllib3            2.6.3
 由于不需要处理界面，只需要向目标接口发起网络请求，因此速度更快，效率更高。但行为特征较明显，服务器更容易识别为自动化操作。
 </Accordion>
 <Accordion title="为什么预约失败？">
-Cookie 有效期较短（大约 3 到 4 小时），建议在抢票时间半小时前手动登录获取最新的 Cookie。
+Cookie 的有效期通常只有 3~4 小时。建议在抢票前半小时内重新登录并获取最新 Cookie，以确保脚本能正常工作。
 </Accordion>
 </Accordions>
 
