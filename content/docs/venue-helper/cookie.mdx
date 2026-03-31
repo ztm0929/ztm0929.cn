@@ -10,20 +10,43 @@ pip install playwright
 playwright install
 ```
 
-```python
+```python title="browser_cookie.py"
 from playwright.sync_api import sync_playwright
 
+USERNAME = "xxx"
+PASSWORD = "xxx"
+
 with sync_playwright() as p:
-    browser = p.chromium.launch(headless=False)
-    context = browser.new_context()
+    # 使用持久化浏览器
+    context = p.chromium.launch_persistent_context(
+        user_data_dir="./user_data",  # 本地保存登录态
+        headless=False
+    )
+
     page = context.new_page()
 
     page.goto("https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/index.do")
 
+    page.locator('input[name="username"]').first.fill(USERNAME)
+    page.locator('input[name="passwordText"]').first.fill(PASSWORD)
+    page.locator('a[id="login_submit"]').first.click()
+
+    print("请手动完成短信验证码...")
+
+    # 等手动输入验证码 + 登录成功
+    page.wait_for_timeout(60000) 
+
+
+    # 可选：验证是否真的登录成功
+    page.wait_for_load_state("networkidle")
+
     # 获取 cookies
     cookies = context.cookies()
-    print(cookies)
 
-    browser.close()
-
+    cookie_header = "; ".join([
+        f"{c['name']}={c['value']}"
+        for c in cookies
+        if "ehall.szu.edu.cn" in c["domain"]
+    ])
+    print(cookie_header)
 ```
