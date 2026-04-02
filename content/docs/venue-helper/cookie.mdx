@@ -4,14 +4,27 @@ title: "如何手动获取 Cookie"
 
 Cookie 相当于密码凭证，能够用于发起抢票请求，因此请妥善保管，不要泄露给他人。
 
+<Callout title="我们的目标" type="success">
+在完成几个点击步骤后，**成功获取到 Cookie**，它的具体形态是一串纯文本。
+</Callout>
+
+## 开始之前
+
+- [ ] 已安装现代浏览器（如 Chrome、Edge、Firefox 等）
+- [ ] 拥有 [深大运动订票系统](https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/index.do) 的访问权限
+
 ## 动手操作
 
-### 1. 打开浏览器并登录
+### 1. 登录系统
 
-### 2. 打开浏览器开发者工具（F12），切换到 Network（网络） 标签页
+### 2. 检视开发者工具
 
-### 3. 刷新页面，找到目标请求
+### 3. 分析网络请求
 
-### 4. 查看请求 Headers（请求头），找到 Cookie 字段
+### 4. 提取 Cookie
 
-### 5. 复制 Cookie 字段的值，保存到本地文本文件中
+## 继续探索
+
+- 在获取到 Cookie 之后，我们就可以将它作为参数传递给 [自动预约脚本](./school-venue-helper.mdx)，来实现免登录预约
+- 尝试使用 [Playwright](./cookie-playwright.mdx) 模拟浏览器登录并获取 Cookie，进一步提升自动化程度，减少手动操作步骤
+
