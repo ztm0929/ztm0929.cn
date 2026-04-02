@@ -7,16 +7,20 @@ description: "深大体育场馆自动预约小助手"
 
 ## 项目结构
 
-```
-venue-helper/
-├── /data
-|   └── RoomList.xlsx
-|   └── TimeList.xlsx
-|   └── activities.xlsx
-|   └── venue.xlsx
-├── README.md
-├── apis.py
-├── download.py
-├── main.py
-└── settings.py
-```
+import { File, Folder, Files } from 'fumadocs-ui/components/files';
+
+<Files>
+  <Folder name="venue-helper" defaultOpen>
+    <Folder name="data" defaultOpen>
+	  <File name="RoomList.xlsx" />
+	  <File name="TimeList.xlsx" />
+	  <File name="activities.xlsx" />
+	  <File name="venue.xlsx" />
+	</Folder>
+	<File name="README.md" />
+    <File name="apis.py" />
+    <File name="download.py" />
+    <File name="main.py" />
+	<File name="settings.py" />
+  </Folder>
+</Files>
