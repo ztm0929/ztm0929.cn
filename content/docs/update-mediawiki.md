@@ -1,7 +1,8 @@
 ---
 title: 更新 MediaWiki 的简单步骤记录
-draft: true
 ---
+
+<DraftNotice />
 
 ## 备份数据库
 
