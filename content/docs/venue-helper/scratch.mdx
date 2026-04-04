@@ -10,6 +10,24 @@ title: "如何从零开始手搓项目"
 - VS Code 的基本使用（调试、Git 集成、Markdown 预览）
 </Callout>
 
+## 开始之前
+
+- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/getSportVenueData.do
+- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/getTimeList.do
+- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/modules/sportVenue/getOpeningRoom.do
+- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/insertVenueBookingInfo.do
+
+
+```
+api/
+├── client.py      # requests封装（统一headers/cookies）
+├── venue.py       # 场地相关
+├── booking.py     # 预约
+├── config.py      # 配置
+```
+
+## 动手操作
+
 ### 1. 检查环境
 
 ```powershell title="Windows Terminal（终端）"
@@ -57,3 +75,36 @@ cd next-venue-helper
 
 This is a simple venue booking helper for Python.
 ```
+
+## 总结回顾
+
+### Git 只记三条命令
+
+Git 非常强大也非常复杂，编程十年的老手可能也会感到困惑，我们作为小白只需要记住三条命令：
+
+- `git clone <repo_url>`：从远程仓库克隆代码到本地
+- `git add <file>`：将修改的文件添加到暂存区
+- `git commit -m "message"`：将暂存区的修改提交到本地仓库，并附上提交信息
+
+### 理解网络请求
+
+`GET` 请求是向服务器请求数据，`POST` 请求是向服务器提交数据。我们在后续的自动购票脚本中会大量使用这两种请求来与订票系统进行交互。
+
+### Python 项目结构（uv）
+
+uv 是一个现代的 Python 包管理工具，它简化了虚拟环境和依赖管理的过程。 在 uv 管理的项目中，我们通常会看到以下几个文件和目录：
+
+- `venv/`：虚拟环境目录，用于隔离项目的 Python 依赖
+- `README.md`：项目自述文件，介绍项目功能和使用方法	
+- `main.py`：项目的主入口文件，包含核心逻辑
+- `requirements.txt`：列出项目依赖的 Python 包及其版本（如果使用 uv，这个文件可能不存在，因为 uv 会直接管理依赖）
+
+### 函数设计原则
+
+在编写 Python 函数时，我们应该遵循以下设计原则：
+
+- 单一职责原则：每个函数应该只负责一个功能，避免过于复杂
+- 明确的输入输出：函数应该有清晰的参数和返回值，便于理解和测试
+- 避免副作用：函数应该尽量避免修改全局状态，保持纯函数的特性
+
+### VS Code 的基本使用
