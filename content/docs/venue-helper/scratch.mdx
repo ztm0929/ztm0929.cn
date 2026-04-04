@@ -1,0 +1,59 @@
+---
+title: "如何从零开始手搓项目"
+---
+
+「从零开始」其实指的是文件结构层面，我们依然要依赖前辈的代码理念。
+
+<Callout title="我们的目标" type="success">
+- 理解 Git 的基本使用
+- 熟悉 Python 项目的基本结构（env、PEP8、依赖、函数设计）
+- VS Code 的基本使用（调试、Git 集成、Markdown 预览）
+</Callout>
+
+### 1. 检查环境
+
+```powershell title="Windows Terminal（终端）"
+Write-Host "【代理环境变量】"; $env:http_proxy; $env:https_proxy; `
+Write-Host "`n【Git 版本】"; git --version; `
+Write-Host "`n【Python 版本】"; python --version; `
+Write-Host "`n【pip 版本】"; pip --version
+```
+
+我们需要确保：
+
+- 启用了终端代理，它能够加速我们后续的依赖安装和代码拉取
+- 安装了 Git，将引入版本管理的理念
+- 安装了 Python 和 pip，这是我们项目的主要开发语言和包管理工具
+
+如果没有意外，我们应该能够在终端看到类似如下的输出
+<br/>具体的端口号、版本号以及路径等信息可能因人而异：
+
+```powershell
+【代理环境变量】
+http://127.0.0.1:7897
+http://127.0.0.1:7897
+
+【Git 版本】
+git version 2.53.0.windows.2
+
+【Python 版本】
+Python 3.14.3
+
+【pip 版本】
+pip 25.3 from C:\Users\ztm0929\scoop\apps\python\current\Lib\site-packages\pip (python 3.14)
+```
+
+```powershell title="Windows Terminal（终端）"
+mkdir next-venue-helper
+cd next-venue-helper
+```
+
+
+
+`README.md`（自述文件）是开源项目的门面，好的自述文件能够让用户快速了解项目的功能和使用方法。
+
+```markdown title="README.md"
+# Next Venue Helper
+
+This is a simple venue booking helper for Python.
+```
