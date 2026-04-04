@@ -9,15 +9,13 @@ import type { MDXComponents } from 'mdx/types';
 import type { ReactNode } from 'react';
 
 function DraftNotice({
-  title = '草稿提示',
-  children = '本文未完工',
+  title = '本文尚处于草稿状态，内容可能不完整或存在错误'
 }: {
   title?: string;
   children?: ReactNode;
 }) {
   return (
     <Callout type="warn" title={title}>
-      {children}
     </Callout>
   );
 }
