@@ -1,0 +1,471 @@
+1:"$Sreact.fragment"
+2:I[57292,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js"],"AISearch"]
+3:I[57292,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js"],"AISearchPanel"]
+4:I[57292,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js"],"AISearchTrigger"]
+5:I[793739,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js","/_next/static/chunks/0mm_8n1f~m.nv.js","/_next/static/chunks/0dkvfubxibnf_.js","/_next/static/chunks/10k32-pq61aat.js","/_next/static/chunks/0i3iq9kg3x.~q.js","/_next/static/chunks/12p752ivm2e1-.js"],"default"]
+6:I[480899,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js"],"default"]
+7:I[631113,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js"],"default"]
+8:I[732124,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js"],"default"]
+9:I[429590,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js","/_next/static/chunks/0mm_8n1f~m.nv.js","/_next/static/chunks/0dkvfubxibnf_.js","/_next/static/chunks/10k32-pq61aat.js","/_next/static/chunks/0i3iq9kg3x.~q.js","/_next/static/chunks/12p752ivm2e1-.js"],""]
+a:I[200184,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js","/_next/static/chunks/0mm_8n1f~m.nv.js","/_next/static/chunks/0dkvfubxibnf_.js","/_next/static/chunks/10k32-pq61aat.js"],"LayoutBody"]
+18:I[169043,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js"],"default",1]
+:HL["/_next/static/chunks/0yb5mf6in4anq.css","style"]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/0sk6hd1aagp67.css","style"]
+0:{"P":null,"c":["","docs","advice-for-students",""],"q":"","i":false,"f":[[["",{"children":["docs",{"children":[["slug","advice-for-students","oc",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0yb5mf6in4anq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0i6nf72e-5i85.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/176nhx87jr~ho.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/0y~mauy2buhvc.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/13bvv~2y1k.bl.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/0ru1ptma7z_~x.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0xku.elhpkz_4.js","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/17zwzyh8yskki.js","async":true,"nonce":"$undefined"}],["$","script","script-7",{"src":"/_next/static/chunks/0nn~0mjvzl406.js","async":true,"nonce":"$undefined"}],["$","script","script-8",{"src":"/_next/static/chunks/04opq5z8tquyh.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"inter_5972bc34-module__OU16Qa__className","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","meta",null,{"name":"apple-mobile-web-app-title","content":"ztm0929"}]}],["$","body",null,{"className":"flex flex-col min-h-screen","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{"position":"float","className":"inline-flex items-center justify-center p-2 text-sm font-medium transition-colors duration-100 disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fd-ring border bg-fd-secondary hover:bg-fd-accent hover:text-fd-accent-foreground text-fd-muted-foreground rounded-2xl","children":[["$","$L5",null,{"ref":"$undefined","iconNode":[["path",{"d":"M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719","key":"1sd12s"}]],"className":"lucide-message-circle size-4.5"}],"Ask AI"]}],["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"flex flex-1 flex-col justify-center items-center text-center min-h-[80vh]","children":["$","div",null,{"className":"max-w-md mx-auto px-4","children":[["$","h1",null,{"className":"text-8xl font-bold text-fd-muted-foreground mb-4","children":"404"}],["$","h2",null,{"className":"text-2xl font-semibold mb-4","children":"页面未找到"}],["$","p",null,{"className":"text-fd-muted-foreground mb-8","children":"抱歉，您访问的页面不存在或已被移动。"}],["$","div",null,{"className":"flex flex-col gap-4 sm:flex-row sm:justify-center","children":[["$","$L9",null,{"href":"/","className":"inline-flex items-center justify-center rounded-md bg-fd-primary px-6 py-3 text-sm font-medium text-fd-primary-foreground hover:bg-fd-primary/90 transition-colors","children":"回到主页"}],["$","$L9",null,{"href":"/docs","className":"inline-flex items-center justify-center rounded-md border border-fd-border px-6 py-3 text-sm font-medium hover:bg-fd-accent transition-colors","children":"浏览「小白教程库」"}]]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":[["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/0mm_8n1f~m.nv.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0dkvfubxibnf_.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/10k32-pq61aat.js","async":true,"nonce":"$undefined"}]],["$","$La",null,{"tree":{"$id":"root","name":"Docs","children":[{"$id":"index.mdx","type":"page","name":"小白教程库","description":"适合小白的电脑入门教程与避坑笔记","icon":["$","$L5","sidebar-icon",{"ref":"$undefined","iconNode":[["path",{"d":"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8","key":"5wwlr5"}],["path",{"d":"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z","key":"r6nss1"}]],"className":"lucide-house"}],"url":"/docs","$ref":{"file":"index.mdx"}},{"type":"folder","name":"NaaS","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"type":"folder","name":"系统代理","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"naas/system-proxy/clash-macos.mdx","type":"page","name":"如何为 macOS 配置系统代理","description":"在 macOS 使用小猫咪优化网络","icon":"$undefined","url":"/docs/naas/system-proxy/clash-macos","$ref":{"file":"naas/system-proxy/clash-macos.mdx"}},{"$id":"naas/system-proxy/clash-verge-rev.mdx","type":"page","name":"如何为 Windows 配置系统代理","description":"在 Windows 使用小猫咪优化网络","icon":"$undefined","url":"/docs/naas/system-proxy/clash-verge-rev","$ref":{"file":"naas/system-proxy/clash-verge-rev.mdx"}},{"$id":"naas/system-proxy/update-clash-subs.mdx","type":"page","name":"小猫咪订阅更新步骤","description":"只需3步，完成更新","icon":"$undefined","url":"/docs/naas/system-proxy/update-clash-subs","$ref":{"file":"naas/system-proxy/update-clash-subs.mdx"}}],"$id":"naas/system-proxy","$ref":"$undefined","index":{"$id":"naas/system-proxy/index.md","type":"page","name":"系统代理","description":"$undefined","icon":"$undefined","url":"/docs/naas/system-proxy","$ref":{"file":"naas/system-proxy/index.md"}},"icon":"$undefined"},{"type":"folder","name":"终端代理","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"naas/terminal-proxy/macos.md","type":"page","name":"如何为 macOS 终端启用代理","description":"$undefined","icon":"$undefined","url":"/docs/naas/terminal-proxy/macos","$ref":{"file":"naas/terminal-proxy/macos.md"}},{"$id":"naas/terminal-proxy/windows.mdx","type":"page","name":"如何为 Windows 终端启用代理","description":"$undefined","icon":"$undefined","url":"/docs/naas/terminal-proxy/windows","$ref":{"file":"naas/terminal-proxy/windows.mdx"}}],"$id":"naas/terminal-proxy","$ref":"$undefined","index":{"$id":"naas/terminal-proxy/index.md","type":"page","name":"终端代理","description":"$undefined","icon":"$undefined","url":"/docs/naas/terminal-proxy","$ref":{"file":"naas/terminal-proxy/index.md"}},"icon":"$undefined"}],"$id":"naas","$ref":"$undefined","index":{"$id":"naas/index.mdx","type":"page","name":"NaaS","description":"网络即服务（Network as a Service）","icon":"$Lb","url":"/docs/naas","$ref":{"file":"naas/index.mdx"}},"icon":"$b"},{"$id":"_0","type":"separator","icon":"$undefined","name":" "},{"type":"folder","name":"必备工具链","root":"$undefined","defaultOpen":true,"description":"$undefined","collapsible":"$undefined","children":[{"type":"folder","name":"Markdown","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"toolchain/markdown/markdown.mdx","type":"page","name":"Markdown 基础教程","description":"本教程介绍 Markdown 的基本语法和使用方法。","icon":"$undefined","url":"/docs/toolchain/markdown/markdown","$ref":{"file":"toolchain/markdown/markdown.mdx"}}],"$id":"toolchain/markdown","$ref":"$undefined","icon":"$undefined"},{"type":"folder","name":"软件（包）管理器","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"type":"folder","name":"Homebrew","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"toolchain/package-managers/homebrew/install.mdx","type":"page","name":"如何安装 Homebrew","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/package-managers/homebrew/install","$ref":{"file":"toolchain/package-managers/homebrew/install.mdx"}}],"$id":"toolchain/package-managers/homebrew","$ref":"$undefined","index":{"$id":"toolchain/package-managers/homebrew/index.mdx","type":"page","name":"Homebrew","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/package-managers/homebrew","$ref":{"file":"toolchain/package-managers/homebrew/index.mdx"}},"icon":"$undefined"},{"type":"folder","name":"Scoop","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"toolchain/package-managers/scoop/install.mdx","type":"page","name":"如何安装 Scoop","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/package-managers/scoop/install","$ref":{"file":"toolchain/package-managers/scoop/install.mdx"}}],"$id":"toolchain/package-managers/scoop","$ref":"$undefined","index":{"$id":"toolchain/package-managers/scoop/index.mdx","type":"page","name":"Scoop","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/package-managers/scoop","$ref":{"file":"toolchain/package-managers/scoop/index.mdx"}},"icon":"$undefined"}],"$id":"toolchain/package-managers","$ref":{"metaFile":"toolchain/package-managers/meta.json"},"icon":"$undefined"},{"type":"folder","name":"GitHub","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[],"$id":"toolchain/github","$ref":"$undefined","index":{"$id":"toolchain/github/index.mdx","type":"page","name":"GitHub","description":"GitHub 相关的笔记和资源","icon":"$undefined","url":"/docs/toolchain/github","$ref":{"file":"toolchain/github/index.mdx"}},"icon":"$undefined"},{"type":"folder","name":"Python","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"toolchain/python/install.mdx","type":"page","name":"如何安装 Python","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/python/install","$ref":{"file":"toolchain/python/install.mdx"}},{"type":"folder","name":"Conda","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[],"$id":"toolchain/python/conda","$ref":"$undefined","index":{"$id":"toolchain/python/conda/index.mdx","type":"page","name":"Conda","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/python/conda","$ref":{"file":"toolchain/python/conda/index.mdx"}},"icon":"$undefined"},{"type":"folder","name":"pip","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[],"$id":"toolchain/python/pip","$ref":"$undefined","index":{"$id":"toolchain/python/pip/index.mdx","type":"page","name":"pip","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/python/pip","$ref":{"file":"toolchain/python/pip/index.mdx"}},"icon":"$undefined"},{"type":"folder","name":"UV","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[],"$id":"toolchain/python/uv","$ref":"$undefined","index":{"$id":"toolchain/python/uv/index.mdx","type":"page","name":"UV","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/python/uv","$ref":{"file":"toolchain/python/uv/index.mdx"}},"icon":"$undefined"}],"$id":"toolchain/python","$ref":"$undefined","icon":"$undefined"},{"type":"folder","name":"Shell 与终端","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"toolchain/shell/powershell.md","type":"page","name":"PowerShell","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/shell/powershell","$ref":{"file":"toolchain/shell/powershell.md"}},{"$id":"toolchain/shell/terminal.app.mdx","type":"page","name":"Terminal.app（macOS 终端）","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/shell/terminal.app","$ref":{"file":"toolchain/shell/terminal.app.mdx"}},{"$id":"toolchain/shell/windows-terminal.mdx","type":"page","name":"Windows Terminal（终端）","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/shell/windows-terminal","$ref":{"file":"toolchain/shell/windows-terminal.mdx"}},{"type":"folder","name":"WSL","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"toolchain/shell/wsl/install.mdx","type":"page","name":"如何安装 WSL","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/shell/wsl/install","$ref":{"file":"toolchain/shell/wsl/install.mdx"}},{"$id":"toolchain/shell/wsl/proxy.mdx","type":"page","name":"如何为 WSL 启用代理","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/shell/wsl/proxy","$ref":{"file":"toolchain/shell/wsl/proxy.mdx"}}],"$id":"toolchain/shell/wsl","$ref":"$undefined","index":{"$id":"toolchain/shell/wsl/index.md","type":"page","name":"WSL","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/shell/wsl","$ref":{"file":"toolchain/shell/wsl/index.md"}},"icon":"$undefined"}],"$id":"toolchain/shell","$ref":{"metaFile":"toolchain/shell/meta.json"},"icon":"$undefined"},{"type":"folder","name":"Docker","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"toolchain/docker/install.mdx","type":"page","name":"如何安装 Docker","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/docker/install","$ref":{"file":"toolchain/docker/install.mdx"}}],"$id":"toolchain/docker","$ref":"$undefined","index":{"$id":"toolchain/docker/index.mdx","type":"page","name":"Docker","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/docker","$ref":{"file":"toolchain/docker/index.mdx"}},"icon":"$undefined"},{"type":"folder","name":"Git","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"toolchain/git/git-resolve-conflicts.mdx","type":"page","name":"Git 消除冲突操作","description":"记录一次 Git 消除冲突的操作。","icon":"$undefined","url":"/docs/toolchain/git/git-resolve-conflicts","$ref":{"file":"toolchain/git/git-resolve-conflicts.mdx"}},{"$id":"toolchain/git/git-revert.mdx","type":"page","name":"Git 撤销操作","description":"记录一次 Git 撤销操作步骤","icon":"$undefined","url":"/docs/toolchain/git/git-revert","$ref":{"file":"toolchain/git/git-revert.mdx"}},{"$id":"toolchain/git/install.mdx","type":"page","name":"如何安装 Git","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/git/install","$ref":{"file":"toolchain/git/install.mdx"}},{"$id":"toolchain/git/sparse-checkout.mdx","type":"page","name":"记录一次稀疏检出的操作","description":"$undefined","icon":"$undefined","url":"/docs/toolchain/git/sparse-checkout","$ref":{"file":"toolchain/git/sparse-checkout.mdx"}}],"$id":"toolchain/git","$ref":"$undefined","index":{"$id":"toolchain/git/index.mdx","type":"page","name":"Git","description":"Git 是一个强大的分布式版本控制系统。","icon":"$undefined","url":"/docs/toolchain/git","$ref":{"file":"toolchain/git/index.mdx"}},"icon":"$undefined"}],"$id":"toolchain","$ref":{"metaFile":"toolchain/meta.json"},"icon":"$Lc"},{"$id":"_1","type":"separator","icon":"$undefined","name":" "},{"type":"folder","name":"RSS","root":"$undefined","defaultOpen":false,"description":"$undefined","collapsible":"$undefined","children":[{"$id":"rss/freshrss-deploy.mdx","type":"page","name":"部署 FreshRSS","description":"FreshRSS 是一个自托管的 RSS 阅读器。","icon":"$undefined","url":"/docs/rss/freshrss-deploy","$ref":{"file":"rss/freshrss-deploy.mdx"}},{"$id":"rss/open-source-release-note.mdx","type":"page","name":"如何订阅开源项目的 Release","description":"$undefined","icon":"$undefined","url":"/docs/rss/open-source-release-note","$ref":{"file":"rss/open-source-release-note.mdx"}}],"$id":"rss","$ref":{"metaFile":"rss/meta.json"},"index":{"$id":"rss/index.mdx","type":"page","name":"RSS","description":"$undefined","icon":"$undefined","url":"/docs/rss","$ref":{"file":"rss/index.mdx"}},"icon":"$Ld"},{"type":"folder","name":"大前端","root":"$undefined","defaultOpen":false,"description":"$undefined","collapsible":"$undefined","children":[{"type":"folder","name":"Fumadocs","root":"$undefined","defaultOpen":false,"description":"$undefined","collapsible":"$undefined","children":[{"$id":"frontend/fumadocs/installation.mdx","type":"page","name":"如何在本地运行 Fumadocs","description":"$undefined","icon":"$undefined","url":"/docs/frontend/fumadocs/installation","$ref":{"file":"frontend/fumadocs/installation.mdx"}},{"$id":"frontend/fumadocs/making-a-blog-with-fumadocs.mdx","type":"page","name":"使用 Fumadocs 搭建博客","description":"Making a Blog with Fumadocs 的译文","icon":"$undefined","url":"/docs/frontend/fumadocs/making-a-blog-with-fumadocs","$ref":{"file":"frontend/fumadocs/making-a-blog-with-fumadocs.mdx"}}],"$id":"frontend/fumadocs","$ref":{"metaFile":"frontend/fumadocs/meta.json"},"index":{"$id":"frontend/fumadocs/index.md","type":"page","name":"Fumadocs 文档站","description":"$undefined","icon":"$undefined","url":"/docs/frontend/fumadocs","$ref":{"file":"frontend/fumadocs/index.md"}},"icon":"$undefined"},{"type":"folder","name":"Javascript","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"frontend/javascript/basics.mdx","type":"page","name":"JavaScript 基础语法","description":"JavaScript 编程语言的基础语法介绍","icon":"$undefined","url":"/docs/frontend/javascript/basics","$ref":{"file":"frontend/javascript/basics.mdx"}}],"$id":"frontend/javascript","$ref":"$undefined","icon":"$undefined"},{"type":"folder","name":"Next.js","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"frontend/nextjs/nextjs-tutorial.mdx","type":"page","name":"Next.js 入门教程","description":"从零开始学习 Next.js 框架","icon":"$undefined","url":"/docs/frontend/nextjs/nextjs-tutorial","$ref":{"file":"frontend/nextjs/nextjs-tutorial.mdx"}}],"$id":"frontend/nextjs","$ref":"$undefined","index":{"$id":"frontend/nextjs/index.mdx","type":"page","name":"Next.js","description":"Next.js 是一个全栈开发框架","icon":"$undefined","url":"/docs/frontend/nextjs","$ref":{"file":"frontend/nextjs/index.mdx"}},"icon":"$undefined"},{"type":"folder","name":"Nodejs","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"frontend/nodejs/node-installation.mdx","type":"page","name":"Node.js 安装与使用","description":"本教程演示 Windows 系统上安装 Node.js 的步骤，并介绍基本的使用方法。","icon":"$undefined","url":"/docs/frontend/nodejs/node-installation","$ref":{"file":"frontend/nodejs/node-installation.mdx"}},{"$id":"frontend/nodejs/node.mdx","type":"page","name":"如何在 Windows 安装 Node.js","description":"$undefined","icon":"$undefined","url":"/docs/frontend/nodejs/node","$ref":{"file":"frontend/nodejs/node.mdx"}},{"$id":"frontend/nodejs/pnpm.mdx","type":"page","name":"如何在 Windows 安装 pnpm","description":"$undefined","icon":"$undefined","url":"/docs/frontend/nodejs/pnpm","$ref":{"file":"frontend/nodejs/pnpm.mdx"}}],"$id":"frontend/nodejs","$ref":"$undefined","icon":"$undefined"},{"type":"folder","name":"React","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"frontend/react/hooks.mdx","type":"page","name":"React Hooks 入门","description":"React Hooks 的基础概念和使用方法","icon":"$undefined","url":"/docs/frontend/react/hooks","$ref":{"file":"frontend/react/hooks.mdx"}}],"$id":"frontend/react","$ref":"$undefined","index":{"$id":"frontend/react/index.mdx","type":"page","name":"React","description":"React 是一个构建 UI 组件的库","icon":"$undefined","url":"/docs/frontend/react","$ref":{"file":"frontend/react/index.mdx"}},"icon":"$undefined"},{"type":"folder","name":"Tailwind CSS","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[],"$id":"frontend/tailwind-css","$ref":"$undefined","index":{"$id":"frontend/tailwind-css/index.md","type":"page","name":"Tailwind CSS","description":"A utility-first CSS framework for rapid UI development.","icon":"$undefined","url":"/docs/frontend/tailwind-css","$ref":{"file":"frontend/tailwind-css/index.md"}},"icon":"$undefined"},{"type":"folder","name":"Vuepress","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"frontend/vuepress/how-to-install-vuepress-theme-plume.mdx","type":"page","name":"如何安装 Plume（羽毛） 主题","description":"本文将指导您如何在 VuePress 项目中安装和使用 Plume 主题。","icon":"$undefined","url":"/docs/frontend/vuepress/how-to-install-vuepress-theme-plume","$ref":{"file":"frontend/vuepress/how-to-install-vuepress-theme-plume.mdx"}}],"$id":"frontend/vuepress","$ref":"$undefined","icon":"$undefined"}],"$id":"frontend","$ref":{"metaFile":"frontend/meta.json"},"icon":"$Le"},{"type":"folder","name":"办公软件","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"type":"folder","name":"Excel","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[],"$id":"office/excel","$ref":"$undefined","index":{"$id":"office/excel/index.mdx","type":"page","name":"Excel","description":"$undefined","icon":"$undefined","url":"/docs/office/excel","$ref":{"file":"office/excel/index.mdx"}},"icon":"$undefined"},{"type":"folder","name":"Word","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[],"$id":"office/word","$ref":"$undefined","index":{"$id":"office/word/index.mdx","type":"page","name":"Word","description":"$undefined","icon":"$undefined","url":"/docs/office/word","$ref":{"file":"office/word/index.mdx"}},"icon":"$undefined"},{"type":"folder","name":"飞书","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[],"$id":"office/feishu","$ref":"$undefined","index":{"$id":"office/feishu/index.mdx","type":"page","name":"飞书","description":"$undefined","icon":"$undefined","url":"/docs/office/feishu","$ref":{"file":"office/feishu/index.mdx"}},"icon":"$undefined"}],"$id":"office","$ref":{"metaFile":"office/meta.json"},"index":{"$id":"office/index.mdx","type":"page","name":"办公软件","description":"$undefined","icon":"$Lf","url":"/docs/office","$ref":{"file":"office/index.mdx"}},"icon":"$f"},{"$id":"_2","type":"separator","icon":"$L10","name":"其他"},{"$id":"advice-for-students.mdx","type":"page","name":"写给学生的建议","description":"Advice for students 的译文","icon":"$undefined","url":"/docs/advice-for-students","$ref":{"file":"advice-for-students.mdx"}},{"$id":"alipayhk.mdx","type":"page","name":"AlipayHK","description":"AlipayHK（支付宝香港）是支付宝为香港市场推出的本地化版本。","icon":"$undefined","url":"/docs/alipayhk","$ref":{"file":"alipayhk.mdx"}},{"$id":"caddy-and-formbricks.mdx","type":"page","name":"Formbricks 配置 Caddy 反代","description":"$undefined","icon":"$undefined","url":"/docs/caddy-and-formbricks","$ref":{"file":"caddy-and-formbricks.mdx"}},{"$id":"host-memos.mdx","type":"page","name":"使用 Docker 部署 Memos 服务","description":"Memos 是一个轻量级的开源笔记应用","icon":"$undefined","url":"/docs/host-memos","$ref":{"file":"host-memos.mdx"}},{"$id":"how-to-contribute-to-ac-wiki.mdx","type":"page","name":"如何参与 Ac-Wiki","description":"Ac-Wiki，大学生的百科全书","icon":"$undefined","url":"/docs/how-to-contribute-to-ac-wiki","$ref":{"file":"how-to-contribute-to-ac-wiki.mdx"}},{"$id":"proxy-server.mdx","type":"page","name":"如何搭建代理服务器","description":"$undefined","icon":"$undefined","url":"/docs/proxy-server","$ref":{"file":"proxy-server.mdx"}},{"$id":"self-host-calibre.mdx","type":"page","name":"自部署 Calibre 图书库","description":"Calibre 是一个开源的电子书管理软件。","icon":"$undefined","url":"/docs/self-host-calibre","$ref":{"file":"self-host-calibre.mdx"}},{"$id":"ssh-proxy.mdx","type":"page","name":"SSH 隧道（反向代理）","description":"$undefined","icon":"$undefined","url":"/docs/ssh-proxy","$ref":{"file":"ssh-proxy.mdx"}},{"$id":"ssh-vps.mdx","type":"page","name":"VPS 配置 SSH 连接","description":"为 macOS 和 Windows 配置 SSH 连接到 VPS 的步骤","icon":"$undefined","url":"/docs/ssh-vps","$ref":{"file":"ssh-vps.mdx"}},{"$id":"turkey-apple-account.mdx","type":"page","name":"如何创建土区 Apple 账户","description":"$undefined","icon":"$undefined","url":"/docs/turkey-apple-account","$ref":{"file":"turkey-apple-account.mdx"}},{"$id":"update-mediawiki.md","type":"page","name":"更新 MediaWiki 的简单步骤记录","description":"$undefined","icon":"$undefined","url":"/docs/update-mediawiki","$ref":{"file":"update-mediawiki.md"}},{"type":"folder","name":"Chromium","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[],"$id":"chromium","$ref":"$undefined","index":{"$id":"chromium/index.mdx","type":"page","name":"Chromium","description":"$undefined","icon":"$undefined","url":"/docs/chromium","$ref":{"file":"chromium/index.mdx"}},"icon":"$undefined"},{"type":"folder","name":"Hugging Face","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[],"$id":"huggingface","$ref":"$undefined","index":{"$id":"huggingface/index.mdx","type":"page","name":"Hugging Face","description":"$undefined","icon":"$undefined","url":"/docs/huggingface","$ref":{"file":"huggingface/index.mdx"}},"icon":"$undefined"},{"type":"folder","name":"Telegram","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[],"$id":"telegram","$ref":"$undefined","index":{"$id":"telegram/index.mdx","type":"page","name":"Telegram","description":"$undefined","icon":"$undefined","url":"/docs/telegram","$ref":{"file":"telegram/index.mdx"}},"icon":"$undefined"},{"type":"folder","name":"SZU 体育场馆订票小助手","root":"$undefined","defaultOpen":"$undefined","description":"$undefined","collapsible":"$undefined","children":[{"$id":"venue-helper/cookie.mdx","type":"page","name":"如何手动获取 Cookie","description":"$undefined","icon":"$undefined","url":"/docs/venue-helper/cookie","$ref":{"file":"venue-helper/cookie.mdx"}},{"$id":"venue-helper/usage.mdx","type":"page","name":"如何半自动购票","description":"$undefined","icon":"$undefined","url":"/docs/venue-helper/usage","$ref":{"file":"venue-helper/usage.mdx"}},{"$id":"venue-helper/cookie-playwright.mdx","type":"page","name":"如何自动获取 Cookie","description":"$undefined","icon":"$undefined","url":"/docs/venue-helper/cookie-playwright","$ref":{"file":"venue-helper/cookie-playwright.mdx"}},{"$id":"venue-helper/task-scheduler.mdx","type":"page","name":"如何定时抢票","description":"$undefined","icon":"$undefined","url":"/docs/venue-helper/task-scheduler","$ref":{"file":"venue-helper/task-scheduler.mdx"}},{"$id":"venue-helper/scratch.mdx","type":"page","name":"如何从零开始手搓项目","description":"$undefined","icon":"$undefined","url":"/docs/venue-helper/scratch","$ref":{"file":"venue-helper/scratch.mdx"}}],"$id":"venue-helper","$ref":{"metaFile":"venue-helper/meta.json"},"index":{"$id":"venue-helper/index.mdx","type":"page","name":"venue-helper","description":"深大体育场馆自动预约小助手","icon":"$undefined","url":"/docs/venue-helper","$ref":{"file":"venue-helper/index.mdx"}},"icon":"$undefined"}]},"tabs":[],"tabMode":"$undefined","sidebar":{},"nav":{"title":"$L11"},"githubUrl":"https://github.com/ztm0929","links":[{"type":"icon","label":"telegram","icon":"$L12","text":"telegram","url":"https://t.me/s/ztm0929_digitalhub"}],"children":"$L13"}]]}],{"children":["$L14",{"children":["$L15",{},null,false,null]},null,false,"$@16"]},null,false,null]},null,false,null],"$L17",false]],"m":"$undefined","G":["$18",["$L19"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"420R-KXN_WyZXliBwyupS"}
+1a:I[577835,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js","/_next/static/chunks/0mm_8n1f~m.nv.js","/_next/static/chunks/0dkvfubxibnf_.js","/_next/static/chunks/10k32-pq61aat.js","/_next/static/chunks/0i3iq9kg3x.~q.js","/_next/static/chunks/12p752ivm2e1-.js"],"Image"]
+1c:I[805061,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js"],"OutletBoundary"]
+1d:"$Sreact.suspense"
+20:I[805061,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js"],"ViewportBoundary"]
+22:I[805061,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js"],"MetadataBoundary"]
+b:["$","$L5","sidebar-icon",{"ref":"$undefined","iconNode":[["circle",{"cx":"12","cy":"12","r":"10","key":"1mglay"}],["path",{"d":"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20","key":"13o1zl"}],["path",{"d":"M2 12h20","key":"9i4pu4"}]],"className":"lucide-globe"}]
+c:["$","$L5","sidebar-icon",{"ref":"$undefined","iconNode":[["path",{"d":"m15 12-9.373 9.373a1 1 0 0 1-3.001-3L12 9","key":"1hayfq"}],["path",{"d":"m18 15 4-4","key":"16gjal"}],["path",{"d":"m21.5 11.5-1.914-1.914A2 2 0 0 1 19 8.172v-.344a2 2 0 0 0-.586-1.414l-1.657-1.657A6 6 0 0 0 12.516 3H9l1.243 1.243A6 6 0 0 1 12 8.485V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5","key":"15ts47"}]],"className":"lucide-hammer"}]
+d:["$","$L5","sidebar-icon",{"ref":"$undefined","iconNode":[["path",{"d":"M4 11a9 9 0 0 1 9 9","key":"pv89mb"}],["path",{"d":"M4 4a16 16 0 0 1 16 16","key":"k0647b"}],["circle",{"cx":"5","cy":"19","r":"1","key":"bfqh0e"}]],"className":"lucide-rss"}]
+e:["$","$L5","sidebar-icon",{"ref":"$undefined","iconNode":[["path",{"d":"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z","key":"1oefj6"}],["path",{"d":"M14 2v5a1 1 0 0 0 1 1h5","key":"wfsgrz"}],["path",{"d":"M10 12.5 8 15l2 2.5","key":"1tg20x"}],["path",{"d":"m14 12.5 2 2.5-2 2.5","key":"yinavb"}]],"className":"lucide-file-code"}]
+f:["$","$L5","sidebar-icon",{"ref":"$undefined","iconNode":[["path",{"d":"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z","key":"1oefj6"}],["path",{"d":"M14 2v5a1 1 0 0 0 1 1h5","key":"wfsgrz"}],["path",{"d":"M8 13h2","key":"yr2amv"}],["path",{"d":"M14 13h2","key":"un5t4a"}],["path",{"d":"M8 17h2","key":"2yhykz"}],["path",{"d":"M14 17h2","key":"10kma7"}]],"className":"lucide-file-spreadsheet"}]
+10:["$","$L5","sidebar-icon",{"ref":"$undefined","iconNode":[["circle",{"cx":"12","cy":"12","r":"10","key":"1mglay"}],["path",{"d":"M17 12h.01","key":"1m0b6t"}],["path",{"d":"M12 12h.01","key":"1mp3jc"}],["path",{"d":"M7 12h.01","key":"eqddd0"}]],"className":"lucide-circle-ellipsis"}]
+11:["$","div",null,{"className":"flex items-center gap-2","children":[["$","$L1a",null,{"src":"https://github.com/ztm0929.png","alt":"个人头像","width":24,"height":24,"className":"rounded-full","priority":true}],["$","span",null,{"children":"ztm0929"}]]}]
+12:["$","svg",null,{"viewBox":"0 0 24 24","fill":"currentColor","className":"w-5 h-5","children":["$","path",null,{"d":"M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"}]}]
+13:["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]
+14:["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+15:["$","$1","c",{"children":["$L1b",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0sk6hd1aagp67.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0i3iq9kg3x.~q.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/12p752ivm2e1-.js","async":true,"nonce":"$undefined"}]],["$","$L1c",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]]}]
+1f:[]
+16:"$W1f"
+17:["$","$1","h",{"children":[null,["$","$L20",null,{"children":"$L21"}],["$","div",null,{"hidden":true,"children":["$","$L22",null,{"children":["$","$1d",null,{"name":"Next.Metadata","children":"$L23"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+19:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0yb5mf6in4anq.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+24:I[965410,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js","/_next/static/chunks/0mm_8n1f~m.nv.js","/_next/static/chunks/0dkvfubxibnf_.js","/_next/static/chunks/10k32-pq61aat.js","/_next/static/chunks/0i3iq9kg3x.~q.js","/_next/static/chunks/12p752ivm2e1-.js"],"DocsPage"]
+25:I[965410,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js","/_next/static/chunks/0mm_8n1f~m.nv.js","/_next/static/chunks/0dkvfubxibnf_.js","/_next/static/chunks/10k32-pq61aat.js","/_next/static/chunks/0i3iq9kg3x.~q.js","/_next/static/chunks/12p752ivm2e1-.js"],"DocsTitle"]
+26:I[965410,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js","/_next/static/chunks/0mm_8n1f~m.nv.js","/_next/static/chunks/0dkvfubxibnf_.js","/_next/static/chunks/10k32-pq61aat.js","/_next/static/chunks/0i3iq9kg3x.~q.js","/_next/static/chunks/12p752ivm2e1-.js"],"DocsDescription"]
+27:I[302559,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js","/_next/static/chunks/0mm_8n1f~m.nv.js","/_next/static/chunks/0dkvfubxibnf_.js","/_next/static/chunks/10k32-pq61aat.js","/_next/static/chunks/0i3iq9kg3x.~q.js","/_next/static/chunks/12p752ivm2e1-.js"],"LLMCopyButton"]
+28:T4531,---
+title: "写给学生的建议"
+description: "Advice for students 的译文"
+---
+
+<DraftNotice />
+
+import Image from 'next/image'
+
+<Callout title="天明注">
+	这是一篇译文，原文为 [Stephen Wu](https://wustep.me/) 于 2024 年 9 月发表的 [Advice for students](https://wustep.me/advice-students)。Stephen
+	曾经在 Facebook 工作，现为 Notion 数据库团队的软件工程师。我在推特偶然看到他的主页并读到此文，深受启发，遂翻译分享。**以下正文中的「我」均指原作者 Stephen Wu**，如有歧义请以原文为准。
+</Callout>
+
+**一些适合学生的通用建议**
+
+这些建议主要面向那些对在现代科技公司担任技术岗位感兴趣的计算机专业大学生，不过，其中很多内容对其他人也同样适用。
+
+常见的技术岗位有：软件工程师、产品经理、数据科学家、数据工程师或产品设计师等。
+
+## 通用建议
+
+**我对学生们的一贯建议可以总结为以下几点：**
+
+1. 探索生命的意义（ikigai），并寻求目标与内心的一致性。
+2. 打好心理与身体健康的基础。
+3. 开展你热爱的课余项目，并与志同道合的伙伴一起完成。
+4. 在职业发展上做出「明智的」投入。
+5. 让阅读成为一种习惯，也成为一种热爱。
+6. 不要像 NPC 那样随波逐流、缺乏思考！
+
+---
+
+**关于建议的一点说明**
+
+- 建议总是依赖于特定语境，也往往是简化的表达，因此并不一定适用于每个人。
+- 接纳那些与你产生共鸣的建议，并时常回顾；无法产生共鸣的也无需强求。
+- 多接触不同的资源，广泛阅读各种想法！
+
+---
+
+## optimizing for ikigai & alignment.
+
+### ikigai（存在的意义）
+
+人们常用这样一幅维恩图来形象地解释 ikigai（存在的意义）：
+
+找到你的 ikigai，意味着找到你热爱的事、你擅长的事、这个世界需要的事、以及能为你带来收入的事，这四者的交集。
+
+- 你热爱的事：是那些你在从事时感到真正的乐趣与激情的工作。
+
+- 你能获得报酬的事：是那些能为你带来外在回报，有助于生活与财务的工作。
+
+- 你擅长的事：你的技能与这类工作高度契合，而且你也有持续提升的兴趣。
+
+- 这个世界需要的事：你能为他人创造价值，并感受到自己正在为社会或社群做出贡献。
+
+在我与人们探讨职业满足感时，我发现最快乐的人，往往在这四个方面都达到了很高的程度。
+
+---
+
+你也可以从另一个角度思考：寻找那些既能激发你内在热情，又能带来外在回报的机会。
+在职业生涯的早期阶段，你也许更应该关注**成长空间**和**学习潜力**。
+
+通常来说，那些兼具内外动机的事情——既让你发自内心地热爱，又带来现实回报——你越有动力去做好，它们成功的可能性也越大。
+
+**举几个例子：**
+
+- 我在做一个我热爱的课余项目，它很有意义，同时还能帮助我学习 React。
+- 我正在实习，这份工作一方面帮我赚取学费，另一方面让我学到不少新东西。
+- 我花时间和我很敬佩的人相处，从他们身上学到很多。
+- 我的工作把我热爱的艺术与设计结合在一起，比如在 Figma 这样的公司工作。
+
+**理想情况下，几年后你可以达到这样的状态：**
+
+- 我在从事我热爱的工作，和我喜欢的人共事，参与的是与我价值观一致的项目。这份工作既让我不断成长，又能满足我的财务和个人目标。
+
+**要实现这样的状态，你可能需要有意识地做出一些努力，比如：**
+
+- 主动进入新环境：寻找朋友、工作、俱乐部或项目；
+- 培养良好的环境：建立习惯、主动提问、深化关系；
+- 塑造积极的心态：培养感恩、自我记录、持续阅读；
+- 为理想工作做好准备：投入于职业成长相关的行动（详见下文）。
+
+---
+
+### 对齐感（Alignment）
+
+在你参与某项活动时，不妨问问自己：
+
+- 我是否真心感到兴奋和投入？
+- 我是否正与那些我敬佩、希望向他们学习的人共处？
+- 这里的氛围是否让我感到自在？是否符合我的价值观？
+- 这条路是否有助于我未来的发展，或者能让我成长？
+
+如果以上问题你都无法肯定回答，那么这很可能是一个「价值观未对齐」的预警信号。
+
+此时你需要认真地反思：
+
+> 我做这件事，是因为我真心想做，还是因为别人告诉我应该做？
+
+> 我是因为觉得这条路是默认的选项、难以改变，才走上这条路的吗？
+
+随着时间推移，你会逐渐建立起一种更敏锐的「感知雷达」，帮助你判断哪些事情与你对齐、哪些没有。
+这种直觉将引导你走向更契合自我、更幸福、更充实的生活。🙂
+
+## 打好身心健康的基础
+
+这意味着：
+
+- 均衡饮食 🙂
+- 保证充足的锻炼和睡眠
+- 接受心理治疗、按时就医、合理使用药物
+- 发展能带来快乐和意义的兴趣和朋友
+- 向身边的人寻求帮助和建议！
+
+当然，也可能意味着你需要做出一些权衡，比如：
+
+- 明确划分工作、学习与生活的界限，保持心理平衡
+- 减少与不能带来快乐的人或活动的接触时间
+- 通过申请额外的学生贷款来负担更好的膳食计划
+- 饮食更健康、减少社交应酬和饮酒频率
+
+没有坚实的身心健康基础，其它一切都难以顺利展开。
+
+我个人非常喜欢使用 Daylio 作为每日日志工具，用来记录情绪、健康和习惯。当状态不太好时，往往就是它提醒我该调整了。iOS 上的 Sleep Cycle 睡眠 app 也很推荐！
+
+这听起来也许是显而易见的道理，但我认为多数人对健康的投入都远远不够，往往等到真的生病了才开始重视。
+
+锻炼、睡眠和饮食能带来巨大变化（比如快乐 +30%，精力 +50%，成果也 +50%），但却总被我们忽略。
+
+顺便说一句，非常推荐 [Huberman](https://www.youtube.com/@hubermanlab/videos) 的播客，值得一听。🙂
+
+## 开展你热爱的课余项目
+
+做课余项目通常很有价值，它们可以：
+
+- 向雇主展示你的经验、兴趣和价值观
+- 帮你探索新主题、新想法
+- 积累实践经验、洞察力和直觉
+- 创造出真正有用的东西
+- 或者纯粹是为了好玩！
+
+当然，现实中要在课余项目上持续投入动力其实挺难的，尤其是在学业压力很大的情况下。通常，只有在以下几种情况下你才更容易坚持下去：
+
+- 你真的很在乎自己正在做的东西最终能不能成功
+- 你对所用的技术本身非常好奇
+- 你正和一些能激励你、或者依赖你的伙伴一起做项目
+
+---
+
+一个比较通用的流程可以是这样的：
+
+1. 找到你热爱的方向
+	
+	a. 比如音乐？游戏设计？艺术？或者《英雄联盟》？
+
+2. 想一个主意
+
+	a. 它不需要非常创新，你可以用 ChatGPT 来帮你头脑风暴一下
+
+	b. 也许它可以解决生活中的一个小痛点、提高某个流程的效率
+
+3. 结合一些与你专业相关、实用性强的技术工具
+
+	a. Web 应用开发 → 用 React
+
+	b. 理解关系型数据库 → 用 PostgreSQL
+
+	c. 自动化操作 → 用 Zapier、API 或 iOS 捷径
+
+	d. 做游戏 → 用 Godot
+
+4. 给自己设定一到多个具体目标
+
+	a. “我想尝试用 React 做一个全栈应用！”
+
+	b. “我想发布一个作品并放进我的作品集网站！”
+
+	c. “我想做个东西帮我更高效地锻炼。”
+
+	d. “我想学会使用 Cursor IDE。”
+
+5. 如果可以，找一些一起做项目的伙伴
+
+	a. 可以是一起参与项目，也可以是找人一起 co-work，各自做各自的项目但彼此分享进展、互相监督。
+
+	b. 很多高校都有这类社团或俱乐部可以加入！
+
+6. 真正为这个项目留出时间，并持续投入下去
+
+不用追求完美！重点是多动手去做。只要你构建了点什么，就已经成功了一步！项目完成后，别忘了把它放到 GitHub、简历、个人网站或者 YouTube 上。它就成了你能力的一个具体作品，别人能直接看到和理解。
+
+---
+
+我大学时也做过[一些这样的项目](https://wustep.me/projects)，有些不过是几个周末的尝试。
+
+## 把精力花在对职业有帮助的事上
+
+一般来说，有助于职业发展的活动包括，但不限于：
+
+- 简历润色与简历互评
+	- 参考：https://careercup.com/resume ——那里有很好的建议
+- 课余/个人项目
+- 校园招聘会
+- 「打造社交网络」（拓宽职业人脉）
+- 学习如何与业界人士交流
+- 面试与模拟面试
+	- [《Cracking the Coding Interview》](https://amzn.to/3X6zBmN)这本书仍然很有价值且实用
+
+---
+
+我不打算逐条详细解释，但要理解以下几点很重要：
+
+- **无论如何，你都需要投入一定的时间和精力，而投入的多少取决于你想达到的目标高度。**
+	- 光有一纸大学文凭，工作不会自己送上门来。
+	- 像 Google、Facebook 这样的公司，每年都会收到数以百万计的求职申请。
+	- 如果一家公司只录取 10% 的申请人，你的「求职资料包」就得胜过剩下 90% 的人。
+- 很多时候，质量比数量更重要。
+	- 你可能海投 400 份简历，却依然毫无进展。
+	- 很多时候，通过招聘会建立的正确人脉、找到合适的岗位、做出有分量的副业项目、发出恰到好处的一条推文，或者获得前同事的推荐，这些途径的效果都比海投简历高出百倍。
+- 充分准备是关键。
+	- 了解面试的流程并进行练习，提前准备好向面试官提的问题，以及一些交流要点——都能让你的面试通过率大幅提升。
+- 如果求职流程的某个环节出了问题，就要评估并改进它。
+	- 比如，你申请了很多公司却完全没有收到面试通知，那么你的简历可能比其他候选人竞争力弱，或者你投递的渠道本身质量很差。
+	- 又比如，你的面试总是没通过，那你可能需要多做模拟面试，并复盘分析自己没通过的原因。
+
+---
+
+## building a habit and love of reading
+
+我认为阅读是你一生中能做的最重要的事情之一。
+
+---
+
+我个人非常喜欢非虚构类书籍和回忆录！
+
+关于非虚构，有一种让我深有共鸣的切入点是：
+
+那些拥有你渴望掌握的技能、思想和知识的人，往往花费了无数时间，把他们最重要的体会和智慧，浓缩成一本经过精心打磨、广受好评的书。而这些书籍，已经被许多人证明确实能带来帮助。
+
+有句话说：“你会越来越像与你相处的人。”——阅读一本好书，其实就是在与那些优秀而有趣的人对话，进入他们的思维世界。这是一个宝贵的机会，让你在没有师长陪伴时，也能从最值得学习的人那里汲取养分。
+
+---
+
+在这里推荐一些书籍：
+
+- [《原子习惯》](https://amzn.to/4dmkyvg)通常是非虚构阅读的一个好入门，因为它能帮助你建立起关于习惯、环境和激励机制的思维模型，从而进一步培养更强的阅读习惯。
+- [《程序员修炼之道》](https://amzn.to/4df2148)是关于编程最优秀的著作之一。
+- [《数据密集型应用系统设计》](https://amzn.to/4dfWJoQ)是系统设计中最著名的书籍之一，非常适合倾向后端方向的工程师（坦白说我自己没读过）。
+- [《被讨厌的勇气》](https://www.amazon.com/Ichiro-Kishimi-Collection-Courage-Disliked/dp/9124372196/ref=sr_1_3?crid=WAKV5SB93NCE&dib=eyJ2IjoiMSJ9.CAOvSGfFpvvBnBNAA6a705kJT17ROv3_RAszqO7aJ_4Qx0-gSC_ektyK4U7PQQpYCke2niqMEaowlhIeulQ4O4gXGs8wVtvHCYFN2sraeuD7mEwSjq4HmS8p9EQnEMNuAUb1ygtQUk5WtqfAvamTrumkvN9ymJjwAHzlzstEWrkSbM3M1LVSH-N3WAtL5qBAFlup4oRnhodpNTTxSSdl_r7Jjvr55IsjOrDFYosrOsI.WE-BV4BprhQ22n1Oln_UK_1A1FeDN_SdQTE278VaLGA&dib_tag=se&keywords=the+courage+to+be+disliked&qid=1727076963&s=books&sprefix=the+courage+to+be+disli%2Cstripbooks%2C156&sr=1-3)是阿德勒哲学的一个很好的入门。
+- [《算法之美》](https://amzn.to/3ZSairN)能帮助你把计算机科学的思维与现实生活的系统和决策联系起来。
+- 回忆录推荐：[《绿灯》](https://amzn.to/3MUmssd)（马修·麦康纳海）、[《人类世回顾》](https://www.amazon.com/Anthropocene-Reviewed-Essays-Human-Centered-Planet/dp/0525556532/ref=sr_1_1?crid=1SMZLOSVE4SSP&dib=eyJ2IjoiMSJ9.VU78oX9FJqhsVZy35oEUIGrC0bcWj5DFWJ1XYZube9OGxrIKHx7R4YuBjCft2wTFGjs5yr6WHvwUP7TBQjzEnKW6GRFUnlhjNtoDiwQDmIP_LkXcAVMjRbcQjBJHkteqVK4JGkniKGUJTKdLI9mll6Cyvy5oY0FMLNQFzpJgLfVhsdL0vSOEBtT5JDFXZGNF0Rruc4Rh9BN-w_3oznKfDs4iWWqpTMdIcG3iyTD3FV8.Qc_ticQh_Tbe3bFtUQxMPprY8SKJl9cms1I8EEqeQ4E&dib_tag=se&keywords=john+green+anthropocene&qid=1727077573&sprefix=john+green+anthrop%2Caps%2C154&sr=8-1)（约翰·格林）、[《也许你该找个人聊聊》](https://amzn.to/4gyaPVA)（洛莉·戈特利布）。
+- 偶尔随意浏览 [HackerNews](https://news.ycombinator.com/) 或 Twitter 上的科技内容，也会既有趣又有收获。
+- 推荐的 Substack：[Astral Codex Ten](https://www.astralcodexten.com/)、[bookbear](https://www.avabear.xyz/)、[The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/?utm_source=global-search)、[Escaping Flatland](https://www.henrikkarlsson.xyz/)。
+
+---
+
+一些阅读建议：
+
+- 阅读非虚构时，最好处于一种特定的心态：你对该主题感兴趣、保持开放心态并且充满好奇。
+- 有时某本书在你当前的状态下可能不会引起共鸣，这没关系——你随时可以在以后再读。
+- 你完全没必要一次只读一本书。如果此刻对某本书没兴趣，可以先放下，等以后再拿起来。
+	- 小说最好一次读一本，以免情节和细节混淆。
+	- 非虚构则无所谓，即便几个月后再继续读也可以。你还可以跳读、非线性阅读，因为许多要点其实会被反复提到。
+- 一定要做标注！并把精彩的引语或笔记记录在 Kindle、Notion 或 [Readwise](https://readwise.io/i/stephen239) 里。
+
+---
+
+时间和注意力都是有限的资源——而现在我们很容易在社交媒体或信息流里一刷就是好几个小时。（我自己会用 [One Sec](https://one-sec.app/) 这个应用来提醒和控制）
+如果能把其中一部分时间换成阅读，你会发现这对生活真的很有益 🙂。
+
+## 不要做一个“NPC”！
+
+**要学会培养自己的主动性。**
+
+所谓主动性，大致可以理解为：你有能力根据自己的目标采取行动，并影响自己和周围的环境。
+
+一个粗略的比喻是——“不要当游戏里的 NPC”。
+
+作为玩家角色，你可以根据自己的信念、价值观和目标走出属于自己的道路。如果你的目标是通关游戏，你就可以去尝试；如果你想完成一条支线任务，你也完全可以去做。
+
+而作为非玩家角色（NPC），你只能被动接受外界的摆布，受到既定程序和路线的限制。NPC 的生活就像是在说：“唉，这就是我所处的世界，这就是我被发到的牌。”
+
+---
+
+在当下，“NPC”这个说法的 Z 世代版本，大概就是所谓的“主角气场（main character energy）”，它有时是褒义，有时是贬义。另外，还有一种流行的趋势叫“[显化（manifestation）](https://en.wikipedia.org/wiki/Law_of_attraction_(New_Thought)#Manifestation)”，虽然听上去像是“灵修玄学”，但我觉得其中确实有一些值得参考的东西。
+
+---
+
+我认为，培养主动性很大一部分在于逐渐改变你对自己的叙事：你能做什么，你的限制是什么，你的未来会怎样。另一部分则是：你真的去做那些你想做的事。
+
+这可能意味着，你需要把自己的想法拿出来，找出那些你反复告诉自己的限制，然后去想办法突破它们。比如：
+
+- “我不是一个好学生 / 我不够聪明 / 我没有足够的成就和野心。”
+- “我很懒 / 我精力不如别人。”
+- “我开始学编程太晚了 / 我什么都不懂 / 别人比我更适合这个领域。”
+- “事情就是这样 / 我就是这样 / 未来也不会有改变。”
+
+这些被你不断暗示的限制，最终会形成自我实现的预言，塑造你的身份认同。
+
+当然，并不是所有限制都能被克服，但很多限制其实主要来自你自己讲给自己的故事，以及你自己制造的惯性。
+
+在实践层面，这可能意味着：写日记、冥想、心理咨询、给自己一些积极的提醒，或者重复一些正面的信念。也可以多和朋友谈谈问题，互相帮助、共同解决。🙂
+
+## 常见问题与解答
+
+## Other relevant quotes captured by much better writers
+
+摘自 Ava 的 《Actually Everyone’s Life is Weird》:
+> 我真希望小时候有人告诉我，关于工作的唯一真正‘规则’，其实就是：你要能支付房租、不伤害别人、不违法。只要符合这三点，你几乎可以去做任何事情，最好是能让自己觉得有意义的事。世界本来就是如此美妙、开放、而且奇妙的。
+>
+> 我成长的环境却让我觉得，如果成绩单上哪怕只有一个 B+，我的人生就完了——没有大学会录取我，我也永远进不了所谓的 FAANG 大厂，最后只能孤独终老。这样的逻辑让我很努力，但同时也让我变得焦虑和恐惧，这些心结花了我很久才慢慢解开。
+>
+> 现在我相信，如果你有创造力，并且愿意努力工作，其实有很多不同的道路都能通向成功。
+
+1b:["$","$L24",null,{"toc":[{"depth":2,"url":"#通用建议","title":"通用建议"},{"depth":2,"url":"#optimizing-for-ikigai--alignment","title":"optimizing for ikigai & alignment."},{"depth":3,"url":"#ikigai存在的意义","title":"ikigai（存在的意义）"},{"depth":3,"url":"#对齐感alignment","title":"对齐感（Alignment）"},{"depth":2,"url":"#打好身心健康的基础","title":"打好身心健康的基础"},{"depth":2,"url":"#开展你热爱的课余项目","title":"开展你热爱的课余项目"},{"depth":2,"url":"#把精力花在对职业有帮助的事上","title":"把精力花在对职业有帮助的事上"},{"depth":2,"url":"#building-a-habit-and-love-of-reading","title":"building a habit and love of reading"},{"depth":2,"url":"#不要做一个npc","title":"不要做一个“NPC”！"},{"depth":2,"url":"#常见问题与解答","title":"常见问题与解答"},{"depth":2,"url":"#other-relevant-quotes-captured-by-much-better-writers","title":"Other relevant quotes captured by much better writers"}],"full":"$undefined","tableOfContent":{"style":"clerk"},"lastUpdate":"$D2026-04-04T23:25:21.000Z","children":[["$","$L25",null,{"children":"写给学生的建议"}],["$","$L26",null,{"className":"mb-0","children":"Advice for students 的译文"}],"$undefined",["$","div",null,{"className":"flex flex-row gap-2 items-center border-b pt-2 pb-6","children":[["$","$L27",null,{"content":"$28"}],"$L29"]}],"$L2a"]}]
+2b:I[302559,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js","/_next/static/chunks/0mm_8n1f~m.nv.js","/_next/static/chunks/0dkvfubxibnf_.js","/_next/static/chunks/10k32-pq61aat.js","/_next/static/chunks/0i3iq9kg3x.~q.js","/_next/static/chunks/12p752ivm2e1-.js"],"ViewOptions"]
+2c:I[965410,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js","/_next/static/chunks/0mm_8n1f~m.nv.js","/_next/static/chunks/0dkvfubxibnf_.js","/_next/static/chunks/10k32-pq61aat.js","/_next/static/chunks/0i3iq9kg3x.~q.js","/_next/static/chunks/12p752ivm2e1-.js"],"DocsBody"]
+29:["$","$L2b",null,{"markdownUrl":"/docs/advice-for-students.mdx","githubUrl":"https://github.com/ztm0929/ztm0929.cn/blob/main/content/docs/advice-for-students.mdx"}]
+2a:["$","$L2c",null,{"children":[["$","div",null,{"className":"flex gap-2 my-4 rounded-xl border bg-fd-card p-3 ps-1 text-sm text-fd-card-foreground shadow-md","style":{"--callout-color":"var(--color-fd-warning, var(--color-fd-muted))"},"children":[["$","div",null,{"role":"none","className":"w-0.5 bg-(--callout-color)/50 rounded-sm"}],["$","$L5",null,{"ref":"$undefined","iconNode":[["path",{"d":"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3","key":"wmoenq"}],["path",{"d":"M12 9v4","key":"juzpu7"}],["path",{"d":"M12 17h.01","key":"p32p05"}]],"className":"lucide-triangle-alert size-5 -me-0.5 fill-(--callout-color) text-fd-card"}],["$","div",null,{"className":"flex flex-col gap-2 min-w-0 flex-1","children":[["$","p",null,{"className":"font-medium my-0!","children":"本文尚处于草稿状态，内容可能不完整或存在错误"}],["$","div",null,{"className":"text-fd-muted-foreground prose-no-margin empty:hidden","children":"$undefined"}]]}]]}],"\n","\n",["$","div",null,{"className":"flex gap-2 my-4 rounded-xl border bg-fd-card p-3 ps-1 text-sm text-fd-card-foreground shadow-md","style":{"--callout-color":"var(--color-fd-info, var(--color-fd-muted))"},"children":[["$","div",null,{"role":"none","className":"w-0.5 bg-(--callout-color)/50 rounded-sm"}],["$","$L5",null,{"ref":"$undefined","iconNode":[["circle",{"cx":"12","cy":"12","r":"10","key":"1mglay"}],["path",{"d":"M12 16v-4","key":"1dtifu"}],["path",{"d":"M12 8h.01","key":"e9boi3"}]],"className":"lucide-info size-5 -me-0.5 fill-(--callout-color) text-fd-card"}],["$","div",null,{"className":"flex flex-col gap-2 min-w-0 flex-1","children":[["$","p",null,{"className":"font-medium my-0!","children":"天明注"}],["$","div",null,{"className":"text-fd-muted-foreground prose-no-margin empty:hidden","children":["$","p",null,{"children":["这是一篇译文，原文为 ","$L2d"," 于 2024 年 9 月发表的 ","$L2e","。Stephen\n曾经在 Facebook 工作，现为 Notion 数据库团队的软件工程师。我在推特偶然看到他的主页并读到此文，深受启发，遂翻译分享。",["$","strong",null,{"children":"以下正文中的「我」均指原作者 Stephen Wu"}],"，如有歧义请以原文为准。"]}]}]]}]]}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"一些适合学生的通用建议"}]}],"\n",["$","p",null,{"children":"这些建议主要面向那些对在现代科技公司担任技术岗位感兴趣的计算机专业大学生，不过，其中很多内容对其他人也同样适用。"}],"\n",["$","p",null,{"children":"常见的技术岗位有：软件工程师、产品经理、数据科学家、数据工程师或产品设计师等。"}],"\n",["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"通用建议","children":[["$","a",null,{"data-card":"","href":"#通用建议","className":"peer","children":"通用建议"}],["$","$L5",null,{"ref":"$undefined","iconNode":[["path",{"d":"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71","key":"1cjeqo"}],["path",{"d":"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71","key":"19qd67"}]],"className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"我对学生们的一贯建议可以总结为以下几点："}]}],"\n",["$","ol",null,{"children":["\n",["$","li",null,{"children":"探索生命的意义（ikigai），并寻求目标与内心的一致性。"}],"\n",["$","li",null,{"children":"打好心理与身体健康的基础。"}],"\n",["$","li",null,{"children":"开展你热爱的课余项目，并与志同道合的伙伴一起完成。"}],"\n",["$","li",null,{"children":"在职业发展上做出「明智的」投入。"}],"\n",["$","li",null,{"children":"让阅读成为一种习惯，也成为一种热爱。"}],"\n",["$","li",null,{"children":"不要像 NPC 那样随波逐流、缺乏思考！"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","p",null,{"children":["$","strong",null,{"children":"关于建议的一点说明"}]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"建议总是依赖于特定语境，也往往是简化的表达，因此并不一定适用于每个人。"}],"\n",["$","li",null,{"children":"接纳那些与你产生共鸣的建议，并时常回顾；无法产生共鸣的也无需强求。"}],"\n",["$","li",null,{"children":"多接触不同的资源，广泛阅读各种想法！"}],"\n"]}],"\n",["$","hr",null,{}],"\n",["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"optimizing-for-ikigai--alignment","children":[["$","a",null,{"data-card":"","href":"#optimizing-for-ikigai--alignment","className":"peer","children":"optimizing for ikigai & alignment."}],["$","$L5",null,{"ref":"$undefined","iconNode":"$2a:props:children:11:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}],"\n",["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"ikigai存在的意义","children":[["$","a",null,{"data-card":"","href":"#ikigai存在的意义","className":"peer","children":"ikigai（存在的意义）"}],["$","$L5",null,{"ref":"$undefined","iconNode":"$2a:props:children:11:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}],"\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a","\n","$L4b","\n","$L4c","\n","$L4d","\n","$L4e","\n","$L4f","\n","$L50","\n","$L51","\n","$L52","\n","$L53","\n","$L54","\n","$L55","\n","$L56","\n","$L57","\n","$L58","\n","$L59","\n","$L5a","\n","$L5b","\n","$L5c","\n","$L5d","\n","$L5e","\n","$L5f","\n","$L60","\n","$L61","\n","$L62","\n","$L63","\n","$L64","\n","$L65","\n","$L66","\n","$L67","\n","$L68","\n","$L69","\n","$L6a","\n","$L6b","\n","$L6c","\n","$L6d","\n","$L6e","\n","$L6f","\n","$L70","\n","$L71","\n","$L72","\n","$L73","\n","$L74","\n","$L75","\n","$L76","\n","$L77","\n","$L78","\n","$L79","\n","$L7a","\n","$L7b","\n","$L7c","\n","$L7d","\n","$L7e","\n","$L7f","\n","$L80","\n","$L81","\n","$L82"]}]
+97:I[984192,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js","/_next/static/chunks/0mm_8n1f~m.nv.js","/_next/static/chunks/0dkvfubxibnf_.js","/_next/static/chunks/10k32-pq61aat.js","/_next/static/chunks/0i3iq9kg3x.~q.js","/_next/static/chunks/12p752ivm2e1-.js"],"default"]
+2f:["$","p",null,{"children":"人们常用这样一幅维恩图来形象地解释 ikigai（存在的意义）："}]
+30:["$","p",null,{"children":"找到你的 ikigai，意味着找到你热爱的事、你擅长的事、这个世界需要的事、以及能为你带来收入的事，这四者的交集。"}]
+31:["$","ul",null,{"children":["\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"你热爱的事：是那些你在从事时感到真正的乐趣与激情的工作。"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"你能获得报酬的事：是那些能为你带来外在回报，有助于生活与财务的工作。"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"你擅长的事：你的技能与这类工作高度契合，而且你也有持续提升的兴趣。"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"这个世界需要的事：你能为他人创造价值，并感受到自己正在为社会或社群做出贡献。"}],"\n"]}],"\n"]}]
+32:["$","p",null,{"children":"在我与人们探讨职业满足感时，我发现最快乐的人，往往在这四个方面都达到了很高的程度。"}]
+33:["$","hr",null,{}]
+34:["$","p",null,{"children":["你也可以从另一个角度思考：寻找那些既能激发你内在热情，又能带来外在回报的机会。\n在职业生涯的早期阶段，你也许更应该关注",["$","strong",null,{"children":"成长空间"}],"和",["$","strong",null,{"children":"学习潜力"}],"。"]}]
+35:["$","p",null,{"children":"通常来说，那些兼具内外动机的事情——既让你发自内心地热爱，又带来现实回报——你越有动力去做好，它们成功的可能性也越大。"}]
+36:["$","p",null,{"children":["$","strong",null,{"children":"举几个例子："}]}]
+37:["$","ul",null,{"children":["\n",["$","li",null,{"children":"我在做一个我热爱的课余项目，它很有意义，同时还能帮助我学习 React。"}],"\n",["$","li",null,{"children":"我正在实习，这份工作一方面帮我赚取学费，另一方面让我学到不少新东西。"}],"\n",["$","li",null,{"children":"我花时间和我很敬佩的人相处，从他们身上学到很多。"}],"\n",["$","li",null,{"children":"我的工作把我热爱的艺术与设计结合在一起，比如在 Figma 这样的公司工作。"}],"\n"]}]
+38:["$","p",null,{"children":["$","strong",null,{"children":"理想情况下，几年后你可以达到这样的状态："}]}]
+39:["$","ul",null,{"children":["\n",["$","li",null,{"children":"我在从事我热爱的工作，和我喜欢的人共事，参与的是与我价值观一致的项目。这份工作既让我不断成长，又能满足我的财务和个人目标。"}],"\n"]}]
+3a:["$","p",null,{"children":["$","strong",null,{"children":"要实现这样的状态，你可能需要有意识地做出一些努力，比如："}]}]
+3b:["$","ul",null,{"children":["\n",["$","li",null,{"children":"主动进入新环境：寻找朋友、工作、俱乐部或项目；"}],"\n",["$","li",null,{"children":"培养良好的环境：建立习惯、主动提问、深化关系；"}],"\n",["$","li",null,{"children":"塑造积极的心态：培养感恩、自我记录、持续阅读；"}],"\n",["$","li",null,{"children":"为理想工作做好准备：投入于职业成长相关的行动（详见下文）。"}],"\n"]}]
+3c:["$","hr",null,{}]
+3d:["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"对齐感alignment","children":[["$","a",null,{"data-card":"","href":"#对齐感alignment","className":"peer","children":"对齐感（Alignment）"}],["$","$L5",null,{"ref":"$undefined","iconNode":"$2a:props:children:11:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+3e:["$","p",null,{"children":"在你参与某项活动时，不妨问问自己："}]
+3f:["$","ul",null,{"children":["\n",["$","li",null,{"children":"我是否真心感到兴奋和投入？"}],"\n",["$","li",null,{"children":"我是否正与那些我敬佩、希望向他们学习的人共处？"}],"\n",["$","li",null,{"children":"这里的氛围是否让我感到自在？是否符合我的价值观？"}],"\n",["$","li",null,{"children":"这条路是否有助于我未来的发展，或者能让我成长？"}],"\n"]}]
+40:["$","p",null,{"children":"如果以上问题你都无法肯定回答，那么这很可能是一个「价值观未对齐」的预警信号。"}]
+41:["$","p",null,{"children":"此时你需要认真地反思："}]
+42:["$","blockquote",null,{"children":["\n",["$","p",null,{"children":"我做这件事，是因为我真心想做，还是因为别人告诉我应该做？"}],"\n"]}]
+43:["$","blockquote",null,{"children":["\n",["$","p",null,{"children":"我是因为觉得这条路是默认的选项、难以改变，才走上这条路的吗？"}],"\n"]}]
+44:["$","p",null,{"children":"随着时间推移，你会逐渐建立起一种更敏锐的「感知雷达」，帮助你判断哪些事情与你对齐、哪些没有。\n这种直觉将引导你走向更契合自我、更幸福、更充实的生活。🙂"}]
+45:["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"打好身心健康的基础","children":[["$","a",null,{"data-card":"","href":"#打好身心健康的基础","className":"peer","children":"打好身心健康的基础"}],["$","$L5",null,{"ref":"$undefined","iconNode":"$2a:props:children:11:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+46:["$","p",null,{"children":"这意味着："}]
+47:["$","ul",null,{"children":["\n",["$","li",null,{"children":"均衡饮食 🙂"}],"\n",["$","li",null,{"children":"保证充足的锻炼和睡眠"}],"\n",["$","li",null,{"children":"接受心理治疗、按时就医、合理使用药物"}],"\n",["$","li",null,{"children":"发展能带来快乐和意义的兴趣和朋友"}],"\n",["$","li",null,{"children":"向身边的人寻求帮助和建议！"}],"\n"]}]
+48:["$","p",null,{"children":"当然，也可能意味着你需要做出一些权衡，比如："}]
+49:["$","ul",null,{"children":["\n",["$","li",null,{"children":"明确划分工作、学习与生活的界限，保持心理平衡"}],"\n",["$","li",null,{"children":"减少与不能带来快乐的人或活动的接触时间"}],"\n",["$","li",null,{"children":"通过申请额外的学生贷款来负担更好的膳食计划"}],"\n",["$","li",null,{"children":"饮食更健康、减少社交应酬和饮酒频率"}],"\n"]}]
+4a:["$","p",null,{"children":"没有坚实的身心健康基础，其它一切都难以顺利展开。"}]
+4b:["$","p",null,{"children":"我个人非常喜欢使用 Daylio 作为每日日志工具，用来记录情绪、健康和习惯。当状态不太好时，往往就是它提醒我该调整了。iOS 上的 Sleep Cycle 睡眠 app 也很推荐！"}]
+4c:["$","p",null,{"children":"这听起来也许是显而易见的道理，但我认为多数人对健康的投入都远远不够，往往等到真的生病了才开始重视。"}]
+4d:["$","p",null,{"children":"锻炼、睡眠和饮食能带来巨大变化（比如快乐 +30%，精力 +50%，成果也 +50%），但却总被我们忽略。"}]
+4e:["$","p",null,{"children":["顺便说一句，非常推荐 ","$L83"," 的播客，值得一听。🙂"]}]
+4f:["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"开展你热爱的课余项目","children":[["$","a",null,{"data-card":"","href":"#开展你热爱的课余项目","className":"peer","children":"开展你热爱的课余项目"}],["$","$L5",null,{"ref":"$undefined","iconNode":"$2a:props:children:11:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+50:["$","p",null,{"children":"做课余项目通常很有价值，它们可以："}]
+51:["$","ul",null,{"children":["\n",["$","li",null,{"children":"向雇主展示你的经验、兴趣和价值观"}],"\n",["$","li",null,{"children":"帮你探索新主题、新想法"}],"\n",["$","li",null,{"children":"积累实践经验、洞察力和直觉"}],"\n",["$","li",null,{"children":"创造出真正有用的东西"}],"\n",["$","li",null,{"children":"或者纯粹是为了好玩！"}],"\n"]}]
+52:["$","p",null,{"children":"当然，现实中要在课余项目上持续投入动力其实挺难的，尤其是在学业压力很大的情况下。通常，只有在以下几种情况下你才更容易坚持下去："}]
+53:["$","ul",null,{"children":["\n",["$","li",null,{"children":"你真的很在乎自己正在做的东西最终能不能成功"}],"\n",["$","li",null,{"children":"你对所用的技术本身非常好奇"}],"\n",["$","li",null,{"children":"你正和一些能激励你、或者依赖你的伙伴一起做项目"}],"\n"]}]
+54:["$","hr",null,{}]
+55:["$","p",null,{"children":"一个比较通用的流程可以是这样的："}]
+56:["$","ol",null,{"children":["\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"找到你热爱的方向"}],"\n",["$","p",null,{"children":"a. 比如音乐？游戏设计？艺术？或者《英雄联盟》？"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"想一个主意"}],"\n",["$","p",null,{"children":"a. 它不需要非常创新，你可以用 ChatGPT 来帮你头脑风暴一下"}],"\n",["$","p",null,{"children":"b. 也许它可以解决生活中的一个小痛点、提高某个流程的效率"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"结合一些与你专业相关、实用性强的技术工具"}],"\n",["$","p",null,{"children":"a. Web 应用开发 → 用 React"}],"\n",["$","p",null,{"children":"b. 理解关系型数据库 → 用 PostgreSQL"}],"\n",["$","p",null,{"children":"c. 自动化操作 → 用 Zapier、API 或 iOS 捷径"}],"\n",["$","p",null,{"children":"d. 做游戏 → 用 Godot"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"给自己设定一到多个具体目标"}],"\n",["$","p",null,{"children":"a. “我想尝试用 React 做一个全栈应用！”"}],"\n",["$","p",null,{"children":"b. “我想发布一个作品并放进我的作品集网站！”"}],"\n",["$","p",null,{"children":"c. “我想做个东西帮我更高效地锻炼。”"}],"\n",["$","p",null,{"children":"d. “我想学会使用 Cursor IDE。”"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"如果可以，找一些一起做项目的伙伴"}],"\n",["$","p",null,{"children":"a. 可以是一起参与项目，也可以是找人一起 co-work，各自做各自的项目但彼此分享进展、互相监督。"}],"\n",["$","p",null,{"children":"b. 很多高校都有这类社团或俱乐部可以加入！"}],"\n"]}],"\n",["$","li",null,{"children":["\n",["$","p",null,{"children":"真正为这个项目留出时间，并持续投入下去"}],"\n"]}],"\n"]}]
+57:["$","p",null,{"children":"不用追求完美！重点是多动手去做。只要你构建了点什么，就已经成功了一步！项目完成后，别忘了把它放到 GitHub、简历、个人网站或者 YouTube 上。它就成了你能力的一个具体作品，别人能直接看到和理解。"}]
+58:["$","hr",null,{}]
+59:["$","p",null,{"children":["我大学时也做过","$L84","，有些不过是几个周末的尝试。"]}]
+5a:["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"把精力花在对职业有帮助的事上","children":[["$","a",null,{"data-card":"","href":"#把精力花在对职业有帮助的事上","className":"peer","children":"把精力花在对职业有帮助的事上"}],["$","$L5",null,{"ref":"$undefined","iconNode":"$2a:props:children:11:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+5b:["$","p",null,{"children":"一般来说，有助于职业发展的活动包括，但不限于："}]
+5c:["$","ul",null,{"children":["\n",["$","li",null,{"children":["简历润色与简历互评","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["参考：","$L85"," ——那里有很好的建议"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":"课余/个人项目"}],"\n",["$","li",null,{"children":"校园招聘会"}],"\n",["$","li",null,{"children":"「打造社交网络」（拓宽职业人脉）"}],"\n",["$","li",null,{"children":"学习如何与业界人士交流"}],"\n",["$","li",null,{"children":["面试与模拟面试","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":["$L86","这本书仍然很有价值且实用"]}],"\n"]}],"\n"]}],"\n"]}]
+5d:["$","hr",null,{}]
+5e:["$","p",null,{"children":"我不打算逐条详细解释，但要理解以下几点很重要："}]
+5f:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"无论如何，你都需要投入一定的时间和精力，而投入的多少取决于你想达到的目标高度。"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"光有一纸大学文凭，工作不会自己送上门来。"}],"\n",["$","li",null,{"children":"像 Google、Facebook 这样的公司，每年都会收到数以百万计的求职申请。"}],"\n",["$","li",null,{"children":"如果一家公司只录取 10% 的申请人，你的「求职资料包」就得胜过剩下 90% 的人。"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["很多时候，质量比数量更重要。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"你可能海投 400 份简历，却依然毫无进展。"}],"\n",["$","li",null,{"children":"很多时候，通过招聘会建立的正确人脉、找到合适的岗位、做出有分量的副业项目、发出恰到好处的一条推文，或者获得前同事的推荐，这些途径的效果都比海投简历高出百倍。"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["充分准备是关键。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"了解面试的流程并进行练习，提前准备好向面试官提的问题，以及一些交流要点——都能让你的面试通过率大幅提升。"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["如果求职流程的某个环节出了问题，就要评估并改进它。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"比如，你申请了很多公司却完全没有收到面试通知，那么你的简历可能比其他候选人竞争力弱，或者你投递的渠道本身质量很差。"}],"\n",["$","li",null,{"children":"又比如，你的面试总是没通过，那你可能需要多做模拟面试，并复盘分析自己没通过的原因。"}],"\n"]}],"\n"]}],"\n"]}]
+60:["$","hr",null,{}]
+61:["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"building-a-habit-and-love-of-reading","children":[["$","a",null,{"data-card":"","href":"#building-a-habit-and-love-of-reading","className":"peer","children":"building a habit and love of reading"}],["$","$L5",null,{"ref":"$undefined","iconNode":"$2a:props:children:11:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+62:["$","p",null,{"children":"我认为阅读是你一生中能做的最重要的事情之一。"}]
+63:["$","hr",null,{}]
+64:["$","p",null,{"children":"我个人非常喜欢非虚构类书籍和回忆录！"}]
+65:["$","p",null,{"children":"关于非虚构，有一种让我深有共鸣的切入点是："}]
+66:["$","p",null,{"children":"那些拥有你渴望掌握的技能、思想和知识的人，往往花费了无数时间，把他们最重要的体会和智慧，浓缩成一本经过精心打磨、广受好评的书。而这些书籍，已经被许多人证明确实能带来帮助。"}]
+67:["$","p",null,{"children":"有句话说：“你会越来越像与你相处的人。”——阅读一本好书，其实就是在与那些优秀而有趣的人对话，进入他们的思维世界。这是一个宝贵的机会，让你在没有师长陪伴时，也能从最值得学习的人那里汲取养分。"}]
+68:["$","hr",null,{}]
+69:["$","p",null,{"children":"在这里推荐一些书籍："}]
+6a:["$","ul",null,{"children":["\n",["$","li",null,{"children":["$L87","通常是非虚构阅读的一个好入门，因为它能帮助你建立起关于习惯、环境和激励机制的思维模型，从而进一步培养更强的阅读习惯。"]}],"\n",["$","li",null,{"children":["$L88","是关于编程最优秀的著作之一。"]}],"\n",["$","li",null,{"children":["$L89","是系统设计中最著名的书籍之一，非常适合倾向后端方向的工程师（坦白说我自己没读过）。"]}],"\n",["$","li",null,{"children":["$L8a","是阿德勒哲学的一个很好的入门。"]}],"\n",["$","li",null,{"children":["$L8b","能帮助你把计算机科学的思维与现实生活的系统和决策联系起来。"]}],"\n",["$","li",null,{"children":["回忆录推荐：","$L8c","（马修·麦康纳海）、","$L8d","（约翰·格林）、","$L8e","（洛莉·戈特利布）。"]}],"\n",["$","li",null,{"children":["偶尔随意浏览 ","$L8f"," 或 Twitter 上的科技内容，也会既有趣又有收获。"]}],"\n",["$","li",null,{"children":["推荐的 Substack：","$L90","、","$L91","、","$L92","、","$L93","。"]}],"\n"]}]
+6b:["$","hr",null,{}]
+6c:["$","p",null,{"children":"一些阅读建议："}]
+6d:["$","ul",null,{"children":["\n",["$","li",null,{"children":"阅读非虚构时，最好处于一种特定的心态：你对该主题感兴趣、保持开放心态并且充满好奇。"}],"\n",["$","li",null,{"children":"有时某本书在你当前的状态下可能不会引起共鸣，这没关系——你随时可以在以后再读。"}],"\n",["$","li",null,{"children":["你完全没必要一次只读一本书。如果此刻对某本书没兴趣，可以先放下，等以后再拿起来。","\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":"小说最好一次读一本，以免情节和细节混淆。"}],"\n",["$","li",null,{"children":"非虚构则无所谓，即便几个月后再继续读也可以。你还可以跳读、非线性阅读，因为许多要点其实会被反复提到。"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"children":["一定要做标注！并把精彩的引语或笔记记录在 Kindle、Notion 或 ","$L94"," 里。"]}],"\n"]}]
+6e:["$","hr",null,{}]
+6f:["$","p",null,{"children":["时间和注意力都是有限的资源——而现在我们很容易在社交媒体或信息流里一刷就是好几个小时。（我自己会用 ","$L95"," 这个应用来提醒和控制）\n如果能把其中一部分时间换成阅读，你会发现这对生活真的很有益 🙂。"]}]
+70:["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"不要做一个npc","children":[["$","a",null,{"data-card":"","href":"#不要做一个npc","className":"peer","children":"不要做一个“NPC”！"}],["$","$L5",null,{"ref":"$undefined","iconNode":"$2a:props:children:11:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+71:["$","p",null,{"children":["$","strong",null,{"children":"要学会培养自己的主动性。"}]}]
+72:["$","p",null,{"children":"所谓主动性，大致可以理解为：你有能力根据自己的目标采取行动，并影响自己和周围的环境。"}]
+73:["$","p",null,{"children":"一个粗略的比喻是——“不要当游戏里的 NPC”。"}]
+74:["$","p",null,{"children":"作为玩家角色，你可以根据自己的信念、价值观和目标走出属于自己的道路。如果你的目标是通关游戏，你就可以去尝试；如果你想完成一条支线任务，你也完全可以去做。"}]
+75:["$","p",null,{"children":"而作为非玩家角色（NPC），你只能被动接受外界的摆布，受到既定程序和路线的限制。NPC 的生活就像是在说：“唉，这就是我所处的世界，这就是我被发到的牌。”"}]
+76:["$","hr",null,{}]
+77:["$","p",null,{"children":["在当下，“NPC”这个说法的 Z 世代版本，大概就是所谓的“主角气场（main character energy）”，它有时是褒义，有时是贬义。另外，还有一种流行的趋势叫“","$L96","”，虽然听上去像是“灵修玄学”，但我觉得其中确实有一些值得参考的东西。"]}]
+78:["$","hr",null,{}]
+79:["$","p",null,{"children":"我认为，培养主动性很大一部分在于逐渐改变你对自己的叙事：你能做什么，你的限制是什么，你的未来会怎样。另一部分则是：你真的去做那些你想做的事。"}]
+7a:["$","p",null,{"children":"这可能意味着，你需要把自己的想法拿出来，找出那些你反复告诉自己的限制，然后去想办法突破它们。比如："}]
+7b:["$","ul",null,{"children":["\n",["$","li",null,{"children":"“我不是一个好学生 / 我不够聪明 / 我没有足够的成就和野心。”"}],"\n",["$","li",null,{"children":"“我很懒 / 我精力不如别人。”"}],"\n",["$","li",null,{"children":"“我开始学编程太晚了 / 我什么都不懂 / 别人比我更适合这个领域。”"}],"\n",["$","li",null,{"children":"“事情就是这样 / 我就是这样 / 未来也不会有改变。”"}],"\n"]}]
+7c:["$","p",null,{"children":"这些被你不断暗示的限制，最终会形成自我实现的预言，塑造你的身份认同。"}]
+7d:["$","p",null,{"children":"当然，并不是所有限制都能被克服，但很多限制其实主要来自你自己讲给自己的故事，以及你自己制造的惯性。"}]
+7e:["$","p",null,{"children":"在实践层面，这可能意味着：写日记、冥想、心理咨询、给自己一些积极的提醒，或者重复一些正面的信念。也可以多和朋友谈谈问题，互相帮助、共同解决。🙂"}]
+7f:["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"常见问题与解答","children":[["$","a",null,{"data-card":"","href":"#常见问题与解答","className":"peer","children":"常见问题与解答"}],["$","$L5",null,{"ref":"$undefined","iconNode":"$2a:props:children:11:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+80:["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"other-relevant-quotes-captured-by-much-better-writers","children":[["$","a",null,{"data-card":"","href":"#other-relevant-quotes-captured-by-much-better-writers","className":"peer","children":"Other relevant quotes captured by much better writers"}],["$","$L5",null,{"ref":"$undefined","iconNode":"$2a:props:children:11:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+81:["$","p",null,{"children":"摘自 Ava 的 《Actually Everyone’s Life is Weird》:"}]
+82:["$","blockquote",null,{"children":["\n",["$","p",null,{"children":"我真希望小时候有人告诉我，关于工作的唯一真正‘规则’，其实就是：你要能支付房租、不伤害别人、不违法。只要符合这三点，你几乎可以去做任何事情，最好是能让自己觉得有意义的事。世界本来就是如此美妙、开放、而且奇妙的。"}],"\n",["$","p",null,{"children":"我成长的环境却让我觉得，如果成绩单上哪怕只有一个 B+，我的人生就完了——没有大学会录取我，我也永远进不了所谓的 FAANG 大厂，最后只能孤独终老。这样的逻辑让我很努力，但同时也让我变得焦虑和恐惧，这些心结花了我很久才慢慢解开。"}],"\n",["$","p",null,{"children":"现在我相信，如果你有创造力，并且愿意努力工作，其实有很多不同的道路都能通向成功。"}],"\n"]}]
+2d:["$","$L97",null,{"href":"https://wustep.me/","children":"Stephen Wu"}]
+2e:["$","$L97",null,{"href":"https://wustep.me/advice-students","children":"Advice for students"}]
+83:["$","$L97",null,{"href":"https://www.youtube.com/@hubermanlab/videos","children":"Huberman"}]
+84:["$","$L97",null,{"href":"https://wustep.me/projects","children":"一些这样的项目"}]
+85:["$","$L97",null,{"href":"https://careercup.com/resume","children":"https://careercup.com/resume"}]
+86:["$","$L97",null,{"href":"https://amzn.to/3X6zBmN","children":"《Cracking the Coding Interview》"}]
+87:["$","$L97",null,{"href":"https://amzn.to/4dmkyvg","children":"《原子习惯》"}]
+88:["$","$L97",null,{"href":"https://amzn.to/4df2148","children":"《程序员修炼之道》"}]
+89:["$","$L97",null,{"href":"https://amzn.to/4dfWJoQ","children":"《数据密集型应用系统设计》"}]
+8a:["$","$L97",null,{"href":"https://www.amazon.com/Ichiro-Kishimi-Collection-Courage-Disliked/dp/9124372196/ref=sr_1_3?crid=WAKV5SB93NCE&dib=eyJ2IjoiMSJ9.CAOvSGfFpvvBnBNAA6a705kJT17ROv3_RAszqO7aJ_4Qx0-gSC_ektyK4U7PQQpYCke2niqMEaowlhIeulQ4O4gXGs8wVtvHCYFN2sraeuD7mEwSjq4HmS8p9EQnEMNuAUb1ygtQUk5WtqfAvamTrumkvN9ymJjwAHzlzstEWrkSbM3M1LVSH-N3WAtL5qBAFlup4oRnhodpNTTxSSdl_r7Jjvr55IsjOrDFYosrOsI.WE-BV4BprhQ22n1Oln_UK_1A1FeDN_SdQTE278VaLGA&dib_tag=se&keywords=the+courage+to+be+disliked&qid=1727076963&s=books&sprefix=the+courage+to+be+disli%2Cstripbooks%2C156&sr=1-3","children":"《被讨厌的勇气》"}]
+8b:["$","$L97",null,{"href":"https://amzn.to/3ZSairN","children":"《算法之美》"}]
+8c:["$","$L97",null,{"href":"https://amzn.to/3MUmssd","children":"《绿灯》"}]
+8d:["$","$L97",null,{"href":"https://www.amazon.com/Anthropocene-Reviewed-Essays-Human-Centered-Planet/dp/0525556532/ref=sr_1_1?crid=1SMZLOSVE4SSP&dib=eyJ2IjoiMSJ9.VU78oX9FJqhsVZy35oEUIGrC0bcWj5DFWJ1XYZube9OGxrIKHx7R4YuBjCft2wTFGjs5yr6WHvwUP7TBQjzEnKW6GRFUnlhjNtoDiwQDmIP_LkXcAVMjRbcQjBJHkteqVK4JGkniKGUJTKdLI9mll6Cyvy5oY0FMLNQFzpJgLfVhsdL0vSOEBtT5JDFXZGNF0Rruc4Rh9BN-w_3oznKfDs4iWWqpTMdIcG3iyTD3FV8.Qc_ticQh_Tbe3bFtUQxMPprY8SKJl9cms1I8EEqeQ4E&dib_tag=se&keywords=john+green+anthropocene&qid=1727077573&sprefix=john+green+anthrop%2Caps%2C154&sr=8-1","children":"《人类世回顾》"}]
+8e:["$","$L97",null,{"href":"https://amzn.to/4gyaPVA","children":"《也许你该找个人聊聊》"}]
+8f:["$","$L97",null,{"href":"https://news.ycombinator.com/","children":"HackerNews"}]
+90:["$","$L97",null,{"href":"https://www.astralcodexten.com/","children":"Astral Codex Ten"}]
+91:["$","$L97",null,{"href":"https://www.avabear.xyz/","children":"bookbear"}]
+92:["$","$L97",null,{"href":"https://newsletter.pragmaticengineer.com/?utm_source=global-search","children":"The Pragmatic Engineer"}]
+93:["$","$L97",null,{"href":"https://www.henrikkarlsson.xyz/","children":"Escaping Flatland"}]
+94:["$","$L97",null,{"href":"https://readwise.io/i/stephen239","children":"Readwise"}]
+95:["$","$L97",null,{"href":"https://one-sec.app/","children":"One Sec"}]
+96:["$","$L97",null,{"href":"https://en.wikipedia.org/wiki/Law_of_attraction_(New_Thought)#Manifestation","children":"显化（manifestation）"}]
+21:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+98:I[445306,["/_next/static/chunks/0i6nf72e-5i85.js","/_next/static/chunks/176nhx87jr~ho.js","/_next/static/chunks/0y~mauy2buhvc.js","/_next/static/chunks/13bvv~2y1k.bl.js","/_next/static/chunks/0ru1ptma7z_~x.js","/_next/static/chunks/0xku.elhpkz_4.js","/_next/static/chunks/17zwzyh8yskki.js","/_next/static/chunks/0nn~0mjvzl406.js","/_next/static/chunks/04opq5z8tquyh.js"],"IconMark"]
+1e:null
+23:[["$","title","0",{"children":"写给学生的建议"}],["$","meta","1",{"name":"description","content":"Advice for students 的译文"}],["$","link","2",{"rel":"manifest","href":"/manifest.json","crossOrigin":"$undefined"}],["$","link","3",{"rel":"icon","href":"/favicon.ico?favicon.0h10g72_esscl.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","4",{"rel":"icon","href":"/icon0.svg?icon0.0jkcalgztpaax.svg","sizes":"any","type":"image/svg+xml"}],["$","link","5",{"rel":"icon","href":"/icon1.png?icon1.07wqyv-ml58q_.png","sizes":"96x96","type":"image/png"}],["$","link","6",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.0f54llezg5h0c.png","sizes":"180x180","type":"image/png"}],["$","$L98","7",{}]]
