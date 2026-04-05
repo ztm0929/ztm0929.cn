@@ -1,0 +1,27 @@
+---
+title: "如何安装 Scoop"
+---
+
+<DraftNotice />
+
+<Callout title="我们的目标" type="success">
+运行少量命令，**在终端成功返回 Scoop 的版本号**
+</Callout>
+
+## 开始之前
+
+
+
+## 动手操作
+
+```powershell title="Windows Terminal（终端）"
+$env:HTTP_PROXY="http://127.0.0.1:7897"; $env:HTTPS_PROXY="http://127.0.0.1:7897"
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
+
+### 确认
+
+```powershell title="Windows Terminal（终端）"
+scoop -v
+```
