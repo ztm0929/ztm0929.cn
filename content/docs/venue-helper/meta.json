@@ -1,4 +1,4 @@
 {
 	"title": "SZU 体育场馆订票小助手",
-	"pages": ["cookie", "school-venue-helper", "cookie-playwright", "task-scheduler", "scratch"]
+	"pages": ["cookie", "usage", "cookie-playwright", "task-scheduler", "scratch"]
 }
