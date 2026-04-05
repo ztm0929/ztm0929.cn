@@ -2,20 +2,71 @@
 title: "如何定时抢票"
 ---
 
+<DraftNotice />
+
 任务计划程序能够定时执行 Python 脚本。
+
+<Callout title="我们的目标" type="success">
+在点击几个按钮后，**成功让脚本在指定时间自动执行**
+</Callout>
+
+## 开始之前
+
+- [ ] 已按照前文的指引完成环境配置，并且能够成功手动运行 `main.py` 抢票
 
 ## 动手操作
 
+按下<kbd>win</kbd> + <kbd>r</kbd>，输入 `taskschd.msc`，打开任务计划程序
+
+![](/task-scheduler-0.png)
+
 ### 1. 创建任务（task）
 
+<Accordions>
+<Accordion title="指引截图">
+![](/task-scheduler-1.png)
+
+![](/task-scheduler-2.png)
+
 建议勾选「使用最高权限运行」，以避免权限不足可能导致的运行失败。
+</Accordion>
+</Accordions>
 
 ### 2. 配置触发器（trigger）
 
-新建，定时，`12:29:55`
+<Accordions>
+<Accordion title="指引截图">
+![](/task-scheduler-3.png)
+
+图中示例的任务，将会在 `2026 年 4 月 5 日 12:29:55` 执行，触发器读取的时间是系统时间，请确保系统时间正确，以免错过抢票时机。
+
+</Accordion>
+</Accordions>
 
 ### 3. 配置操作（action）
 
-选中「启动程序」，程序/脚本选择虚拟环境中的 `python`，添加参数选择 `main.py` 的绝对路径
+<Accordions>
+<Accordion title="指引截图">
+![](/task-scheduler-4.png)
 
-开始于 `main.py` 的绝对路径所在的目录
+选中「启动程序」
+
+![](/task-scheduler-5.png)
+
+「程序或脚本」选择虚拟环境中的 `python`，具体的路径可能不太一样，示例中的路径是 `C:\Users\ztm0929\Documents\misc\tools4szu\venue-helper\venv\Scripts\python.exe`
+
+![](/task-scheduler-6.png)
+
+添加参数填写 `main.py` 的绝对路径：
+
+`C:\Users\ztm0929\Documents\misc\tools4szu\venue-helper\main.py`
+
+「起始于」填写项目文件夹的绝对路径：
+
+`C:\Users\ztm0929\Documents\misc\tools4szu\venue-helper`
+</Accordion>
+</Accordions>
+
+### 4. 保存任务
+
+保存后等待定时执行即可
