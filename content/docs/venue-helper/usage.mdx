@@ -5,15 +5,16 @@ title: "如何半自动购票"
 <DraftNotice />
 
 <Callout title="我们的目标" type="success">
-在完成基础信息填写后，**成功让脚本完成购票流程**。因为需要运行命令，所以还属于半自动范畴，后续我们会介绍定时运行脚本的方法，真正实现全自动购票。
+在完成基础信息填写后，**成功让脚本完成购票流程**<br />
+因为需要运行命令，所以还属于半自动范畴，后续我们会介绍 [定时运行脚本](../task-scheduler) 的方法，真正实现全自动购票
 </Callout>
 
-<video src='/tutorial.mp4' controls/>
+<video src='https://pub-0b7188de3fcf414f8a2a66188d94bf5c.r2.dev/tutorial.mp4' controls/>
 
 ## 开始之前
 
-- [ ] 良好的网络环境（已开启 [终端代理](../naas/terminal-proxy) ）
-- [ ] 已安装 [Git](../git) 和 [Python](../python/pip)
+- [ ] 良好的网络环境（已开启 [终端代理](../../naas/terminal-proxy) ）
+- [ ] 已安装 [Git](../../toolchain/git/install) 和 [Python](../../toolchain/python/install)
 - [ ] 已获取到有效 [Cookie](./cookie.mdx)（建议使用 [Playwright](./cookie-playwright.mdx) 自动获取）
 
 ## 动手操作
@@ -49,7 +50,7 @@ pip 25.3 from C:\Users\ztm0929\scoop\apps\python\current\Lib\site-packages\pip (
 git clone https://github.com/Matt-Dong123/tools4szu.git
 ```
 
-由于项目没有自动依赖文件（`requirements.txt`），我们需要手动安装脚本运行所需的 `requests`、`pandas` 和 `openpyxl` 这三个库。
+由于项目没有自动依赖文件（`requirements.txt`），我们需要手动安装脚本运行所需的 [`requests`](https://pypi.org/project/requests/)、[`pandas`](https://pypi.org/project/pandas/) 和 [`openpyxl`](https://pypi.org/project/openpyxl/) 这三个库。
 
 ```powershell title="Windows Terminal（终端）"
 cd tools4szu/venue-helper
@@ -58,7 +59,7 @@ venv\Scripts\activate
 pip install requests pandas openpyxl
 ```
 
-安装完成后，建议运行 `pip list` 检查依赖是否安装成功。你应该能看到如下列表，如果缺少某个库，请重新运行安装命令。
+安装完成后，建议运行 `pip list` 检查依赖是否安装成功。我们应该能看到如下列表，如果缺少某个库，请重新运行安装命令。
 
 ```powershell title="Windows Terminal（终端）"
 pip list
@@ -87,9 +88,9 @@ urllib3            2.6.3
 ### 3. 配置购票参数
 
 <Accordions>
-<Accordion title="具体列表">
+<Accordion title="courses 列表">
 
-详细字段介绍
+{/* 待融入 AI Prompt，我们用自然语言向 AI 提出需求，AI 根据提前定义好的模板，自动生成准确的 `courses` 列表。 */}
 
 - `CGDM` 和 `XMDM` 分别是场馆代码和项目代码，示例中的 `009` 和 `004` 分别就对应着海边网球场和网球项目
 - `CDWID` 则是场地 ID，`89d7005a36f341a39d89354d659b639d` 是海边网球场 1 号场，`2b375360778a4978922e48b34d772947` 是海边网球场 2 号场
@@ -97,7 +98,14 @@ urllib3            2.6.3
 - `KYYSJD` 是可预约时间段，格式为 `HH:00-HH:00`，`YYRQ` 字段是预约日期，需要自行修改示例中的日期！
 - `YYLX` 是预约类型，`1.0` 是包场预约，`2.0` 是散场预约，与项目类型相关，网球项目只能预约包场
 
-```json
+以下这个示例实际的场景将会是：
+
+1. 预约海边网球场 1 号场，2026 年 4 月 2 日 19:00-20:00 的包场预约
+2. 预约海边网球场 2 号场，2026 年 4 月 2 日 19:00-20:00 的包场预约（如果上一步的 1 号场预约成功，将会提示无法购票，属于合理预期情况）
+3. 预约海边网球场 1 号场，2026 年 4 月 2 日 20:00-21:00 的包场预约
+4. 预约海边网球场 2 号场，2026 年 4 月 2 日 20:00-21:00 的包场预约（与上述同理）
+
+```json title="courses 列表（示例）"
 {
 	"CGDM": "009",
 	"XMDM": "004",
@@ -136,6 +144,33 @@ urllib3            2.6.3
 }
 ```
 </Accordion>
+
+<Accordion title="stuid">
+`stuid` 是学号，脚本会根据它来获取对应的预约人信息，并将预约结果关联到这个人上。示例中的 `2025101011` 是项目作者的学号，我们需要替换成自己的学号。
+</Accordion>
+
+<Accordion title="stuname">
+`stuname` 是姓名。示例中的 `张三` 是一个虚拟的姓名，我们需要替换成自己的姓名。
+</Accordion>
+
+<Accordion title="cookies">
+`cookies` 是登录后获取到的 Cookie 字符串，脚本会使用它来模拟登录状态，向预约接口发起请求。由于 Cookie 的有效期通常只有 3~4 小时，建议在抢票前半小时内重新登录并获取最新 Cookie，以确保脚本能正常工作。
+
+```
+EMAP_LANG=zh; _WEU=eaWl9wshIRU339c63wEDleOQaK3GyAR8OsN2pHf2_k4H9IDkieT7T9wvfw*iRvFbXnZp7VpG_Mx3ZrZLQn5Sgc3fmj9j5rmwDLn3AlqmTXiFENCa2kB0oZQBDqQrAhx5Y30xmfQ0TczvCpaEGU2eymXk_IMJPCfXSVfcKOGT6ciqDNxRxmQN9SNnRljn0pVIvqDU9O4KoO9C08dz5FcJ5j..; insert_cookie=38189586; MOD_AUTH_CAS=MOD_AUTH_ST-8106692-XeWzT6uVIZFjRYhB6QTK-ZvvhSgciapserver2; route=07389b9fd090f647166fb5e572add976
+```
+</Accordion>
+
+<Accordion title="完整示例">
+```python
+counts = 10 # 预约总轮次
+courses=[{"CGDM":"008","XMDM":"002","XQWID":"1","KYYSJD":"20:00-21:00","YYRQ":"2025-04-30","YYLX":"2.0"}]  # 预约场次列表
+delay = 200  # 延迟时间, 单位毫秒
+stuid = 2025101011
+stuname = "张xx"
+cookies = 'EMAP_LANG=zh; _WEU=172ad976'
+```
+</Accordion>
 </Accordions>
 
 ### 4. 运行脚本
@@ -161,16 +196,17 @@ python main.py
 
 总结一下，我们要做的事情就是：
 
-1. **检查环境**：确保网络代理和必要的软件（Git、Python）已正确安装和配置。
-2. **获取源码并安装依赖**：从 GitHub 克隆项目，创建虚拟环境，并安装所需的 Python 库。
-3. **配置购票参数**：根据目标场馆和项目，修改脚本中的参数以匹配你想预约的时间和场地。
-4. **运行脚本**：执行 Python 脚本，让它自动完成购票流程。
+1. **检查环境**：确保网络代理和必要的软件（Git、Python）已正确安装和配置
+2. **获取源码并安装依赖**：从 GitHub 克隆项目，创建虚拟环境，并安装所需的 Python 库
+3. **配置购票参数**：根据目标场馆和项目，修改脚本中的参数（`courses`、`stuid`、`stuname`、`cookies`）以匹配准备预约的时间和场地
+4. **运行脚本**：执行 Python 脚本，让它自动完成购票流程
 
 ## 常见问题
 
 <Accordions>
 <Accordion title="与浏览器自动化相比，脚本的特点是什么？">
-由于不需要处理界面，只需要向目标接口发起网络请求，因此速度更快，效率更高。但行为特征较明显，服务器更容易识别为自动化操作。
+由于不需要处理界面，只需要向目标接口发起网络请求，因此速度更快，效率更高。但行为特征较明显，服务器更容易识别为自动化操作。<br />
+不过这类相对不重要的校园系统通常不会特别严格地防护。
 </Accordion>
 <Accordion title="为什么预约失败？">
 Cookie 的有效期通常只有 3~4 小时。建议在抢票前半小时内重新登录并获取最新 Cookie，以确保脚本能正常工作。
