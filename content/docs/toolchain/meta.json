@@ -2,5 +2,5 @@
     "defaultOpen": true,
     "icon": "Hammer",
     "title": "必备工具链",
-    "pages": ["markdown", "scoop", "github", "python", "shell", "..."]
+    "pages": ["markdown", "package-managers", "github", "python", "shell", "..."]
 }
