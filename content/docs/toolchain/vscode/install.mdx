@@ -1,0 +1,50 @@
+---
+title: "如何安装 VS Code"
+---
+
+<DraftNotice />
+
+## 开始之前
+
+- [ ] 良好的网络环境
+- [ ] 已安装 [Scoop](../../package-managers/scoop)（Windows） 或 [Homebrew](../../package-managers/homebrew)（macOS）
+
+## 动手操作
+
+### 1. 检查网络环境
+
+```powershell title="Windows Terminal（终端）"
+Write-Host "【代理环境变量】"; $env:http_proxy; $env:https_proxy
+```
+应该会返回类似下面的信息：
+```
+【代理环境变量】
+http://127.0.0.1:7897
+http://127.0.0.1:7897
+```
+
+### 2. 输入命令安装 VS Code
+
+```powershell title="Windows Terminal（终端）"
+scoop install vscode
+```
+
+```sh title="Terminal.app（终端）"
+brew install --cask visual-studio-code
+```
+
+### 3. 验证安装成功
+
+```powershell title="Windows Terminal（终端）"
+code --version
+```
+应该会返回类似下面的版本信息：
+```
+1.114.0
+e7fb5e96c0730b9deb70b33781f98e2f35975036
+x64
+```
+
+```sh title="Terminal.app（终端）"
+code --version
+```
