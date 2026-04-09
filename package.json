@@ -11,25 +11,25 @@
     "get:starred": "tsx code/github-api/index.ts starred"
   },
   "dependencies": {
-    "@ai-sdk/react": "^3.0.151",
-    "@openrouter/ai-sdk-provider": "^2.5.0",
+    "@ai-sdk/react": "^3.0.156",
+    "@openrouter/ai-sdk-provider": "^2.5.1",
     "@orama/orama": "^3.1.18",
     "@orama/tokenizers": "^3.1.18",
     "@radix-ui/react-presence": "^1.1.5",
     "@types/hast": "^3.0.4",
-    "ai": "^6.0.149",
+    "ai": "^6.0.154",
     "class-variance-authority": "^0.7.1",
     "flexsearch": "^0.8.212",
-    "fumadocs-core": "^16.7.10",
+    "fumadocs-core": "^16.7.11",
     "fumadocs-mdx": "^14.2.11",
-    "fumadocs-ui": "^16.7.10",
+    "fumadocs-ui": "^16.7.11",
     "hast-util-to-jsx-runtime": "^2.3.6",
     "lucide-react": "^1.7.0",
     "motion": "^12.38.0",
-    "next": "16.2.2",
+    "next": "16.2.3",
     "octokit": "^5.0.5",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
     "remark": "^15.0.1",
     "remark-gfm": "^4.0.1",
     "remark-mdx": "^3.1.1",
@@ -46,8 +46,8 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "eslint": "^10.2.0",
-    "eslint-config-next": "16.2.2",
-    "postcss": "^8.5.8",
+    "eslint-config-next": "16.2.3",
+    "postcss": "^8.5.9",
     "tailwindcss": "^4.2.2",
     "tsx": "^4.21.0",
     "typescript": "^6.0.2"
@@ -57,10 +57,5 @@
   "author": {
     "name": "ztm0929",
     "email": "ztm0929@icloud.com"
-  },
-  "pnpm": {
-    "overrides": {
-      "react-medium-image-zoom": "5.4.1"
-    }
   }
 }
