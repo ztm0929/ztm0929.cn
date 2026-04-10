@@ -4,47 +4,110 @@ title: 如何安装 Git
 
 <DraftNotice />
 
+{/* TODO：录制演示视频 */}
+
 <Callout title="我们的目标" type="success">
 运行少量命令，**在终端成功返回 Git 的版本号**
 </Callout>
 
 ## 开始之前
 
-- [ ] 良好的网络环境
-- [ ] 终端基础操作知识
-- [ ] 已安装 Scoop 或 Homebrew
+- [x] 良好的网络环境（已开启 [终端代理](../../../naas/terminal-proxy)）
+- [x] 已安装 [Scoop](../../package-managers/scoop/install)（Windows）或 [Homebrew](../../package-managers/homebrew/install)（macOS）
 
 ## 动手操作
 
-### 1. 检查系统是否已安装 Git
+### 1. 检查是否内置 Git
 
-```
+有时操作系统会预装 Git，可以先检查一下：
+
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
+
+```powershell title="Windows Terminal（终端）"
 git --version
 ```
 
-## 安装 Git
+</Tab>
 
-1. 访问 [Git 官网](https://git-scm.com/) 下载适合 Windows 的安装包。
-2. 运行安装程序，按照提示完成安装。
+<Tab value="macOS">
 
-## 验证安装
-
-打开命令提示符（CMD），输入以下命令：
-
-```bash
+```sh title="Terminal.app（终端）"
 git --version
 ```
+</Tab>
+
+</Tabs>
+
+如果返回了 Git 的版本号，说明已经安装了 Git，可以跳过后续步骤。如果提示命令未找到，则继续安装。
+
+### 2. 安装 Git
+
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
+
+```powershell title="Windows Terminal（终端）"
+scoop install git
+```
+
+</Tab>
+
+<Tab value="macOS">
+
+```sh title="Terminal.app（终端）"
+brew install git
+```
+
+</Tab>
+
+</Tabs>
+
+### 3. 验证安装
+
+
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
+
+```powershell title="Windows Terminal（终端）"
+git --version
+```
+
+</Tab>
+
+<Tab value="macOS">
+
+```sh title="Terminal.app（终端）"
+git --version
+```
+
+</Tab>
+
+</Tabs>
+
 
 如果成功安装，将显示 Git 的版本号。
 
-## 使用 Git
+## 总结回顾
 
-在命令提示符中输入 `git`，可以查看 Git 的使用帮助和可用命令。
+回顾一下，我们需要做的主要就是三个步骤：
 
-```bash
-git init
-```
+1. 检查是否内置 Git
+2. 安装 Git（如果没有内置）
+3. 验证安装成功
 
-## 结语
+## 常见问题
 
-恭喜你成功安装并使用了 Git！接下来可以尝试使用 Git 管理你的代码项目。
+网上已有的各类 Git 安装教程都是基于官方图形界面的，我们在 [启用了终端代理](../../../naas/terminal-proxy) 、[使用软件包管理器安装](../../package-managers)，也许不会遇到什么问题。
+
+## 继续探索
+
+安装好 Git 之后，我们就可以开始尝试对代码进行版本管理。作为小白，我们可以先从简单的命令开始：
+
+- `git init`：在当前目录初始化一个新的 Git 仓库
+- `git add <file>`：将文件添加到暂存区
+- `git commit -m "message"`：提交更改并添加提交信息
+- `git status`：查看当前仓库的状态
+- `git clone <repo>`：克隆远程仓库到本地
