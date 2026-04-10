@@ -13,7 +13,7 @@ export const baseOptions: BaseLayoutProps = {
     title: (
       <div className="flex items-center gap-2">
         <Image
-          src="https://github.com/ztm0929.png"
+          src="/avatar.png"
           alt="个人头像"
           width={24}
           height={24}
