@@ -1,0 +1,33 @@
+---
+title: "如何启动 Discord 客户端（Windows）"
+---
+
+<DraftNotice />
+
+`Update.exe` 默认不走代理，而我们的网络环境无法直连 Discord 服务器，最终导致启动时卡死在 checking for updates 的界面。
+
+好在有这个开源项目可以帮我们临时解决卡死的问题：
+
+https://github.com/aiqinxuancai/DiscordProxyStart
+
+## 开始之前
+
+- [ ] 良好的网络环境（已运行 [小猫咪](../../naas/system-proxy/clash-verge-rev/)）
+- [ ] 已安装 Discord 客户端
+
+## 动手操作
+
+### 1. 下载并解压
+
+### 2. 配置
+
+```
+[Config]
+Proxy=http://127.0.0.1:7897
+```
+
+### 3. 启动
+
+## 常见问题
+
+## 继续探索
