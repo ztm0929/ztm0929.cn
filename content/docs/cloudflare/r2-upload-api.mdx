@@ -1,0 +1,43 @@
+---
+title: "如何通过 API 上传文件到 R2"
+---
+
+<DraftNotice />
+
+CF 的控制台上传文件有大小限制，大于 300 MB 的文件必须通过 API 上传。
+
+## 开始之前
+
+- [ ] 已安装 Scoop（Windows） 或 Homebrew（macOS）
+- [ ] 已创建 R2 存储桶
+
+## 动手操作
+
+### 1. 获取 API Token
+
+Account ID
+
+Access Key ID & Secret Access Key
+
+### 2. 安装 AWS CLI
+
+```
+scoop install aws
+```
+
+```
+aws configure
+```
+
+```
+AWS Access Key ID: 我们的Key
+AWS Secret Access Key: 我们的Secret
+Default region name: auto
+Default output format: json
+```
+
+```
+aws s3 cp /Users/ztm0929/Documents/misc/ztm0929.cn/public/tutorial.mp4 \
+s3://software-packages/tutorial.mp4 \
+--endpoint-url https://xxx.r2.cloudflarestorage.com
+```
