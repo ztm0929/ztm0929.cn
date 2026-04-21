@@ -1,0 +1,51 @@
+---
+title: "如何使用 uv 安装依赖"
+---
+
+<DraftNotice />
+
+我们要逐渐从 pip 过渡到 uv 来安装并管理 Python 依赖。
+
+## 开始之前
+
+- [ ] 良好的网络环境（已开启 [终端代理](../../../../naas/terminal-proxy) ）
+- [ ] 已安装 [uv](../uv/install.mdx) 和 [Python](../install.mdx)
+
+## 动手操作
+
+### 1. 环境预检
+
+```powershell title="Windows Terminal（终端）"
+Write-Host "【代理环境变量】"; $env:HTTP_PROXY; $env:HTTPS_PROXY; `
+Write-Host "`n【Python 版本】"; python --version; `
+Write-Host "`n【uv 版本】"; uv --version;
+```
+
+终端将会输出类似如下的信息：
+
+
+```powershell
+【代理环境变量】
+http://127.0.0.1:7897
+http://127.0.0.1:7897
+
+【Python 版本】
+Python 3.14.4
+
+【uv 版本】
+uv 0.11.7 (9d177269e 2026-04-15 x86_64-pc-windows-msvc)
+```
+
+### 2. 安装依赖
+
+```powershell title="Windows Terminal（终端）"
+uv add requests
+```
+
+此外，我们还可以一次性安装多个依赖：
+
+```powershell title="Windows Terminal（终端）"
+uv add playwright pandas openpyxl
+```
+
+
