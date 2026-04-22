@@ -14,18 +14,24 @@ title: "如何从零开始手搓项目"
 
 ## 开始之前
 
-- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/getSportVenueData.do
-- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/getTimeList.do
-- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/modules/sportVenue/getOpeningRoom.do
-- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/insertVenueBookingInfo.do
+- [x] 良好的网络环境（已开启 [终端代理](../../naas/terminal-proxy)）
+- [x] 已安装 [Scoop](../../toolchain/package-managers/scoop/install)（Windows）或 [Homebrew](../../toolchain/package-managers/homebrew/install)（macOS）
+- [x] 已安装 [Python](../../toolchain/python/install) 和 [uv](../../toolchain/python/uv/install)
 
+## 动脑思考
 
-```
-api/
-├── client.py      # requests封装（统一headers/cookies）
-├── venue.py       # 场地相关
-├── booking.py     # 预约
-├── config.py      # 配置
+我们的完整项目文件夹内将会有以下文件
+```text title="szu-venue-helper"
+README.md
+src/main.py
+src/config.py
+src/models.py
+src/api/client.py
+src/api/venue_query.py
+src/api/venue_booking.py
+src/service/booking_flow.py
+src/scripts/fetch_cookies.py
+src/scripts/download_venue_data.py
 ```
 
 ## 动手操作
@@ -80,6 +86,14 @@ cd next-venue-helper
 
 This is a simple venue booking helper for Python.
 ```
+
+### 会用到的网络接口
+
+- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/getSportVenueData.do
+- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/getTimeList.do
+- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/modules/sportVenue/getOpeningRoom.do
+- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/insertVenueBookingInfo.do
+
 
 ## 总结回顾
 
