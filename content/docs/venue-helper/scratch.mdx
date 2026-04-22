@@ -14,25 +14,45 @@ title: "如何从零开始手搓项目"
 
 ## 开始之前
 
-- [x] 良好的网络环境（已开启 [终端代理](../../naas/terminal-proxy)）
-- [x] 已安装 [Scoop](../../toolchain/package-managers/scoop/install)（Windows）或 [Homebrew](../../toolchain/package-managers/homebrew/install)（macOS）
+- [x] 拥有良好的网络环境（已开启 [终端代理](../../naas/terminal-proxy)）
 - [x] 已安装 [Python](../../toolchain/python/install) 和 [uv](../../toolchain/python/uv/install)
+- [x] 已安装 [Git](../../toolchain/git/install) 并拥有 [GitHub](../../toolchain/github/) 帐户
+- [x] 已安装 [VS Code](../../toolchain/vscode/install)
 
 ## 动脑思考
 
-我们的完整项目文件夹内将会有以下文件
-```text title="szu-venue-helper"
-README.md
-src/main.py
-src/config.py
-src/models.py
-src/api/client.py
-src/api/venue_query.py
-src/api/venue_booking.py
-src/service/booking_flow.py
-src/scripts/fetch_cookies.py
-src/scripts/download_venue_data.py
-```
+我们的完整项目文件夹内将会有以下文件夹和文件：
+
+import { File, Folder, Files } from 'fumadocs-ui/components/files';
+
+<Files>
+  <Folder name="szu-venue-helper" defaultOpen>
+	<Folder name="src">
+	  <File name="main.py" />
+	  <File name="config.py" />
+	  <File name="models.py" />
+	  <Folder name="api" defaultOpen>
+		<File name="client.py" />
+		<File name="venue_query.py" />
+		<File name="venue_booking.py" />
+	  </Folder>
+	  <Folder name="service" defaultOpen>
+		<File name="booking_flow.py" />
+	  </Folder>
+	  <Folder name="scripts" defaultOpen>
+		<File name="fetch_cookies.py" />
+		<File name="download_venue_data.py" />
+	  </Folder>
+	</Folder>
+	<File name=".gitignore" />
+	<File name=".python-version" />
+	<File name="pyproject.toml" />
+	<File name="uv.lock" />
+	<File name=".env.example" />
+    <File name=".env" />
+    <File name="README.md" />
+  </Folder>
+</Files>
 
 ## 动手操作
 
