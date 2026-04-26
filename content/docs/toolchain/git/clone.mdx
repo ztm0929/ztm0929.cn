@@ -1,0 +1,56 @@
+---
+title: "如何克隆远程仓库"
+---
+
+<DraftNotice />
+
+GitHub、GitLab 和 Gitee 等平台上托管了大量的开源项目，我们可以通过克隆（git clone）来获取到这些项目的代码分析与学习。
+
+## 我们的目标
+
+<Callout type="success">
+运行少量命令，成功将 Ac-Wiki 远程代码克隆到本地，**确认目录中包含完整项目文件与 Git 元数据**
+</Callout>
+
+<Callout type="info">
+本教程克隆的 [Ac-Wiki](https://ac-wiki.org) 项目是一个大学生们开源的知识分享平台
+</Callout>
+
+## 开始之前
+
+- [ ] 良好的网络环境（已开启 [终端代理](../../../naas/terminal-proxy)）
+- [ ] 已安装 [Git](../install)
+
+## 动手操作
+
+### 1. 获取远程仓库地址
+
+GitHub 仓库地址后添加 `.git` 后缀即可得到 Git 克隆地址，例如：
+
+```
+https://github.com/Ac-Wiki/Ac-Wiki
+```
+
+```
+https://github.com/Ac-Wiki/Ac-Wiki.git
+```
+
+### 2. 克隆远程仓库
+
+```
+git clone https://github.com/Ac-Wiki/Ac-Wiki.git
+```
+
+执行上述命令后，Git 会在当前目录下创建一个名为 `Ac-Wiki` 的文件夹，并将远程仓库中的代码克隆到该文件夹中。
+
+### 3. 验证克隆结果
+
+进入克隆后的目录：
+
+```
+cd Ac-Wiki
+```
+
+## 总结回顾
+
+## 继续探索
