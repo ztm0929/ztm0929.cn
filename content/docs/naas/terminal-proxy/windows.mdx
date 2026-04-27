@@ -2,31 +2,42 @@
 title: "如何为 Windows 终端启用代理"
 ---
 
+<DraftNotice />
+
 很多小白打开了系统代理，却发现终端里的下载、安装、更新命令还是慢。原因通常不是网络本身，而是终端会话里没有持续生效的代理环境变量。本文会带你用最少步骤，把 Windows 下的终端代理配置成“开终端就可用”，让后续常见命令长期稳定加速。
 
 ## 我们的目标
 
-**git/pip 等命令运行速度提升**
+<Callout type="success">
+运行少量命令，为终端成功注入代理，**使 `git`、`pip` 等命令运行速度提升**
+</Callout>
 
 ## 开始之前
 
-- [x] 已安装 Windows Terminal（终端）
+- [ ] 拥有良好的网络环境（已运行 [小猫咪](../../system-proxy/clash-verge-rev)）
+- [ ] 已安装 Windows Terminal（终端）
 
 ## 动手操作
 
-<div className='fd-steps [&_h3]:fd-step'>
-
-```powershell title="Windows Terminal（终端）"
-"http_proxy","https_proxy","HTTP_PROXY","HTTPS_PROXY" | % { [System.Environment]::SetEnvironmentVariable($_,"http://127.0.0.1:7897","User") }
-```
-
-### 确认注入成功
+### 1. 环境预检
 
 ```powershell title="Windows Terminal（终端）"
 $env:HTTP_PROXY; $env:HTTPS_PROXY;
 ```
 
-### 测试代理效果（可选）
+### 2. 注入环境变量
+
+```powershell title="Windows Terminal（终端）"
+"http_proxy","https_proxy","HTTP_PROXY","HTTPS_PROXY" | % { [System.Environment]::SetEnvironmentVariable($_,"http://127.0.0.1:7897","User") }
+```
+
+### 3. 确认注入成功
+
+```powershell title="Windows Terminal（终端）"
+$env:HTTP_PROXY; $env:HTTPS_PROXY;
+```
+
+### 4. 测试代理效果（可选）
 
 当终端返回 `http://127.0.0.1:7897` 的结果时，说明已成功注入，我们可以测试一下代理效果，这一步骤不是必需的。 
 
@@ -71,10 +82,6 @@ scoop install python
 
 pnpm install next
 
-
-
-
-</div>
 
 ## 常见问题
 
