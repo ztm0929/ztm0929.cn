@@ -1,0 +1,53 @@
+---
+title: "如何利用 Starship 美化 Shell"
+---
+
+<DraftNotice />
+
+默认的 Shell 通常都不美观，我们可以利用 [Starship](https://starship.rs/zh-CN/) 这个工具美化。
+
+## 我们的目标
+
+<Callout type="success">
+输入少量命令，**成功改变 Shell 的默认样式**
+</Callout>
+
+## 开始之前
+
+- [ ] 拥有良好的网络环境（已开启 终端代理）
+- [ ] 已安装终端
+- [ ] 已安装 Scoop（Windows） 或 Homebrew（macOS）
+- [ ] 已安装任意一款 Nerd Font
+
+## 动手操作
+
+```
+scoop bucket add nerd-fonts
+scoop install nerd-fonts/JetBrains-Mono
+```
+
+```
+brew install --cask font-jetbrains-mono-nerd-font
+```
+
+### 1. 使用软件管理器安装
+
+```
+scoop install starship
+```
+
+### 2. 注入启动命令
+
+```
+Invoke-Expression (&starship init powershell)
+```
+
+### 3. 使用预设主题
+
+```
+mkdir -p ~/.config
+starship preset catppuccin-powerline -o ~/.config/starship.toml
+```
+
+### 4. 启用 Nerd Font 字体
+
