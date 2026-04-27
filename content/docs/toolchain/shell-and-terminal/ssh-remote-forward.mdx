@@ -1,0 +1,42 @@
+---
+title: "如何为 VPS 转发代理"
+---
+
+<DraftNotice />
+
+受限于平台政策，部分云服务商的 VPS 可能不方便配置代理，我们可以通过 SSH 来临时借用一下本机的代理。
+
+## 我们的目标
+
+<Callout type="success">
+输入少量命令，**成功让 VPS 输出境外的 IP 地址**
+</Callout>
+
+## 开始之前
+
+- [ ] 良好的网络环境（已开启 [终端代理](../../../naas/terminal-proxy)）
+
+## 动手操作
+
+### 1. SSH 远程转发
+
+```
+ssh -R 7897:localhost:7897 ztm0929@vps-cn
+```
+
+### 2. export 代理环境变量
+
+```
+export http_proxy=http://localhost:7897
+export https_proxy=http://localhost:7897
+```
+
+### 3. 验证代理效果
+
+```
+curl ipinfo.io
+```
+
+## 继续探索
+
+值得注意的是，这种方式只是在 SSH 操作 VPS 时提供了临时的代理环境，一旦断开 SSH 连接，VPS 就会恢复到原来的网络环境。
