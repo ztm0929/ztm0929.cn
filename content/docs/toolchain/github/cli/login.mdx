@@ -1,0 +1,22 @@
+---
+title: "如何使用 CLI 登录 GitHub"
+---
+
+<DraftNotice />
+
+```
+gh auth login
+? Where do you use GitHub? GitHub.com
+? What is your preferred protocol for Git operations on this host? SSH
+? Upload your SSH public key to your GitHub account? /Users/ztm0929/.ssh/id_rsa.pub
+? Title for your SSH key: GitHub CLI
+? How would you like to authenticate GitHub CLI? Login with a web browser
+
+! First copy your one-time code: 91B6-56EC
+Press Enter to open https://github.com/login/device in your browser... 
+✓ Authentication complete.
+- gh config set -h github.com git_protocol ssh
+✓ Configured git protocol
+✓ Uploaded the SSH key to your GitHub account: /Users/ztm0929/.ssh/id_rsa.pub
+✓ Logged in as ztm0929
+```
