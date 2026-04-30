@@ -68,6 +68,19 @@ export const tutorials = defineDocs({
   }
 });
 
+export const notes = defineDocs({
+  docs: {
+	schema: frontmatterSchema.extend({
+      tags: z.array(z.string()).optional(),
+      draft: z.boolean().default(false),
+    })
+  },
+  dir: './content/notes',
+  meta: {
+	schema: metaSchema
+  }
+});
+
 export const blogPosts = defineCollections({
 	type: 'doc',
 	dir: './content/blog',

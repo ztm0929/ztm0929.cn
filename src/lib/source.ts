@@ -1,4 +1,4 @@
-import { tutorials } from '@/.source';
+import { tutorials, notes } from '@/.source';
 import { blogPosts } from '@/.source';
 import { toFumadocsSource } from 'fumadocs-mdx/runtime/server';
 import { loader, type LoaderPlugin } from 'fumadocs-core/source';
@@ -75,6 +75,13 @@ export const tutorialsSource = loader({
   icon: iconRenderer,
 });
 
+export const notesSource = loader({
+  baseUrl: '/notes',
+  source: notes.toFumadocsSource(),
+  plugins: [excludeDraftInProductionPlugin()],
+  icon: iconRenderer,
+});
+
 export const blog = loader({
   baseUrl: '/blog',
   source: toFumadocsSource(blogPosts, []),
@@ -87,6 +94,13 @@ export function getAllTags() {
   
   // 从tutorials中收集tags
   for (const page of tutorialsSource.getPages()) {
+    if (page.data.tags) {
+      page.data.tags.forEach((tag: string) => allTags.add(tag));
+    }
+  }
+
+  // 从notes中收集tags
+  for (const page of notesSource.getPages()) {
     if (page.data.tags) {
       page.data.tags.forEach((tag: string) => allTags.add(tag));
     }
@@ -110,6 +124,13 @@ export function getPagesByTag(tagName: string) {
   for (const page of tutorialsSource.getPages()) {
     if (page.data.tags?.includes(tagName)) {
       pages.push({ ...page, type: 'tutorials' });
+    }
+  }
+
+  // 从notes中查找
+  for (const page of notesSource.getPages()) {
+    if (page.data.tags?.includes(tagName)) {
+      pages.push({ ...page, type: 'notes' });
     }
   }
   
