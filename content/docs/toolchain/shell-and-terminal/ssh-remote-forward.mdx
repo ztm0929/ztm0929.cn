@@ -18,7 +18,7 @@ title: "如何为 VPS 转发代理"
 
 ## 动手操作
 
-### 1. SSH 远程转发
+### 1. SSH 远程端口转发
 
 ```
 ssh -R 7897:localhost:7897 ztm0929@vps-cn
@@ -40,3 +40,5 @@ curl ipinfo.io
 ## 继续探索
 
 值得注意的是，这种方式只是在 SSH 操作 VPS 时提供了临时的代理环境，一旦断开 SSH 连接，VPS 就会恢复到原来的网络环境。
+
+SSH 官方手册对 `-R` 选项的说明：https://man.openbsd.org/ssh#R~5
