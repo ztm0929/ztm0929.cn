@@ -12,9 +12,13 @@ title: "如何安装 Docker"
 
 ## 开始之前
 
-由于 Docker 限制，Windows 和 macOS 系统需要额外安装 Docker Desktop，它不够轻便，因此本教程将以 Linux 系统为例进行演示。
+<Callout>
+由于 Docker 限制，Windows 和 macOS 系统需要额外安装 Docker Desktop，它不够轻便，因此本教程将以 Linux 系统为例进行演示
 
-Windows 系统请使用 WSL2 进行安装，macOS 系统请使用 Colima。
+Windows 系统请使用 [WSL](../../shell-and-terminal/windows-terminal/wsl) 安装 Docker，macOS 系统请使用 [Colima](https://colima.run/) 取代 Docker
+</Callout>
+
+
 
 - [ ] Linux 发行版（如 Ubuntu、Debian、Fedora 等）
 - [ ] 具有 sudo 权限的用户账户
@@ -82,3 +86,13 @@ sudo nano /etc/docker/daemon.json
 ```
 docker run hello-world
 ```
+
+## 总结回顾
+
+我们主要做了以下几件事：
+
+1. 添加 Docker 官方源，因为系统默认的软件源可能没有最新版本的 Docker
+2. 安装 Docker Engine 以及相关组件
+3. 设置 Docker 开机自启，确保系统重启后 Docker 服务能够自动启动
+4. 配置用户权限，允许当前用户直接使用 Docker 命令而无需 sudo
+5. 配置网络代理，确保 Docker 能够通过代理服务器访问互联网

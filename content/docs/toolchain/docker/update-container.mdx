@@ -1,0 +1,30 @@
+---
+title: "如何更新 Docker 容器"
+---
+
+<DraftNotice />
+
+## 我们的目标
+
+<Callout type="success">
+**成功更新 Docker 容器并运行最新版本的应用**
+</Callout>
+
+## 开始之前
+
+- [ ] 已安装 [Docker](./install)
+- [ ] 已有一个正在运行的 Docker 容器
+
+## 动手操作
+
+### 1. 拉取最新镜像
+
+```
+docker compose pull
+```
+
+### 2. 更新容器
+
+```
+docker compose up -d
+```
