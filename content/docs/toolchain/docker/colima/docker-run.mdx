@@ -1,0 +1,30 @@
+---
+title: "如何使用 Colima 运行 Docker 容器"
+---
+
+<DraftNotice />
+
+## 开始之前
+
+- [ ] 拥有良好的网络环境（已开启 终端代理）
+- [ ] 已安装 [Colima](./install.mdx)
+
+## 动手操作
+
+### 1. 启动 Colima
+
+```zsh title="Terminal.app（终端）"
+colima start
+```
+
+### 2. 运行 Docker 容器
+
+```zsh title="Terminal.app（终端）"
+docker run -d -p 80:80 --name my-nginx nginx
+```
+
+### 3. 验证容器是否运行
+
+```zsh title="Terminal.app（终端）"
+docker ps
+```

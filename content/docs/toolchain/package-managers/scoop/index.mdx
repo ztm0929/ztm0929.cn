@@ -4,7 +4,7 @@ title: "Scoop"
 
 <DraftNotice />
 
-Scoop 是一个 Windows 平台的软件包管理器，我们可以用它便携地管理软件的安装、更新与卸载。
+[Scoop](https://scoop.sh/) 是一个 Windows 平台的软件包管理器，我们可以用它便携地管理软件的安装、更新与卸载。
 
 ## 为什么选择 Scoop？
 
@@ -15,3 +15,15 @@ scoop install git
 scoop bucket add extras
 scoop install windows-terminal
 ```
+
+## 特点
+
+- 避免权限弹窗
+- 隐藏图形化的向导式安装程序
+- 避免因安装大量软件而污染 PATH
+- 避免安装和卸载程序时产生意料之外的副作用
+- 自动查找并安装依赖项
+- 自动完成所有额外的配置步骤，让程序可直接正常运行
+
+对于终端应用，Scoop 会在 ~\scoop\shims 目录下创建 shim，也就是命令行快捷方式，并将其加入
+PATH。对于图形应用，Scoop 会在一个专门的开始菜单文件夹中创建程序快捷方式，名为 Scoop Apps。这样一来，软件包总能被干净地卸载，而且你可以清楚知道当前 PATH 和开始菜单里有哪些工具。
