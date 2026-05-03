@@ -8,12 +8,85 @@ Python 是一门适合小白的编程语言，日常学习与工作可以利用 
 
 ## 开始之前
 
-- [ ] 已安装 Scoop 或 Homebrew
+- [ ] 拥有良好的网络环境（已开启 [终端代理](../../../naas/terminal-proxy)）
+- [ ] 了解软件（包）管理器（已安装 [Windows 的 Scoop](../../package-managers/scoop/install) 或 [macOS 的 Homebrew](../../package-managers/homebrew/install)）
 
 ## 动手操作
 
-### 1. 安装 Python
+### 1. 环境预检
 
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
+
+```powershell title="Windows Terminal（终端）"
+python --version `
+$env:HTTP_PROXY; $env:HTTPS_PROXY; `
+scoop -v
 ```
+
+</Tab>
+
+<Tab value="macOS">
+
+```zsh title="Terminal.app（终端）"
+python --version \
+echo $HTTP_PROXY; echo $HTTPS_PROXY; \
+brew -v
+```
+
+</Tab>
+
+</Tabs>
+
+- 有时系统（主要是 macOS）可能会预装 Python 或是自己之前安装过但是忘了，可以先检查确认一下
+- 此外，还需要确保已经正确配置了终端代理，加速 Python 的下载过程
+- 最后，确认一下包管理器是否可用
+
+### 2. 安装 Python
+
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
+
+```powershell title="Windows Terminal（终端）"
 scoop install python
 ```
+
+</Tab>
+
+<Tab value="macOS">
+
+```zsh title="Terminal.app（终端）"
+brew install python
+```
+
+</Tab>
+
+</Tabs>
+
+### 3. 验证安装
+
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
+```powershell title="Windows Terminal（终端）"
+python --version
+```
+</Tab>
+<Tab value="macOS">
+```zsh title="Terminal.app（终端）"
+python --version
+```
+</Tab>
+</Tabs>
+
+## 总结回顾
+
+1. 检查是否已有 Python
+2. 优化网络并使用包管理器安装 Python
+3. 验证安装成功
+
+## 常见问题
+
+## 继续探索
