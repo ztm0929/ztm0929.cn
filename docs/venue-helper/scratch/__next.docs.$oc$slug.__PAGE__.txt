@@ -1,0 +1,209 @@
+1:"$Sreact.fragment"
+2:I[77405,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"DocsPage"]
+3:I[77405,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"DocsTitle"]
+4:I[77405,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"DocsDescription"]
+5:I[302559,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"LLMCopyButton"]
+d:I[302559,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"ViewOptions"]
+e:I[77405,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"DocsBody"]
+f:I[678431,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"default"]
+10:I[527538,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"default"]
+11:I[154366,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"Files"]
+12:I[154366,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"Folder"]
+13:I[154366,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"File"]
+2f:I[969956,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js"],"OutletBoundary"]
+30:"$Sreact.suspense"
+32:I[977335,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"CodeBlock"]
+33:I[977335,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"Pre"]
+:HL["/_next/static/chunks/0sk6hd1aagp67.css","style"]
+6:T1331,---
+title: "如何从零开始手搓项目"
+---
+
+<DraftNotice />
+
+「从零开始」其实指的是文件结构层面，我们依然要依赖前辈的代码理念。
+
+<Callout title="我们的目标" type="success">
+- 理解 Git 的基本使用
+- 熟悉 Python 项目的基本结构（env、PEP8、依赖、函数设计）
+- VS Code 的基本使用（调试、Git 集成、Markdown 预览）
+</Callout>
+
+## 开始之前
+
+- [x] 拥有良好的网络环境（已开启 [终端代理](../../naas/terminal-proxy)）
+- [x] 已安装 [Python](../../toolchain/python/install) 和 [uv](../../toolchain/python/uv/install)
+- [x] 已安装 [Git](../../toolchain/git/install) 并拥有 [GitHub](../../toolchain/github/) 帐户
+- [x] 已安装 [VS Code](../../toolchain/vscode/install)
+
+## 动脑思考
+
+我们的完整项目文件夹内将会有以下文件夹和文件：
+
+import { File, Folder, Files } from 'fumadocs-ui/components/files';
+
+<Files>
+  <Folder name="szu-venue-helper" defaultOpen>
+	<Folder name="src">
+	  <File name="main.py" />
+	  <File name="config.py" />
+	  <File name="models.py" />
+	  <Folder name="api" defaultOpen>
+		<File name="client.py" />
+		<File name="venue_query.py" />
+		<File name="venue_booking.py" />
+	  </Folder>
+	  <Folder name="service" defaultOpen>
+		<File name="booking_flow.py" />
+	  </Folder>
+	  <Folder name="scripts" defaultOpen>
+		<File name="fetch_cookies.py" />
+		<File name="download_venue_data.py" />
+	  </Folder>
+	</Folder>
+	<File name=".gitignore" />
+	<File name=".python-version" />
+	<File name="pyproject.toml" />
+	<File name="uv.lock" />
+	<File name=".env.example" />
+    <File name=".env" />
+    <File name="README.md" />
+  </Folder>
+</Files>
+
+## 动手操作
+
+```
+uv init szu-venue-helper
+```
+
+### 1. 检查环境
+
+```powershell title="Windows Terminal（终端）"
+Write-Host "【代理环境变量】"; $env:http_proxy; $env:https_proxy; `
+Write-Host "`n【Git 版本】"; git --version; `
+Write-Host "`n【Python 版本】"; python --version; `
+Write-Host "`n【pip 版本】"; pip --version
+```
+
+我们需要确保：
+
+- 启用了终端代理，它能够加速我们后续的依赖安装和代码拉取
+- 安装了 Git，将引入版本管理的理念
+
+如果没有意外，我们应该能够在终端看到类似如下的输出
+<br/>具体的端口号、版本号以及路径等信息可能因人而异：
+
+```powershell
+【代理环境变量】
+http://127.0.0.1:7897
+http://127.0.0.1:7897
+
+【Git 版本】
+git version 2.53.0.windows.2
+
+【Python 版本】
+Python 3.14.3
+
+【pip 版本】
+pip 25.3 from C:\Users\ztm0929\scoop\apps\python\current\Lib\site-packages\pip (python 3.14)
+```
+
+```powershell title="Windows Terminal（终端）"
+mkdir next-venue-helper
+cd next-venue-helper
+```
+
+
+
+`README.md`（自述文件）是开源项目的门面，好的自述文件能够让用户快速了解项目的功能和使用方法。
+
+```markdown title="README.md"
+# Next Venue Helper
+
+This is a simple venue booking helper for Python.
+```
+
+### 会用到的网络接口
+
+- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/getSportVenueData.do
+- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/getTimeList.do
+- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/modules/sportVenue/getOpeningRoom.do
+- https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/insertVenueBookingInfo.do
+
+
+## 总结回顾
+
+### Git 只记三条命令
+
+Git 非常强大也非常复杂，编程十年的老手可能也会感到困惑，我们作为小白只需要记住三条命令：
+
+- `git clone <repo_url>`：从远程仓库克隆代码到本地
+- `git add <file>`：将修改的文件添加到暂存区
+- `git commit -m "message"`：将暂存区的修改提交到本地仓库，并附上提交信息
+
+### 理解网络请求
+
+`GET` 请求是向服务器请求数据，`POST` 请求是向服务器提交数据。我们在后续的自动购票脚本中会大量使用这两种请求来与订票系统进行交互。
+
+### Python 项目结构（uv）
+
+uv 是一个现代的 Python 包管理工具，它简化了虚拟环境和依赖管理的过程。 在 uv 管理的项目中，我们通常会看到以下几个文件和目录：
+
+- `venv/`：虚拟环境目录，用于隔离项目的 Python 依赖
+- `README.md`：项目自述文件，介绍项目功能和使用方法	
+- `main.py`：项目的主入口文件，包含核心逻辑
+- `requirements.txt`：列出项目依赖的 Python 包及其版本（如果使用 uv，这个文件可能不存在，因为 uv 会直接管理依赖）
+
+### 函数设计原则
+
+在编写 Python 函数时，我们应该遵循以下设计原则：
+
+- 单一职责原则：每个函数应该只负责一个功能，避免过于复杂
+- 明确的输入输出：函数应该有清晰的参数和返回值，便于理解和测试
+- 避免副作用：函数应该尽量避免修改全局状态，保持纯函数的特性
+
+### VS Code 的基本使用
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"toc":[{"depth":2,"url":"#开始之前","title":"开始之前"},{"depth":2,"url":"#动脑思考","title":"动脑思考"},{"depth":2,"url":"#动手操作","title":"动手操作"},{"depth":3,"url":"#1-检查环境","title":"检查环境","_step":1},{"depth":3,"url":"#会用到的网络接口","title":"会用到的网络接口"},{"depth":2,"url":"#总结回顾","title":"总结回顾"},{"depth":3,"url":"#git-只记三条命令","title":"Git 只记三条命令"},{"depth":3,"url":"#理解网络请求","title":"理解网络请求"},{"depth":3,"url":"#python-项目结构uv","title":"Python 项目结构（uv）"},{"depth":3,"url":"#函数设计原则","title":"函数设计原则"},{"depth":3,"url":"#vs-code-的基本使用","title":"VS Code 的基本使用"}],"tableOfContent":{"style":"clerk"},"lastUpdate":"$D2026-04-22T19:38:14.000Z","children":[["$","$L3",null,{"children":"如何从零开始手搓项目"}],["$","$L4",null,{"className":"mb-0"}],"$undefined",["$","div",null,{"className":"flex flex-row gap-2 items-center border-b pt-2 pb-6","children":[["$","$L5",null,{"content":"$6"}],"$L7"]}],"$L8"]}],["$L9","$La","$Lb"],"$Lc"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"rYBG3CqCumUAJjo6onZIM"}
+7:["$","$Ld",null,{"markdownUrl":"/docs/venue-helper/scratch.mdx","githubUrl":"https://github.com/ztm0929/ztm0929.cn/blob/main/content/docs/venue-helper/scratch.mdx"}]
+8:["$","$Le",null,{"children":[["$","div",null,{"className":"flex gap-2 my-4 rounded-xl border bg-fd-card p-3 ps-1 text-sm text-fd-card-foreground shadow-md","style":{"--callout-color":"var(--color-fd-warning, var(--color-fd-muted))"},"children":[["$","div",null,{"role":"none","className":"w-0.5 bg-(--callout-color)/50 rounded-sm"}],["$","$Lf",null,{"iconNode":[["path",{"d":"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3","key":"wmoenq"}],["path",{"d":"M12 9v4","key":"juzpu7"}],["path",{"d":"M12 17h.01","key":"p32p05"}]],"className":"lucide-triangle-alert size-5 -me-0.5 fill-(--callout-color) text-fd-card"}],["$","div",null,{"className":"flex flex-col gap-2 min-w-0 flex-1","children":[["$","p",null,{"className":"font-medium my-0!","children":"本文尚处于草稿状态，内容可能不完整或存在错误"}],["$","div",null,{"className":"text-fd-muted-foreground prose-no-margin empty:hidden"}]]}]]}],"\n",["$","p",null,{"children":"「从零开始」其实指的是文件结构层面，我们依然要依赖前辈的代码理念。"}],"\n",["$","div",null,{"className":"flex gap-2 my-4 rounded-xl border bg-fd-card p-3 ps-1 text-sm text-fd-card-foreground shadow-md","style":{"--callout-color":"var(--color-fd-success, var(--color-fd-muted))"},"children":[["$","div",null,{"role":"none","className":"w-0.5 bg-(--callout-color)/50 rounded-sm"}],["$","$Lf",null,{"iconNode":[["circle",{"cx":"12","cy":"12","r":"10","key":"1mglay"}],["path",{"d":"m9 12 2 2 4-4","key":"dzmm74"}]],"className":"lucide-circle-check size-5 -me-0.5 fill-(--callout-color) text-fd-card"}],["$","div",null,{"className":"flex flex-col gap-2 min-w-0 flex-1","children":[["$","p",null,{"className":"font-medium my-0!","children":"我们的目标"}],["$","div",null,{"className":"text-fd-muted-foreground prose-no-margin empty:hidden","children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"理解 Git 的基本使用"}],"\n",["$","li",null,{"children":"熟悉 Python 项目的基本结构（env、PEP8、依赖、函数设计）"}],"\n",["$","li",null,{"children":"VS Code 的基本使用（调试、Git 集成、Markdown 预览）"}],"\n"]}]}]]}]]}],"\n",["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"开始之前","children":[["$","a",null,{"data-card":"","href":"#开始之前","className":"peer","children":"开始之前"}],["$","$Lf",null,{"iconNode":[["path",{"d":"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71","key":"1cjeqo"}],["path",{"d":"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71","key":"19qd67"}]],"className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}],"\n",["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","checked":true,"disabled":true}]," ","拥有良好的网络环境（已开启 ",["$","$L10",null,{"href":"../../naas/terminal-proxy","children":"终端代理"}],"）"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","checked":true,"disabled":true}]," ","已安装 ",["$","$L10",null,{"href":"../../toolchain/python/install","children":"Python"}]," 和 ",["$","$L10",null,{"href":"../../toolchain/python/uv/install","children":"uv"}]]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","checked":true,"disabled":true}]," ","已安装 ",["$","$L10",null,{"href":"../../toolchain/git/install","children":"Git"}]," 并拥有 ",["$","$L10",null,{"href":"../../toolchain/github/","children":"GitHub"}]," 帐户"]}],"\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","checked":true,"disabled":true}]," ","已安装 ",["$","$L10",null,{"href":"../../toolchain/vscode/install","children":"VS Code"}]]}],"\n"]}],"\n",["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"动脑思考","children":[["$","a",null,{"data-card":"","href":"#动脑思考","className":"peer","children":"动脑思考"}],["$","$Lf",null,{"iconNode":"$8:props:children:6:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}],"\n",["$","p",null,{"children":"我们的完整项目文件夹内将会有以下文件夹和文件："}],"\n","\n",["$","$L11",null,{"children":["$","$L12",null,{"name":"szu-venue-helper","defaultOpen":true,"children":[["$","$L12",null,{"name":"src","children":[["$","$L13",null,{"name":"main.py"}],["$","$L13",null,{"name":"config.py"}],["$","$L13",null,{"name":"models.py"}],["$","$L12",null,{"name":"api","defaultOpen":true,"children":[["$","$L13",null,{"name":"client.py"}],["$","$L13",null,{"name":"venue_query.py"}],["$","$L13",null,{"name":"venue_booking.py"}]]}],["$","$L12",null,{"name":"service","defaultOpen":true,"children":["$","$L13",null,{"name":"booking_flow.py"}]}],["$","$L12",null,{"name":"scripts","defaultOpen":true,"children":["$L14","$L15"]}]]}],"$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c"]}]}],"\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e"]}]
+9:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0sk6hd1aagp67.css","precedence":"next"}]
+a:["$","script","script-0",{"src":"/_next/static/chunks/0y60h409c8bq6.js","async":true}]
+b:["$","script","script-1",{"src":"/_next/static/chunks/0xy.p11i.7vl3.js","async":true}]
+c:["$","$L2f",null,{"children":["$","$30",null,{"name":"Next.MetadataOutlet","children":"$@31"}]}]
+14:["$","$L13",null,{"name":"fetch_cookies.py"}]
+15:["$","$L13",null,{"name":"download_venue_data.py"}]
+16:["$","$L13",null,{"name":".gitignore"}]
+17:["$","$L13",null,{"name":".python-version"}]
+18:["$","$L13",null,{"name":"pyproject.toml"}]
+19:["$","$L13",null,{"name":"uv.lock"}]
+1a:["$","$L13",null,{"name":".env.example"}]
+1b:["$","$L13",null,{"name":".env"}]
+1c:["$","$L13",null,{"name":"README.md"}]
+1d:["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"动手操作","children":[["$","a",null,{"data-card":"","href":"#动手操作","className":"peer","children":"动手操作"}],["$","$Lf",null,{"iconNode":"$8:props:children:6:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+1e:["$","$L32",null,{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"M 6,1 C 4.354992,1 3,2.354992 3,4 v 16 c 0,1.645008 1.354992,3 3,3 h 12 c 1.645008,0 3,-1.354992 3,-3 V 8 7 A 1.0001,1.0001 0 0 0 20.707031,6.2929687 l -5,-5 A 1.0001,1.0001 0 0 0 15,1 h -1 z m 0,2 h 7 v 3 c 0,1.645008 1.354992,3 3,3 h 3 v 11 c 0,0.564129 -0.435871,1 -1,1 H 6 C 5.4358712,21 5,20.564129 5,20 V 4 C 5,3.4358712 5.4358712,3 6,3 Z M 15,3.4140625 18.585937,7 H 16 C 15.435871,7 15,6.5641288 15,6 Z\" fill=\"currentColor\" /></svg>","children":["$","$L33",null,{"children":["$","code",null,{"children":["$","span",null,{"className":"line","children":["$","span",null,{"children":"uv init szu-venue-helper"}]}]}]}]}]
+1f:["$","div",null,{"className":"fd-steps","children":["$","div",null,{"className":"fd-step","children":[["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"1-检查环境","data-fd-step":"1","children":[["$","a",null,{"data-card":"","href":"#1-检查环境","className":"peer","children":"检查环境"}],["$","$Lf",null,{"iconNode":"$8:props:children:6:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}],["$","$L32",null,{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","title":"Windows Terminal（终端）","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"m 4,4 a 1,1 0 0 0 -0.7070312,0.2929687 1,1 0 0 0 0,1.4140625 L 8.5859375,11 3.2929688,16.292969 a 1,1 0 0 0 0,1.414062 1,1 0 0 0 1.4140624,0 l 5.9999998,-6 a 1.0001,1.0001 0 0 0 0,-1.414062 L 4.7070312,4.2929687 A 1,1 0 0 0 4,4 Z m 8,14 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 8 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z\" fill=\"currentColor\" /></svg>","children":["$","$L33",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Write-Host"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" \"【代理环境变量】\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"; $"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"env:"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"http_proxy; $"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"env:"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"https_proxy; "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"`"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Write-Host"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" \""}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"`n"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"【Git 版本】\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"; git "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"--"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"version; "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"`"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Write-Host"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" \""}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"`n"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"【Python 版本】\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"; python "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"--"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"version; "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"`"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"Write-Host"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" \""}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"`n"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":"【pip 版本】\""}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"; pip "}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"--"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"version"}]]}]]}]}]}],["$","p",null,{"children":"我们需要确保："}],["$","ul",null,{"children":["\n",["$","li",null,{"children":"启用了终端代理，它能够加速我们后续的依赖安装和代码拉取"}],"\n","$L34","\n"]}],"$L35","$L36","$L37","$L38","$L39"]}]}]
+20:["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"会用到的网络接口","children":[["$","a",null,{"data-card":"","href":"#会用到的网络接口","className":"peer","children":"会用到的网络接口"}],["$","$Lf",null,{"iconNode":"$8:props:children:6:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+21:["$","ul",null,{"children":["\n",["$","li",null,{"children":["$","$L10",null,{"href":"https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/getSportVenueData.do","children":"https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/getSportVenueData.do"}]}],"\n",["$","li",null,{"children":["$","$L10",null,{"href":"https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/getTimeList.do","children":"https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/getTimeList.do"}]}],"\n",["$","li",null,{"children":["$","$L10",null,{"href":"https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/modules/sportVenue/getOpeningRoom.do","children":"https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/modules/sportVenue/getOpeningRoom.do"}]}],"\n",["$","li",null,{"children":["$","$L10",null,{"href":"https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/insertVenueBookingInfo.do","children":"https://ehall.szu.edu.cn/qljfwapp/sys/lwSzuCgyy/sportVenue/insertVenueBookingInfo.do"}]}],"\n"]}]
+22:["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"总结回顾","children":[["$","a",null,{"data-card":"","href":"#总结回顾","className":"peer","children":"总结回顾"}],["$","$Lf",null,{"iconNode":"$8:props:children:6:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+23:["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"git-只记三条命令","children":[["$","a",null,{"data-card":"","href":"#git-只记三条命令","className":"peer","children":"Git 只记三条命令"}],["$","$Lf",null,{"iconNode":"$8:props:children:6:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+24:["$","p",null,{"children":"Git 非常强大也非常复杂，编程十年的老手可能也会感到困惑，我们作为小白只需要记住三条命令："}]
+25:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"git clone <repo_url>"}],"：从远程仓库克隆代码到本地"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"git add <file>"}],"：将修改的文件添加到暂存区"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"git commit -m \"message\""}],"：将暂存区的修改提交到本地仓库，并附上提交信息"]}],"\n"]}]
+26:["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"理解网络请求","children":[["$","a",null,{"data-card":"","href":"#理解网络请求","className":"peer","children":"理解网络请求"}],["$","$Lf",null,{"iconNode":"$8:props:children:6:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+27:["$","p",null,{"children":[["$","code",null,{"children":"GET"}]," 请求是向服务器请求数据，",["$","code",null,{"children":"POST"}]," 请求是向服务器提交数据。我们在后续的自动购票脚本中会大量使用这两种请求来与订票系统进行交互。"]}]
+28:["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"python-项目结构uv","children":[["$","a",null,{"data-card":"","href":"#python-项目结构uv","className":"peer","children":"Python 项目结构（uv）"}],["$","$Lf",null,{"iconNode":"$8:props:children:6:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+29:["$","p",null,{"children":"uv 是一个现代的 Python 包管理工具，它简化了虚拟环境和依赖管理的过程。 在 uv 管理的项目中，我们通常会看到以下几个文件和目录："}]
+2a:["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","code",null,{"children":"venv/"}],"：虚拟环境目录，用于隔离项目的 Python 依赖"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"README.md"}],"：项目自述文件，介绍项目功能和使用方法"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"main.py"}],"：项目的主入口文件，包含核心逻辑"]}],"\n",["$","li",null,{"children":[["$","code",null,{"children":"requirements.txt"}],"：列出项目依赖的 Python 包及其版本（如果使用 uv，这个文件可能不存在，因为 uv 会直接管理依赖）"]}],"\n"]}]
+2b:["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"函数设计原则","children":[["$","a",null,{"data-card":"","href":"#函数设计原则","className":"peer","children":"函数设计原则"}],["$","$Lf",null,{"iconNode":"$8:props:children:6:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+2c:["$","p",null,{"children":"在编写 Python 函数时，我们应该遵循以下设计原则："}]
+2d:["$","ul",null,{"children":["\n",["$","li",null,{"children":"单一职责原则：每个函数应该只负责一个功能，避免过于复杂"}],"\n",["$","li",null,{"children":"明确的输入输出：函数应该有清晰的参数和返回值，便于理解和测试"}],"\n",["$","li",null,{"children":"避免副作用：函数应该尽量避免修改全局状态，保持纯函数的特性"}],"\n"]}]
+2e:["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"vs-code-的基本使用","children":[["$","a",null,{"data-card":"","href":"#vs-code-的基本使用","className":"peer","children":"VS Code 的基本使用"}],["$","$Lf",null,{"iconNode":"$8:props:children:6:props:children:1:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+31:null
+34:["$","li",null,{"children":"安装了 Git，将引入版本管理的理念"}]
+35:["$","p",null,{"children":["如果没有意外，我们应该能够在终端看到类似如下的输出\n",["$","br",null,{}],"具体的端口号、版本号以及路径等信息可能因人而异："]}]
+36:["$","$L32",null,{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"m 4,4 a 1,1 0 0 0 -0.7070312,0.2929687 1,1 0 0 0 0,1.4140625 L 8.5859375,11 3.2929688,16.292969 a 1,1 0 0 0 0,1.414062 1,1 0 0 0 1.4140624,0 l 5.9999998,-6 a 1.0001,1.0001 0 0 0 0,-1.414062 L 4.7070312,4.2929687 A 1,1 0 0 0 4,4 Z m 8,14 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 8 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z\" fill=\"currentColor\" /></svg>","children":["$","$L33",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"【代理环境变量】"}]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"http:"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"//"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"127.0"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"."}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"0.1"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":":"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"7897"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"http:"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"//"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"127.0"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"."}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"0.1"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":":"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"7897"}]]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"【Git 版本】"}]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"git version "}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"2.53"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"."}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"0."}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"windows."}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"2"}]]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"【Python 版本】"}]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"Python "}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"3.14"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"."}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"3"}]]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"【pip 版本】"}]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"pip "}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"25.3"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":" from"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":" C:\\Users\\ztm0929\\scoop\\apps\\python\\current\\Lib\\site"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"packages\\pip (python "}],"$L3a","$L3b"]}]]}]}]}]
+37:["$","$L32",null,{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","title":"Windows Terminal（终端）","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"m 4,4 a 1,1 0 0 0 -0.7070312,0.2929687 1,1 0 0 0 0,1.4140625 L 8.5859375,11 3.2929688,16.292969 a 1,1 0 0 0 0,1.414062 1,1 0 0 0 1.4140624,0 l 5.9999998,-6 a 1.0001,1.0001 0 0 0 0,-1.414062 L 4.7070312,4.2929687 A 1,1 0 0 0 4,4 Z m 8,14 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 8 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z\" fill=\"currentColor\" /></svg>","children":["$","$L33",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"mkdir next"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"venue"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"helper"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"cd next"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"venue"}],["$","span",null,{"style":{"--shiki-light":"#D73A49","--shiki-dark":"#F97583"},"children":"-"}],["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"helper"}]]}]]}]}]}]
+38:["$","p",null,{"children":[["$","code",null,{"children":"README.md"}],"（自述文件）是开源项目的门面，好的自述文件能够让用户快速了解项目的功能和使用方法。"]}]
+39:["$","$L32",null,{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","title":"README.md","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"M 6,1 C 4.354992,1 3,2.354992 3,4 v 16 c 0,1.645008 1.354992,3 3,3 h 12 c 1.645008,0 3,-1.354992 3,-3 V 8 7 A 1.0001,1.0001 0 0 0 20.707031,6.2929687 l -5,-5 A 1.0001,1.0001 0 0 0 15,1 h -1 z m 0,2 h 7 v 3 c 0,1.645008 1.354992,3 3,3 h 3 v 11 c 0,0.564129 -0.435871,1 -1,1 H 6 C 5.4358712,21 5,20.564129 5,20 V 4 C 5,3.4358712 5.4358712,3 6,3 Z M 15,3.4140625 18.585937,7 H 16 C 15.435871,7 15,6.5641288 15,6 Z\" fill=\"currentColor\" /></svg>","children":["$","$L33",null,{"children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-light-font-weight":"bold","--shiki-dark":"#79B8FF","--shiki-dark-font-weight":"bold"},"children":"# Next Venue Helper"}]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":"This is a simple venue booking helper for Python."}]}]]}]}]}]
+3a:["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":"3.14"}]
+3b:["$","span",null,{"style":{"--shiki-light":"#24292E","--shiki-dark":"#E1E4E8"},"children":")"}]

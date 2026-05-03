@@ -1,0 +1,104 @@
+1:"$Sreact.fragment"
+2:I[77405,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"DocsPage"]
+3:I[77405,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"DocsTitle"]
+4:I[77405,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"DocsDescription"]
+5:I[302559,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"LLMCopyButton"]
+7:I[302559,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"ViewOptions"]
+8:I[77405,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"DocsBody"]
+9:I[678431,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"default"]
+14:I[483427,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"ImageZoom"]
+15:I[655222,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"Accordions"]
+16:I[655222,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/10bfczpmd98ni.js","/_next/static/chunks/0b9_fpow338ab.js","/_next/static/chunks/0f_3qmcozxteb.js","/_next/static/chunks/0y60h409c8bq6.js","/_next/static/chunks/0xy.p11i.7vl3.js"],"Accordion"]
+1e:I[969956,["/_next/static/chunks/01g6b1jkwwgkf.js","/_next/static/chunks/0~bfdshe9sp9s.js","/_next/static/chunks/0cwelj51frz~g.js","/_next/static/chunks/0y72_5sxmon26.js","/_next/static/chunks/02zkfkby27a.f.js","/_next/static/chunks/0nqa72m33wl~c.js","/_next/static/chunks/17_w6u3qwfmtp.js","/_next/static/chunks/09g5h6igc1ykd.js","/_next/static/chunks/07wn33f7byed3.js","/_next/static/chunks/0_tnh0h52edw1.js"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+:HL["/_next/static/chunks/0sk6hd1aagp67.css","style"]
+6:T6e3,---
+title: "如何定时抢票"
+---
+
+<DraftNotice />
+
+任务计划程序能够定时执行 Python 脚本。
+
+<Callout title="我们的目标" type="success">
+在点击几个按钮后，**成功让脚本在指定时间自动执行**
+</Callout>
+
+## 开始之前
+
+- [ ] 已按照前文的指引完成环境配置，并且能够成功手动运行 `main.py` 抢票
+
+## 动手操作
+
+按下<kbd>win</kbd> + <kbd>r</kbd>，输入 `taskschd.msc`，打开任务计划程序
+
+![](/task-scheduler-0.png)
+
+### 1. 创建任务（task）
+
+<Accordions>
+<Accordion title="指引截图">
+![](/task-scheduler-1.png)
+
+![](/task-scheduler-2.png)
+
+建议勾选「使用最高权限运行」，以避免权限不足可能导致的运行失败。
+</Accordion>
+</Accordions>
+
+### 2. 配置触发器（trigger）
+
+<Accordions>
+<Accordion title="指引截图">
+![](/task-scheduler-3.png)
+
+图中示例的任务，将会在 `2026 年 4 月 5 日 12:29:55` 执行，触发器读取的时间是系统时间，请确保系统时间正确，以免错过抢票时机。
+
+</Accordion>
+</Accordions>
+
+### 3. 配置操作（action）
+
+<Accordions>
+<Accordion title="指引截图">
+![](/task-scheduler-4.png)
+
+选中「启动程序」
+
+![](/task-scheduler-5.png)
+
+「程序或脚本」选择虚拟环境中的 `python`，具体的路径可能不太一样，示例中的路径是 `C:\Users\ztm0929\Documents\misc\tools4szu\venue-helper\venv\Scripts\python.exe`
+
+![](/task-scheduler-6.png)
+
+添加参数填写 `main.py` 的绝对路径：
+
+`C:\Users\ztm0929\Documents\misc\tools4szu\venue-helper\main.py`
+
+「起始于」填写项目文件夹的绝对路径：
+
+`C:\Users\ztm0929\Documents\misc\tools4szu\venue-helper`
+</Accordion>
+</Accordions>
+
+### 4. 保存任务
+
+保存后等待定时执行即可0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"toc":[{"depth":2,"url":"#开始之前","title":"开始之前"},{"depth":2,"url":"#动手操作","title":"动手操作"},{"depth":3,"url":"#1-创建任务task","title":"创建任务（task）","_step":1},{"depth":3,"url":"#2-配置触发器trigger","title":"配置触发器（trigger）","_step":2},{"depth":3,"url":"#3-配置操作action","title":"配置操作（action）","_step":3},{"depth":3,"url":"#4-保存任务","title":"保存任务","_step":4}],"tableOfContent":{"style":"clerk"},"lastUpdate":"$D2026-04-05T13:55:32.000Z","children":[["$","$L3",null,{"children":"如何定时抢票"}],["$","$L4",null,{"className":"mb-0"}],"$undefined",["$","div",null,{"className":"flex flex-row gap-2 items-center border-b pt-2 pb-6","children":[["$","$L5",null,{"content":"$6"}],["$","$L7",null,{"markdownUrl":"/docs/venue-helper/task-scheduler.mdx","githubUrl":"https://github.com/ztm0929/ztm0929.cn/blob/main/content/docs/venue-helper/task-scheduler.mdx"}]]}],["$","$L8",null,{"children":[["$","div",null,{"className":"flex gap-2 my-4 rounded-xl border bg-fd-card p-3 ps-1 text-sm text-fd-card-foreground shadow-md","style":{"--callout-color":"var(--color-fd-warning, var(--color-fd-muted))"},"children":[["$","div",null,{"role":"none","className":"w-0.5 bg-(--callout-color)/50 rounded-sm"}],["$","$L9",null,{"iconNode":[["path",{"d":"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3","key":"wmoenq"}],["path",{"d":"M12 9v4","key":"juzpu7"}],["path",{"d":"M12 17h.01","key":"p32p05"}]],"className":"lucide-triangle-alert size-5 -me-0.5 fill-(--callout-color) text-fd-card"}],["$","div",null,{"className":"flex flex-col gap-2 min-w-0 flex-1","children":[["$","p",null,{"className":"font-medium my-0!","children":"本文尚处于草稿状态，内容可能不完整或存在错误"}],["$","div",null,{"className":"text-fd-muted-foreground prose-no-margin empty:hidden"}]]}]]}],"\n",["$","p",null,{"children":"任务计划程序能够定时执行 Python 脚本。"}],"\n",["$","div",null,{"className":"flex gap-2 my-4 rounded-xl border bg-fd-card p-3 ps-1 text-sm text-fd-card-foreground shadow-md","style":{"--callout-color":"var(--color-fd-success, var(--color-fd-muted))"},"children":[["$","div",null,{"role":"none","className":"w-0.5 bg-(--callout-color)/50 rounded-sm"}],["$","$L9",null,{"iconNode":[["circle",{"cx":"12","cy":"12","r":"10","key":"1mglay"}],["path",{"d":"m9 12 2 2 4-4","key":"dzmm74"}]],"className":"lucide-circle-check size-5 -me-0.5 fill-(--callout-color) text-fd-card"}],["$","div",null,{"className":"flex flex-col gap-2 min-w-0 flex-1","children":[["$","p",null,{"className":"font-medium my-0!","children":"我们的目标"}],["$","div",null,{"className":"text-fd-muted-foreground prose-no-margin empty:hidden","children":["$","p",null,{"children":["在点击几个按钮后，",["$","strong",null,{"children":"成功让脚本在指定时间自动执行"}]]}]}]]}]]}],"\n",["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"开始之前","children":[["$","a",null,{"data-card":"","href":"#开始之前","className":"peer","children":"开始之前"}],"$La"]}],"\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf"]}]]}],["$L10","$L11","$L12"],"$L13"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"rYBG3CqCumUAJjo6onZIM"}
+a:["$","$L9",null,{"iconNode":[["path",{"d":"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71","key":"1cjeqo"}],["path",{"d":"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71","key":"19qd67"}]],"className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]
+b:["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","已按照前文的指引完成环境配置，并且能够成功手动运行 ",["$","code",null,{"children":"main.py"}]," 抢票"]}],"\n"]}]
+c:["$","h2",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"动手操作","children":[["$","a",null,{"data-card":"","href":"#动手操作","className":"peer","children":"动手操作"}],["$","$L9",null,{"iconNode":"$a:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}]
+d:["$","p",null,{"children":["按下",["$","kbd",null,{"children":"win"}]," + ",["$","kbd",null,{"children":"r"}],"，输入 ",["$","code",null,{"children":"taskschd.msc"}],"，打开任务计划程序"]}]
+e:["$","p",null,{"children":["$","$L14",null,{"alt":"","src":{"src":"/_next/static/media/task-scheduler-0.0_nq3974q1doo.png","width":976,"height":538,"blurWidth":8,"blurHeight":4,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAIAAAA8r+mnAAAAb0lEQVR42gFkAJv/AKLL7IK653y35Hy25H235X235X235JjG6gDs8vff6PDQ3Obf5Ojq7vHu8vTt8PPw9PgA8fP05u712Ofz8PP29Pb39fb39PX28vT2AO3v8e3v8OPn6uDk5+Tm5+Xn6OHi4+nr7KULU7sxA0mOAAAAAElFTkSuQmCC"}}]}]
+f:["$","div",null,{"className":"fd-steps","children":[["$","div",null,{"className":"fd-step","children":[["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"1-创建任务task","data-fd-step":"1","children":[["$","a",null,{"data-card":"","href":"#1-创建任务task","className":"peer","children":"创建任务（task）"}],["$","$L9",null,{"iconNode":"$a:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}],["$","$L15",null,{"children":["$","$L16",null,{"title":"指引截图","children":[["$","p",null,{"children":["$","$L14",null,{"alt":"","src":{"src":"/_next/static/media/task-scheduler-1.0q6g-8e4pj55-.png","width":1832,"height":1520,"blurWidth":8,"blurHeight":7,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAIAAAC6O5sJAAAAiklEQVR42i2Myw6DIBRE+f9vc2FTummMmiAGKlAN70ehtyl3cSczJzNoozt/HUq9z99dxljrPHwkpJBSjbdxGAZ8xw/83Pi5HxcqpaSU5nnGGJNl2acpxQhhB4SQdV0ppTAHSc4Z/UVr7b3X2pTyaa31BgBjTAjBOVdr7QCMtZYxxjkXQgCOMUL7Cx9ynYRXD3vsAAAAAElFTkSuQmCC"}}]}],["$","p",null,{"children":["$","$L14",null,{"alt":"","src":{"src":"/_next/static/media/task-scheduler-2.0i_d..reg_9d8.png","width":1486,"height":1279,"blurWidth":8,"blurHeight":7,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAIAAAC6O5sJAAAAdUlEQVR42k2N3QrCMAyF8/6vp7fKJjjsbFL7Q61pq54NCvvIRcJ3wiERcc6FEHLO7wF2stbCQZRSPgM4gmyt9d5/B1SVUkpw2L47SNRa8UTPdZ2nCTU68N4jTXy5LqezGIM7xrgVqW4dL2aMMNud22Lm+wP8ARsTn/LgF52RAAAAAElFTkSuQmCC"}}]}],["$","p",null,{"children":"建议勾选「使用最高权限运行」，以避免权限不足可能导致的运行失败。"}]]}]}]]}],["$","div",null,{"className":"fd-step","children":[["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"2-配置触发器trigger","data-fd-step":"2","children":[["$","a",null,{"data-card":"","href":"#2-配置触发器trigger","className":"peer","children":"配置触发器（trigger）"}],["$","$L9",null,{"iconNode":"$a:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}],["$","$L15",null,{"children":["$","$L16",null,{"title":"指引截图","children":[["$","p",null,{"children":["$","$L14",null,{"alt":"","src":{"src":"/_next/static/media/task-scheduler-3.0l7ttbuqh67n6.png","width":2828,"height":1273,"blurWidth":8,"blurHeight":4,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAIAAAA8r+mnAAAAW0lEQVR42g2MSwrAIAwFvf/RSim2PYEb0UASi4KQ+Gne4i1mYBwz11pFpPeeMyCikVKKMzTnXGupKgAQkQl7J6om9t5jjBhjSskEIjnkz2ad1loIwd/v5Z/jvH7Jq1ms5Pu6gAAAAABJRU5ErkJggg=="}}]}],["$","p",null,{"children":["图中示例的任务，将会在 ",["$","code",null,{"children":"2026 年 4 月 5 日 12:29:55"}]," 执行，触发器读取的时间是系统时间，请确保系统时间正确，以免错过抢票时机。"]}]]}]}]]}],["$","div",null,{"className":"fd-step","children":[["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"3-配置操作action","data-fd-step":"3","children":[["$","a",null,{"data-card":"","href":"#3-配置操作action","className":"peer","children":"配置操作（action）"}],["$","$L9",null,{"iconNode":"$a:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}],["$","$L15",null,{"children":["$","$L16",null,{"title":"指引截图","children":[["$","p",null,{"children":["$","$L14",null,{"alt":"","src":{"src":"/_next/static/media/task-scheduler-4.0-79-btvf0prs.png","width":2530,"height":1269,"blurWidth":8,"blurHeight":4,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAIAAAA8r+mnAAAAXUlEQVR42h2MWwqAIBAAvf+9ih6/0gGE8pWtfiiurtHS38AMI2KMKSVEbIgQHqWUMfa8tGitEdE7BiHGELxzHGrrRe99sPhdzhkA+OH9LQIkplprKYVBymPd9mlePrshWayh2K7VAAAAAElFTkSuQmCC"}}]}],["$","p",null,{"children":"选中「启动程序」"}],["$","p",null,{"children":["$","$L14",null,{"alt":"","src":{"src":"/_next/static/media/task-scheduler-5.0s-3nygult.2g.png","width":2192,"height":1263,"blurWidth":8,"blurHeight":5,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAIAAAD38zoCAAAAb0lEQVR42jWLQQ6EIBAE5zEkI2EwDApIdBNdUdQb/P8xcrFvnaqC577uZT5DyFM8QvDj6JxLxwnT/HPDIBEVYk8kpRRCMFv4b0uMsVdKdR0zExEiGmNg3VbvvSFqyFqrtW5RM6DWmnNOKe3f2i2lvCKQGdk849WsAAAAAElFTkSuQmCC"}}]}],["$","p",null,{"children":["「程序或脚本」选择虚拟环境中的 ",["$","code",null,{"children":"python"}],"，具体的路径可能不太一样，示例中的路径是 ","$L17"]}],"$L18","$L19","$L1a","$L1b","$L1c"]}]}]]}],"$L1d"]}]
+10:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0sk6hd1aagp67.css","precedence":"next"}]
+11:["$","script","script-0",{"src":"/_next/static/chunks/0y60h409c8bq6.js","async":true}]
+12:["$","script","script-1",{"src":"/_next/static/chunks/0xy.p11i.7vl3.js","async":true}]
+13:["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]
+17:["$","code",null,{"children":"C:\\Users\\ztm0929\\Documents\\misc\\tools4szu\\venue-helper\\venv\\Scripts\\python.exe"}]
+18:["$","p",null,{"children":["$","$L14",null,{"alt":"","src":{"src":"/_next/static/media/task-scheduler-6.11uq56spj_62k.png","width":1085,"height":1189,"blurWidth":7,"blurHeight":8,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAIAAAC6ZnJRAAAAbklEQVR42lXMSw6DMAwEUN//fo2KsghJcD6mtpHq7huCWPBW1ng0wJOImNlv+ppBTMl7n3PuvdMNEDHGuF+wlBAIEcp5hHOEmd7L9nLdOZDpmJRIW5PWQFWPp1F6pCw6orEG13PYP7ysuKat1voH2J+Z9bSK4GoAAAAASUVORK5CYII="}}]}]
+19:["$","p",null,{"children":["添加参数填写 ",["$","code",null,{"children":"main.py"}]," 的绝对路径："]}]
+1a:["$","p",null,{"children":["$","code",null,{"children":"C:\\Users\\ztm0929\\Documents\\misc\\tools4szu\\venue-helper\\main.py"}]}]
+1b:["$","p",null,{"children":"「起始于」填写项目文件夹的绝对路径："}]
+1c:["$","p",null,{"children":["$","code",null,{"children":"C:\\Users\\ztm0929\\Documents\\misc\\tools4szu\\venue-helper"}]}]
+1d:["$","div",null,{"className":"fd-step","children":[["$","h3",null,{"className":"flex scroll-m-28 flex-row items-center gap-2","id":"4-保存任务","data-fd-step":"4","children":[["$","a",null,{"data-card":"","href":"#4-保存任务","className":"peer","children":"保存任务"}],["$","$L9",null,{"iconNode":"$a:props:iconNode","className":"lucide-link size-3.5 shrink-0 text-fd-muted-foreground opacity-0 transition-opacity peer-hover:opacity-100","aria-hidden":true}]]}],["$","p",null,{"children":"保存后等待定时执行即可"}]]}]
+20:null
