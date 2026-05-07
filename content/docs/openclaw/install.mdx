@@ -8,7 +8,27 @@ title: "如何安装 OpenClaw"
 
 - [ ] 拥有良好的网络环境（已开启 [终端代理](../../naas/terminal-proxy)）
 - [ ] 了解软件（包）管理器（已安装 [Windows 的 Scoop](../../toolchain/package-managers/scoop/install) 或 [macOS 的 Homebrew](../../toolchain/package-managers/homebrew/install)）
-- [ ] 了解 JavaScript/TypeScript 生态（已安装 Node.js 和 pnpm）
+- [ ] 了解 JavaScript/TypeScript 生态（已安装 [Node.js](../../frontend/nodejs/install) 和 [pnpm](../../frontend/nodejs/pnpm)）
 
 ## 动手操作
+
+### 1. 环境预检
+
+```zsh
+echo "【代理环境变量】"; echo $HTTP_PROXY; echo $HTTPS_PROXY; `
+echo "\n【Node.js 版本】"; node --version; `
+echo "\n【pnpm 版本】"; pnpm --version;
+```
+
+### 2. 安装 OpenClaw
+
+```zsh
+pnpm add -g --allow-build=openclaw @jackwener/openclaw
+```
+
+### 3. 验证安装
+
+```zsh
+openclaw --version
+```
 
