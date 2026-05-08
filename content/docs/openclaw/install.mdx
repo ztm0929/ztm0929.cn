@@ -14,21 +14,87 @@ title: "如何安装 OpenClaw"
 
 ### 1. 环境预检
 
-```zsh
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
+
+```powershell title="Windows Terminal（终端）"
+$Env:HTTP_PROXY; $Env:HTTPS_PROXY; `
+node --version; `
+pnpm --version;
+```
+
+```
+http://127.0.0.1:7897
+http://127.0.0.1:7897
+v26.1.0
+11.0.8
+```
+
+</Tab>
+
+<Tab value="macOS">
+
+```zsh title="Terminal.app（终端）"
 echo "【代理环境变量】"; echo $HTTP_PROXY; echo $HTTPS_PROXY; `
 echo "\n【Node.js 版本】"; node --version; `
 echo "\n【pnpm 版本】"; pnpm --version;
 ```
 
+</Tab>
+
+</Tabs>
+
 ### 2. 安装 OpenClaw
 
-```zsh
-pnpm add -g openclaw@latest --allow-build=@google/genai --allow-build=koffi --allow-build=openclaw --allow-build=protobufjs --allow-build=tree-sitter-bash
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
+
+```powershell title="Windows Terminal（终端）"
+pnpm add -g openclaw@latest `
+	--allow-build=@google/genai `
+	--allow-build=koffi `
+	--allow-build=openclaw `
+	--allow-build=protobufjs `
+	--allow-build=tree-sitter-bash
+```
+
+</Tab>
+
+<Tab value="macOS">
+
+```zsh title="Terminal.app（终端）"
+pnpm add -g openclaw@latest \
+	--allow-build=@google/genai \
+	--allow-build=koffi \
+	--allow-build=openclaw \
+	--allow-build=protobufjs \
+	--allow-build=tree-sitter-bash
+```
+
+</Tab>
+
+</Tabs>
+
+这条安装命令会执行非常多的动作，安装过程中可能会有大量输出，我们耐心等待安装完成，最后会看到类似下面的输出作为结尾：
+
+```
+global:
++ openclaw 2026.5.6 (2026.5.7 is available)
+
+Done in 19.5s using pnpm v11.0.8
 ```
 
 ### 3. 验证安装
 
 ```zsh
 openclaw --version
+```
+
+如果成功安装，将显示 OpenClaw 的版本号。
+
+```
+OpenClaw 2026.5.6 (c97b9f7)
 ```
 
