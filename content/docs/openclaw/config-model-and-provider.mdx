@@ -1,0 +1,44 @@
+---
+title: "如何为 OpenClaw 配置模型服务商"
+---
+
+<DraftNotice />
+
+在 OpenClaw 中，模型服务商（Model Provider）是指提供语言模型（LLM）服务的第三方平台。OpenClaw 支持多种模型服务商，我们可以根据自己的需求选择合适的服务商来使用 OpenClaw 的功能。
+
+## 我们的目标
+
+<Callout type="success">
+通过少量的配置，为 OpenClaw 添加 腾讯云 和 OpenRouter 的免费模型
+</Callout>
+
+## 开始之前
+
+- [ ] 拥有良好的网络环境（已开启 [终端代理](../../naas/terminal-proxy)）
+- [ ] 已安装 [OpenClaw](./install)
+- [ ] 已领取 [腾讯云 TokenHub](https://cloud.tencent.com/document/product/1823/130053) 的 API Key
+- [ ] 拥有 [OpenRouter](../openrouter-api-key.mdx) 的 API Key
+
+## 动手操作
+
+腾讯云 API 格式：
+
+```
+sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+OpenRouter API 格式：
+
+```
+sk-or-v1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+$env:TOKENHUB_API_KEY=...
+$env:OPENROUTER_API_KEY=...
+
+```zsh
+openclaw onboard --install-daemon --non-interactive --accept-risk --auth-choice tokenhub-api-key \
+  --tokenhub-api-key "$TOKENHUB_API_KEY"
+
+openclaw onboard --install-daemon --non-interactive --accept-risk --auth-choice openrouter-api-key
+```
