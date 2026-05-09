@@ -1,0 +1,20 @@
+---
+title: "如何为 OpenClaw 配置网络搜索工具"
+description: "网络搜索，智能体的必备工具"
+---
+
+<DraftNotice />
+
+[web_search](https://docs.openclaw.ai/tools/web#web-search) 可以让龙虾通过网络查询资料，极大地增强了模型的能力。
+
+## 开始之前
+
+- [ ] 拥有良好的网络环境（已开启 [终端代理](../../naas/terminal-proxy)）
+- [ ] 已安装 [OpenClaw](./install)
+
+## 动手操作
+
+```zsh
+openclaw config set tools.web_search.provider duckduckgo
+openclaw config set plugins.entries.duckduckgo.config.webSearch.region "cn-zh"
+```
