@@ -1,10 +1,10 @@
 ---
-title: "如何为 Windows 终端启用代理"
+title: "如何开启终端代理"
 ---
 
 <DraftNotice />
 
-很多小白打开了系统代理，却发现终端里的下载、安装、更新命令还是慢。原因通常不是网络本身，而是终端会话里没有持续生效的代理环境变量。本文会带你用最少步骤，把 Windows 下的终端代理配置成“开终端就可用”，让后续常见命令长期稳定加速。
+很多小白打开了系统代理，却发现终端里的下载、安装、更新命令还是慢。原因通常不是网络本身，而是终端会话里没有持续生效的代理环境变量。我们一起来开启「终端代理」，让后续常见命令长期稳定加速。
 
 ## 我们的目标
 
@@ -14,35 +14,92 @@ title: "如何为 Windows 终端启用代理"
 
 ## 开始之前
 
-- [ ] 拥有良好的网络环境（已运行 [小猫咪](../../system-proxy/clash-verge-rev)）
-- [ ] 已安装 Windows Terminal（终端）
+- [ ] 已开启 [系统代理](../../system-proxy/clash-verge-rev)
+- [ ] 系统自带 Windows Terminal（Windows 终端）或 Terminal.app（macOS 终端）
+- [ ] 具备基本的终端操作能力（打开、复制粘贴命令、回车确认）
 
 ## 动手操作
 
 ### 1. 环境预检
 
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
+
 ```powershell title="Windows Terminal（终端）"
 $env:HTTP_PROXY; $env:HTTPS_PROXY;
 ```
 
+</Tab>
+
+<Tab value="macOS">
+
+```sh title="Terminal.app（终端）"
+echo $HTTP_PROXY; echo $HTTPS_PROXY;
+```
+
+</Tab>
+
+</Tabs>
+
+
+
 ### 2. 注入环境变量
+
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
 
 ```powershell title="Windows Terminal（终端）"
 "http_proxy","https_proxy","HTTP_PROXY","HTTPS_PROXY" | % { [System.Environment]::SetEnvironmentVariable($_,"http://127.0.0.1:7897","User") }
 ```
 
+</Tab>
+
+<Tab value="macOS">
+
+```sh title="Terminal.app（终端）"
+echo "export HTTP_PROXY=http://127.0.0.1:7897" >> ~/.zshrc
+echo "export HTTPS_PROXY=http://127.0.0.1:7897" >> ~/.zshrc
+```
+
+</Tab>
+
+</Tabs>
+
+
 ### 3. 确认注入成功
+
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
 
 ```powershell title="Windows Terminal（终端）"
 $env:HTTP_PROXY; $env:HTTPS_PROXY;
 ```
 
-### 4. 测试代理效果（可选）
+</Tab>
+
+<Tab value="macOS">
+
+```sh title="Terminal.app（终端）"
+echo $HTTP_PROXY; echo $HTTPS_PROXY;
+```
+
+</Tab>
+
+</Tabs>
+
+### 4. 测试实际代理效果（可选）
 
 当终端返回 `http://127.0.0.1:7897` 的结果时，说明已成功注入，我们可以测试一下代理效果，这一步骤不是必需的。 
 
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
+
 ```powershell title="Windows Terminal（终端）"
-curl.exe ipinfo.io
+curl.exe ipinfo.io/city
 ```
 
 ```
@@ -60,19 +117,17 @@ curl.exe ipinfo.io
 }
 ```
 
+</Tab>
+
+<Tab value="macOS">
+
+```sh title="Terminal.app（终端）"
+curl ipinfo.io/city
 ```
-{
-  "ip": "xxx.xxx.xxx.xxx",
-  "city": "Shenzhen",
-  "region": "Guangdong",
-  "country": "CN",
-  "loc": "xxx,xxx",
-  "org": "AS4134 CHINANET-BACKBONE",
-  "postal": "518000",
-  "timezone": "Asia/Shanghai",
-  "readme": "https://ipinfo.io/missingauth"
-}
-```
+
+</Tab>
+
+</Tabs>
 
 git clone https://github.com/ztm0929/ztm0929.cn.git
 
@@ -98,6 +153,5 @@ pnpm install next
 
 完成目标之后，休息一下。我们可以尝试这些：
 
-- 为注入设置“启停”
 - 为 git、pip 等程序单独配置代理
 - 通过 `Get-ChildItem Env:` 命令，探索除了 HTTP(S)_PROXY 之外的 更多 Windows PowerShell 环境变量
