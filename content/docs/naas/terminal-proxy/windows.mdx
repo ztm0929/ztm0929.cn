@@ -9,14 +9,14 @@ title: "如何开启终端代理"
 ## 我们的目标
 
 <Callout type="success">
-运行少量命令，为终端成功注入代理，**使 `git`、`pip` 等命令运行速度提升**
+运行少量命令，为终端成功注入代理，**使 [`git`](/docs/toolchain/git)、[`pip`](/docs/toolchain/python/pip) 等命令运行速度提升**
 </Callout>
 
 ## 开始之前
 
 - [ ] 已开启 [系统代理](../../system-proxy/clash-verge-rev)
 - [ ] 系统自带 Windows Terminal（Windows 终端）或 Terminal.app（macOS 终端）
-- [ ] 具备基本的终端操作能力（打开、复制粘贴命令、回车确认）
+- [ ] 具备基本的终端操作能力（打开终端、复制粘贴命令、<kbd>Enter</kbd> 回车确认）
 
 ## 动手操作
 
@@ -42,8 +42,6 @@ echo $HTTP_PROXY; echo $HTTPS_PROXY;
 
 </Tabs>
 
-
-
 ### 2. 注入环境变量
 
 <Tabs groupId="os" items={['Windows', 'macOS']} persist>
@@ -58,9 +56,14 @@ echo $HTTP_PROXY; echo $HTTPS_PROXY;
 
 <Tab value="macOS">
 
-```sh title="Terminal.app（终端）"
-echo "export HTTP_PROXY=http://127.0.0.1:7897" >> ~/.zshrc
-echo "export HTTPS_PROXY=http://127.0.0.1:7897" >> ~/.zshrc
+```zsh title="Terminal.app（终端）"
+echo "export http_proxy=http://127.0.0.1:7897" >> ~/.zshrc
+echo "export https_proxy=http://127.0.0.1:7897" >> ~/.zshrc
+echo "export all_proxy=socks5://127.0.0.1:7897" >> ~/.zshrc
+
+echo "export HTTP_PROXY=$http_proxy" >> ~/.zshrc
+echo "export HTTPS_PROXY=$https_proxy" >> ~/.zshrc
+echo "export ALL_PROXY=$all_proxy" >> ~/.zshrc
 ```
 
 </Tab>
@@ -102,21 +105,6 @@ echo $HTTP_PROXY; echo $HTTPS_PROXY;
 curl.exe ipinfo.io/city
 ```
 
-```
-{
-  "ip": "xxx.xxx.xxx.xxx",
-  "hostname": "xxx",
-  "city": "Los Angeles",
-  "region": "California",
-  "country": "US",
-  "loc": "xxx,xxx",
-  "org": "AS25820 IT7 Networks Inc",
-  "postal": "90012",
-  "timezone": "America/Los_Angeles",
-  "readme": "https://ipinfo.io/missingauth"
-}
-```
-
 </Tab>
 
 <Tab value="macOS">
@@ -128,6 +116,8 @@ curl ipinfo.io/city
 </Tab>
 
 </Tabs>
+
+可以看看 [ipinfo.io/city](https://ipinfo.io/city) 返回的结果，它应该是代理服务器所在的城市，而不是我们当前所在的城市。
 
 git clone https://github.com/ztm0929/ztm0929.cn.git
 
