@@ -52,6 +52,19 @@ echo $HTTP_PROXY; echo $HTTPS_PROXY;
 "http_proxy","https_proxy","HTTP_PROXY","HTTPS_PROXY" | % { [System.Environment]::SetEnvironmentVariable($_,"http://127.0.0.1:7897","User") }
 ```
 
+```powershell title="Windows Terminal（终端）"
+& {
+    [System.Environment]::SetEnvironmentVariable("http_proxy","http://127.0.0.1:7897","User")
+    [System.Environment]::SetEnvironmentVariable("https_proxy","http://127.0.0.1:7897","User")
+    [System.Environment]::SetEnvironmentVariable("HTTP_PROXY","http://127.0.0.1:7897","User")
+    [System.Environment]::SetEnvironmentVariable("HTTPS_PROXY","http://127.0.0.1:7897","User")
+}
+```
+
+```powershell title="Windows Terminal（终端）"
+$env:HTTP_PROXY="http://127.0.0.1:7897"; $env:HTTPS_PROXY="http://127.0.0.1:7897"
+```
+
 </Tab>
 
 <Tab value="macOS">
@@ -60,10 +73,6 @@ echo $HTTP_PROXY; echo $HTTPS_PROXY;
 echo "export http_proxy=http://127.0.0.1:7897" >> ~/.zshrc
 echo "export https_proxy=http://127.0.0.1:7897" >> ~/.zshrc
 echo "export all_proxy=socks5://127.0.0.1:7897" >> ~/.zshrc
-
-echo "export HTTP_PROXY=$http_proxy" >> ~/.zshrc
-echo "export HTTPS_PROXY=$https_proxy" >> ~/.zshrc
-echo "export ALL_PROXY=$all_proxy" >> ~/.zshrc
 ```
 
 </Tab>
@@ -127,15 +136,19 @@ scoop install python
 
 pnpm install next
 
+## 总结回顾
+
+1. 检查是否已开启「系统代理」，它是开启「终端代理」的前提
+2. 运行命令注入环境变量
+3. 确认环境变量已注入，成功注入变量就说明「终端代理」已开启
+4. （可选）测试实际代理效果
+
 
 ## 常见问题
 
 <Accordions>
 <Accordion title="为什么终端显示已有代理，但还是很慢甚至无法连接？">
 终端代理的前提是已启用系统代理，请检查 [小猫咪](../../system-proxy/clash-verge-rev) 是否正常运行。
-</Accordion>
-<Accordion title="为什么之前配置过并且生效了，有一天又不行了？">
-本文演示的是 Windows PowerShell/PowerShell 两款 Shell 注入环境变量的操作步骤，Git Bash、CMD 或其他的 Shell 需要额外注入。
 </Accordion>
 </Accordions>
 
