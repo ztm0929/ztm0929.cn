@@ -1,36 +1,106 @@
 ---
-title: "如何在 Windows 安装 pnpm"
+title: "如何安装 pnpm"
 ---
 
 <DraftNotice />
 
-pnpm 是一个依赖管理器，能够帮助我们管理项目所需依赖。
+[pnpm](https://pnpm.io) 是 Node.js 项目的依赖管理器，能够帮助我们高效管理项目，与 npm 相比，pnpm 安装依赖的速度通常更快。
 
-## 前置条件
+## 我们的目标
 
-- [Node.js](../../frontend/node) 已安装并了解基础
-- 良好的网络环境（[终端代理](../../naas/terminal-proxy/windows)）
-- Scoop 已安装并了解基础
+<Callout type="success">
+输入少量命令之后，**成功在终端返回 pnpm 的版本号**，这意味着我们成功安装了 pnpm
+</Callout>
 
-## 步骤
+## 开始之前
 
-<div className='fd-steps [&_h3]:fd-step'>
+- 拥有良好的网络环境（已开启 [终端代理](../../../naas/terminal-proxy)）
+- 了解软件（包）管理器（已安装 [Windows 的 Scoop](../../../toolchain/package-managers/scoop/install) 或 [macOS 的 Homebrew](../../../toolchain/package-managers/homebrew/install)）
 
-### 安装
+## 动手操作
+
+### 1. 环境预检
+
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
+
+```powershell title="Windows Terminal（终端）"
+$env:HTTP_PROXY; $env:HTTPS_PROXY; `
+scoop --version; `
+pnpm --version
+```
+
+</Tab>
+
+<Tab value="macOS">
+
+```zsh title="Terminal.app（终端）"
+echo $HTTP_PROXY; echo $HTTPS_PROXY; \
+brew --version; \
+pnpm --version
+```
+</Tab>
+
+</Tabs>
+
+### 1. 安装
+
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
 
 ```powershell title="Windows Terminal（终端）"
 scoop install pnpm
 ```
 
-### 确认
+</Tab>
+
+<Tab value="macOS">
+
+```zsh title="Terminal.app（终端）"
+brew install pnpm
+```
+
+</Tab>
+
+</Tabs>
+
+### 2. 确认
+
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
 
 ```powershell title="Windows Terminal（终端）"
 pnpm -v
 ```
 
-</div>
+</Tab>
 
-## 延伸阅读
+<Tab value="macOS">
+
+```zsh title="Terminal.app（终端）"
+pnpm -v
+```
+
+</Tab>
+
+</Tabs>
+
+## 总结回顾
+
+我们主要做了以下步骤：
+
+1. 检查网络是否良好和软件管理器是否已安装
+2. 安装 pnpm
+3. 打印版本号，验证安装结果
+
+## 常见问题
+
+pnpm 最新的大版本是 v11，优先使用最新版本。
+
+## 继续探索
 
 - [pnpm 官网](https://pnpm.io/)
 - [pnpm GitHub 仓库](https://github.com/pnpm/pnpm)
