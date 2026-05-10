@@ -4,6 +4,12 @@ title: "如何安装 OpenClaw"
 
 <DraftNotice />
 
+## 我们的目标
+
+<Callout type="success">
+通过输入少量的命令，**成功在终端显示 OpenClaw 的版本号**，这意味着我们成功安装了 OpenClaw
+</Callout>
+
 ## 开始之前
 
 - [ ] 拥有良好的网络环境（已开启 [终端代理](../../naas/terminal-proxy)）
@@ -24,12 +30,18 @@ node --version; `
 pnpm --version;
 ```
 
+理想情况下，终端应该会输出以下内容：
+
 ```
 http://127.0.0.1:7897
 http://127.0.0.1:7897
 v26.1.0
 11.0.8
 ```
+
+- 第一行和第二行的 `http://127.0.0.1:xxxx` 是我们设置的终端代理地址，具体的端口号因人而异
+- `v26.1.0` 是 Node.js 的版本号，越高越好
+- `11.0.8` 是 pnpm 的版本号，越高越好
 
 </Tab>
 
