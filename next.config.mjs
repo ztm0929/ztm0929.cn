@@ -9,7 +9,11 @@ const config = {
   images: {
 	unoptimized: true,
   },
-  trailingSlash: true
+  trailingSlash: true,
+
+  allowedDevOrigins: [
+	'192.168.1.7'
+  ],	
 };
 
 export default withMDX(config);
