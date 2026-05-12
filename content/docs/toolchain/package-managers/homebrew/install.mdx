@@ -5,16 +5,71 @@ title: "如何安装 Homebrew"
 <DraftNotice />
 
 <Callout title="我们的目标" type="success">
-运行少量命令，**在终端成功返回 Homebrew 的版本号**
+运行少量命令，**在终端成功输出 Homebrew 的版本号**，这意味着我们成功安装了 Homebrew
 </Callout>
 
 ## 开始之前
 
-- 良好的网络环境
-- 终端基础操作知识
+- [ ] 拥有良好的网络环境（已开启 [系统代理](/docs/naas/system-proxy) 和 [终端代理](/docs/naas/terminal-proxy)）
 
 ## 动手操作
 
-```bash title="Terminal.app（终端）"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+### 1. 环境预检
+
+```zsh title="Terminal.app（终端）"
+echo $HTTP_PROXY; echo $HTTPS_PROXY;
 ```
+
+理想情况下，终端应该会输出我们设置的代理地址，例如：
+
+```
+http://127.0.0.1:7897
+http://127.0.0.1:7897
+```
+
+### 2. 获取管理员权限
+
+```zsh title="Terminal.app（终端）"
+sudo -v
+```
+
+会提示输入密码，输入后回车确认（输入过程中不会显示字符）
+
+### 3. 运行安装命令
+
+```zsh title="Terminal.app（终端）"
+NONINTERACTIVE=1 /bin/bash -c \
+	"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### 4. 配置环境变量
+
+```zsh title="Terminal.app（终端）"
+echo >> ~/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+```
+
+### 5. 验证安装结果
+
+```zsh title="Terminal.app（终端）"
+brew --version
+```
+
+理想情况下，终端应该会输出 Homebrew 的版本号，例如：
+
+```
+Homebrew 5.1.1
+```
+
+## 总结回顾
+
+1. 检查网络环境，为安装做好准备
+2. 获取管理员权限，确保安装过程顺利进行
+3. 运行安装命令，安装 Homebrew
+4. 配置环境变量，让系统识别 Homebrew
+5. 验证安装结果，确认 Homebrew 已成功安装
+
+## 继续探索
+
+- [官方说明文档](https://docs.brew.sh)

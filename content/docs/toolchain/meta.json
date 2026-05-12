@@ -1,6 +1,15 @@
 {
-    "defaultOpen": true,
-    "icon": "Hammer",
-    "title": "必备工具链",
-    "pages": ["markdown", "package-managers", "vscode", "github", "python", "shell-and-terminal", "..."]
+  "defaultOpen": true,
+  "icon": "Hammer",
+  "title": "必备工具链",
+  "pages": [
+    "markdown",
+    "github",
+    "shell-and-terminal",
+    "package-managers",
+    "vscode",
+    "python",
+	"git",
+    "..."
+  ]
 }
