@@ -30,6 +30,20 @@ node --version; `
 pnpm --version;
 ```
 
+</Tab>
+
+<Tab value="macOS">
+
+```zsh title="Terminal.app（终端）"
+echo $HTTP_PROXY; echo $HTTPS_PROXY;
+node --version
+pnpm --version
+```
+
+</Tab>
+
+</Tabs>
+
 理想情况下，终端应该会输出以下内容：
 
 ```
@@ -42,20 +56,6 @@ v26.1.0
 - 第一行和第二行的 `http://127.0.0.1:xxxx` 是我们设置的终端代理地址，具体的端口号因人而异
 - `v26.1.0` 是 Node.js 的版本号，越高越好
 - `11.0.8` 是 pnpm 的版本号，越高越好
-
-</Tab>
-
-<Tab value="macOS">
-
-```zsh title="Terminal.app（终端）"
-echo "【代理环境变量】"; echo $HTTP_PROXY; echo $HTTPS_PROXY; `
-echo "\n【Node.js 版本】"; node --version; `
-echo "\n【pnpm 版本】"; pnpm --version;
-```
-
-</Tab>
-
-</Tabs>
 
 ### 2. 安装 OpenClaw
 

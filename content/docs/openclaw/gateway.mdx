@@ -1,0 +1,13 @@
+---
+title: "如何为 OpenClaw 开启网关"
+---
+
+[网关](https://docs.openclaw.ai/gateway) 是 OpenClaw 的核心组件，它负责处理我们发送的请求并进行相应的调度，为了能够正常运作，我们需要将它注册成后台服务。
+
+```
+openclaw onboard \
+	--install-daemon \
+	--non-interactive \
+	--accept-risk
+```
+

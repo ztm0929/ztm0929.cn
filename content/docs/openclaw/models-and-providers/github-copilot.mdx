@@ -1,0 +1,30 @@
+---
+title: "如何为 OpenClaw 配置 GitHub Copilot"
+---
+
+<DraftNotice />
+
+## 开始之前
+
+- 拥有良好的网络环境（已开启 [系统代理](/docs/naas/system-proxy) 和 [终端代理](/docs/naas/terminal-proxy)）
+- 已安装 [OpenClaw](../../install)
+- 拥有 GitHub Copilot 订阅
+
+## 动手操作
+
+```
+unset http_proxy
+unset https_proxy
+```
+
+```
+openclaw models auth login-github-copilot
+```
+
+```
+openclaw models set github-copilot/gpt-4.1
+```
+
+```
+source ~/.zshrc
+```
