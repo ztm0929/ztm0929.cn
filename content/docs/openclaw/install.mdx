@@ -15,12 +15,13 @@ title: "如何安装 OpenClaw"
 - [ ] 拥有良好的网络环境（已开启 [系统代理](../../naas/system-proxy) 和 [终端代理](../../naas/terminal-proxy)）
 - [ ] 了解软件（包）管理器（已安装 [Windows 的 Scoop](../../toolchain/package-managers/scoop/install) 或 [macOS 的 Homebrew](../../toolchain/package-managers/homebrew/install)）
 - [ ] 了解 JavaScript/TypeScript 生态（已安装 [Node.js](../../frontend/nodejs/install) 和 [pnpm](../../frontend/nodejs/pnpm)）
+- [ ] 如果是 Windows 系统，建议先安装 [WSL](/docs/toolchain/shell-and-terminal/windows-terminal/wsl/install)，以获得更好的兼容性和性能
 
 ## 动手操作
 
 ### 1. 环境预检
 
-<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+<Tabs groupId="os" items={['Windows', 'macOS', 'WSL']} persist>
 
 <Tab value="Windows">
 
@@ -35,7 +36,17 @@ pnpm --version;
 <Tab value="macOS">
 
 ```zsh title="Terminal.app（终端）"
-echo $HTTP_PROXY; echo $HTTPS_PROXY;
+echo $http_proxy; echo $https_proxy;
+node --version
+pnpm --version
+```
+
+</Tab>
+
+<Tab value="WSL">
+
+```bash title="Windows Terminal（终端）"
+echo $http_proxy; echo $https_proxy;
 node --version
 pnpm --version
 ```
@@ -59,7 +70,7 @@ v26.1.0
 
 ### 2. 安装 OpenClaw
 
-<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+<Tabs groupId="os" items={['Windows', 'macOS', 'WSL']} persist>
 
 <Tab value="Windows">
 
@@ -77,6 +88,19 @@ pnpm add -g openclaw@latest `
 <Tab value="macOS">
 
 ```zsh title="Terminal.app（终端）"
+pnpm add -g openclaw@latest \
+	--allow-build=@google/genai \
+	--allow-build=koffi \
+	--allow-build=openclaw \
+	--allow-build=protobufjs \
+	--allow-build=tree-sitter-bash
+```
+
+</Tab>
+
+<Tab value="WSL">
+
+```bash title="Windows Terminal（终端）"
 pnpm add -g openclaw@latest \
 	--allow-build=@google/genai \
 	--allow-build=koffi \
