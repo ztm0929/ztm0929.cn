@@ -1,0 +1,7 @@
+# Allow all robots to crawl the site
+User-agent: *
+Allow: /
+Disallow:
+
+# Sitemap location
+Sitemap: https://ztm0929.cn/sitemap.xml

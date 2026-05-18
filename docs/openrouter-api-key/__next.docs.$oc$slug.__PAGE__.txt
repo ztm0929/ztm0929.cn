@@ -1,0 +1,88 @@
+1:"$Sreact.fragment"
+2:I[314378,["/_next/static/chunks/03tb~ohxs8ze1.js","/_next/static/chunks/17_u3dil_uhir.js","/_next/static/chunks/0li4dbeyywp~t.js","/_next/static/chunks/0oe_ruhev902k.js","/_next/static/chunks/166w2f8qnw6ap.js","/_next/static/chunks/0hrwk1xfz_c6..js","/_next/static/chunks/0cu.--4i.cfxy.js","/_next/static/chunks/0i03b5ztjvdxj.js","/_next/static/chunks/0juc1b0aopkw0.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/0q_qajnkpe_20.js","/_next/static/chunks/10lam0w5x7u4i.js","/_next/static/chunks/02q40gjed0n0o.js","/_next/static/chunks/0ib1q5mhgg20b.js","/_next/static/chunks/0c_gabuzbr3.a.js"],"DocsPage"]
+3:I[314378,["/_next/static/chunks/03tb~ohxs8ze1.js","/_next/static/chunks/17_u3dil_uhir.js","/_next/static/chunks/0li4dbeyywp~t.js","/_next/static/chunks/0oe_ruhev902k.js","/_next/static/chunks/166w2f8qnw6ap.js","/_next/static/chunks/0hrwk1xfz_c6..js","/_next/static/chunks/0cu.--4i.cfxy.js","/_next/static/chunks/0i03b5ztjvdxj.js","/_next/static/chunks/0juc1b0aopkw0.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/0q_qajnkpe_20.js","/_next/static/chunks/10lam0w5x7u4i.js","/_next/static/chunks/02q40gjed0n0o.js","/_next/static/chunks/0ib1q5mhgg20b.js","/_next/static/chunks/0c_gabuzbr3.a.js"],"DocsTitle"]
+4:I[314378,["/_next/static/chunks/03tb~ohxs8ze1.js","/_next/static/chunks/17_u3dil_uhir.js","/_next/static/chunks/0li4dbeyywp~t.js","/_next/static/chunks/0oe_ruhev902k.js","/_next/static/chunks/166w2f8qnw6ap.js","/_next/static/chunks/0hrwk1xfz_c6..js","/_next/static/chunks/0cu.--4i.cfxy.js","/_next/static/chunks/0i03b5ztjvdxj.js","/_next/static/chunks/0juc1b0aopkw0.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/0q_qajnkpe_20.js","/_next/static/chunks/10lam0w5x7u4i.js","/_next/static/chunks/02q40gjed0n0o.js","/_next/static/chunks/0ib1q5mhgg20b.js","/_next/static/chunks/0c_gabuzbr3.a.js"],"DocsDescription"]
+5:I[302559,["/_next/static/chunks/03tb~ohxs8ze1.js","/_next/static/chunks/17_u3dil_uhir.js","/_next/static/chunks/0li4dbeyywp~t.js","/_next/static/chunks/0oe_ruhev902k.js","/_next/static/chunks/166w2f8qnw6ap.js","/_next/static/chunks/0hrwk1xfz_c6..js","/_next/static/chunks/0cu.--4i.cfxy.js","/_next/static/chunks/0i03b5ztjvdxj.js","/_next/static/chunks/0juc1b0aopkw0.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/0q_qajnkpe_20.js","/_next/static/chunks/10lam0w5x7u4i.js","/_next/static/chunks/02q40gjed0n0o.js","/_next/static/chunks/0ib1q5mhgg20b.js","/_next/static/chunks/0c_gabuzbr3.a.js"],"LLMCopyButton"]
+7:I[302559,["/_next/static/chunks/03tb~ohxs8ze1.js","/_next/static/chunks/17_u3dil_uhir.js","/_next/static/chunks/0li4dbeyywp~t.js","/_next/static/chunks/0oe_ruhev902k.js","/_next/static/chunks/166w2f8qnw6ap.js","/_next/static/chunks/0hrwk1xfz_c6..js","/_next/static/chunks/0cu.--4i.cfxy.js","/_next/static/chunks/0i03b5ztjvdxj.js","/_next/static/chunks/0juc1b0aopkw0.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/0q_qajnkpe_20.js","/_next/static/chunks/10lam0w5x7u4i.js","/_next/static/chunks/02q40gjed0n0o.js","/_next/static/chunks/0ib1q5mhgg20b.js","/_next/static/chunks/0c_gabuzbr3.a.js"],"ViewOptions"]
+8:I[314378,["/_next/static/chunks/03tb~ohxs8ze1.js","/_next/static/chunks/17_u3dil_uhir.js","/_next/static/chunks/0li4dbeyywp~t.js","/_next/static/chunks/0oe_ruhev902k.js","/_next/static/chunks/166w2f8qnw6ap.js","/_next/static/chunks/0hrwk1xfz_c6..js","/_next/static/chunks/0cu.--4i.cfxy.js","/_next/static/chunks/0i03b5ztjvdxj.js","/_next/static/chunks/0juc1b0aopkw0.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/0q_qajnkpe_20.js","/_next/static/chunks/10lam0w5x7u4i.js","/_next/static/chunks/02q40gjed0n0o.js","/_next/static/chunks/0ib1q5mhgg20b.js","/_next/static/chunks/0c_gabuzbr3.a.js"],"DocsBody"]
+9:I[481043,["/_next/static/chunks/03tb~ohxs8ze1.js","/_next/static/chunks/17_u3dil_uhir.js","/_next/static/chunks/0li4dbeyywp~t.js","/_next/static/chunks/0oe_ruhev902k.js","/_next/static/chunks/166w2f8qnw6ap.js","/_next/static/chunks/0hrwk1xfz_c6..js","/_next/static/chunks/0cu.--4i.cfxy.js","/_next/static/chunks/0i03b5ztjvdxj.js","/_next/static/chunks/0juc1b0aopkw0.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/0q_qajnkpe_20.js","/_next/static/chunks/10lam0w5x7u4i.js","/_next/static/chunks/02q40gjed0n0o.js","/_next/static/chunks/0ib1q5mhgg20b.js","/_next/static/chunks/0c_gabuzbr3.a.js"],"default"]
+a:I[555219,["/_next/static/chunks/03tb~ohxs8ze1.js","/_next/static/chunks/17_u3dil_uhir.js","/_next/static/chunks/0li4dbeyywp~t.js","/_next/static/chunks/0oe_ruhev902k.js","/_next/static/chunks/166w2f8qnw6ap.js","/_next/static/chunks/0hrwk1xfz_c6..js","/_next/static/chunks/0cu.--4i.cfxy.js","/_next/static/chunks/0i03b5ztjvdxj.js","/_next/static/chunks/0juc1b0aopkw0.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/0q_qajnkpe_20.js","/_next/static/chunks/10lam0w5x7u4i.js","/_next/static/chunks/02q40gjed0n0o.js","/_next/static/chunks/0ib1q5mhgg20b.js","/_next/static/chunks/0c_gabuzbr3.a.js"],"Heading"]
+b:I[293752,["/_next/static/chunks/03tb~ohxs8ze1.js","/_next/static/chunks/17_u3dil_uhir.js","/_next/static/chunks/0li4dbeyywp~t.js","/_next/static/chunks/0oe_ruhev902k.js","/_next/static/chunks/166w2f8qnw6ap.js","/_next/static/chunks/0hrwk1xfz_c6..js","/_next/static/chunks/0cu.--4i.cfxy.js","/_next/static/chunks/0i03b5ztjvdxj.js","/_next/static/chunks/0juc1b0aopkw0.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/0q_qajnkpe_20.js","/_next/static/chunks/10lam0w5x7u4i.js","/_next/static/chunks/02q40gjed0n0o.js","/_next/static/chunks/0ib1q5mhgg20b.js","/_next/static/chunks/0c_gabuzbr3.a.js"],"default"]
+19:I[803764,["/_next/static/chunks/03tb~ohxs8ze1.js","/_next/static/chunks/17_u3dil_uhir.js","/_next/static/chunks/0li4dbeyywp~t.js","/_next/static/chunks/0oe_ruhev902k.js","/_next/static/chunks/166w2f8qnw6ap.js","/_next/static/chunks/0hrwk1xfz_c6..js","/_next/static/chunks/0cu.--4i.cfxy.js","/_next/static/chunks/0i03b5ztjvdxj.js","/_next/static/chunks/0juc1b0aopkw0.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/0q_qajnkpe_20.js","/_next/static/chunks/10lam0w5x7u4i.js","/_next/static/chunks/02q40gjed0n0o.js","/_next/static/chunks/0ib1q5mhgg20b.js","/_next/static/chunks/0c_gabuzbr3.a.js"],"CodeBlock"]
+1a:I[803764,["/_next/static/chunks/03tb~ohxs8ze1.js","/_next/static/chunks/17_u3dil_uhir.js","/_next/static/chunks/0li4dbeyywp~t.js","/_next/static/chunks/0oe_ruhev902k.js","/_next/static/chunks/166w2f8qnw6ap.js","/_next/static/chunks/0hrwk1xfz_c6..js","/_next/static/chunks/0cu.--4i.cfxy.js","/_next/static/chunks/0i03b5ztjvdxj.js","/_next/static/chunks/0juc1b0aopkw0.js","/_next/static/chunks/0_tnh0h52edw1.js","/_next/static/chunks/0q_qajnkpe_20.js","/_next/static/chunks/10lam0w5x7u4i.js","/_next/static/chunks/02q40gjed0n0o.js","/_next/static/chunks/0ib1q5mhgg20b.js","/_next/static/chunks/0c_gabuzbr3.a.js"],"Pre"]
+1b:I[429253,["/_next/static/chunks/03tb~ohxs8ze1.js","/_next/static/chunks/17_u3dil_uhir.js","/_next/static/chunks/0li4dbeyywp~t.js","/_next/static/chunks/0oe_ruhev902k.js","/_next/static/chunks/166w2f8qnw6ap.js","/_next/static/chunks/0hrwk1xfz_c6..js","/_next/static/chunks/0cu.--4i.cfxy.js","/_next/static/chunks/0i03b5ztjvdxj.js","/_next/static/chunks/0juc1b0aopkw0.js","/_next/static/chunks/0_tnh0h52edw1.js"],"OutletBoundary"]
+1c:"$Sreact.suspense"
+:HL["/_next/static/chunks/0sk6hd1aagp67.css","style"]
+6:T83a,---
+title: "如何获取 OpenRouter API Key"
+---
+
+[OpenRouter](https://openrouter.ai/) 是一个模型聚合商，它通常会提供一些模型的免费试用额度，我们可以注册账号并获取 API Key 来使用这些模型。
+
+## 我们的目标
+
+<Callout type="success">
+通过少量的点击与输入操作，**成功获取 OpenRouter 的 API Key，它的形式类似于 `sk-or-v1-d6ca26d5bf5e3f1330d9ace82dbf66400c5c1d20c53fb368f453e6xxxxxxxxxx`**
+</Callout>
+
+## 开始之前
+
+- [ ] 拥有良好的网络环境（已运行 [小猫咪](../naas/system-proxy/clash-verge-rev)）
+
+## 动手操作
+
+### 1. 注册账号
+
+访问 [OpenRouter 官网](https://openrouter.ai/)，点击右上角的 "Sign Up"（注册）按钮，按照提示完成注册流程。
+
+如果已有 GitHub 或 Google 账号，也可以选择使用这些账号直接登录。
+
+### 2. 创建 API Key
+
+点击 https://openrouter.ai/workspaces/default/keys 进入 API Keys 页面，右上角 New Key（新建密钥）按钮，按照提示创建一个新的 API Key。
+
+### 3. 填写基本信息
+
+在创建 API Key 的过程中，需要填写一些基本信息：
+
+- **Name（名称）**：为 API Key 起一个名字，方便识别
+- **Credit limit（额度限制）**：我们暂时留空
+- **Reset limit every...（重置限制周期）**：因为上面的额度限制留空了，这里保持默认的 `N/A` 即可
+- **Expiration（过期时间）**：我们暂时保持默认的 `No Expiration`（永不过期）
+
+### 4. 保存到本地
+
+用记事本或其他文本编辑器打开一个新的文件，将生成的 API Key 粘贴进去，保存为 `openrouter-api-key.txt`，并妥善保管这个文件。
+
+它的内容应该类似于下面这样：
+
+```text title="openrouter-api-key.txt"
+sk-or-v1-d6ca26d5bf5e3f1330d9ace82dbf66400c5c1d20c53fb368f453e6xxxxxxxxxx
+```
+
+## 总结回顾
+
+1. 注册 OpenRouter 账号
+2. 创建新的 API Key
+3. 将 API Key 保存到本地
+
+## 常见问题
+
+## 继续探索
+
+可以开始尝试在那些支持 OpenRouter API Key 的工具中使用这个 API Key 了，比如 [OpenClaw](../openclaw) 。
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"toc":[{"depth":2,"url":"#我们的目标","title":"我们的目标"},{"depth":2,"url":"#开始之前","title":"开始之前"},{"depth":2,"url":"#动手操作","title":"动手操作"},{"depth":3,"url":"#1-注册账号","title":"注册账号","_step":1},{"depth":3,"url":"#2-创建-api-key","title":"创建 API Key","_step":2},{"depth":3,"url":"#3-填写基本信息","title":"填写基本信息","_step":3},{"depth":3,"url":"#4-保存到本地","title":"保存到本地","_step":4},{"depth":2,"url":"#总结回顾","title":"总结回顾"},{"depth":2,"url":"#常见问题","title":"常见问题"},{"depth":2,"url":"#继续探索","title":"继续探索"}],"tableOfContent":{"style":"clerk"},"lastUpdate":"$D2026-05-08T20:43:00.000Z","children":[["$","$L3",null,{"children":"如何获取 OpenRouter API Key"}],["$","$L4",null,{"className":"mb-0"}],"$undefined",["$","div",null,{"className":"flex flex-row gap-2 items-center border-b pt-2 pb-6","children":[["$","$L5",null,{"content":"$6"}],["$","$L7",null,{"markdownUrl":"/docs/openrouter-api-key.mdx","githubUrl":"https://github.com/ztm0929/ztm0929.cn/blob/main/content/docs/openrouter-api-key.mdx"}]]}],["$","$L8",null,{"children":[["$","p",null,{"children":[["$","$L9",null,{"href":"https://openrouter.ai/","children":"OpenRouter"}]," 是一个模型聚合商，它通常会提供一些模型的免费试用额度，我们可以注册账号并获取 API Key 来使用这些模型。"]}],"\n",["$","$La",null,{"as":"h2","id":"我们的目标","children":"我们的目标"}],"\n",["$","div",null,{"className":"flex gap-2 my-4 rounded-xl border bg-fd-card p-3 ps-1 text-sm text-fd-card-foreground shadow-md","style":{"--callout-color":"var(--color-fd-success, var(--color-fd-muted))"},"children":[["$","div",null,{"role":"none","className":"w-0.5 bg-(--callout-color)/50 rounded-sm"}],["$","$Lb",null,{"iconNode":[["circle",{"cx":"12","cy":"12","r":"10","key":"1mglay"}],["path",{"d":"m9 12 2 2 4-4","key":"dzmm74"}]],"className":"lucide-circle-check size-5 -me-0.5 fill-(--callout-color) text-fd-card"}],["$","div",null,{"className":"flex flex-col gap-2 min-w-0 flex-1","children":["$undefined",["$","div",null,{"className":"text-fd-muted-foreground prose-no-margin empty:hidden","children":["$","p",null,{"children":["通过少量的点击与输入操作，",["$","strong",null,{"children":["成功获取 OpenRouter 的 API Key，它的形式类似于 ",["$","code",null,{"children":"sk-or-v1-d6ca26d5bf5e3f1330d9ace82dbf66400c5c1d20c53fb368f453e6xxxxxxxxxx"}]]}]]}]}]]}]]}],"\n",["$","$La",null,{"as":"h2","id":"开始之前","children":"开始之前"}],"\n",["$","ul",null,{"className":"contains-task-list","children":["\n",["$","li",null,{"className":"task-list-item","children":[["$","input",null,{"type":"checkbox","disabled":true}]," ","拥有良好的网络环境（已运行 ",["$","$L9",null,{"href":"../naas/system-proxy/clash-verge-rev","children":"小猫咪"}],"）"]}],"\n"]}],"\n",["$","$La",null,{"as":"h2","id":"动手操作","children":"动手操作"}],"\n",["$","div",null,{"className":"fd-steps","children":[["$","div",null,{"className":"fd-step","children":[["$","$La",null,{"as":"h3","id":"1-注册账号","data-fd-step":"1","children":"注册账号"}],["$","p",null,{"children":["访问 ",["$","$L9",null,{"href":"https://openrouter.ai/","children":"OpenRouter 官网"}],"，点击右上角的 \"Sign Up\"（注册）按钮，按照提示完成注册流程。"]}],"$Lc"]}],"$Ld","$Le","$Lf"]}],"\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14"]}]]}],["$L15","$L16","$L17"],"$L18"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"QFVFu4JSrd-afA2cNOgHr"}
+c:["$","p",null,{"children":"如果已有 GitHub 或 Google 账号，也可以选择使用这些账号直接登录。"}]
+d:["$","div",null,{"className":"fd-step","children":[["$","$La",null,{"as":"h3","id":"2-创建-api-key","data-fd-step":"2","children":"创建 API Key"}],["$","p",null,{"children":["点击 ",["$","$L9",null,{"href":"https://openrouter.ai/workspaces/default/keys","children":"https://openrouter.ai/workspaces/default/keys"}]," 进入 API Keys 页面，右上角 New Key（新建密钥）按钮，按照提示创建一个新的 API Key。"]}]]}]
+e:["$","div",null,{"className":"fd-step","children":[["$","$La",null,{"as":"h3","id":"3-填写基本信息","data-fd-step":"3","children":"填写基本信息"}],["$","p",null,{"children":"在创建 API Key 的过程中，需要填写一些基本信息："}],["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Name（名称）"}],"：为 API Key 起一个名字，方便识别"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Credit limit（额度限制）"}],"：我们暂时留空"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Reset limit every...（重置限制周期）"}],"：因为上面的额度限制留空了，这里保持默认的 ",["$","code",null,{"children":"N/A"}]," 即可"]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Expiration（过期时间）"}],"：我们暂时保持默认的 ",["$","code",null,{"children":"No Expiration"}],"（永不过期）"]}],"\n"]}]]}]
+f:["$","div",null,{"className":"fd-step","children":[["$","$La",null,{"as":"h3","id":"4-保存到本地","data-fd-step":"4","children":"保存到本地"}],["$","p",null,{"children":["用记事本或其他文本编辑器打开一个新的文件，将生成的 API Key 粘贴进去，保存为 ",["$","code",null,{"children":"openrouter-api-key.txt"}],"，并妥善保管这个文件。"]}],["$","p",null,{"children":"它的内容应该类似于下面这样："}],["$","$L19",null,{"className":"shiki shiki-themes github-light github-dark","style":{"--shiki-light":"#24292e","--shiki-dark":"#e1e4e8","--shiki-light-bg":"#fff","--shiki-dark-bg":"#24292e"},"tabIndex":"0","title":"openrouter-api-key.txt","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"M 6,1 C 4.354992,1 3,2.354992 3,4 v 16 c 0,1.645008 1.354992,3 3,3 h 12 c 1.645008,0 3,-1.354992 3,-3 V 8 7 A 1.0001,1.0001 0 0 0 20.707031,6.2929687 l -5,-5 A 1.0001,1.0001 0 0 0 15,1 h -1 z m 0,2 h 7 v 3 c 0,1.645008 1.354992,3 3,3 h 3 v 11 c 0,0.564129 -0.435871,1 -1,1 H 6 C 5.4358712,21 5,20.564129 5,20 V 4 C 5,3.4358712 5.4358712,3 6,3 Z M 15,3.4140625 18.585937,7 H 16 C 15.435871,7 15,6.5641288 15,6 Z\" fill=\"currentColor\" /></svg>","children":["$","$L1a",null,{"children":["$","code",null,{"children":["$","span",null,{"className":"line","children":["$","span",null,{"children":"sk-or-v1-d6ca26d5bf5e3f1330d9ace82dbf66400c5c1d20c53fb368f453e6xxxxxxxxxx"}]}]}]}]}]]}]
+10:["$","$La",null,{"as":"h2","id":"总结回顾","children":"总结回顾"}]
+11:["$","ol",null,{"children":["\n",["$","li",null,{"children":"注册 OpenRouter 账号"}],"\n",["$","li",null,{"children":"创建新的 API Key"}],"\n",["$","li",null,{"children":"将 API Key 保存到本地"}],"\n"]}]
+12:["$","$La",null,{"as":"h2","id":"常见问题","children":"常见问题"}]
+13:["$","$La",null,{"as":"h2","id":"继续探索","children":"继续探索"}]
+14:["$","p",null,{"children":["可以开始尝试在那些支持 OpenRouter API Key 的工具中使用这个 API Key 了，比如 ",["$","$L9",null,{"href":"../openclaw","children":"OpenClaw"}]," 。"]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0sk6hd1aagp67.css","precedence":"next"}]
+16:["$","script","script-0",{"src":"/_next/static/chunks/0ib1q5mhgg20b.js","async":true}]
+17:["$","script","script-1",{"src":"/_next/static/chunks/0c_gabuzbr3.a.js","async":true}]
+18:["$","$L1b",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+1d:null
