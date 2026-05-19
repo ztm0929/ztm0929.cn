@@ -1,0 +1,31 @@
+---
+title: "如何为 OpenClaw 配置 OpenRouter"
+---
+
+<DraftNotice />
+
+## 我们的目标
+
+<Callout type="success">
+通过少量的配置，为 OpenClaw 添加 OpenRouter 的免费模型
+</Callout>
+
+## 开始之前
+
+- [ ] 拥有良好的网络环境（已开启 [终端代理](../../naas/terminal-proxy)）
+- [ ] 已安装 [OpenClaw](./install)
+- [ ] 拥有 [OpenRouter](../openrouter-api-key.mdx) 的 API Key
+
+## 动手操作
+
+OpenRouter API 格式：
+
+```
+sk-or-v1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+$env:OPENROUTER_API_KEY=...
+
+```
+openclaw onboard --install-daemon --non-interactive --accept-risk --auth-choice openrouter-api-key
+```

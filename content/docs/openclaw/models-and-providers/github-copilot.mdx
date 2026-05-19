@@ -12,6 +12,8 @@ title: "如何为 OpenClaw 配置 GitHub Copilot"
 
 ## 动手操作
 
+### 1. 环境预检
+
 ```
 unset http_proxy
 unset https_proxy
@@ -20,6 +22,41 @@ unset https_proxy
 ```
 openclaw models auth login-github-copilot
 ```
+
+```zsh title="Terminal.app（终端）"
+openclaw models list --provider github-copilot
+```
+
+<Callout type="info">
+不知为何，GitHub Copilot 的模型目录相当慢（将近 2 分钟），需要耐心等待结果。
+
+```zsh
+🦞 OpenClaw 2026.5.6 (c97b9f7) — Alexa, but with taste.
+
+Model                                      Input      Ctx         Local Auth  Tags
+github-copilot/claude-haiku-4.5            text+image 125k        no    no
+github-copilot/claude-opus-4.5             text+image 125k        no    no
+github-copilot/claude-opus-4.6             text+image 125k        no    no
+github-copilot/claude-opus-4.7             text+image 125k        no    no
+github-copilot/claude-sonnet-4             text+image 125k        no    no
+github-copilot/claude-sonnet-4.5           text+image 125k        no    no
+github-copilot/claude-sonnet-4.6           text+image 125k        no    no
+github-copilot/gemini-2.5-pro              text+image 125k        no    no
+github-copilot/gemini-3-flash              text+image 125k        no    no
+github-copilot/gemini-3.1-pro              text+image 125k        no    no
+github-copilot/goldeneye                   text       125k        no    no
+github-copilot/gpt-4.1                     text+image 125k        no    no
+github-copilot/gpt-5-mini                  text+image 125k        no    no
+github-copilot/gpt-5.2                     text+image 125k        no    no
+github-copilot/gpt-5.2-codex               text       125k        no    no
+github-copilot/gpt-5.3-codex               text       125k        no    no
+github-copilot/gpt-5.4                     text+image 125k        no    no
+github-copilot/gpt-5.4-mini                text+image 125k        no    no
+github-copilot/gpt-5.4-nano                text+image 125k        no    no
+github-copilot/grok-code-fast-1            text       125k        no    no
+github-copilot/raptor-mini                 text       125k        no    no
+```
+</Callout>
 
 ```
 openclaw models set github-copilot/gpt-5.2
