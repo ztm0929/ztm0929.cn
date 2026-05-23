@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import FadeIn from "@/app/components/FadeIn";
+import { siWechat, siTelegram, siGmail } from "simple-icons";
 
 export default function AboutPageClient() {
   const [showWechatQR, setShowWechatQR] = useState(false);
@@ -72,28 +73,93 @@ export default function AboutPageClient() {
       </FadeIn>
 
       <FadeIn delay={1000}>
-        <div className="flex flex-col items-center gap-2">
-          <h1 className="text-2xl font-bold">联系方式：</h1>
-          <button
-            onClick={() => setShowWechatQR(true)}
-            className="text-fd-foreground underline cursor-pointer bg-transparent border-none p-0 font-inherit"
-          >
-            微信：ztm00929
-          </button>
-          <Link href="https://t.me/ztm0929">Telegram（TG）：ztm0929</Link>
-          <Link href="mailto:ztm0929@outlook.com">
-            邮箱：ztm0929@outlook.com
-          </Link>
+        <div className="flex flex-col items-center gap-6">
+          <h1 className="text-2xl font-bold">联系方式</h1>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 place-items-center">
+            {/* WeChat */}
+            <button
+              onClick={() => setShowWechatQR(true)}
+              aria-label="查看微信二维码（微信号：ztm00929）"
+              className="w-[140px] flex flex-col items-center gap-1 text-center group"
+            >
+              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-fd-secondary hover:bg-fd-accent transition-colors flex items-center justify-center shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fd-ring">
+                <svg
+                  className="w-8 h-8 sm:w-10 sm:h-10 text-fd-secondary-foreground group-hover:text-fd-foreground transition-colors"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  role="img"
+                >
+                  <path d={siWechat.path} fill="currentColor" />
+                </svg>
+              </div>
+              <span className="text-sm font-medium text-fd-foreground">
+                微信
+              </span>
+              <span className="text-xs text-fd-muted-foreground max-w-full truncate" title="ztm00929">
+                ztm00929
+              </span>
+            </button>
+
+            {/* Telegram */}
+            <Link
+              href="https://t.me/ztm0929"
+              className="w-[140px] flex flex-col items-center gap-1 text-center group"
+            >
+              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-fd-secondary hover:bg-fd-accent transition-colors flex items-center justify-center shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fd-ring">
+                <svg
+                  className="w-8 h-8 sm:w-10 sm:h-10 text-fd-secondary-foreground group-hover:text-fd-foreground transition-colors"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  role="img"
+                >
+                  <path d={siTelegram.path} fill="currentColor" />
+                </svg>
+              </div>
+              <span className="text-sm font-medium text-fd-foreground">
+                Telegram
+              </span>
+              <span className="text-xs text-fd-muted-foreground max-w-full truncate" title="t.me/ztm0929">
+                t.me/ztm0929
+              </span>
+            </Link>
+
+            {/* Email */}
+            <Link
+              href="mailto:ztm0929@outlook.com"
+              className="w-[140px] flex flex-col items-center gap-1 text-center group"
+            >
+              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-fd-secondary hover:bg-fd-accent transition-colors flex items-center justify-center shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fd-ring">
+                <svg
+                  className="w-8 h-8 sm:w-10 sm:h-10 text-fd-secondary-foreground group-hover:text-fd-foreground transition-colors"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  role="img"
+                >
+                  <path d={siGmail.path} fill="currentColor" />
+                </svg>
+              </div>
+              <span className="text-sm font-medium text-fd-foreground">
+                邮箱
+              </span>
+              <span
+                className="text-xs text-fd-muted-foreground max-w-full truncate"
+                title="ztm0929@outlook.com"
+              >
+                ztm0929@outlook.com
+              </span>
+            </Link>
+          </div>
         </div>
       </FadeIn>
 
       {showWechatQR && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+          className="fixed inset-0 bg-fd-overlay flex items-center justify-center z-50"
           onClick={() => setShowWechatQR(false)}
         >
           <div
-            className="bg-white p-8 rounded-lg shadow-lg max-w-md mx-4"
+            className="bg-fd-card p-8 rounded-lg shadow-lg max-w-md mx-4"
             onClick={(e) => e.stopPropagation()}
           >
             <Image
@@ -104,12 +170,12 @@ export default function AboutPageClient() {
               className="mx-auto mb-6"
               priority
             />
-            <p className="text-gray-600 text-center mb-4 text-sm">
+            <p className="text-fd-muted-foreground text-center mb-4 text-sm">
               请备注您的需求，谢谢！
             </p>
             <button
               onClick={() => setShowWechatQR(false)}
-              className="w-full px-4 py-3 bg-gray-200 rounded hover:bg-gray-300 text-black transition-colors font-medium"
+              className="w-full px-4 py-3 border bg-fd-secondary text-fd-secondary-foreground hover:bg-fd-accent hover:text-fd-accent-foreground transition-colors font-medium rounded"
             >
               关闭
             </button>

@@ -29,12 +29,12 @@ export default function Page() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={`${name}（新窗口打开）`}
-                className="group relative flex items-center gap-3 overflow-hidden rounded-xl border bg-card p-3 transition-colors hover:bg-accent focus:outline-none focus:ring-2 focus:ring-ring"
+                className="group relative flex items-center gap-3 overflow-hidden rounded-xl border border-fd-border bg-fd-card p-3 transition-colors hover:bg-fd-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-fd-ring"
               >
-                <span className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-secondary ring-1 ring-border transition-all group-hover:bg-accent">
+                <span className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-fd-secondary ring-1 ring-fd-border transition-all group-hover:bg-fd-accent">
                   {icon ? (
                     <svg
-                      className="h-4 w-4 text-muted-foreground group-hover:text-foreground"
+                      className="h-4 w-4 text-fd-muted-foreground group-hover:text-fd-foreground"
                       viewBox="0 0 24 24"
                       aria-hidden="true"
                       role="img"
@@ -42,13 +42,13 @@ export default function Page() {
                       <path d={icon.path} fill="currentColor" />
                     </svg>
                   ) : (
-                    <span className="h-1.5 w-1.5 rounded-full bg-muted-foreground group-hover:bg-foreground transition-colors" />
+                    <span className="h-1.5 w-1.5 rounded-full bg-fd-muted group-hover:bg-fd-foreground transition-colors" />
                   )}
                 </span>
-                <span className="text-sm font-medium text-foreground">
+                <span className="text-sm font-medium text-fd-foreground">
                   {name}
                 </span>
-                <span className="ml-auto text-xs text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100">
+                <span className="ml-auto text-xs text-fd-muted-foreground opacity-0 transition-opacity group-hover:opacity-100">
                   ↗
                 </span>
               </Link>
