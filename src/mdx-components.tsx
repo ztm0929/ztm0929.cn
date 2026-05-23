@@ -2,6 +2,7 @@ import defaultMdxComponents from 'fumadocs-ui/mdx';
 import * as TabsComponents from 'fumadocs-ui/components/tabs';
 import * as AccordionComponents from 'fumadocs-ui/components/accordion';
 import { Callout } from 'fumadocs-ui/components/callout';
+import Link from 'next/link';
 import { ImageZoom } from 'fumadocs-ui/components/image-zoom';
 import { CodeBlock, Pre } from 'fumadocs-ui/components/codeblock';
 import type { StaticImageData } from 'next/image';
@@ -9,13 +10,22 @@ import type { MDXComponents } from 'mdx/types';
 import type { ReactNode } from 'react';
 
 function DraftNotice({
-  title = '本文尚处于草稿状态，内容可能不完整或存在错误'
+  title = '注意',
+  children,
 }: {
   title?: string;
   children?: ReactNode;
 }) {
   return (
     <Callout type="warn" title={title}>
+      {/** 如果调用时传入 children 则使用之，否则渲染含链接的默认提示 */}
+      {children ?? (
+        <>
+          本文尚处于草稿状态，内容可能不完整或存在错误，如有疑问，欢迎{' '}
+          <Link href="/about">联系天明</Link>
+          {' '}改进！
+        </>
+      ) }
     </Callout>
   );
 }
