@@ -1,0 +1,192 @@
+---
+title: "如何在本地编写 GEE 代码"
+---
+
+<DraftNotice />
+
+Google Earth Engine（GEE）是一个强大的云端地理空间分析平台，提供了丰富的地理数据和计算资源。虽然它提供了一个在线的代码编辑器，但无法使用 AI 能力，我们可以利用 
+GEE 的 Python API，在本地编写和运行 GEE 代码，充分利用 VSCode 的 AI 插件来提升编程效率，加速学习。同时让云端执行繁重的计算任务、渲染地图。
+
+## 我们的目标
+
+<Callout type="success">
+**在本地编写和运行 GEE 代码，使用浏览器访问 `localhost:8000` 浏览地图信息**，而无需每次都依赖网页编辑器
+</Callout>
+
+## 开始之前
+
+- [ ] 拥有良好的网络环境（已开启 [系统代理](/docs/naas/system-proxy) 和 [终端代理](/docs/naas/terminal-proxy)）
+- [ ] 了解 Python 基础知识（已安装 [Python](/docs/toolchain/python/install) 和 pip）
+
+## 动手操作
+
+### 1. 环境预检
+
+先检查当前的网络情况和 Python 环境：
+
+```powershell title="Windows Terminal（终端）"
+$env:HTTP_PROXY; $env:HTTPS_PROXY; `
+python --version; pip --version;
+```
+
+终端应该会输出类似这样的结果：
+
+```powershell
+http://127.0.0.1:7897
+http://127.0.0.1:7897
+Python 3.14.5
+pip 26.1.1 from C:\Users\ztm0929\test-gee\venv\Lib\site-packages\pip (python 3.14)
+```
+
+这会为我们稍后的安装依赖和认证 GEE 提供网络加速。
+
+### 2. 创建项目
+
+创建临时的项目文件夹并进入：
+
+示例中的文件夹名称是 `test-gee`，我们可以根据实际需求，修改为其他名称。
+
+```powershell title="Windows Terminal（终端）"
+mkdir test-gee && cd test-gee
+```
+创建一个名为 `venv` 的虚拟环境并激活：
+
+```powershell title="Windows Terminal（终端）"
+python -m venv venv && .\venv\Scripts\activate
+```
+
+### 3. 安装依赖
+
+- earthengine-api 是 GEE 的 Python API
+- geemap 是一个交互式地图工具包，可以帮助我们更方便地可视化 GEE 地图数据
+
+```powershell title="Windows Terminal（终端）"
+pip install earthengine-api geemap
+```
+
+GEE 实际上是一个云端服务，我们需要通过认证来授权访问权限，以便我们**在本地编写代码，通过 API 让 GEE 云端计算。**
+
+输入这行命令来进行认证，会自动打开浏览器，要求我们登录 Google 账号并授权访问权限：
+
+
+```powershell title="Windows Terminal（终端）"
+earthengine authenticate
+```
+
+完成认证后，终端会输出类似这样的结果：
+
+```powershell
+To authorize access needed by Earth Engine, open the following URL in a web browser and follow the instructions. If the web browser does not start automatically, please manually browse the URL below.
+
+    https://accounts.google.com/o/oauth2/auth?client_id=517222506229-vsmmajv00ul0bs7p89v5m89qs8eb9359.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fearthengine+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.full_control&redirect_uri=http%3A%2F%2Flocalhost%3A8085&response_type=code&code_challenge=Iu8CZJRCec2SZPsJ7yuJB_dY8m2XJ0rHfb_1S_JX3nc&code_challenge_method=S256
+
+Waiting for successful authorization from web browser ...
+
+Successfully saved authorization token.
+```
+
+### 4. 编写代码
+
+在 `test-gee` 文件夹打开 VS Code：
+
+```powershell title="Windows Terminal（终端）"
+code .
+```
+
+接下来就可以尝试编写实际代码来调用 GEE API 啦！
+
+以下是一个简单的示例代码，展示了如何使用 GEE API 和 geemap 来创建一个洛杉矶周边地图并显示 Landsat 8 的影像：
+
+<Accordions type="single">
+  <Accordion title="示例代码">
+	```python title="main.py"
+import ee
+import geemap
+import threading
+import webbrowser
+from http.server import HTTPServer, SimpleHTTPRequestHandler
+
+# ======================
+# 初始化 Earth Engine
+# ======================
+
+ee.Initialize(project='chrome-<your-project-id>')  # 替换为实际的 GEE 项目 ID
+
+# ======================
+# 创建地图
+# ======================
+
+Map = geemap.Map()
+
+point = ee.Geometry.Point([-118.2437, 34.0522])   # 洛杉矶的经纬度坐标
+
+
+# 时间范围内的 Landsat 8 影像集合
+collection = (
+    ee.ImageCollection('LANDSAT/LC08/C02/T1_TOA')
+    .filterBounds(point)
+    .filterDate('2024-01-01', '2024-12-31')
+)
+
+image = collection.first()
+
+Map.centerObject(point, 9)
+
+# 可视化参数
+vis_params = {
+    'bands': ['B4', 'B3', 'B2'],
+    'min': 0,
+    'max': 0.3
+}
+
+Map.addLayer(image, vis_params, 'True Color Image')
+
+# ======================
+# 导出 HTML
+# ======================
+
+Map.to_html("map.html")
+
+# ======================
+# 启动本地 server
+# ======================
+
+PORT = 8000
+
+def start_server():
+    server = HTTPServer(("localhost", PORT), SimpleHTTPRequestHandler)
+    print(f"Server running at http://localhost:{PORT}/map.html")
+    server.serve_forever()
+
+thread = threading.Thread(target=start_server)
+thread.daemon = True
+thread.start()
+
+# 自动打开浏览器
+webbrowser.open(f"http://localhost:{PORT}/map.html")
+
+input("按 Enter 键退出...\n")
+```
+
+```powershell title="Windows Terminal（终端）"
+python main.py
+```
+  </Accordion>
+</Accordions>
+
+
+
+## 总结回顾
+
+我们通过以下步骤，在本地成功编写了 GEE 代码：
+
+1. **环境预检**：检查网络代理和 Python 环境
+2. **创建项目**：创建项目文件夹并设置虚拟环境
+3. **安装依赖**：安装 earthengine-api 和 geemap 并进行 GEE 认证
+4. **编写代码**：使用 GEE API 和 geemap 创建地图并显示影像（用 HTML 呈现）
+
+## 继续探索
+
+- [ ] 利用 [GitHub Copilot](/docs/toolchain/vscode/github-copilot) 编写 GEE 代码
+- [ ] 了解更多 GEE API 功能（[官方文档](https://developers.google.com/earth-engine/guides/python_install)）
+- [ ] 学习 geemap 的高级用法（[官方文档](https://geemap.org/)）
