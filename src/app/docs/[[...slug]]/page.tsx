@@ -91,8 +91,38 @@ export async function generateMetadata(props: {
   const page = tutorialsSource.getPage(params.slug);
   if (!page) notFound();
 
+  // 尝试从 frontmatter 获取 description，若没有则从文件内容生成摘录
+  let description = page.data.description;
+
+  if (!description) {
+    let mdxContent = '';
+    try {
+      const contentPath = page.path.startsWith('docs/')
+        ? `content/${page.path}`
+        : `content/docs/${page.path}`;
+      const filePath = join(process.cwd(), contentPath);
+      mdxContent = readFileSync(filePath, 'utf-8');
+      // 去掉 frontmatter（若存在）
+      mdxContent = mdxContent.replace(/^---[\s\S]*?---/, '');
+      // 去除 HTML 标签
+      let cleaned = mdxContent.replace(/<[^>]+>/g, '');
+      // 去除常见 Markdown 符号
+      cleaned = cleaned.replace(/[#_*`>~\[\]\(\)!\-]{1,}/g, '');
+      cleaned = cleaned.replace(/\s+/g, ' ').trim();
+      const max = 160;
+      description = cleaned.length > max ? cleaned.slice(0, max - 1).trim() + '…' : cleaned;
+    } catch (e) {
+      // fallback to empty string
+      description = '';
+    }
+  }
+
   return {
-	title: page.data.title,
-	description: page.data.description,
+    title: page.data.title,
+    description,
+    openGraph: {
+      title: page.data.title,
+      description,
+    },
   };
 }
