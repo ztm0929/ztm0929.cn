@@ -6,12 +6,17 @@ title: "如何安装 VHS"
 
 ## 开始之前
 
-- [ ] 拥有良好的网络环境（已开启 系统代理 和 终端代理）
-- [ ] 了解软件包管理器（已安装 Windows 的 Scoop 或 macOS 的 Homebrew）
+- [ ] 拥有良好的网络环境（已开启 [系统代理](/docs/naas/system-proxy) 和 [终端代理](/docs/naas/terminal-proxy)）
+- [ ] 了解软件包管理器（已安装 [Windows 的 Scoop](/docs/toolchain/package-managers/scoop/install) 或 [macOS 的 Homebrew](/docs/toolchain/package-managers/homebrew/install)）
 
 ## 动手操作
 
 ### 1. 环境预检
+
+```zsh title="Terminal.app（终端）"
+echo $http_proxy; echo $https_proxy;
+brew --version;
+```
 
 ### 2. 安装前置依赖
 
@@ -24,4 +29,10 @@ brew install ttyd ffmpeg
 
 ```zsh title="Terminal.app（终端）"
 brew install vhs
+```
+
+### 4. 验证安装
+
+```zsh title="Terminal.app（终端）"
+vhs --version
 ```
