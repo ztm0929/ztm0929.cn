@@ -1,0 +1,64 @@
+---
+title: "如何安装 Matomo"
+---
+
+<DraftNotice />
+
+https://matomo.org/faq/how-to-install/install-matomo-with-docker/
+
+## 开始之前
+
+- Docker Compose
+
+## 动手操作
+
+示例 `docker-compose.yml` 文件：
+
+```yaml title="docker-compose.yml"
+services:
+  db:
+    image: mariadb:latest
+    container_name: matomo-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: your-root-password
+      MYSQL_DATABASE: matomo
+      MYSQL_USER: matomo
+      MYSQL_PASSWORD: your-matomo-password
+    volumes:
+      - matomo-db-data:/var/lib/mysql
+
+  matomo:
+    image: matomo:latest
+    container_name: matomo-app
+    restart: unless-stopped
+    ports:
+      - "8181:80"
+    environment:
+      MATOMO_DATABASE_HOST: db
+      MATOMO_DATABASE_USERNAME: matomo
+      MATOMO_DATABASE_PASSWORD: your-matomo-password
+      MATOMO_DATABASE_DBNAME: matomo
+    volumes:
+      - matomo-app-data:/var/www/html
+    depends_on:
+      - db
+
+  cron:
+    image: matomo:latest
+    container_name: matomo-cron
+    restart: unless-stopped
+    volumes:
+      - matomo-app-data:/var/www/html
+    entrypoint: >
+      /bin/sh -c "while true; do
+      php /var/www/html/console core:archive;
+      sleep 300;
+      done"
+    depends_on:
+      - db
+
+volumes:
+  matomo-db-data:
+  matomo-app-data:
+```
