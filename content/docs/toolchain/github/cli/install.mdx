@@ -4,15 +4,27 @@ title: "如何安装 GitHub CLI"
 
 <DraftNotice />
 
+GitHub CLI 是 GitHub 官方提供的命令行工具，能够让我们在终端直接与 GitHub 交互，例如创建仓库、管理 pull request、查看 issue 等等。安装 GitHub CLI 可以大大提升我们在终端操作 GitHub 的效率。
+
 ## 开始之前
 
-- [ ] 拥有良好的网络环境（已开启 终端代理）
-- [ ] 已安装 Scoop 或 Homebrew
+- [ ] 拥有良好的网络环境（已开启 [系统代理](/docs/naas/system-proxy) 和 [终端代理](/docs/naas/terminal-proxy)）
+- [ ] 了解软件包管理器（已安装 [Windows 的 Scoop](/docs/toolchain/package-managers/scoop/install) 或 [macOS 的 Homebrew](/docs/toolchain/package-managers/homebrew/install)）
 
 ## 动手操作
 
 ### 1. 下载并安装
 
-```
+```zsh title="Terminal.app（终端）"
 brew install gh
+```
+
+```powershell title="Windows Terminal（终端）"
+scoop install gh
+```
+
+### 2. 验证安装
+
+```
+gh --version
 ```
