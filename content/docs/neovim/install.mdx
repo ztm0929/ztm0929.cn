@@ -10,11 +10,13 @@ title: "如何安装 Neovim"
 
 ## 开始之前
 
-- [ ] 已安装 [Scoop](../../toolchain/package-managers/scoop/install)（Windows） 或 [Homebrew](../../toolchain/package-managers/homebrew/install)（macOS）
+- [ ] 拥有良好的网络环境（已开启 [系统代理](/docs/naas/system-proxy) 和 [终端代理](/docs/naas/terminal-proxy)）
+
+- [ ] 了解软件包管理器（已安装 [Windows 的 Scoop](/docs/toolchain/package-managers/scoop/install) 或 [macOS 的 Homebrew](/docs/toolchain/package-managers/homebrew/install)）
 
 ## 动手操作
 
-### 1. 检查是否已安装
+### 1. 环境预检
 
 <Tabs groupId="os" items={['Windows', 'macOS']} persist>
 
@@ -22,6 +24,14 @@ title: "如何安装 Neovim"
 
 ```powershell title="Windows Terminal（终端）"
 nvim --version
+```
+
+```
+scoop --version
+```
+
+```
+$env:HTTP_PROXY; $env:HTTPS_PROXY;
 ```
 
 </Tab>
