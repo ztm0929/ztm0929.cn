@@ -5,6 +5,7 @@ import { Callout } from 'fumadocs-ui/components/callout';
 import Link from 'next/link';
 import { ImageZoom } from 'fumadocs-ui/components/image-zoom';
 import { CodeBlock, Pre } from 'fumadocs-ui/components/codeblock';
+import { TerminalPlayer } from '@/components/terminal-player';
 import type { StaticImageData } from 'next/image';
 import type { MDXComponents } from 'mdx/types';
 import type { ReactNode } from 'react';
@@ -44,6 +45,7 @@ export function getMDXComponents(components?: MDXComponents): MDXComponents {
   return {
     ...defaultMdxComponents,
     DraftNotice,
+	TerminalPlayer,
     pre: ({ ref: _ref, ...props }) => <CodeBlock {...props}><Pre>{props.children}</Pre></CodeBlock>,
     img: ({ src, ...props }) => {
       const isSupportedSrc =
