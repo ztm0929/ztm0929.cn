@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "/telegram",
+        "destination": "https://t.me/s/ztm0929_digitalhub",
+        "statusCode": 301
+      }
+    ]
+}

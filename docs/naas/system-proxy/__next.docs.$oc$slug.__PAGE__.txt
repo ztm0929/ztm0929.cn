@@ -1,0 +1,229 @@
+1:"$Sreact.fragment"
+2:I[217654,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],"DocsPage"]
+3:I[217654,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],"DocsTitle"]
+4:I[217654,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],"DocsDescription"]
+5:I[302559,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],"LLMCopyButton"]
+d:I[302559,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],"ViewOptions"]
+e:I[217654,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],"DocsBody"]
+f:I[662521,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],"default"]
+10:I[48663,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],""]
+11:I[686349,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],"default"]
+23:I[191384,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js"],"OutletBoundary"]
+24:"$Sreact.suspense"
+26:I[222335,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],"Heading"]
+27:I[504759,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],"Tabs"]
+28:I[504759,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],"Tab"]
+2f:I[691615,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],"Accordions"]
+30:I[691615,["/_next/static/chunks/2yv2rylr8963j.js","/_next/static/chunks/1lufm4lkmfea6.js","/_next/static/chunks/0ik2qr55fzd63.js","/_next/static/chunks/34jt43pbt7w7h.js","/_next/static/chunks/1tm5kusjvngs7.js","/_next/static/chunks/431uixkd0_bxv.js","/_next/static/chunks/40dozp2vkx05i.js","/_next/static/chunks/2626k24nw7-_6.js","/_next/static/chunks/1k2ew0ts_imgg.js","/_next/static/chunks/2q3ycvr834q5z.js","/_next/static/chunks/2g_69zyh42ae-.js","/_next/static/chunks/3594voq9_uu1t.js","/_next/static/chunks/3x5wwubbnfeey.js","/_next/static/chunks/37yaaie9cskic.js","/_next/static/chunks/3kocxys3zp3m6.js"],"Accordion"]
+:HL["/_next/static/chunks/2gs3drdnc84hp.css","style"]
+6:T1e76,---
+title: "如何开启系统代理"
+description: "使用「小猫咪」优化网络"
+---
+
+<DraftNotice />
+
+- [GitHub](https://github.com) 几乎是编程学习的必经之地，其中有大量优秀开发者的代码可供学习
+- [Hugging Face](https://huggingface.co) 是 AI 领域的资源宝库
+- 而 [YouTube](https://www.youtube.com) 则有许多编程教学视频
+
+我们在访问这类网站查找学习资料时，常见的体验是加载很慢、图片刷不出来、甚至频繁超时——很多时候并不是电脑或浏览器的问题，而是网络“走的路”不够顺。
+
+所谓「系统代理」，可以简单理解为：
+
+> 让系统的网络请求先交给一个代理工具/远程服务器进行转发，再去访问目标网站，相当于把出网通道统一切到一条更合适的路径上。
+
+开启它的意义在于提升连接的稳定性与成功率，让日常学习与查资料的访问更连贯；
+
+我们只需要做少量设置，并用几个网站和 IP 信息做一次验证，就能确认系统代理已经生效。
+
+import { GithubInfo } from 'fumadocs-ui/components/github-info';
+
+<GithubInfo
+  owner="clash-verge-rev"
+  repo="clash-verge-rev"
+/>
+
+[Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev) 是一款知名的网络代理工具，可以理解成「系统代理的中控台」**（我常叫作“小猫咪”）**：
+
+**它把原本分散在系统设置里的代理开关、订阅/节点管理、规则分流、DNS 与连接日志等能力集中到一个界面里统一管理。**
+
+这样做的好处是：需要优化网络时，不用到处改设置、也不容易漏掉关键选项；只要在这里完成导入配置、选择节点、打开系统代理，并通过日志/连通性验证确认“真的生效”，日常访问学习资料就会更稳定、更省心。
+
+接下来的操作基本都会围绕它展开。
+
+{/* TODO: 演示视频 */}
+
+## 我们的目标 [#goal]
+
+<Callout type="success">
+
+完成本教程后，我们将**开启系统代理并确认已生效**：
+
+1. GitHub、Hugging Face、YouTube 至少能稳定打开其首页并加载主要内容
+2. 访问 [IPinfo](https://ipinfo.io/city) 显示的城市与未开启代理时不同
+3. 在 Clash Verge Rev 的连接/日志中能看到对应网站的请求记录
+
+</Callout>
+
+## 动手操作 [#hands-on]
+
+### 1. 环境预检 [#preflight-check]
+
+我们先别急着配置，先用 1 分钟做个小测试，看看当前网络的表现：
+
+依次打开：
+
+- GitHub：[github.com](https://github.com)
+- Hugging Face：[huggingface.co](https://huggingface.co)
+- YouTube：[youtube.com](https://www.youtube.com)
+
+观察页面能否稳定打开，主要内容（文字/图片等）能否正常加载。
+
+再打开 [IPinfo](https://ipinfo.io/city) ，把显示的城市名称记下来。
+
+<Callout type="warning">
+如果 Hugging Face / YouTube 打不开、很慢、或者一直转圈，这是很常见的现象
+
+把“打不开的样子”和 ipinfo 的结果先记下来就好，接下来开启系统代理后再回来对比，很容易看到变化
+</Callout>
+
+{/* TODO: 动图 WebP */}
+
+### 2. 安装并打开「小猫咪」 [#install-and-launch-cvr]
+
+点击下面的卡片，下载「小猫咪」在对应平台的安装包：
+
+import { FileDown } from 'lucide-react';
+
+<Cards>
+<Card icon={<FileDown />} href="https://assets.ztm0929.host/docs/naas/Clash.Verge_2.5.1_x64-setup.exe" title="Windows 安装包">
+适用于 Windows 10/11，版本号 `v2.5.1` 
+</Card>
+<Card icon={<FileDown />} href="https://assets.ztm0929.host/docs/naas/Clash.Verge_2.5.1_aarch64.dmg" title="macOS 安装包">
+适用于 macOS，版本号 `v2.5.1`
+</Card>
+</Cards>
+
+双击运行下载的安装包，按照提示完成安装并运行：
+
+<Tabs groupId="os" items={['Windows', 'macOS']} persist>
+
+<Tab value="Windows">
+
+1. 双击 `Clash.Verge_2.5.1_x64-setup.exe` 安装包开始安装（弹出「用户帐户控制」就点「是」）
+2. 安装语言选中文，安装路径保持默认，一路「下一步」
+3. 安装完成后启动 Clash Verge Rev
+4. 看到软件主界面（或任务栏托盘出现图标）就算安装成功
+
+{/* 如果你了解 PowerShell，可以直接运行以下命令快速静默安装：
+```powershell
+Clash.Verge_2.5.1_x64-setup.exe /S /R
+``` */}
+
+{/* TODO: windows 安装演示动图 WebP */}
+
+</Tab>
+
+<Tab value="macOS">
+
+1. 打开 `Clash.Verge_2.5.1_aarch64.dmg`，把图标拖进「应用程序」
+2. 在「应用程序」中打开 Clash Verge Rev
+3. 如果系统弹出安全提示，按提示允许打开
+4. 能正常打开软件主界面就算安装成功
+
+{/* TODO: macOS 安装演示动图 WebP */}
+
+</Tab>
+
+</Tabs>
+
+### 3. 导入订阅 拿到节点 [#import-subscription]
+
+打开「小猫咪」以后，先把订阅导入进来，让「代理」页面出现可用节点：
+
+1. 进入「设置」页面，开启「DNS 覆写」并关闭「IPv6」
+2. 进入「订阅」页面，粘贴订阅链接并点击「导入」
+3. 导入成功后，进入「代理」页面，应该能看到许多可选项，它们就是具体的节点
+
+<Callout title="补充说明">
+- 「DNS 覆写」和「IPv6」属于高级选项，按步骤打开/关闭即可
+- 「订阅链接」是一串私密 URL，请勿泄露，需要的话可私聊天明获取（微信或 Telegram）
+</Callout>
+
+{/* TODO: 导入订阅的演示动图 WebP */}
+
+### 4. 开启系统代理 [#enable-system-proxy]
+
+1. 进入「代理」页面，选择一个绿色的节点（表示在线且可用）
+2. 进入「设置」页面，打开「系统代理」开关
+3. 建议同时打开「开机自启」和「静默启动」的开关，它们能让「小猫咪」的运行更省心
+
+{/* TODO: 开启系统代理的演示动图 WebP */}
+
+### 5. 验证代理效果 [#verify]
+
+现在回到第一步做同样的测试，对比一下结果：
+
+1. 打开 [GitHub](https://github.com) / [Hugging Face](https://huggingface.co) / [YouTube](https://www.youtube.com)，观察是否能稳定加载主要内容
+2. 打开 [IPinfo](https://ipinfo.io/city)，看看城市是否与开启前不同
+3. 进入「小猫咪」的「连接」或「日志」页面，看看是否有对应网站的请求记录
+
+做到上面 3 条，就说明系统代理已经生效了，日常访问学习资料的网络体验应该会有明显提升，enjoy!
+
+{/* TODO: 验证效果的演示动图 WebP */}
+
+## 总结回顾 [#recap]
+
+总结一下，我们通过「小猫咪」成功优化了我们的网络体验：
+
+0. 了解系统代理的概念和意义
+1. 下载并安装「小猫咪」
+2. 导入订阅并选择可用节点
+3. 开启系统代理并验证效果
+
+## 常见问题 [#faq]
+
+<Accordions type="multiple">
+  <Accordion title="如何获取订阅链接？">请私信天明获取</Accordion>
+  <Accordion title="导入后节点显示 compatible">需要开启「DNS 覆写」</Accordion>
+</Accordions>
+
+如果在操作过程中遇到其他问题，可以先参考「小猫咪」的官方说明文档，或者直接联系天明寻求帮助。
+
+## 继续探索 [#next-steps]
+
+- 「代理服务器」是一个专有技术名词，「小猫咪」帮我们简化了配置流程，具体详见微软或苹果的官方说明：[在 Windows 中使用代理服务器](
+https://support.microsoft.com/zh-cn/windows/%E5%9C%A8-windows-%E4%B8%AD%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8-03096c53-0554-4ffe-b6ab-8b1deee8dae1) 或 [在 Mac 上输入代理服务器设置](https://support.apple.com/zh-cn/guide/mac-help/mchlp25912/26/mac/26)
+- 当前只是配置了系统代理，对于我们这种有命令行的需求的编程小白，还需要启用 [终端代理](../terminal-proxy/) 继续优化网络
+- 更多「小猫咪」的功能特性，参阅 [Clash Verge Rev 的官方说明文档](https://www.clashverge.dev/)0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"toc":[{"depth":2,"url":"#goal","title":"我们的目标"},{"depth":2,"url":"#hands-on","title":"动手操作"},{"depth":3,"url":"#preflight-check","title":"环境预检","_step":1},{"depth":3,"url":"#install-and-launch-cvr","title":"安装并打开「小猫咪」","_step":2},{"depth":3,"url":"#import-subscription","title":"导入订阅 拿到节点","_step":3},{"depth":3,"url":"#enable-system-proxy","title":"开启系统代理","_step":4},{"depth":3,"url":"#verify","title":"验证代理效果","_step":5},{"depth":2,"url":"#recap","title":"总结回顾"},{"depth":2,"url":"#faq","title":"常见问题"},{"depth":2,"url":"#next-steps","title":"继续探索"}],"tableOfContent":{"style":"clerk"},"lastUpdate":"$D2026-05-22T20:26:46.000Z","children":[["$","$L3",null,{"children":"如何开启系统代理"}],["$","$L4",null,{"className":"mb-0","children":"使用「小猫咪」优化网络"}],"$undefined",["$","div",null,{"className":"flex flex-row gap-2 items-center border-b pt-2 pb-6","children":[["$","$L5",null,{"content":"$6"}],"$L7"]}],"$L8"]}],["$L9","$La","$Lb"],"$Lc"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"LbmdVnIaT0wWCUl5WeRA-"}
+7:["$","$Ld",null,{"markdownUrl":"/docs/naas/system-proxy.mdx","githubUrl":"https://github.com/ztm0929/ztm0929.cn/blob/main/content/docs/naas/system-proxy.mdx"}]
+8:["$","$Le",null,{"children":[["$","div",null,{"className":"flex gap-2 my-4 rounded-xl border bg-fd-card p-3 ps-1 text-sm text-fd-card-foreground shadow-md","style":{"--callout-color":"var(--color-fd-warning, var(--color-fd-muted))"},"children":[["$","div",null,{"role":"none","className":"w-0.5 bg-(--callout-color)/50 rounded-sm"}],["$","$Lf",null,{"iconNode":[["path",{"d":"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3","key":"wmoenq"}],["path",{"d":"M12 9v4","key":"juzpu7"}],["path",{"d":"M12 17h.01","key":"p32p05"}]],"className":"lucide-triangle-alert size-5 -me-0.5 fill-(--callout-color) text-fd-card"}],["$","div",null,{"className":"flex flex-col gap-2 min-w-0 flex-1","children":[["$","p",null,{"className":"font-medium my-0!","children":"注意"}],["$","div",null,{"className":"text-fd-muted-foreground prose-no-margin empty:hidden","children":["本文尚处于草稿状态，内容可能不完整或存在错误，如有疑问，欢迎"," ",["$","$L10",null,{"href":"/about","children":"联系天明"}]," ","改进！"]}]]}]]}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","$L11",null,{"href":"https://github.com","children":"GitHub"}]," 几乎是编程学习的必经之地，其中有大量优秀开发者的代码可供学习"]}],"\n",["$","li",null,{"children":[["$","$L11",null,{"href":"https://huggingface.co","children":"Hugging Face"}]," 是 AI 领域的资源宝库"]}],"\n",["$","li",null,{"children":["而 ",["$","$L11",null,{"href":"https://www.youtube.com","children":"YouTube"}]," 则有许多编程教学视频"]}],"\n"]}],"\n",["$","p",null,{"children":"我们在访问这类网站查找学习资料时，常见的体验是加载很慢、图片刷不出来、甚至频繁超时——很多时候并不是电脑或浏览器的问题，而是网络“走的路”不够顺。"}],"\n",["$","p",null,{"children":"所谓「系统代理」，可以简单理解为："}],"\n",["$","blockquote",null,{"children":["\n",["$","p",null,{"children":"让系统的网络请求先交给一个代理工具/远程服务器进行转发，再去访问目标网站，相当于把出网通道统一切到一条更合适的路径上。"}],"\n"]}],"\n",["$","p",null,{"children":"开启它的意义在于提升连接的稳定性与成功率，让日常学习与查资料的访问更连贯；"}],"\n",["$","p",null,{"children":"我们只需要做少量设置，并用几个网站和 IP 信息做一次验证，就能确认系统代理已经生效。"}],"\n","\n",["$","a",null,{"href":"https://github.com/clash-verge-rev/clash-verge-rev","rel":"noreferrer noopener","target":"_blank","className":"flex flex-col gap-1.5 p-2 rounded-lg text-sm text-fd-foreground/80 transition-colors hover:text-fd-accent-foreground hover:bg-fd-accent","children":[["$","p",null,{"className":"flex items-center gap-2 truncate","children":[["$","svg",null,{"fill":"currentColor","viewBox":"0 0 24 24","className":"size-3.5","children":[["$","title",null,{"children":"GitHub"}],["$","path",null,{"d":"M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"}]]}],"clash-verge-rev","/","clash-verge-rev"]}],["$","div",null,{"className":"flex text-xs items-center gap-1 text-fd-muted-foreground","children":[["$","$Lf",null,{"iconNode":[["path",{"d":"M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z","key":"r04s7s"}]],"className":"lucide-star size-3"}],["$","span",null,{"children":"124.4K"}],["$","$Lf",null,{"iconNode":[["circle",{"cx":"12","cy":"18","r":"3","key":"1mpf1b"}],["circle",{"cx":"6","cy":"6","r":"3","key":"1lh9wr"}],["circle",{"cx":"18","cy":"6","r":"3","key":"1h7g24"}],["path",{"d":"M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9","key":"1uq4wg"}],["path",{"d":"M12 12v3","key":"158kv8"}]],"className":"lucide-git-fork size-3 ms-2"}],"$L12"]}]]}],"\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22"]}]
+9:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2gs3drdnc84hp.css","precedence":"next"}]
+a:["$","script","script-0",{"src":"/_next/static/chunks/37yaaie9cskic.js","async":true}]
+b:["$","script","script-1",{"src":"/_next/static/chunks/3kocxys3zp3m6.js","async":true}]
+c:["$","$L23",null,{"children":["$","$24",null,{"name":"Next.MetadataOutlet","children":"$@25"}]}]
+12:["$","span",null,{"children":"9.1K"}]
+13:["$","p",null,{"children":[["$","$L11",null,{"href":"https://github.com/clash-verge-rev/clash-verge-rev","children":"Clash Verge Rev"}]," 是一款知名的网络代理工具，可以理解成「系统代理的中控台」",["$","strong",null,{"children":"（我常叫作“小猫咪”）"}],"："]}]
+14:["$","p",null,{"children":["$","strong",null,{"children":"它把原本分散在系统设置里的代理开关、订阅/节点管理、规则分流、DNS 与连接日志等能力集中到一个界面里统一管理。"}]}]
+15:["$","p",null,{"children":"这样做的好处是：需要优化网络时，不用到处改设置、也不容易漏掉关键选项；只要在这里完成导入配置、选择节点、打开系统代理，并通过日志/连通性验证确认“真的生效”，日常访问学习资料就会更稳定、更省心。"}]
+16:["$","p",null,{"children":"接下来的操作基本都会围绕它展开。"}]
+17:["$","$L26",null,{"as":"h2","id":"goal","children":"我们的目标"}]
+18:["$","div",null,{"className":"flex gap-2 my-4 rounded-xl border bg-fd-card p-3 ps-1 text-sm text-fd-card-foreground shadow-md","style":{"--callout-color":"var(--color-fd-success, var(--color-fd-muted))"},"children":[["$","div",null,{"role":"none","className":"w-0.5 bg-(--callout-color)/50 rounded-sm"}],["$","$Lf",null,{"iconNode":[["circle",{"cx":"12","cy":"12","r":"10","key":"1mglay"}],["path",{"d":"m9 12 2 2 4-4","key":"dzmm74"}]],"className":"lucide-circle-check size-5 -me-0.5 fill-(--callout-color) text-fd-card"}],["$","div",null,{"className":"flex flex-col gap-2 min-w-0 flex-1","children":["$undefined",["$","div",null,{"className":"text-fd-muted-foreground prose-no-margin empty:hidden","children":[["$","p",null,{"children":["完成本教程后，我们将",["$","strong",null,{"children":"开启系统代理并确认已生效"}],"："]}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"GitHub、Hugging Face、YouTube 至少能稳定打开其首页并加载主要内容"}],"\n",["$","li",null,{"children":["访问 ",["$","$L11",null,{"href":"https://ipinfo.io/city","children":"IPinfo"}]," 显示的城市与未开启代理时不同"]}],"\n",["$","li",null,{"children":"在 Clash Verge Rev 的连接/日志中能看到对应网站的请求记录"}],"\n"]}]]}]]}]]}]
+19:["$","$L26",null,{"as":"h2","id":"hands-on","children":"动手操作"}]
+1a:["$","div",null,{"className":"fd-steps","children":[["$","div",null,{"className":"fd-step","children":[["$","$L26",null,{"as":"h3","id":"preflight-check","data-fd-step":"1","children":"环境预检"}],["$","p",null,{"children":"我们先别急着配置，先用 1 分钟做个小测试，看看当前网络的表现："}],["$","p",null,{"children":"依次打开："}],["$","ul",null,{"children":["\n",["$","li",null,{"children":["GitHub：",["$","$L11",null,{"href":"https://github.com","children":"github.com"}]]}],"\n",["$","li",null,{"children":["Hugging Face：",["$","$L11",null,{"href":"https://huggingface.co","children":"huggingface.co"}]]}],"\n",["$","li",null,{"children":["YouTube：",["$","$L11",null,{"href":"https://www.youtube.com","children":"youtube.com"}]]}],"\n"]}],["$","p",null,{"children":"观察页面能否稳定打开，主要内容（文字/图片等）能否正常加载。"}],["$","p",null,{"children":["再打开 ",["$","$L11",null,{"href":"https://ipinfo.io/city","children":"IPinfo"}]," ，把显示的城市名称记下来。"]}],["$","div",null,{"className":"flex gap-2 my-4 rounded-xl border bg-fd-card p-3 ps-1 text-sm text-fd-card-foreground shadow-md","style":{"--callout-color":"var(--color-fd-warning, var(--color-fd-muted))"},"children":[["$","div",null,{"role":"none","className":"w-0.5 bg-(--callout-color)/50 rounded-sm"}],["$","$Lf",null,{"iconNode":"$8:props:children:0:props:children:1:props:iconNode","className":"lucide-triangle-alert size-5 -me-0.5 fill-(--callout-color) text-fd-card"}],["$","div",null,{"className":"flex flex-col gap-2 min-w-0 flex-1","children":["$undefined",["$","div",null,{"className":"text-fd-muted-foreground prose-no-margin empty:hidden","children":[["$","p",null,{"children":"如果 Hugging Face / YouTube 打不开、很慢、或者一直转圈，这是很常见的现象"}],["$","p",null,{"children":"把“打不开的样子”和 ipinfo 的结果先记下来就好，接下来开启系统代理后再回来对比，很容易看到变化"}]]}]]}]]}]]}],["$","div",null,{"className":"fd-step","children":[["$","$L26",null,{"as":"h3","id":"install-and-launch-cvr","data-fd-step":"2","children":"安装并打开「小猫咪」"}],["$","p",null,{"children":"点击下面的卡片，下载「小猫咪」在对应平台的安装包："}],["$","div",null,{"children":[["$","$L11",null,{"href":"https://assets.ztm0929.host/docs/naas/Clash.Verge_2.5.1_x64-setup.exe","children":[["$","div",null,{"className":"not-prose mb-2 w-fit shadow-md rounded-lg border bg-fd-muted p-1.5 text-fd-muted-foreground [&_svg]:size-4","children":["$","$Lf",null,{"iconNode":[["path",{"d":"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z","key":"1oefj6"}],["path",{"d":"M14 2v5a1 1 0 0 0 1 1h5","key":"wfsgrz"}],["path",{"d":"M12 18v-6","key":"17g6i2"}],["path",{"d":"m9 15 3 3 3-3","key":"1npd3o"}]],"className":"lucide-file-down"}]}],["$","h3",null,{"className":"not-prose mb-1 text-sm font-medium","children":"Windows 安装包"}],null,["$","div",null,{"className":"text-sm text-fd-muted-foreground prose-no-margin empty:hidden","children":["$","p",null,{"children":["适用于 Windows 10/11，版本号 ",["$","code",null,{"children":"v2.5.1"}]]}]}]],"data-card":true,"className":"block rounded-xl border bg-fd-card p-4 text-fd-card-foreground transition-colors @max-lg:col-span-full hover:bg-fd-accent/80"}],["$","$L11",null,{"href":"https://assets.ztm0929.host/docs/naas/Clash.Verge_2.5.1_aarch64.dmg","children":[["$","div",null,{"className":"not-prose mb-2 w-fit shadow-md rounded-lg border bg-fd-muted p-1.5 text-fd-muted-foreground [&_svg]:size-4","children":["$","$Lf",null,{"iconNode":"$1a:props:children:1:props:children:2:props:children:0:props:children:0:props:children:props:iconNode","className":"lucide-file-down"}]}],["$","h3",null,{"className":"not-prose mb-1 text-sm font-medium","children":"macOS 安装包"}],null,["$","div",null,{"className":"text-sm text-fd-muted-foreground prose-no-margin empty:hidden","children":["$","p",null,{"children":["适用于 macOS，版本号 ",["$","code",null,{"children":"v2.5.1"}]]}]}]],"data-card":true,"className":"block rounded-xl border bg-fd-card p-4 text-fd-card-foreground transition-colors @max-lg:col-span-full hover:bg-fd-accent/80"}]],"className":"grid grid-cols-2 gap-3 @container"}],["$","p",null,{"children":"双击运行下载的安装包，按照提示完成安装并运行："}],["$","$L27",null,{"groupId":"os","items":["Windows","macOS"],"persist":true,"children":[["$","$L28",null,{"value":"Windows","children":["$","ol",null,{"children":["\n",["$","li",null,{"children":["双击 ",["$","code",null,{"children":"Clash.Verge_2.5.1_x64-setup.exe"}]," 安装包开始安装（弹出「用户帐户控制」就点「是」）"]}],"\n",["$","li",null,{"children":"安装语言选中文，安装路径保持默认，一路「下一步」"}],"\n",["$","li",null,{"children":"安装完成后启动 Clash Verge Rev"}],"\n",["$","li",null,{"children":"看到软件主界面（或任务栏托盘出现图标）就算安装成功"}],"\n"]}]}],["$","$L28",null,{"value":"macOS","children":["$","ol",null,{"children":["\n",["$","li",null,{"children":["打开 ",["$","code",null,{"children":"Clash.Verge_2.5.1_aarch64.dmg"}],"，把图标拖进「应用程序」"]}],"\n","$L29","\n","$L2a","\n","$L2b","\n"]}]}]]}]]}],"$L2c","$L2d","$L2e"]}]
+1b:["$","$L26",null,{"as":"h2","id":"recap","children":"总结回顾"}]
+1c:["$","p",null,{"children":"总结一下，我们通过「小猫咪」成功优化了我们的网络体验："}]
+1d:["$","ol",null,{"start":"0","children":["\n",["$","li",null,{"children":"了解系统代理的概念和意义"}],"\n",["$","li",null,{"children":"下载并安装「小猫咪」"}],"\n",["$","li",null,{"children":"导入订阅并选择可用节点"}],"\n",["$","li",null,{"children":"开启系统代理并验证效果"}],"\n"]}]
+1e:["$","$L26",null,{"as":"h2","id":"faq","children":"常见问题"}]
+1f:["$","$L2f",null,{"type":"multiple","children":[["$","$L30",null,{"title":"如何获取订阅链接？","children":"请私信天明获取"}],["$","$L30",null,{"title":"导入后节点显示 compatible","children":"需要开启「DNS 覆写」"}]]}]
+20:["$","p",null,{"children":"如果在操作过程中遇到其他问题，可以先参考「小猫咪」的官方说明文档，或者直接联系天明寻求帮助。"}]
+21:["$","$L26",null,{"as":"h2","id":"next-steps","children":"继续探索"}]
+22:["$","ul",null,{"children":["\n",["$","li",null,{"children":["「代理服务器」是一个专有技术名词，「小猫咪」帮我们简化了配置流程，具体详见微软或苹果的官方说明：",["$","$L11",null,{"href":"https://support.microsoft.com/zh-cn/windows/%E5%9C%A8-windows-%E4%B8%AD%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8-03096c53-0554-4ffe-b6ab-8b1deee8dae1","children":"在 Windows 中使用代理服务器"}]," 或 ",["$","$L11",null,{"href":"https://support.apple.com/zh-cn/guide/mac-help/mchlp25912/26/mac/26","children":"在 Mac 上输入代理服务器设置"}]]}],"\n",["$","li",null,{"children":["当前只是配置了系统代理，对于我们这种有命令行的需求的编程小白，还需要启用 ",["$","$L11",null,{"href":"../terminal-proxy/","children":"终端代理"}]," 继续优化网络"]}],"\n",["$","li",null,{"children":["更多「小猫咪」的功能特性，参阅 ",["$","$L11",null,{"href":"https://www.clashverge.dev/","children":"Clash Verge Rev 的官方说明文档"}]]}],"\n"]}]
+25:null
+29:["$","li",null,{"children":"在「应用程序」中打开 Clash Verge Rev"}]
+2a:["$","li",null,{"children":"如果系统弹出安全提示，按提示允许打开"}]
+2b:["$","li",null,{"children":"能正常打开软件主界面就算安装成功"}]
+2c:["$","div",null,{"className":"fd-step","children":[["$","$L26",null,{"as":"h3","id":"import-subscription","data-fd-step":"3","children":"导入订阅 拿到节点"}],["$","p",null,{"children":"打开「小猫咪」以后，先把订阅导入进来，让「代理」页面出现可用节点："}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"进入「设置」页面，开启「DNS 覆写」并关闭「IPv6」"}],"\n",["$","li",null,{"children":"进入「订阅」页面，粘贴订阅链接并点击「导入」"}],"\n",["$","li",null,{"children":"导入成功后，进入「代理」页面，应该能看到许多可选项，它们就是具体的节点"}],"\n"]}],["$","div",null,{"className":"flex gap-2 my-4 rounded-xl border bg-fd-card p-3 ps-1 text-sm text-fd-card-foreground shadow-md","style":{"--callout-color":"var(--color-fd-info, var(--color-fd-muted))"},"children":[["$","div",null,{"role":"none","className":"w-0.5 bg-(--callout-color)/50 rounded-sm"}],["$","$Lf",null,{"iconNode":[["circle",{"cx":"12","cy":"12","r":"10","key":"1mglay"}],["path",{"d":"M12 16v-4","key":"1dtifu"}],["path",{"d":"M12 8h.01","key":"e9boi3"}]],"className":"lucide-info size-5 -me-0.5 fill-(--callout-color) text-fd-card"}],["$","div",null,{"className":"flex flex-col gap-2 min-w-0 flex-1","children":[["$","p",null,{"className":"font-medium my-0!","children":"补充说明"}],["$","div",null,{"className":"text-fd-muted-foreground prose-no-margin empty:hidden","children":["$","ul",null,{"children":["\n",["$","li",null,{"children":"「DNS 覆写」和「IPv6」属于高级选项，按步骤打开/关闭即可"}],"\n",["$","li",null,{"children":"「订阅链接」是一串私密 URL，请勿泄露，需要的话可私聊天明获取（微信或 Telegram）"}],"\n"]}]}]]}]]}]]}]
+2d:["$","div",null,{"className":"fd-step","children":[["$","$L26",null,{"as":"h3","id":"enable-system-proxy","data-fd-step":"4","children":"开启系统代理"}],["$","ol",null,{"children":["\n",["$","li",null,{"children":"进入「代理」页面，选择一个绿色的节点（表示在线且可用）"}],"\n",["$","li",null,{"children":"进入「设置」页面，打开「系统代理」开关"}],"\n",["$","li",null,{"children":"建议同时打开「开机自启」和「静默启动」的开关，它们能让「小猫咪」的运行更省心"}],"\n"]}]]}]
+2e:["$","div",null,{"className":"fd-step","children":[["$","$L26",null,{"as":"h3","id":"verify","data-fd-step":"5","children":"验证代理效果"}],["$","p",null,{"children":"现在回到第一步做同样的测试，对比一下结果："}],["$","ol",null,{"children":["\n",["$","li",null,{"children":["打开 ",["$","$L11",null,{"href":"https://github.com","children":"GitHub"}]," / ",["$","$L11",null,{"href":"https://huggingface.co","children":"Hugging Face"}]," / ",["$","$L11",null,{"href":"https://www.youtube.com","children":"YouTube"}],"，观察是否能稳定加载主要内容"]}],"\n",["$","li",null,{"children":["打开 ",["$","$L11",null,{"href":"https://ipinfo.io/city","children":"IPinfo"}],"，看看城市是否与开启前不同"]}],"\n",["$","li",null,{"children":"进入「小猫咪」的「连接」或「日志」页面，看看是否有对应网站的请求记录"}],"\n"]}],["$","p",null,{"children":"做到上面 3 条，就说明系统代理已经生效了，日常访问学习资料的网络体验应该会有明显提升，enjoy!"}]]}]
