@@ -4,6 +4,9 @@ import { getTagSlug } from '@/lib/tags';
 
 const siteUrl = 'https://ztm0929.cn';
 
+export const dynamic = 'force-static';
+export const revalidate = false;
+
 function absoluteUrl(path: string) {
   return new URL(path, siteUrl).toString();
 }
