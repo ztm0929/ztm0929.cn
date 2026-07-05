@@ -1,0 +1,11 @@
+# Allow all robots to crawl the site
+User-agent: *
+Allow: /
+Disallow:
+
+# Machine-readable entry points
+Allow: /llms.txt
+Allow: /sitemap.xml
+
+# Sitemap location
+Sitemap: https://ztm0929.cn/sitemap.xml
