@@ -1,0 +1,26 @@
+# ztm0929.cn
+
+This site is a Chinese knowledge base and tutorial hub focused on computer software setup, networking, development tooling, and personal notes.
+
+If you are an AI agent or crawler, start here:
+
+- /docs/ - tutorial index
+- /docs/naas/ - NaaS networking tutorials
+- /docs/toolchain/ - tooling and environment setup
+- /docs/frontend/ - frontend development tutorials
+- /docs/office/ - office software guides
+- /docs/telegram/ - Telegram-related tutorials
+- /notes/ - personal notes
+- /blog/ - blog posts
+- /sitemap.xml - full machine-readable URL list
+- /robots.txt - crawl policy
+
+Recommended reading order for docs:
+
+1. /docs/
+2. /docs/naas/
+3. /docs/toolchain/
+4. /docs/frontend/
+5. /notes/
+
+The site is statically generated with Next.js and Fumadocs.
