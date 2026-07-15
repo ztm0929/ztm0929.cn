@@ -1,4 +1,7 @@
+import type { ComponentProps } from 'react';
 import { cva, type VariantProps } from 'class-variance-authority';
+
+import { cn } from '@/lib/cn';
 
 const variants = {
   primary:
@@ -26,4 +29,16 @@ export const buttonVariants = cva(
   },
 );
 
-export type ButtonProps = VariantProps<typeof buttonVariants>;
+export interface ButtonProps
+  extends Omit<ComponentProps<'button'>, 'color'>,
+    VariantProps<typeof buttonVariants> {}
+
+// shadcn/ui's pattern is local component source plus variants, so this button is yours to edit.
+export function Button({ className, variant, color, size, ...props }: ButtonProps) {
+  return (
+    <button
+      className={cn(buttonVariants({ variant, color, size }), className)}
+      {...props}
+    />
+  );
+}
