@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 
+import { fetchBeszelVpsMetrics } from '@/lib/homepage/beszel';
 import { mockHomepageData } from '@/lib/homepage/mock-data';
 import type { HomepageData, RssItem, VpsMetric } from '@/lib/homepage/types';
 
@@ -25,10 +26,12 @@ async function fetchJson<T>(url: string | undefined): Promise<T | null> {
 }
 
 export async function GET() {
-  const [rss, vps] = await Promise.all([
+  const [rss, configuredVps, beszelVps] = await Promise.all([
     fetchJson<RssItem[]>(process.env.HOMEPAGE_RSS_ENDPOINT),
     fetchJson<VpsMetric[]>(process.env.HOMEPAGE_VPS_ENDPOINT),
+    fetchBeszelVpsMetrics().catch(() => null),
   ]);
+  const vps = beszelVps && beszelVps.length > 0 ? beszelVps : configuredVps;
 
   const data: HomepageData = {
     ...mockHomepageData,
