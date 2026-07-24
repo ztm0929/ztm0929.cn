@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { blog, notesSource, tutorialsSource, getAllTags } from '@/lib/source';
+import { blog, handbookSource, notesSource, tutorialsSource, getAllTags } from '@/lib/source';
 import { getTagSlug } from '@/lib/tags';
 
 const siteUrl = 'https://ztm0929.cn';
@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     toSitemapEntry('/'),
     toSitemapEntry('/docs/', 1),
     toSitemapEntry('/notes/', 0.8),
+    toSitemapEntry('/handbook/', 0.8),
     toSitemapEntry('/blog/', 0.7),
     toSitemapEntry('/about/', 0.5),
     toSitemapEntry('/start-page/', 0.5),
@@ -36,6 +37,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   for (const page of notesSource.getPages()) {
+    entries.push({
+      url: absoluteUrl(page.url.endsWith('/') ? page.url : `${page.url}/`),
+      priority: 0.6,
+    });
+  }
+
+  for (const page of handbookSource.getPages()) {
     entries.push({
       url: absoluteUrl(page.url.endsWith('/') ? page.url : `${page.url}/`),
       priority: 0.6,

@@ -81,6 +81,19 @@ export const notes = defineDocs({
   }
 });
 
+export const handbook = defineDocs({
+  docs: {
+    schema: frontmatterSchema.extend({
+      tags: z.array(z.string()).optional(),
+      draft: z.boolean().default(false),
+    })
+  },
+  dir: './content/handbook',
+  meta: {
+    schema: metaSchema
+  }
+});
+
 export const blogPosts = defineCollections({
 	type: 'doc',
 	dir: './content/blog',

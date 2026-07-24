@@ -9,6 +9,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       links={[
         { text: "Homepage", url: "/homepage", active: "nested-url" },
         { text: "小白教程库", url: "/docs", active: "nested-url" },
+        { text: "Handbook", url: "/handbook", active: "nested-url" },
         { text: "关于我", url: "/about", active: "nested-url" },
       ]}
     >
