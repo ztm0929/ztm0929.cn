@@ -1,6 +1,5 @@
 import { blog, tutorialsSource } from '@/lib/source';
 import { createI18nSearchAPI } from 'fumadocs-core/search/server';
-import { createTokenizer } from '@orama/tokenizers/mandarin';
 
 export const revalidate = false;
 
@@ -24,9 +23,7 @@ const searchAPI = createI18nSearchAPI('advanced', {
 	})),
 	localeMap: {
 		cn: {
-			components: {
-				tokenizer: createTokenizer(),
-			},
+			language: 'multilingual',
 			search: {
 				threshold: 0,
 				tolerance: 0,

@@ -1,7 +1,6 @@
 'use client';
 
-import { create } from '@orama/orama';
-import { createTokenizer } from '@orama/tokenizers/mandarin';
+import { create } from 'zbsearch';
 import { useDocsSearch } from 'fumadocs-core/search/client';
 import {
   SearchDialog,
@@ -16,19 +15,10 @@ import {
 } from 'fumadocs-ui/components/dialog/search';
 import { useI18n } from 'fumadocs-ui/contexts/i18n';
 
-function initOrama(locale?: string) {
-  if (locale === 'cn') {
-    return create({
-      schema: { _: 'string' },
-      components: {
-        tokenizer: createTokenizer(),
-      },
-    });
-  }
-
+function initSearchDB(locale?: string) {
   return create({
     schema: { _: 'string' },
-    language: 'english',
+    language: locale === 'cn' ? 'multilingual' : 'english',
   });
 }
 
@@ -36,7 +26,7 @@ export default function CustomSearchDialog(props: SharedProps) {
   const { locale } = useI18n();
   const { search, setSearch, query } = useDocsSearch({
     type: 'static',
-    initOrama,
+    initDB: initSearchDB,
     locale,
   });
 
