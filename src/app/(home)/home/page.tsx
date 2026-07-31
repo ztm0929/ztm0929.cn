@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
+import { siBilibili, siV2ex, siX, siYoutube } from 'simple-icons';
 
 import {
   Card,
@@ -34,6 +36,29 @@ const coins = [
     id: 'tether',
     name: 'Tether',
     symbol: 'USDT',
+  },
+] as const;
+
+const quickLinks = [
+  {
+    name: 'V2EX',
+    href: 'https://www.v2ex.com',
+    icon: siV2ex,
+  },
+  {
+    name: 'Twitter',
+    href: 'https://twitter.com',
+    icon: siX,
+  },
+  {
+    name: 'YouTube',
+    href: 'https://www.youtube.com',
+    icon: siYoutube,
+  },
+  {
+    name: '哔哩哔哩',
+    href: 'https://www.bilibili.com',
+    icon: siBilibili,
   },
 ] as const;
 
@@ -114,6 +139,32 @@ export default async function HomePage() {
               </Card>
             );
           })}
+        </div>
+      </section>
+
+      <section className="mt-6">
+        <h2 className="mb-3 text-sm font-medium">快速导航</h2>
+        <div className="flex flex-wrap gap-3">
+          {quickLinks.map((link) => (
+            <Link
+              key={link.name}
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={link.name}
+              title={link.name}
+              className="group flex size-16 items-center justify-center rounded-xl border border-fd-border bg-fd-card outline-none transition-colors hover:border-fd-primary/50 hover:bg-fd-accent focus-visible:ring-2 focus-visible:ring-fd-ring sm:size-18"
+            >
+              <svg
+                role="img"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                className="size-7 text-fd-foreground transition group-hover:scale-110 group-hover:text-fd-primary sm:size-8"
+              >
+                <path fill="currentColor" d={link.icon.path} />
+              </svg>
+            </Link>
+          ))}
         </div>
       </section>
 
