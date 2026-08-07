@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import LastUpdated from '@/components/last-updated';
 
 export default function HomePage() {
   return (

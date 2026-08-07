@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@ai-sdk/react": "^4.0.45",
+    "@fumadocs/language": "0.2.2",
     "@openrouter/ai-sdk-provider": "^3.0.0",
     "@orama/orama": "^3.1.18",
     "@orama/tokenizers": "^3.1.18",
@@ -38,8 +39,8 @@
     "simple-icons": "^16.27.1",
     "tailwind-merge": "^3.6.0",
     "unist-util-visit": "^5.1.0",
-    "zod": "^4.4.3",
-    "zbsearch": "^3.3.4"
+    "zbsearch": "^3.3.4",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
