@@ -73,84 +73,74 @@ export default function AboutPageClient() {
       </FadeIn>
 
       <FadeIn delay={1000}>
-        <div className="flex flex-col items-center gap-6">
-          <h1 className="text-2xl font-bold">联系方式</h1>
+        <section className="w-full max-w-2xl pt-2" aria-labelledby="contact-heading">
+          <h2 id="contact-heading" className="mb-4 text-center text-xl font-semibold">
+            联系方式
+          </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 place-items-center">
-            {/* WeChat */}
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
             <button
+              type="button"
               onClick={() => setShowWechatQR(true)}
               aria-label="查看微信二维码（微信号：ztm00929）"
-              className="w-[140px] flex flex-col items-center gap-1 text-center group"
+              className="group flex min-h-24 cursor-pointer items-center gap-3 rounded-lg border border-fd-border bg-fd-card p-4 text-left text-fd-card-foreground shadow-sm transition-colors hover:bg-fd-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fd-ring focus-visible:ring-offset-2 focus-visible:ring-offset-fd-background"
             >
-              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-fd-secondary hover:bg-fd-accent transition-colors flex items-center justify-center shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fd-ring">
-                <svg
-                  className="w-8 h-8 sm:w-10 sm:h-10 text-fd-secondary-foreground group-hover:text-fd-foreground transition-colors"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                  role="img"
-                >
-                  <path d={siWechat.path} fill="currentColor" />
-                </svg>
-              </div>
-              <span className="text-sm font-medium text-fd-foreground">
-                微信
-              </span>
-              <span className="text-xs text-fd-muted-foreground max-w-full truncate" title="ztm00929">
-                ztm00929
+              <svg
+                className="size-6 shrink-0 text-fd-muted-foreground transition-colors group-hover:text-fd-accent-foreground"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path d={siWechat.path} fill="currentColor" />
+              </svg>
+              <span className="min-w-0">
+                <span className="block text-sm font-semibold">微信</span>
+                <span className="block truncate text-xs leading-5 text-fd-muted-foreground group-hover:text-fd-accent-foreground">
+                  ztm00929
+                </span>
               </span>
             </button>
 
-            {/* Telegram */}
             <Link
               href="https://t.me/ztm0929"
-              className="w-[140px] flex flex-col items-center gap-1 text-center group"
+              target="_blank"
+              rel="noreferrer"
+              className="group flex min-h-24 cursor-pointer items-center gap-3 rounded-lg border border-fd-border bg-fd-card p-4 text-left text-fd-card-foreground shadow-sm transition-colors hover:bg-fd-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fd-ring focus-visible:ring-offset-2 focus-visible:ring-offset-fd-background"
             >
-              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-fd-secondary hover:bg-fd-accent transition-colors flex items-center justify-center shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fd-ring">
-                <svg
-                  className="w-8 h-8 sm:w-10 sm:h-10 text-fd-secondary-foreground group-hover:text-fd-foreground transition-colors"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                  role="img"
-                >
-                  <path d={siTelegram.path} fill="currentColor" />
-                </svg>
-              </div>
-              <span className="text-sm font-medium text-fd-foreground">
-                Telegram
-              </span>
-              <span className="text-xs text-fd-muted-foreground max-w-full truncate" title="t.me/ztm0929">
-                t.me/ztm0929
+              <svg
+                className="size-6 shrink-0 text-fd-muted-foreground transition-colors group-hover:text-fd-accent-foreground"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path d={siTelegram.path} fill="currentColor" />
+              </svg>
+              <span className="min-w-0">
+                <span className="block text-sm font-semibold">Telegram</span>
+                <span className="block truncate text-xs leading-5 text-fd-muted-foreground group-hover:text-fd-accent-foreground">
+                  t.me/ztm0929
+                </span>
               </span>
             </Link>
 
-            {/* Email */}
             <Link
               href="mailto:ztm0929@outlook.com"
-              className="w-[140px] flex flex-col items-center gap-1 text-center group"
+              className="group flex min-h-24 cursor-pointer items-center gap-3 rounded-lg border border-fd-border bg-fd-card p-4 text-left text-fd-card-foreground shadow-sm transition-colors hover:bg-fd-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fd-ring focus-visible:ring-offset-2 focus-visible:ring-offset-fd-background"
             >
-              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-fd-secondary hover:bg-fd-accent transition-colors flex items-center justify-center shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fd-ring">
-                <svg
-                  className="w-8 h-8 sm:w-10 sm:h-10 text-fd-secondary-foreground group-hover:text-fd-foreground transition-colors"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
-                  role="img"
-                >
-                  <path d={siGmail.path} fill="currentColor" />
-                </svg>
-              </div>
-              <span className="text-sm font-medium text-fd-foreground">
-                邮箱
-              </span>
-              <span
-                className="text-xs text-fd-muted-foreground max-w-full truncate"
-                title="ztm0929@outlook.com"
+              <svg
+                className="size-6 shrink-0 text-fd-muted-foreground transition-colors group-hover:text-fd-accent-foreground"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
               >
-                ztm0929@outlook.com
+                <path d={siGmail.path} fill="currentColor" />
+              </svg>
+              <span className="min-w-0">
+                <span className="block text-sm font-semibold">邮箱</span>
+                <span className="block truncate text-xs leading-5 text-fd-muted-foreground group-hover:text-fd-accent-foreground">
+                  ztm0929@outlook.com
+                </span>
               </span>
             </Link>
           </div>
-        </div>
+        </section>
       </FadeIn>
 
       {showWechatQR && (
