@@ -1,0 +1,33 @@
+---
+title: Hermes
+---
+
+[https://hermes-agent.nousresearch.com/docs](https://hermes-agent.nousresearch.com/docs)
+
+macos 安装方式
+
+```shell
+curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+```
+
+它会安装将 Hermes 源码下载到本机并使用 git 管理。
+
+[官方说明](https://hermes-agent.nousresearch.com/docs/zh-Hans/getting-started/installation)
+
+安装完成后使用 CLI 启动桌面程序：
+
+```shell
+hermes desktop
+```
+
+因为版本更新非常多，必要的时候可以通过更新命令跟上远程分支：
+
+```shell
+hermes update
+```
+
+通常更新完成之后，网关会正常工作，如果出现问题，可以进行排查诊断：
+
+```shell
+hermes doctor
+```
