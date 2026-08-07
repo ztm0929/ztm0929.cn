@@ -1,12 +1,12 @@
 import type { ReactNode } from 'react';
-import { DocsLayout } from 'fumadocs-ui/layouts/docs';
-import { baseOptions } from '@/app/layout.config';
+
+import { ContentDocsLayout } from '@/components/content-docs-layout';
 import { handbookSource } from '@/lib/source';
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <DocsLayout tree={handbookSource.pageTree} {...baseOptions}>
+    <ContentDocsLayout tree={handbookSource.pageTree}>
       {children}
-    </DocsLayout>
+    </ContentDocsLayout>
   );
 }
