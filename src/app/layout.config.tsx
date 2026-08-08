@@ -9,6 +9,9 @@ import Image from 'next/image';
  * Docs Layout: app/docs/layout.tsx
  */
 export const baseOptions: BaseLayoutProps = {
+  themeSwitch: {
+    mode: 'light-dark-system',
+  },
   nav: {
     title: (
       <div className="flex items-center gap-2">
