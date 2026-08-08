@@ -6,9 +6,8 @@
 	"toolchain",
 	"--- ---",
 	"rss",
-	"frontend",
 	"office",
-	"---[CircleEllipsis]其他---",
+	"hermes-agent",
 	"..."
 	]
 }
