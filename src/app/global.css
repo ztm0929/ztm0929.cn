@@ -8,3 +8,8 @@
 :root {
   font-synthesis: none;
 }
+
+.task-list-item > input[type='checkbox'] {
+  accent-color: var(--color-fd-primary);
+  cursor: pointer;
+}

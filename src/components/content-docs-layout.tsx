@@ -3,6 +3,7 @@ import type * as PageTree from 'fumadocs-core/page-tree';
 import { DocsLayout } from 'fumadocs-ui/layouts/docs';
 
 import { baseOptions } from '@/app/layout.config';
+import { InteractiveTaskList } from '@/components/interactive-task-list';
 import { SameLocationNavigationGuard } from '@/components/same-location-navigation-guard';
 
 const contentTabs = [
@@ -32,6 +33,7 @@ export function ContentDocsLayout({
 }) {
   return (
     <DocsLayout {...baseOptions} tree={tree} tabs={contentTabs}>
+      <InteractiveTaskList />
       <SameLocationNavigationGuard />
       {children}
     </DocsLayout>
